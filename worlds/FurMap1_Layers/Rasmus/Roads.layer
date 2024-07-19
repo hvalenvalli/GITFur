@@ -1,6 +1,6 @@
 $grp SplineShapeEntity {
  Oest_Faedammevej1 {
-  coords 6080.181 10.968 5069.893
+  coords 6080.181 10.488 5069.893
   Points {
    ShapePoint "{61E2750CBE3267FC}" {
     Position 0 0.001 0
@@ -114,6 +114,8 @@ $grp SplineShapeEntity {
   {
    RoadGeneratorEntity : "{41CEDBF0493A26A5}PrefabLibrary/Generators/Roads/Dirt/RG_Road_Dirt_02.et" {
     coords 0 0 0
+    FalloffStartWidth 0
+    RoadFalloffWidth 1
     {
      RoadEntity {
       ID "556C65569DF42CF7"
@@ -224,7 +226,7 @@ $grp SplineShapeEntity {
         Position 911.915 -1.434 -108.854
        }
        ShapePoint "{61E2750D2344B2EE}" {
-        Position 992.459 -1.03 -115.042
+        Position 992.459 -1.031 -115.042
        }
       }
       IsClosedSpline 0
@@ -925,7 +927,7 @@ $grp SplineShapeEntity {
   }
  }
  Oest_faedammevej_engelstskovvej {
-  coords 7071.731 9.938 4955.039
+  coords 7071.731 9.366 4955.039
   Points {
    ShapePoint "{61E33A767405E064}" {
     Position -2.87 -0.129 0
@@ -943,10 +945,10 @@ $grp SplineShapeEntity {
     Position 9.314 1.444 99.75
    }
    ShapePoint "{61E33A76A80420F9}" {
-    Position 9.723 -0.076 130.037
+    Position 9.727 -0.662 130.005
    }
    ShapePoint "{61E33A76A9E06F7C}" {
-    Position 4.45 -0.932 142.292
+    Position 4.463 -1.448 142.277
    }
    ShapePoint "{61E33A76A950E16A}" {
     Position -6.095 -1.543 146.62
@@ -994,6 +996,8 @@ $grp SplineShapeEntity {
   {
    RoadGeneratorEntity : "{41CEDBF0493A26A5}PrefabLibrary/Generators/Roads/Dirt/RG_Road_Dirt_02.et" {
     coords 0 0 0
+    FalloffStartWidth 0
+    RoadFalloffWidth 1
     {
      RoadEntity {
       ID "556C65569DF42CF7"
@@ -1014,10 +1018,10 @@ $grp SplineShapeEntity {
         Position 9.314 1.444 99.75
        }
        ShapePoint "{61E33A76A8051A77}" {
-        Position 9.723 -0.076 130.037
+        Position 9.727 -0.662 130.005
        }
        ShapePoint "{61E33A76A9E1468C}" {
-        Position 4.45 -0.932 142.291
+        Position 4.463 -1.448 142.277
        }
        ShapePoint "{61E33A76A951E405}" {
         Position -6.095 -1.543 146.62
@@ -1070,7 +1074,7 @@ $grp SplineShapeEntity {
   }
  }
  Oest_faedammevej2 {
-  coords 7065.942 8.404 5102.105
+  coords 7065.942 7.87 5102.105
   Points {
    ShapePoint "{61E33A77E7089839}" {
     Position 0 0 0
@@ -1160,6 +1164,8 @@ $grp SplineShapeEntity {
   {
    RoadGeneratorEntity : "{41CEDBF0493A26A5}PrefabLibrary/Generators/Roads/Dirt/RG_Road_Dirt_02.et" {
     coords 0 0 0
+    FalloffStartWidth 0
+    RoadFalloffWidth 1
     {
      RoadEntity {
       ID "556C65569DF42CF7"
@@ -1210,7 +1216,7 @@ $grp SplineShapeEntity {
         Position 477.527 -3.782 151.031
        }
        ShapePoint "{61E4CD5DB43AFE7A}" {
-        Position 500.206 -3.329 158.648
+        Position 500.207 -3.329 158.648
        }
        ShapePoint "{61E4CD5DAA3B7318}" {
         Position 505.388 -3.261 164.751
@@ -1228,7 +1234,7 @@ $grp SplineShapeEntity {
         Position 504.693 -5.239 221.24
        }
        ShapePoint "{61E4CD5DAE3289B9}" {
-        Position 499.372 -5.399 221.697
+        Position 499.373 -5.399 221.697
        }
        ShapePoint "{61E4CD5DAFB46907}" {
         Position 487.429 -5.741 221.056
@@ -1260,42 +1266,44 @@ $grp SplineShapeEntity {
   coords 7081.712 10.026 5082.576
   Points {
    ShapePoint "{61E33A7831B40FFF}" {
-    Position 0 0 0
+    Position 0 -0.938 0
    }
    ShapePoint "{61E33A7831BB2C31}" {
-    Position 2.249 -0.497 8.941
+    Position 2.219 -1.364 8.865
    }
    ShapePoint "{61E33A78349345C0}" {
-    Position 5.517 -1.652 14.223
+    Position 5.488 -2.085 14.194
    }
    ShapePoint "{61E33A78341CBB26}" {
-    Position 10.925 -2.224 17.44
+    Position 10.916 -2.474 17.438
    }
    ShapePoint "{61E33A7835BE2A54}" {
-    Position 22.343 -2.434 19.019
+    Position 22.343 -2.73 19.019
    }
   }
   {
    RoadGeneratorEntity : "{41CEDBF0493A26A5}PrefabLibrary/Generators/Roads/Dirt/RG_Road_Dirt_02.et" {
     coords 0 0 0
+    FalloffStartWidth 0
+    RoadFalloffWidth 1
     {
      RoadEntity {
       ID "556C65569DF42CF7"
       SplinePoints {
        ShapePoint "{556C65561A62B78A}" {
-        Position 0 0 0
+        Position 0 -0.938 0
        }
        ShapePoint "{556C65561A62EBA9}" {
-        Position 2.249 -0.497 8.941
+        Position 2.219 -1.364 8.865
        }
        ShapePoint "{61E33A78232B89E4}" {
-        Position 5.517 -1.652 14.223
+        Position 5.488 -2.085 14.194
        }
        ShapePoint "{61E33A78232B8A72}" {
-        Position 10.925 -2.224 17.44
+        Position 10.916 -2.474 17.437
        }
        ShapePoint "{61E33A78232B8ADC}" {
-        Position 22.343 -2.434 19.019
+        Position 22.343 -2.73 19.019
        }
       }
       IsClosedSpline 0
@@ -1306,7 +1314,7 @@ $grp SplineShapeEntity {
   }
  }
  Oest_faedammevej_side6 {
-  coords 7070.079 9.867 4955.355
+  coords 7070.079 9.325 4955.354
   Points {
    ShapePoint "{61E33A781BAF508F}" {
     Position 0 0 0
@@ -1381,6 +1389,8 @@ $grp SplineShapeEntity {
   {
    RoadGeneratorEntity : "{41CEDBF0493A26A5}PrefabLibrary/Generators/Roads/Dirt/RG_Road_Dirt_02.et" {
     coords 0 0 0
+    FalloffStartWidth 0
+    RoadFalloffWidth 1
     {
      RoadEntity {
       ID "556C65569DF42CF7"
@@ -1434,13 +1444,13 @@ $grp SplineShapeEntity {
         Position -3.564 -4.397 -248.762
        }
        ShapePoint "{61E33A7A81F9C411}" {
-        Position -18.03 -4.211 -261.29
+        Position -18.03 -4.211 -261.291
        }
        ShapePoint "{61E33A7AFBD8BFA7}" {
         Position -24.439 -3.981 -271.233
        }
        ShapePoint "{61E33A7AF88BBBC9}" {
-        Position -24.117 -4.024 -289.478
+        Position -24.117 -4.024 -289.479
        }
        ShapePoint "{61E33A7AF82FE8CF}" {
         Position -23.833 -4.331 -299.92
@@ -1463,7 +1473,7 @@ $grp SplineShapeEntity {
   }
  }
  {
-  coords 7079.615 9.7 4940.402
+  coords 7079.615 9.22 4940.402
   Points {
    ShapePoint "{61E33A780217852B}" {
     Position 0 0 0
@@ -1475,6 +1485,8 @@ $grp SplineShapeEntity {
   {
    RoadGeneratorEntity : "{41CEDBF0493A26A5}PrefabLibrary/Generators/Roads/Dirt/RG_Road_Dirt_02.et" {
     coords 0 0 0
+    FalloffStartWidth 0
+    RoadFalloffWidth 1
     {
      RoadEntity {
       ID "556C65569DF42CF7"
