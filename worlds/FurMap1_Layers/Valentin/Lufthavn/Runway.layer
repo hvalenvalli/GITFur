@@ -1,0 +1,49 @@
+SplineShapeEntity {
+ coords 2539.664 25.545 5276.119
+ Points {
+  ShapePoint "{61ED45C5FA042690}" {
+   Position 0 0 0
+  }
+  ShapePoint "{61ED45C5FA06B619}" {
+   Position -36.704 1.33 9.124
+  }
+  ShapePoint "{61ED45C5D507DDB4}" {
+   Position -110.475 4.66 31.833
+  }
+  ShapePoint "{61ED45C5D52CE211}" {
+   Position -200.978 7.959 65.031
+  }
+  ShapePoint "{61ED45C5D5F48F24}" {
+   Position -282.964 10.118 101.767
+  }
+ }
+ {
+  RoadGeneratorEntity : "{2A7E54E286DE00A7}PrefabLibrary/Generators/Roads/Concrete/RG_Runway_40m.et" {
+   coords 0 0 0
+   {
+    RoadEntity {
+     ID "54C4E8573F9B873B"
+     SplinePoints {
+      ShapePoint "{61ED45C58F05EB7B}" {
+       Position 0 0 0
+      }
+      ShapePoint "{61ED45C58F05EA2C}" {
+       Position -36.704 1.33 9.124
+      }
+      ShapePoint "{61ED45C58F05EA47}" {
+       Position -110.475 4.66 31.833
+      }
+      ShapePoint "{61ED45C58F05EA80}" {
+       Position -200.978 7.959 65.031
+      }
+      ShapePoint "{61ED45C58F05E93F}" {
+       Position -282.964 10.118 101.767
+      }
+     }
+     IsClosedSpline 0
+     Width 40
+    }
+   }
+  }
+ }
+}
