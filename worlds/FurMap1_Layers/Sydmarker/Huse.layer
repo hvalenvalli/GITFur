@@ -1,3 +1,7 @@
+SCR_DestructibleBuildingEntity : "{0734A1B6BD445637}PrefabLibrary/Structures/Houses/House_Village_E_1I04t/House_Village_E_1I04t_red.et" {
+ coords 1839.755 0.078 3752.051
+ angleY 44.445
+}
 Tree : "{0A56ED2CC73ABB23}PrefabLibrary/Vegetation/Bushes/b_sambucus_nigra_2.et" {
  coords 2942.038 0 2947.483
  angleX -0.379
@@ -281,9 +285,15 @@ $grp SCR_DestructibleBuildingEntity : "{D1C2FE6DD2C12309}PrefabLibrary/Structure
   angleY 21.03
  }
 }
-SCR_DestructibleBuildingEntity : "{DC93D6FC12072495}PrefabLibrary/Structures/Agriculture/Barn_E_03/Barn_E_03_open.et" {
- coords 1705.526 0 4507.867
- angleY -71.849
+$grp SCR_DestructibleBuildingEntity : "{DC93D6FC12072495}PrefabLibrary/Structures/Agriculture/Barn_E_03/Barn_E_03_open.et" {
+ {
+  coords 1705.526 0 4507.867
+  angleY -71.849
+ }
+ {
+  coords 1880.846 0.508 3774.36
+  angleY 49.071
+ }
 }
 GenericEntity : "{DEA30A575C1BCF46}PrefabLibrary/Rocks/Granite/GraniteSurfaceStone_03.et" {
  coords 2928.423 2.613 2887.402
@@ -303,9 +313,15 @@ $grp SCR_DestructibleBuildingEntity : "{DEF852CB2596122D}PrefabLibrary/Structure
   angleZ 0.707
  }
 }
-SCR_DestructibleBuildingEntity : "{E3584595FC988951}PrefabLibrary/Structures/Industrial/Workshop_01_Garage.et" {
- coords 1776.729 0.033 4663.13
- angleY 20.122
+$grp SCR_DestructibleBuildingEntity : "{E3584595FC988951}PrefabLibrary/Structures/Industrial/Workshop_01_Garage.et" {
+ {
+  coords 1776.729 0.033 4663.13
+  angleY 20.122
+ }
+ {
+  coords 1840.897 -0.06 3766.498
+  angleY -45.66
+ }
 }
 GenericEntity : "{E3972F6F29774671}PrefabLibrary/Rocks/Granite/GraniteSurfaceStone_04.et" {
  coords 2924.615 2.869 2878.558

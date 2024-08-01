@@ -2315,10 +2315,6 @@ $grp PolylineShapeEntity {
       angleY 90.567
       scale 0.7
      }
-     WallGeneratorEntity : "{FDE371DF96A4F212}PrefabLibrary/Generators/Walls/Net/WG_GameProofFence_01.et" {
-      coords 0 0 0
-      Flags 1048579
-     }
     }
    }
   }
@@ -13703,7 +13699,7 @@ $grp SplineShapeEntity {
   coords 2024.475 36.5 5416.951
   Points {
    ShapePoint "{61EED98F80E47D7B}" {
-    Position -1.138 -0 -1.138
+    Position -1.138 0 -1.138
    }
    ShapePoint "{61EED98F9B21EDE3}" {
     Position -71.657 -2.891 25.938
@@ -14010,7 +14006,7 @@ $grp SplineShapeEntity {
      }
      $grp Tree : "{6602D9CC7BFE340D}PrefabLibrary/Vegetation/Bushes/b_sambucus_nigra_1.et" {
       {
-       coords -2.051 -0 -1.006
+       coords -2.051 0 -1.006
        angleX -1.356
        angleY -131.202
        angleZ -0.136
@@ -16514,7 +16510,7 @@ $grp SCR_DestructibleBuildingEntity : "{DFE759EE77F61ACD}PrefabLibrary/Structure
  }
 }
 Tree : "{E67DFD8937BD07B1}PrefabLibrary/Vegetation/Trees/t_betula_pendula_2t.et" {
- coords 1989.843 -0 5337.669
+ coords 1989.843 0 5337.669
  angleX -3.01
  angleY 104.132
  angleZ 0.849

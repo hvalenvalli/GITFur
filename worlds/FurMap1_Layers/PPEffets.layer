@@ -10,7 +10,7 @@ $grp GenericWorldPPEffect {
   Profile 3
  }
  GodRays {
-  coords 191.637 0 463.72
+  coords 191.637 5.339 463.72
   Priority 1
   Profile 1
  }
@@ -41,7 +41,11 @@ $grp GenericWorldPPEffect {
 }
 TimeAndWeatherManagerEntity : "{A3BAF78F6F03315B}Prefabs/World/Game/TimeAndWeatherManager.et" {
  coords 41.567 0 38.684
- "Initial Day Time" 11.544
+ Enabled 1
+ "UTC TimeZone" 1
+ "Initial Day Time" 21.114
+ Latitude 56.82
+ Longitude 9.03
  "Enable DST" 1
  "DST Offset" 1.5
  "Internal variant transition" 0
