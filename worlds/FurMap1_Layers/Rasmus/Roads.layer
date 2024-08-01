@@ -1074,7 +1074,7 @@ $grp SplineShapeEntity {
   }
  }
  Oest_faedammevej2 {
-  coords 7065.942 7.87 5102.105
+  coords 7065.942 7.938 5102.105
   Points {
    ShapePoint "{61E33A77E7089839}" {
     Position 0 0 0
@@ -1140,7 +1140,7 @@ $grp SplineShapeEntity {
     Position 504.693 -5.239 221.24
    }
    ShapePoint "{61E4CD5DAE31906D}" {
-    Position 499.373 -5.399 221.697
+    Position 499.362 -5.403 222.739
    }
    ShapePoint "{61E4CD5DAFBA3314}" {
     Position 487.429 -5.741 221.056
@@ -1234,7 +1234,7 @@ $grp SplineShapeEntity {
         Position 504.693 -5.239 221.24
        }
        ShapePoint "{61E4CD5DAE3289B9}" {
-        Position 499.373 -5.399 221.697
+        Position 499.362 -5.403 222.739
        }
        ShapePoint "{61E4CD5DAFB46907}" {
         Position 487.429 -5.741 221.056
@@ -1658,6 +1658,57 @@ $grp SplineShapeEntity {
        }
        ShapePoint "{52346539D885C1A2}" {
         Position 9.704 0.322 -4.634
+       }
+      }
+      IsClosedSpline 0
+      Width 4
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 7571.444 2.452 5322.046
+  Points {
+   ShapePoint "{6202E06FED5CB037}" {
+    Position -1.797 0.297 -1.665
+   }
+   ShapePoint "{6202E06FED5C985D}" {
+    Position 14.305 0.337 19.509
+   }
+   ShapePoint "{6202E06FE95C353D}" {
+    Position 28.102 0.618 27.325
+   }
+   ShapePoint "{6202E06FEAC83E9E}" {
+    Position 42.52 0.837 28.498
+   }
+   ShapePoint "{6202E06FEA64DD7E}" {
+    Position 74.679 0.072 27.956
+   }
+  }
+  {
+   RoadGeneratorEntity : "{2D9AEF10F5FEA98B}PrefabLibrary/Generators/Roads/Dirt/RG_Road_Dirt_01.et" {
+    coords 0 0 0
+    FalloffStartWidth 0
+    RoadFalloffWidth 1
+    {
+     RoadEntity {
+      ID "523EAA80CAA6C6B5"
+      SplinePoints {
+       ShapePoint "{52346539D885C296}" {
+        Position -1.797 0.297 -1.665
+       }
+       ShapePoint "{52346539D885C1A2}" {
+        Position 14.305 0.337 19.509
+       }
+       ShapePoint "{6202E06FBE88CDAC}" {
+        Position 28.102 0.618 27.325
+       }
+       ShapePoint "{6202E06FBE88CA43}" {
+        Position 42.52 0.837 28.498
+       }
+       ShapePoint "{6202E06FBE88CAAC}" {
+        Position 74.679 0.072 27.956
        }
       }
       IsClosedSpline 0
