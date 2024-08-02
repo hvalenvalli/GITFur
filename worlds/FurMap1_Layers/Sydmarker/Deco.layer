@@ -4058,7 +4058,7 @@ $grp SplineShapeEntity {
   coords 2134.767 8.945 4018.755
   Points {
    ShapePoint "{6202E095EF17B9BE}" {
-    Position -1.178 -0 -0.857
+    Position -1.178 0 -0.857
    }
    ShapePoint "{6202E095EF17E281}" {
     Position 16.689 0.069 28.048
@@ -4080,7 +4080,7 @@ $grp SplineShapeEntity {
      }
      $grp SCR_DestructibleEntity : "{DEB54A0BC9F81469}PrefabLibrary/Walls/Brick/BrickWall_01_8m.et" {
       {
-       coords -1.191 -0 -0.877
+       coords -1.191 0 -0.877
        angleY -58.278
       }
       {
@@ -4433,7 +4433,7 @@ $grp SplineShapeEntity {
     }
    }
    ShapePoint "{6202E0855FAA1E66}" {
-    Position 6.651 -0 10.638
+    Position 6.651 0 10.638
    }
    ShapePoint "{6202E0855E200B3C}" {
     Position 4.071 0 3.391
@@ -4547,11 +4547,11 @@ $grp SplineShapeEntity {
        angleY 21.515
       }
       {
-       coords 11.376 -0 0.185
+       coords 11.376 0 0.185
        angleY 21.515
       }
       {
-       coords 18.836 -0 -2.756
+       coords 18.836 0 -2.756
        angleY 21.515
       }
       {
@@ -4562,6 +4562,139 @@ $grp SplineShapeEntity {
     }
    }
   }
+ }
+}
+$grp Tree : "{0730D3271265110D}PrefabLibrary/Vegetation/Vegetables/CabbageCrop_01.et" {
+ {
+  coords 2563.013 0.429 4145.776
+  angleX -9.6
+  angleY 38.222
+  angleZ 4.012
+  scale 0.453
+ }
+ {
+  coords 2562.589 0.477 4145.718
+  angleX -9.6
+  angleY 38.222
+  angleZ 4.012
+  scale 0.453
+ }
+ {
+  coords 2563.05 0.47 4146.434
+  angleX 2.817
+  angleY -134.447
+  angleZ 2.759
+  scale 0.453
+ }
+ {
+  coords 2562.623 0.489 4146.429
+  angleX 2.817
+  angleY -134.447
+  angleZ -2.312
+  scale 0.453
+ }
+ {
+  coords 2562.475 0.523 4146.938
+  angleX -9.6
+  angleY 38.222
+  angleZ 4.012
+  scale 0.453
+ }
+ {
+  coords 2562.899 0.475 4146.996
+  angleX -9.6
+  angleY 38.222
+  angleZ 4.012
+  scale 0.453
+ }
+ {
+  coords 2563.033 0.539 4148.896
+  angleX -9.6
+  angleY 38.222
+  angleZ 4.012
+  scale 0.453
+ }
+ {
+  coords 2563.069 0.58 4149.556
+  angleX 2.817
+  angleY -134.447
+  angleZ 2.759
+  scale 0.453
+ }
+ {
+  coords 2562.609 0.587 4148.84
+  angleX -9.6
+  angleY 38.222
+  angleZ 4.012
+  scale 0.453
+ }
+ {
+  coords 2562.643 0.599 4149.552
+  angleX 2.817
+  angleY -134.447
+  angleZ -2.312
+  scale 0.453
+ }
+ {
+  coords 2562.919 0.584 4150.118
+  angleX -9.6
+  angleY 38.222
+  angleZ 4.012
+  scale 0.453
+ }
+ {
+  coords 2562.495 0.633 4150.06
+  angleX -9.6
+  angleY 38.222
+  angleZ 4.012
+  scale 0.453
+ }
+}
+$grp Tree : "{0940EEB7D2D8F592}PrefabLibrary/Vegetation/Vegetables/CapsicumCrop_01.et" {
+ {
+  coords 2567.565 0.333 4156.452
+  angleY 80.829
+  scale 0.927
+ }
+ {
+  coords 2567.401 0.371 4155.743
+  angleY 22.413
+  scale 1.072
+ }
+ {
+  coords 2567.535 0.293 4154.571
+  angleY 190.838
+  scale 1.119
+ }
+ {
+  coords 2565.017 0.469 4157.018
+  angleY 170.711
+  scale 1.011
+ }
+ {
+  coords 2566.068 0.451 4156.741
+  angleY 353.869
+  scale 0.897
+ }
+ {
+  coords 2566.358 0.348 4154.423
+  angleY 130.214
+  scale 0.938
+ }
+ {
+  coords 2564.754 0.447 4154.586
+  angleY 69.469
+  scale 1.124
+ }
+ {
+  coords 2566.683 0.382 4156.779
+  angleY 173.084
+  scale 0.876
+ }
+ {
+  coords 2565.631 0.379 4154.537
+  angleY 130.928
+  scale 1.063
  }
 }
 $grp StaticModelEntity : "{12B15F074730B74C}PrefabLibrary/Walls/Concrete/SilageWall_01_5m.et" {
@@ -4640,9 +4773,20 @@ $grp Tree : "{2A7C3319DE914965}PrefabLibrary/Vegetation/Trees/t_salix_fragilis_3
   scale 1.087
  }
 }
-GameEntity : "{2BF048C6593C3D1B}PrefabLibrary/Infrastructure/Naval/Ladder_Pier_520_B.et" {
- coords 1876.143 2.519 3724.114
- angleY -55.067
+$grp GameEntity : "{2BF048C6593C3D1B}PrefabLibrary/Infrastructure/Naval/Ladder_Pier_520_B.et" {
+ {
+  coords 1876.143 2.519 3724.114
+  angleY -55.067
+ }
+ {
+  coords 2403.761 3.665 4444.715
+  angleY 19.703
+ }
+ {
+  coords 2464.346 3.513 4418.749
+  angleX 7.792
+  angleY 19.703
+ }
 }
 StaticModelEntity : "{2C9D288392BDC334}PrefabLibrary/Props/Agricultural/DrainagePit_01.et" {
  coords 1698.939 -0.111 4489.329
@@ -4672,6 +4816,10 @@ SCR_DestructibleBuildingEntity : "{38B030BEDB46E64D}PrefabLibrary/Structures/Hou
  coords 1833.615 0.037 4583.34
  angleY 105.459
 }
+GenericEntity : "{39D1544F266C887B}PrefabLibrary/Props/Agricultural/Scythe_01.et" {
+ coords 2550.37 9.759 4144.664
+ angleZ 173.006
+}
 SCR_DestructibleBuildingEntity : "{3A2352AB1D94454A}PrefabLibrary/Structures/Houses/House_Village_E_1I04sr/House_Village_E_1I04sr_green.et" {
  coords 2065.038 0.006 4634.993
  angleY 26.27
@@ -4689,6 +4837,16 @@ GenericEntity : "{3C4CCE2652F6B23E}PrefabLibrary/Props/Agricultural/HayBale_01_s
 SCR_DestructibleEntity : "{3F2E6FB8EDB0BF0F}PrefabLibrary/Walls/Brick/BrickWall_01_4m.et" {
  coords 2151.477 -0.267 4046.792
  angleY 29.454
+}
+SCR_DestructibleBuildingEntity : "{41B0E910A5DA080A}PrefabLibrary/Props/Agricultural/Henhouse_01.et" {
+ coords 2570.878 -0 4145.726
+ angleY -87.641
+}
+GenericEntity : "{485E8CB2DCC47659}PrefabLibrary/Props/Agricultural/MilkCan_01.et" {
+ coords 2551.706 7.885 4150.238
+ angleX 0.323
+ angleY -152.077
+ angleZ 3.208
 }
 $grp GenericEntity : "{4862AAF70918E5A8}PrefabLibrary/Props/Agricultural/HayBale_01_square_big.et" {
  {
@@ -4760,6 +4918,21 @@ SCR_DestructibleEntity : "{4FE3FD617F94EABC}PrefabLibrary/Walls/Brick/BrickWall_
 GenericEntity : "{518CE3793C15C5F2}PrefabLibrary/Props/Agricultural/WaterTank_01/WaterTank_01_v2.et" {
  coords 1811.471 14.969 4640.195
 }
+$grp Tree : "{543AA6086D8B116F}PrefabLibrary/Vegetation/Vegetables/PumpkinCrop_01_Line.et" {
+ {
+  coords 2565.777 0.334 4143.313
+  angleY -2.623
+  scale 0.418
+ }
+ {
+  coords 2565.727 0.313 4146.119
+  angleY -2.623
+  scale 0.418
+ }
+}
+GenericEntity : "{5913C01ECD3AA02A}PrefabLibrary/Props/Civilian/StepladderWooden_01_Open.et" {
+ coords 2400.219 12.844 4450.847
+}
 $grp Tree : "{5D765B912A33A615}PrefabLibrary/Vegetation/Trees/t_salix_fragilis_2s.et" {
  {
   coords 2093.802 0 4600.808
@@ -4800,6 +4973,13 @@ $grp GenericEntity : "{662766254306EE2D}PrefabLibrary/Props/Agricultural/SackUni
   angleY -55.218
   scale 0.852
  }
+ {
+  coords 2551.408 7.924 4146.916
+  angleX -3.836
+  angleY -67.889
+  angleZ 3.391
+  scale 1.039
+ }
 }
 $grp SCR_DestructibleBuildingEntity : "{68C374BC1692FE91}PrefabLibrary/Infrastructure/Naval/PierConcrete_01_wall_5m.et" {
  {
@@ -4816,6 +4996,20 @@ GenericEntity : "{715025A3286CC408}PrefabLibrary/Props/Agricultural/Cartwheel_01
  angleX -8.858
  angleY -70.328
  scale 1.59
+}
+$grp SCR_DestructibleBuildingEntity : "{768F3387F294F8CA}PrefabLibrary/Props/Agricultural/Hotbed_01_Closed.et" {
+ {
+  coords 2565.782 8.636 4146.156
+  angleY -90.883
+ }
+ {
+  coords 2562.824 8.636 4146.218
+  angleY 89.092
+ }
+ {
+  coords 2562.798 8.636 4149.381
+  angleY 89.092
+ }
 }
 SCR_DestructibleBuildingEntity : "{777E7553D60DF9A2}PrefabLibrary/Structures/Agriculture/SilageStorage_E_01.et" {
  coords 1682.834 0.125 4469.893
@@ -4873,17 +5067,76 @@ $grp GenericEntity : "{87CF86708526C968}PrefabLibrary/Props/Agricultural/PlowWre
   angleZ -1.789
  }
 }
+$grp Tree : "{884DE6D0F08040E0}PrefabLibrary/Vegetation/Vegetables/PotatoCrop_01_Shortline.et" {
+ {
+  coords 2565.729 0.331 4162.067
+  scale 0.924
+ }
+ {
+  coords 2565.871 0.271 4159.931
+  scale 1.021
+ }
+ {
+  coords 2565.684 0.244 4149.13
+  angleY -90.408
+  scale 0.779
+ }
+ {
+  coords 2563.047 0.127 4143.166
+  angleY -95.394
+  scale 0.835
+ }
+}
+GenericEntity : "{92D5247D2FEFBEAF}PrefabLibrary/Props/Agricultural/Beehive_01_small/Beehive_01_small_red.et" {
+ coords 2572.191 8.859 4150.809
+}
 SCR_DestructibleBuildingEntity : "{93147981639AC149}PrefabLibrary/Structures/Agriculture/Barn_E_03/Barn_E_03_closed.et" {
  coords 2104.83 0.002 4637.865
  angleY 26.541
+}
+GenericEntity : "{9EF10EC9FAEB1465}PrefabLibrary/Props/Agricultural/Beehive_01_small/Beehive_01_small_green.et" {
+ coords 2571.883 8.879 4149.297
+}
+$grp SCR_DestructibleBuildingEntity : "{A271322F18016DF5}PrefabLibrary/Props/Agricultural/Hotbed_01_Open.et" {
+ {
+  coords 2565.764 8.577 4149.194
+  angleY -90.274
+ }
+ {
+  coords 2563.012 8.577 4143.08
+  angleY 88.753
+ }
 }
 SCR_DestructibleEntity : "{A2E2C428D5018DCA}PrefabLibrary/Props/Decoration/FlowerpotStreet_01_rect_short/FlowerpotStreet_01_rect_short_begonia_pink.et" {
  coords 2378.711 12.844 4469.82
  angleY 44.518
 }
+$grp Tree : "{A5265EF79AAF3EAD}PrefabLibrary/Vegetation/Vegetables/TomatoCrop_01.et" {
+ {
+  coords 2567.778 0.208 4161.981
+  angleY 222.755
+  scale 1.093
+ }
+ {
+  coords 2567.724 0.239 4161.074
+  angleY 292.058
+  scale 0.99
+ }
+ {
+  coords 2567.727 0.182 4159.97
+  angleY 316.218
+  scale 1.125
+ }
+}
 SCR_DestructibleEntity : "{A9C9E1C6642B2989}PrefabLibrary/Props/Decoration/FlowerpotStreet_01_rect_short/FlowerpotStreet_01_rect_short_begonia_red.et" {
  coords 2377.723 12.844 4470.629
  angleY 43.521
+}
+GenericEntity : "{AA6A59B59439C36A}PrefabLibrary/Props/Agricultural/Beehive_01_small/Beehive_01_small_blue.et" {
+ coords 2572.343 8.81 4153.518
+}
+GenericEntity : "{BA13F78CFAAD22D1}PrefabLibrary/Props/Agricultural/Beehive_01_small/Beehive_01_small_yellow.et" {
+ coords 2572.335 8.832 4152.13
 }
 SCR_DestructibleBuildingEntity : "{BB32FDB0A276A95D}PrefabLibrary/Structures/Houses/House_Village_E_1I01.et" {
  coords 1896.137 -0.015 4641.327
@@ -4933,10 +5186,23 @@ $grp GenericEntity : "{BC39181D2DD77F13}PrefabLibrary/Props/Agricultural/Trough_
   angleZ -2.476
  }
 }
-StaticModelEntity : "{CD09BF68FFF3D3CE}PrefabLibrary/Props/Agricultural/HaystackDryer_01.et" {
- coords 2407.191 0 4454.315
- angleY 149.682
- scale 0.878
+SCR_DestructibleBuildingEntity : "{CBFC8C2E1EB3FBBC}PrefabLibrary/Props/Agricultural/Hotbed_01_Half_Open.et" {
+ coords 2565.665 8.733 4143.225
+ angleY -91.717
+}
+$grp StaticModelEntity : "{CD09BF68FFF3D3CE}PrefabLibrary/Props/Agricultural/HaystackDryer_01.et" {
+ {
+  coords 2407.191 0 4454.315
+  angleY 149.682
+  scale 0.878
+ }
+ {
+  coords 2569.96 -0 4140.582
+  angleX 2.819
+  angleY 113.048
+  angleZ 0.228
+  scale 1.019
+ }
 }
 SCR_DestructibleEntity : "{DEB54A0BC9F81469}PrefabLibrary/Walls/Brick/BrickWall_01_8m.et" {
  coords 2127.48 0.35 4004.334
@@ -4950,6 +5216,14 @@ $grp SCR_DestructibleBuildingEntity : "{DFE759EE77F61ACD}PrefabLibrary/Structure
  {
   coords 1681.595 0.04 4505.579
   angleY 110.923
+ }
+ {
+  coords 2566.459 0.053 4161.031
+  angleY -88.943
+ }
+ {
+  coords 2566.215 0.153 4155.604
+  angleY -86.784
  }
 }
 SCR_DestructibleBuildingEntity : "{E3584595FC988951}PrefabLibrary/Structures/Industrial/Workshop_01_Garage.et" {

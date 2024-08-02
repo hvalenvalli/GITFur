@@ -1675,6 +1675,9 @@ $grp SplineShapeEntity {
    ShapePoint "{61A6F1B00892B803}" {
     Position 245.172 -4.634 670.137
    }
+   ShapePoint "{62049A550A1F1165}" {
+    Position 294.277 -3.27 859.512
+   }
    ShapePoint "{61A6F1B00E2EFEBC}" {
     Position 312.114 -4.486 928.054
    }
@@ -1714,6 +1717,9 @@ $grp SplineShapeEntity {
         Position 245.172 -4.634 670.137
        }
        ShapePoint "{61A6F1B3E99CB10D}" {
+        Position 294.277 -3.27 859.512
+       }
+       ShapePoint "{62049A550A1F96DD}" {
         Position 312.114 -4.486 928.054
        }
       }
@@ -5916,6 +5922,61 @@ $grp SplineShapeEntity {
        }
        ShapePoint "{6202E09A0C69E168}" {
         Position -40.412 0.298 17.242
+       }
+      }
+      IsClosedSpline 0
+      Width 4
+     }
+    }
+   }
+  }
+ }
+ Syd_Boagervej_side4 {
+  coords 2603.862 9.583 4176.9
+  Points {
+   ShapePoint "{62049A58A49F5F9B}" {
+    Position 0 0 0
+   }
+   ShapePoint "{62049A58A49084DC}" {
+    Position -16.762 -0.458 4.506
+   }
+   ShapePoint "{62049A58AB807991}" {
+    Position -30.118 -1.117 8.526
+   }
+   ShapePoint "{62049A58AA601A28}" {
+    Position -39.068 -1.652 17.923
+   }
+   ShapePoint "{62049A58AAD19B98}" {
+    Position -36.041 -1.899 30.034
+   }
+   ShapePoint "{62049A58A9B805F8}" {
+    Position -23.124 -1.636 33.777
+   }
+  }
+  {
+   RoadGeneratorEntity : "{2D9AEF10F5FEA98B}PrefabLibrary/Generators/Roads/Dirt/RG_Road_Dirt_01.et" {
+    coords 0 0 0
+    {
+     RoadEntity {
+      ID "523EAA80CAA6C6B5"
+      SplinePoints {
+       ShapePoint "{52346539D885C296}" {
+        Position 0 0 0
+       }
+       ShapePoint "{52346539D885C1A2}" {
+        Position -16.762 -0.458 4.506
+       }
+       ShapePoint "{62049A58B50E111C}" {
+        Position -30.118 -1.117 8.526
+       }
+       ShapePoint "{62049A58B50E11BC}" {
+        Position -39.068 -1.652 17.923
+       }
+       ShapePoint "{62049A58B50E11EE}" {
+        Position -36.041 -1.899 30.034
+       }
+       ShapePoint "{62049A58B50E102A}" {
+        Position -23.124 -1.636 33.777
        }
       }
       IsClosedSpline 0
