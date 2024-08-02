@@ -1837,6 +1837,21 @@ $grp SplineShapeEntity {
    ShapePoint "{61A6F1B39A933751}" {
     Position -187.439 -0.895 32.689
    }
+   ShapePoint "{620375F1DACF2DCE}" {
+    Position -238.154 -1.37 33.793
+    Data {
+     SplinePointData SplinePointData {
+      InTangent -49.858 -0.472 -16.554
+      OutTangent -49.858 -0.472 -16.554
+     }
+    }
+   }
+   ShapePoint "{620375F1D8390F4C}" {
+    Position -314.962 -2.11 -11.971
+   }
+   ShapePoint "{620375F1A1DAC02E}" {
+    Position -334.832 -1.812 -32.726
+   }
   }
   {
    RoadGeneratorEntity : "{41CEDBF0493A26A5}PrefabLibrary/Generators/Roads/Dirt/RG_Road_Dirt_02.et" {
@@ -1850,6 +1865,21 @@ $grp SplineShapeEntity {
        }
        ShapePoint "{556C65561A62EBA9}" {
         Position -187.439 -0.895 32.689
+       }
+       ShapePoint "{620375F1DACFC4D4}" {
+        Position -238.154 -1.37 33.793
+        Data {
+         SplinePointData "{00000000D8F1BA4F}" {
+          InTangent -49.858 -0.472 -16.554
+          OutTangent -49.858 -0.472 -16.554
+         }
+        }
+       }
+       ShapePoint "{620375F1D8392A9A}" {
+        Position -314.962 -2.11 -11.971
+       }
+       ShapePoint "{620375F1A1DA974C}" {
+        Position -334.832 -1.812 -32.726
        }
       }
       IsClosedSpline 0
@@ -5838,7 +5868,7 @@ $grp SplineShapeEntity {
   coords 2566.457 16.219 4741.772
   Points {
    ShapePoint "{6202E09A2C98027E}" {
-    Position 0 -0 0
+    Position 0 0 0
    }
    ShapePoint "{6202E09A2C9863DE}" {
     Position -12.134 0.626 16.649
@@ -5847,10 +5877,16 @@ $grp SplineShapeEntity {
     Position -29.22 0.656 27.562
    }
    ShapePoint "{6202E09A317E30E1}" {
-    Position -42.096 0.454 26.926
+    Position -39.927 0.508 27.689
+    Data {
+     SplinePointData SplinePointData {
+      InTangent -8.05 -0.253 -7.105
+      OutTangent -8.05 -0.253 -7.105
+     }
+    }
    }
    ShapePoint "{6202E09A313B3219}" {
-    Position -39.246 0.211 11.317
+    Position -40.412 0.298 17.242
    }
   }
   {
@@ -5861,7 +5897,7 @@ $grp SplineShapeEntity {
       ID "523EAA80CAA6C6B5"
       SplinePoints {
        ShapePoint "{52346539D885C296}" {
-        Position 0 -0 0
+        Position 0 0 0
        }
        ShapePoint "{52346539D885C1A2}" {
         Position -12.134 0.626 16.649
@@ -5870,10 +5906,16 @@ $grp SplineShapeEntity {
         Position -29.22 0.656 27.562
        }
        ShapePoint "{6202E09A0C69E12E}" {
-        Position -42.096 0.454 26.926
+        Position -39.927 0.508 27.689
+        Data {
+         SplinePointData "{00000000D8F1BA4F}" {
+          InTangent -8.05 -0.253 -7.105
+          OutTangent -8.05 -0.253 -7.105
+         }
+        }
        }
        ShapePoint "{6202E09A0C69E168}" {
-        Position -39.246 0.211 11.317
+        Position -40.412 0.298 17.242
        }
       }
       IsClosedSpline 0
