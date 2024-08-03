@@ -6014,7 +6014,7 @@ $grp SplineShapeEntity {
   coords 2222.223 6.531 3800.56
   Points {
    ShapePoint "{6206ACE1E9C2BA7F}" {
-    Position 0 -0 0
+    Position 0 0 0
    }
    ShapePoint "{6206ACE1E9C4D6DF}" {
     Position 9.713 -0.146 36.529
@@ -6034,7 +6034,7 @@ $grp SplineShapeEntity {
       ID "556C65569DF42CF7"
       SplinePoints {
        ShapePoint "{556C65561A62B78A}" {
-        Position 0 -0 0
+        Position 0 0 0
        }
        ShapePoint "{556C65561A62EBA9}" {
         Position 9.713 -0.146 36.529
@@ -6087,6 +6087,61 @@ $grp SplineShapeEntity {
        }
        ShapePoint "{6206ACC0E22C54B9}" {
         Position -31.71 1.767 14.588
+       }
+      }
+      IsClosedSpline 0
+      Width 4.5
+     }
+    }
+   }
+  }
+ }
+ Soendergaardvej_side1 {
+  coords 2415.42 3.375 3211.808
+  Points {
+   ShapePoint "{620717C0A0DEB3AC}" {
+    Position 0 0 0
+   }
+   ShapePoint "{620717C0A0DE92AF}" {
+    Position 5.606 1.087 16.937
+   }
+   ShapePoint "{620717C0A6C7C8E7}" {
+    Position 9.015 1.494 33.369
+   }
+   ShapePoint "{620717C0A69EFAF3}" {
+    Position 13.603 1.547 50.302
+   }
+   ShapePoint "{620717C0A5488216}" {
+    Position 23.198 1.584 61.434
+   }
+   ShapePoint "{620717C0A53ECD2D}" {
+    Position 36.864 2.03 63.236
+   }
+  }
+  {
+   RoadGeneratorEntity : "{41CEDBF0493A26A5}PrefabLibrary/Generators/Roads/Dirt/RG_Road_Dirt_02.et" {
+    coords 0 0 0
+    {
+     RoadEntity {
+      ID "556C65569DF42CF7"
+      SplinePoints {
+       ShapePoint "{556C65561A62B78A}" {
+        Position 0 0 0
+       }
+       ShapePoint "{556C65561A62EBA9}" {
+        Position 5.606 1.087 16.937
+       }
+       ShapePoint "{620717C0AAABF279}" {
+        Position 9.015 1.494 33.369
+       }
+       ShapePoint "{620717C0AAABF299}" {
+        Position 13.603 1.547 50.302
+       }
+       ShapePoint "{620717C0AAABF2D5}" {
+        Position 23.198 1.584 61.434
+       }
+       ShapePoint "{620717C0AAABF118}" {
+        Position 36.864 2.03 63.236
        }
       }
       IsClosedSpline 0

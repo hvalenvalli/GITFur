@@ -1053,32 +1053,132 @@ $grp PolylineShapeEntity {
   }
  }
 }
-SplineShapeEntity {
- coords 1384.824 11.239 5209.571
- Points {
-  ShapePoint "{61BD0CCA03B7B469}" {
-   Position 0.369 0.234 -5.703
+$grp SplineShapeEntity {
+ {
+  coords 1384.824 11.239 5209.571
+  Points {
+   ShapePoint "{61BD0CCA03B7B469}" {
+    Position 0.369 0.234 -5.703
+   }
+   ShapePoint "{61BD0CCA03B78AFC}" {
+    Position -2.131 -1.134 27.78
+   }
   }
-  ShapePoint "{61BD0CCA03B78AFC}" {
-   Position -2.131 -1.134 27.78
+  {
+   RoadGeneratorEntity : "{2D9AEF10F5FEA98B}PrefabLibrary/Generators/Roads/Dirt/RG_Road_Dirt_01.et" {
+    coords 0 0 0
+    {
+     RoadEntity {
+      ID "523EAA80CAA6C6B5"
+      SplinePoints {
+       ShapePoint "{52346539D885C296}" {
+        Position 0.369 0.234 -5.703
+       }
+       ShapePoint "{52346539D885C1A2}" {
+        Position -2.131 -1.134 27.78
+       }
+      }
+      IsClosedSpline 0
+      Width 4
+     }
+    }
+   }
   }
  }
  {
-  RoadGeneratorEntity : "{2D9AEF10F5FEA98B}PrefabLibrary/Generators/Roads/Dirt/RG_Road_Dirt_01.et" {
-   coords 0 0 0
-   {
-    RoadEntity {
-     ID "523EAA80CAA6C6B5"
-     SplinePoints {
-      ShapePoint "{52346539D885C296}" {
-       Position 0.369 0.234 -5.703
+  coords 1413.052 10.998 5173.716
+  Points {
+   ShapePoint "{620717C108D74628}" {
+    Position 0 0 0
+   }
+   ShapePoint "{620717C10828ADB3}" {
+    Position -3.595 0.073 -3.899
+   }
+   ShapePoint "{620717C10FC133CC}" {
+    Position -12.641 0.286 -3.135
+   }
+  }
+  LineColor 0 0 0 0
+  {
+   PrefabGeneratorEntity : "{D22346876A0446AC}PrefabLibrary/Generators/Bushlines/PG_Bushline_Corylus_Small.et" {
+    coords 0 0 0
+    Flags 1048579
+    {
+     $grp Tree : "{79BC4FC331405E37}PrefabLibrary/Vegetation/Trees/t_carpinus_betulus_0.et" {
+      {
+       coords -4.62 0.096 -3.258
+       angleX -0.313
+       angleY -134.458
+       angleZ -0.968
+       scale 1.2
       }
-      ShapePoint "{52346539D885C1A2}" {
-       Position -2.131 -1.134 27.78
+      {
+       coords -7.809 0.154 -4.715
+       angleX 1.232
+       angleY -1.689
+       angleZ -0.366
+       scale 1.2
+      }
+      {
+       coords -11.033 0.241 -4.357
+       angleX 0.432
+       angleY 59.335
+       angleZ 2.191
+       scale 1.2
+      }
+      {
+       coords -12.614 0.272 -4.012
+       angleX -0.327
+       angleY -122.232
+       angleZ -0.677
+       scale 1.2
       }
      }
-     IsClosedSpline 0
-     Width 4
+     $grp Tree : "{839E9535771BA366}PrefabLibrary/Vegetation/Bushes/b_sambucus_nigra_0.et" {
+      {
+       coords -6.124 0.134 -3.427
+       angleX -0.236
+       angleY -156.097
+       angleZ 0.667
+       scale 1.15
+      }
+      {
+       coords -9.423 0.188 -4.527
+       angleX 1.957
+       angleY 109.31
+       angleZ -0.621
+       scale 1.15
+      }
+     }
+     $grp Tree : "{AD7EFA7B1214DD21}PrefabLibrary/Vegetation/Bushes/b_corylus_avellana_0l.et" {
+      {
+       coords -0.897 0.028 0.417
+       angleX -0.54
+       angleY -167.635
+       angleZ -1.682
+       scale 0.4
+      }
+      {
+       coords -0.519 0.016 -1.553
+       angleX -0.395
+       angleY -72.372
+       angleZ -1.065
+       scale 0.495
+      }
+      {
+       coords -3.47 0.077 -2.838
+       angleX -0.529
+       angleY -137.692
+       angleZ 0.247
+       scale 0.665
+      }
+     }
+     Tree : "{B48B7DD4E1C5FE40}PrefabLibrary/Vegetation/Bushes/b_corylus_avellana_0.et" {
+      coords -1.55 0.041 -2.834
+      angleX 0.74
+      angleY 81.112
+      scale 0.585
+     }
     }
    }
   }
@@ -1087,4 +1187,16 @@ SplineShapeEntity {
 SCR_DestructibleBuildingEntity : "{F640FDB4D1AAF0BD}PrefabLibrary/Props/Civilian/Recreation/Caravan_03.et" {
  coords 1689.136 -0.033 4795.664
  angleY 24.058
+}
+$grp GenericEntity : "{F857D65788E3BA3A}PrefabLibrary/Props/Naval/BoatWreck_01.et" {
+ {
+  coords 1397.715 11.313 5169.722
+  angleX 0.895
+  angleZ 4.764
+ }
+ {
+  coords 1399.621 11.286 5169.937
+  angleX 0.895
+  angleZ 8.328
+ }
 }
