@@ -1,3 +1,23 @@
+$grp SCR_DestructibleBuildingEntity : "{0734A1B6BD445637}PrefabLibrary/Structures/Houses/House_Village_E_1I04t/House_Village_E_1I04t_red.et" {
+ {
+  coords 2660.866 0.525 5034.033
+  angleY 88.739
+ }
+ {
+  coords 2983.491 0.499 4985.22
+  angleY 17.132
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{0B6EA07B566C2054}PrefabLibrary/Structures/Addons/HouseAddon_ShedMetal_01_Short.et" {
+ {
+  coords 2586.326 20.844 5055.852
+  angleY 100.046
+ }
+ {
+  coords 3002.13 15.163 5081.679
+  angleY 97.536
+ }
+}
 $grp SCR_DestructibleBuildingEntity : "{13D9C4416ED532D2}PrefabLibrary/Structures/Houses/House_Village_E_1L02t.et" {
  {
   coords 2892.782 0.22 4803.71
@@ -7,14 +27,83 @@ $grp SCR_DestructibleBuildingEntity : "{13D9C4416ED532D2}PrefabLibrary/Structure
   coords 3248.35 0.444 4949.283
   angleY -82.57
  }
+ {
+  coords 2692.732 0.315 4929.945
+  angleY 84.872
+ }
+ {
+  coords 2948.147 0.48 4687.181
+  angleY 18.933
+ }
+ {
+  coords 3213.22 0.8 4603.694
+  angleY 109.928
+ }
 }
-SCR_DestructibleBuildingEntity : "{141F88915AD1B5B6}PrefabLibrary/Structures/Addons/HouseAddon_Workshop_E_01.et" {
- coords 2848.936 0.084 4870.221
- angleY 114.87
+$grp SCR_DestructibleBuildingEntity : "{141F88915AD1B5B6}PrefabLibrary/Structures/Addons/HouseAddon_Workshop_E_01.et" {
+ {
+  coords 2848.936 0.084 4870.221
+  angleY 114.87
+ }
+ {
+  coords 2707.067 0.168 4942.351
+  angleY 176.159
+ }
+ {
+  coords 2691.905 0 4981.729
+  angleY -88.541
+ }
 }
-SCR_DestructibleBuildingEntity : "{37659EB4B40A66C4}PrefabLibrary/Structures/Addons/HouseAddon_Shed_E_01.et" {
- coords 2907.968 0.145 4847.814
- angleY -69.888
+SCR_DestructibleBuildingEntity : "{143F44A0916B2845}PrefabLibrary/Structures/Houses/House_Village_E_1I05s.et" {
+ coords 2776.17 0.634 5089.469
+ angleY -155.519
+}
+Tree : "{16D3707EA3F8DD41}PrefabLibrary/Vegetation/Trees/t_alnus_glutinosa_3s.et" {
+ coords 2692.297 -0 4900.316
+ angleX -1.135
+ angleY 234.346
+ angleZ 1.24
+ scale 0.974
+}
+$grp SCR_DestructibleBuildingEntity : "{1FE85AA2832E0FA5}PrefabLibrary/Structures/Addons/HouseAddon_ShedMetal_01_Long.et" {
+ {
+  coords 2788.8 15.779 4853.75
+  angleY -158.675
+ }
+ {
+  coords 2579.667 20.806 5023.242
+  angleY 101.708
+ }
+ {
+  coords 2583.525 20.806 5041.862
+  angleY 101.708
+ }
+ {
+  coords 2706.902 19.647 5153.736
+  angleY -131.991
+ }
+ {
+  coords 3237.139 9.812 4603.502
+  angleY 108.455
+ }
+}
+SCR_DestructibleBuildingEntity : "{2F76EAD3331D4E8A}PrefabLibrary/Structures/Ruins/HouseRuin_01_Windows.et" {
+ coords 3147.704 0.243 4677.357
+ angleY -76.146
+}
+SCR_DestructibleBuildingEntity : "{3089817CF5E28BD5}PrefabLibrary/Structures/Agriculture/Silo_01.et" {
+ coords 2701.14 -0.069 5143.541
+ angleY -94.974
+}
+$grp SCR_DestructibleBuildingEntity : "{37659EB4B40A66C4}PrefabLibrary/Structures/Addons/HouseAddon_Shed_E_01.et" {
+ {
+  coords 2907.968 0.145 4847.814
+  angleY -69.888
+ }
+ {
+  coords 2669.589 -0.022 5005.048
+  angleY -95.34
+ }
 }
 $grp SCR_DestructibleBuildingEntity : "{38B030BEDB46E64D}PrefabLibrary/Structures/Houses/Shed_02_big_V1.et" {
  {
@@ -26,66 +115,304 @@ $grp SCR_DestructibleBuildingEntity : "{38B030BEDB46E64D}PrefabLibrary/Structure
   angleY 108.791
  }
 }
-SCR_DestructibleBuildingEntity : "{3951BF8EC29C556D}PrefabLibrary/Structures/Agriculture/CowShed_E_01_short.et" {
- coords 3257.076 0.632 4985.655
- angleY 6.979
+$grp SCR_DestructibleBuildingEntity : "{3951BF8EC29C556D}PrefabLibrary/Structures/Agriculture/CowShed_E_01_short.et" {
+ {
+  coords 3257.076 0.632 4985.655
+  angleY 6.979
+ }
+ {
+  coords 2570.314 0.718 5036.929
+  angleY 11.234
+ }
 }
 $grp SCR_DestructibleBuildingEntity : "{3B371BE806867EF2}PrefabLibrary/Structures/Houses/House_Village_E_1I08t.et" {
  {
-  coords 2889.306 0.307 4758.98
-  angleY 0
- }
- {
   coords 2863.235 0.739 4876.532
   angleY -159.092
+ }
+ {
+  coords 2686.33 0.524 4996.009
+  angleY -173.125
+ }
+ {
+  coords 2663.748 0.631 5011.186
+  angleY -4.993
+ }
+ {
+  coords 2874.888 0.605 5047.343
+  angleY -143.441
+ }
+ {
+  coords 3105.293 0.18 5030.798
+  angleY 11.202
+ }
+ {
+  coords 3116.356 -0.001 4674.952
+  angleY 15.613
  }
 }
 SCR_DestructibleBuildingEntity : "{40CB72D2B509489C}PrefabLibrary/Structures/Industrial/Workshop_01_Main.et" {
  coords 2883.396 0.34 4824.93
  angleY 20.26
 }
-SCR_DestructibleBuildingEntity : "{51BF59A7E99DC66E}PrefabLibrary/Structures/Agriculture/Barn_E_01/Barn_E_01.et" {
- coords 2815.366 0.225 4850.652
- angleY 42.841
-}
-SCR_DestructibleBuildingEntity : "{63352C2865C9C735}PrefabLibrary/Structures/Houses/House_Village_E_1I04s.et" {
- coords 3200.383 0.354 4902.117
- angleY 98.132
-}
-SCR_DestructibleBuildingEntity : "{78E589607D4761E3}PrefabLibrary/Structures/Houses/House_Village_E_1I04t/House_Village_E_1I04t_green.et" {
- coords 2852.608 0.451 4824.575
- angleY 30.06
-}
-SCR_DestructibleBuildingEntity : "{7BE9DE15EE9823C2}PrefabLibrary/Structures/Houses/House_Village_E_1I06.et" {
- coords 2932.533 0.693 4853.889
- angleY 17.559
-}
-SCR_DestructibleBuildingEntity : "{8606D888D71A206A}PrefabLibrary/Structures/Houses/House_Village_E_1I02.et" {
- coords 2873.26 0.567 4813.124
- angleY -158.076
+$grp SCR_DestructibleBuildingEntity : "{51BF59A7E99DC66E}PrefabLibrary/Structures/Agriculture/Barn_E_01/Barn_E_01.et" {
  {
-  GenericEntity {
-   ID "5584E49695FFD146"
-   coords 0 0 0
-  }
+  coords 2815.366 0.225 4850.652
+  angleY 42.841
+ }
+ {
+  coords 2719.231 0.345 4879.085
+  angleY 103.869
+ }
+ {
+  coords 2710.985 0.357 5160.171
+  angleY 47.726
+ }
+ {
+  coords 2789.558 0.378 4861.331
+  angleY 21.042
  }
 }
-SCR_DestructibleBuildingEntity : "{A4BB44B5826C63F2}PrefabLibrary/Structures/Houses/House_Village_E_1I04sf/House_Village_E_1I04sf_red.et" {
- coords 3170.105 0.664 4847.512
- angleY -80.641
+SCR_DestructibleBuildingEntity : "{57632F08BA42F1DC}PrefabLibrary/Structures/Houses/House_Village_E_1I03.et" {
+ coords 2753.906 0.188 5224.425
+ angleY -57.881
+}
+SCR_DestructibleBuildingEntity : "{5A2A6CC012E1739A}PrefabLibrary/Structures/Ruins/HouseRuin_01_Chimney.et" {
+ coords 3149.598 0.186 4674.382
+ angleY -76.551
+}
+SCR_DestructibleBuildingEntity : "{5B4099F8DD30CD3E}PrefabLibrary/Structures/Houses/House_Town_E_2I01.et" {
+ coords 2800.51 0.561 5061.543
+ angleY -72.857
+}
+SCR_DestructibleBuildingEntity : "{61A14BF11154E540}PrefabLibrary/Structures/Agriculture/Hayloft_E_01/Hayloft_E_01_wood.et" {
+ coords 3603.306 0.457 5054.957
+ angleY -168.961
+}
+Tree : "{61D918F6575A3231}PrefabLibrary/Vegetation/Trees/t_alnus_glutinosa_2s.et" {
+ coords 2695.3 -0.016 4916.25
+ angleX 1.518
+ angleY 312.878
+ angleZ 0.574
+ scale 1.051
+}
+$grp SCR_DestructibleBuildingEntity : "{63352C2865C9C735}PrefabLibrary/Structures/Houses/House_Village_E_1I04s.et" {
+ {
+  coords 3200.383 0.354 4902.117
+  angleY 98.132
+ }
+ {
+  coords 2706.294 0.207 4892.853
+  angleY 17.196
+ }
+ {
+  coords 2768.668 0.688 4948.261
+  angleY 103.658
+ }
+ {
+  coords 2900.689 0.523 5118.333
+  angleY 31.551
+ }
+ {
+  coords 3237.747 0.746 4935.249
+  angleY 7.93
+ }
+}
+SCR_DestructibleBuildingEntity : "{720E5074722834BF}PrefabLibrary/Structures/Ruins/HouseRuin_01_WoodPile.et" {
+ coords 3149.03 -0.097 4667.755
+ angleX 2.708
+ angleY -106.017
+ angleZ 2.941
+ scale 1.033
+}
+SCR_DestructibleBuildingEntity : "{777E1C3BF5898638}PrefabLibrary/Structures/Houses/House_Village_E_1I04sr/House_Village_E_1I04sr_red.et" {
+ coords 2956.106 0.237 4711.422
+ angleY 19.949
+}
+SCR_DestructibleBuildingEntity : "{777E7553D60DF9A1}PrefabLibrary/Structures/Agriculture/SilageStorage_E_01_silage.et" {
+ coords 3236.997 -0.385 4916.481
+ angleY -84.322
+}
+SCR_DestructibleBuildingEntity : "{777E7553D60DF9A2}PrefabLibrary/Structures/Agriculture/SilageStorage_E_01.et" {
+ coords 2891.58 0.417 5095.9
+ angleY -60.607
+}
+$grp SCR_DestructibleBuildingEntity : "{78E589607D4761E3}PrefabLibrary/Structures/Houses/House_Village_E_1I04t/House_Village_E_1I04t_green.et" {
+ {
+  coords 2852.608 0.451 4824.575
+  angleY 30.06
+ }
+ {
+  coords 2659.003 0.364 5058.986
+  angleY -94.55
+ }
+ {
+  coords 2715.098 0.622 5129.405
+  angleY 115.082
+ }
+ {
+  coords 3166.826 0.362 4629.481
+  angleY 14.303
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{7BE9DE15EE9823C2}PrefabLibrary/Structures/Houses/House_Village_E_1I06.et" {
+ {
+  coords 2932.533 0.693 4853.889
+  angleY 17.559
+ }
+ {
+  coords 2623.641 0.68 5002.279
+  angleY -81.019
+ }
+ {
+  coords 2785.117 0.856 5024.833
+  angleY 17.416
+ }
+ {
+  coords 2860.079 0.549 5146.953
+  angleY 123.808
+ }
+ {
+  coords 2959.579 0.793 5090.528
+  angleY -157.383
+ }
+ {
+  coords 3259.496 1.013 5397.763
+  angleY -8.345
+ }
+ {
+  coords 3100.218 1.691 5354.464
+  angleY 156.13
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{7F8DF0A1D211BDFC}PrefabLibrary/Structures/Houses/House_Village_E_1L03t.et" {
+ {
+  coords 2604.168 0.416 5064.038
+  angleY 97.752
+ }
+ {
+  coords 3036.205 0.357 4731.425
+  angleY -159.225
+ }
+}
+SCR_DestructibleBuildingEntity : "{844E20E491FBC531}PrefabLibrary/Structures/Agriculture/Barn_E_02.et" {
+ coords 2679.731 0.15 5029.427
+}
+$grp SCR_DestructibleBuildingEntity : "{8606D888D71A206A}PrefabLibrary/Structures/Houses/House_Village_E_1I02.et" {
+ {
+  coords 2873.26 0.567 4813.124
+  angleY -158.076
+  {
+   GenericEntity {
+    ID "5584E49695FFD146"
+    coords 0 0 0
+   }
+  }
+ }
+ {
+  coords 2637.463 0.549 4964.073
+  angleY -83.782
+ }
+ {
+  coords 2793.052 0.341 5118.759
+  angleY -148.644
+ }
+ {
+  coords 3211.542 0.361 5379.985
+  angleY 54.634
+ }
+}
+SCR_DestructibleBuildingEntity : "{8A54FD8F840E3BC4}PrefabLibrary/Structures/Houses/FarmHouse_E_1L01/FarmHouse_E_1L01_Green.et" {
+ coords 3590.24 0.012 5028.852
+ angleY 103.458
+}
+SCR_DestructibleBuildingEntity : "{93147981639AC149}PrefabLibrary/Structures/Agriculture/Barn_E_03/Barn_E_03_closed.et" {
+ coords 3611.569 0.282 5036.625
+ angleY -77.631
+}
+$grp SCR_DestructibleBuildingEntity : "{972D4847ED6244AC}PrefabLibrary/Structures/Agriculture/Hayloft_E_01/Hayloft_E_01_metal.et" {
+ {
+  coords 3002.392 0.493 4702.141
+  angleY 118.937
+ }
+ {
+  coords 3048.889 0.83 4647.363
+  angleY 104.933
+ }
+ {
+  coords 3084.167 0.221 4627.773
+  angleY 104.933
+ }
+ {
+  coords 3061.936 0.534 4612.373
+  angleY 11.396
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{9A11BC58DEF42A97}PrefabLibrary/Structures/Houses/House_Village_E_1I04t/House_Village_E_1I04t.et" {
+ {
+  coords 2780.002 0.28 5002.833
+  angleY -75.747
+ }
+ {
+  coords 2865.798 0.364 5179.233
+  angleY -59.166
+ }
+ {
+  coords 3172.691 0.494 4667.725
+  angleY 11.552
+ }
+ {
+  coords 3158.066 0.259 5340.486
+  angleY 164.967
+ }
+}
+SCR_DestructibleBuildingEntity : "{9ACCDC76D1EBDA27}PrefabLibrary/Structures/Houses/FarmHouse_E_1L01/FarmHouse_E_1L01_Wood.et" {
+ coords 3385.243 0.257 5033.401
+}
+$grp SCR_DestructibleBuildingEntity : "{A4BB44B5826C63F2}PrefabLibrary/Structures/Houses/House_Village_E_1I04sf/House_Village_E_1I04sf_red.et" {
+ {
+  coords 3170.105 0.664 4847.512
+  angleY -80.641
+ }
+ {
+  coords 2735.771 0.228 5116.063
+  angleY -143.877
+ }
+ {
+  coords 2909.188 0 4748.831
+  angleY 27.808
+ }
+}
+SCR_DestructibleBuildingEntity : "{A67AB8173DD14448}PrefabLibrary/Structures/Ruins/House_Village_E_1I01_ruin.et" {
+ coords 3138.918 0.053 4669.512
+ angleY 104.141
+}
+$grp SCR_DestructibleBuildingEntity : "{A7259960AB98A3A0}PrefabLibrary/Structures/Houses/House_Village_E_1I05t.et" {
+ {
+  coords 2898.114 0.25 5186.427
+  angleY 23.315
+ }
+ {
+  coords 3019.321 0.086 5032.868
+  angleY -169.45
+ }
+ {
+  coords 2987.075 0.51 4718.938
+  angleY 29.004
+ }
 }
 SCR_DestructibleBuildingEntity : "{ABD6F938BFD04B3D}PrefabLibrary/Structures/Houses/HouseAddon_Shed_E_01.et" {
  coords 2922.428 0.041 4787.768
  angleY -151.157
 }
+SCR_DestructibleBuildingEntity : "{AFB66B5D636927AD}PrefabLibrary/Structures/Industrial/Workshop_02.et" {
+ coords 2887.638 0.204 5040.031
+ angleY 34.63
+}
 $grp SCR_DestructibleBuildingEntity : "{BB32FDB0A276A95D}PrefabLibrary/Structures/Houses/House_Village_E_1I01.et" {
  {
   coords 2915.744 0.453 4791.634
   angleY -61.703
- }
- {
-  coords 2640.867 0.256 4963.761
-  angleY -99.215
  }
  {
   coords 3052.443 0.34 4923.895
@@ -95,6 +422,59 @@ $grp SCR_DestructibleBuildingEntity : "{BB32FDB0A276A95D}PrefabLibrary/Structure
   coords 3188.234 0.207 4920.955
   angleY 103.856
  }
+ {
+  coords 2678.645 0.416 4940.618
+  angleY -16.768
+ }
+ {
+  coords 2752.919 -0.126 5107.502
+  angleY 116.691
+ }
+ {
+  coords 2771.92 -0.001 4925.092
+  angleY 17.143
+ }
+ {
+  coords 2838.163 -0 5076.197
+  angleY -55.317
+ }
+ {
+  coords 3021.759 0.036 4695.667
+  angleY 26.383
+ }
+ {
+  coords 3232.174 0.496 5371.043
+  angleY -108.412
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{BC72C74ABB5732A8}PrefabLibrary/Structures/Agriculture/Barn_E_01/Barn_E_01_white.et" {
+ {
+  coords 2604.292 0.08 5091.556
+  angleY -81.93
+ }
+ {
+  coords 2801.7 0.522 5072.619
+  angleY -163.818
+ }
+}
+Tree : "{C44F51A81AC2B063}PrefabLibrary/Vegetation/Trees/t_carpinus_betulus_3s.et" {
+ coords 2696.855 -0.001 4907.765
+ angleX -3.999
+ angleY 136.719
+ angleZ 0.236
+ scale 0.822
+}
+SCR_DestructibleBuildingEntity : "{CAE9DDFBF282E3C7}PrefabLibrary/Structures/Ruins/HouseRuin_01_Corner_Stairs.et" {
+ coords 3151.507 0.038 4679.795
+ angleY -74.265
+}
+StaticModelEntity : "{CCA4C82ACFBA8457}PrefabLibrary/Structures/Agriculture/WeightStation_01_platform.et" {
+ coords 2592.936 21.333 5074.514
+ angleY -82.525
+}
+SCR_DestructibleBuildingEntity : "{D1C2FE6DD2C12309}PrefabLibrary/Structures/Houses/House_Village_E_1L01.et" {
+ coords 2992.432 -0.065 5081.157
+ angleY -81.868
 }
 $grp SCR_DestructibleBuildingEntity : "{DC93D6FC12072495}PrefabLibrary/Structures/Agriculture/Barn_E_03/Barn_E_03_open.et" {
  {
@@ -107,6 +487,18 @@ $grp SCR_DestructibleBuildingEntity : "{DC93D6FC12072495}PrefabLibrary/Structure
  }
  {
   coords 3403.974 0.23 5065.728
+ }
+ {
+  coords 2761.843 0.424 5097.468
+  angleY -63.842
+ }
+ {
+  coords 2926.639 0 4753.247
+  angleY 30.537
+ }
+ {
+  coords 3235.351 0.786 4617.062
+  angleY 18.239
  }
 }
 $grp SCR_DestructibleBuildingEntity : "{DEF852CB2596122D}PrefabLibrary/Structures/Houses/Shed_03_wide.et" {
@@ -126,8 +518,44 @@ $grp SCR_DestructibleBuildingEntity : "{DEF852CB2596122D}PrefabLibrary/Structure
   coords 2929.632 0.545 4796.945
   angleY -59.856
  }
+ {
+  coords 2769.525 -4.167 4880.847
+  angleY -68.249
+ }
+ {
+  coords 2691.41 0.768 4885.688
+  angleY 104.946
+ }
 }
-SCR_DestructibleBuildingEntity : "{F973FD2C8F3C05DB}PrefabLibrary/Structures/Houses/House_Village_E_1I04sf/House_Village_E_1I04sf_green.et" {
- coords 3190.623 0.233 4871.586
- angleY 103.756
+SCR_DestructibleBuildingEntity : "{DFE759EE77F61ACD}PrefabLibrary/Structures/Agriculture/Greenhouse_01.et" {
+ coords 2707.321 0 5116.337
+}
+SCR_DestructibleBuildingEntity : "{E6B9336AB9C9F543}PrefabLibrary/Structures/Agriculture/Barn_E_01/Barn_E_01_old.et" {
+ coords 3080.243 0.594 5368.762
+ angleY -108.715
+}
+SCR_DestructibleBuildingEntity : "{E7143CC469A97E04}PrefabLibrary/Structures/Houses/House_Mountain_E_1I01_short.et" {
+ coords 3299.176 1.206 5526.938
+}
+SCR_DestructibleBuildingEntity : "{E889E8CCCA21EC6C}PrefabLibrary/Structures/Commercial/PubVillage_E_2L01.et" {
+ coords 3040.769 0.875 4616.363
+ angleY -166.53
+}
+$grp SCR_DestructibleBuildingEntity : "{F973FD2C8F3C05DB}PrefabLibrary/Structures/Houses/House_Village_E_1I04sf/House_Village_E_1I04sf_green.et" {
+ {
+  coords 3190.623 0.233 4871.586
+  angleY 103.756
+ }
+ {
+  coords 2783.121 -0.157 5044.504
+  angleY -73.445
+ }
+ {
+  coords 2752.628 0 4988.312
+  angleY 13.644
+ }
+}
+SCR_DestructibleBuildingEntity : "{FFC3458E31F6B4F3}PrefabLibrary/Structures/Ruins/HouseRuin_01_Wall.et" {
+ coords 3150.995 0.875 4668.408
+ angleY -76.019
 }
