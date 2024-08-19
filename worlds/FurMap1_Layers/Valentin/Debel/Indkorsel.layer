@@ -3,7 +3,7 @@ $grp SplineShapeEntity {
   coords 2680.669 19.938 4985.264
   Points {
    ShapePoint "{62208E68E1939E8C}" {
-    Position 0 -0 0
+    Position 0 0 0
    }
    ShapePoint "{62208E68E193C985}" {
     Position -3.657 0.031 -5.849
@@ -23,7 +23,7 @@ $grp SplineShapeEntity {
       ID "556C65569DF42CF7"
       SplinePoints {
        ShapePoint "{556C65561A62B78A}" {
-        Position 0 -0 0
+        Position 0 0 0
        }
        ShapePoint "{556C65561A62EBA9}" {
         Position -3.657 0.031 -5.849
@@ -186,7 +186,7 @@ $grp SplineShapeEntity {
     Position -13.743 0.57 -60.269
    }
    ShapePoint "{62208E6277F34F06}" {
-    Position -18.814 0.079 -66.417
+    Position -20.341 -0.13 -70.422
    }
   }
   {
@@ -209,7 +209,7 @@ $grp SplineShapeEntity {
         Position -13.743 0.57 -60.269
        }
        ShapePoint "{62208E62748BD235}" {
-        Position -18.814 0.079 -66.416
+        Position -20.341 -0.13 -70.422
        }
       }
       IsClosedSpline 0
@@ -219,4 +219,162 @@ $grp SplineShapeEntity {
    }
   }
  }
+ {
+  coords 3384.688 21.731 5398.481
+  Points {
+   ShapePoint "{6220C4EC84A0A4F4}" {
+    Position 0 0 0
+   }
+   ShapePoint "{6220C4EC84A27A4B}" {
+    Position 2.058 2.215 19.38
+   }
+   ShapePoint "{6220C4EC8A7325C1}" {
+    Position 3.429 3.962 35.996
+   }
+   ShapePoint "{6220C4EC8A2BC765}" {
+    Position -6.411 5.95 44.111
+   }
+   ShapePoint "{6220C4EC8AA05405}" {
+    Position -30.197 8.517 44.616
+   }
+   ShapePoint "{6220C4EC8907046A}" {
+    Position -45.423 8.886 40.217
+   }
+   ShapePoint "{6220C4EC89EA9AFF}" {
+    Position -51.571 7.726 21.646
+   }
+   ShapePoint "{6220C4EC88B19308}" {
+    Position -63.076 3.664 -10.773
+   }
+  }
+  {
+   RoadGeneratorEntity : "{41CEDBF0493A26A5}PrefabLibrary/Generators/Roads/Dirt/RG_Road_Dirt_02.et" {
+    coords 0 0 0
+    {
+     RoadEntity {
+      ID "556C65569DF42CF7"
+      SplinePoints {
+       ShapePoint "{556C65561A62B78A}" {
+        Position 0 0 0
+       }
+       ShapePoint "{556C65561A62EBA9}" {
+        Position 2.058 2.215 19.38
+       }
+       ShapePoint "{6220C4EC9B6A30E0}" {
+        Position 3.429 3.962 35.996
+       }
+       ShapePoint "{6220C4EC9B6A2F03}" {
+        Position -6.411 5.95 44.111
+       }
+       ShapePoint "{6220C4EC9B6A2FB2}" {
+        Position -30.197 8.517 44.616
+       }
+       ShapePoint "{6220C4EC9B6A2FDE}" {
+        Position -45.423 8.886 40.217
+       }
+       ShapePoint "{6220C4EC9B6A2E0E}" {
+        Position -51.571 7.726 21.646
+       }
+       ShapePoint "{6220C4EC9B6A2EBC}" {
+        Position -63.076 3.664 -10.773
+       }
+      }
+      IsClosedSpline 0
+      Width 4.5
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 2939.017 10.984 4751.837
+  Points {
+   ShapePoint "{6220C4E48F3AE34A}" {
+    Position 0 0 0
+   }
+   ShapePoint "{6220C4E48F3AD52C}" {
+    Position -13.751 -0.14 -40.761
+   }
+   ShapePoint "{6220C4E48EC03A4E}" {
+    Position -3.181 0.016 -51.044
+   }
+   ShapePoint "{6220C4E48D6642D6}" {
+    Position 6.955 -0.015 -47.183
+   }
+  }
+  {
+   RoadGeneratorEntity : "{41CEDBF0493A26A5}PrefabLibrary/Generators/Roads/Dirt/RG_Road_Dirt_02.et" {
+    coords 0 0 0
+    {
+     RoadEntity {
+      ID "556C65569DF42CF7"
+      SplinePoints {
+       ShapePoint "{556C65561A62B78A}" {
+        Position 0 0 0
+       }
+       ShapePoint "{556C65561A62EBA9}" {
+        Position -13.751 -0.14 -40.761
+       }
+       ShapePoint "{6220C4E490EBFF2A}" {
+        Position -3.181 0.016 -51.044
+       }
+       ShapePoint "{6220C4E490EBFF56}" {
+        Position 6.955 -0.015 -47.183
+       }
+      }
+      IsClosedSpline 0
+      Width 4.5
+     }
+    }
+   }
+  }
+ }
+}
+GenericEntity : "{3A86948A2B20C881}PrefabLibrary/Props/Agricultural/HayPile_01.et" {
+ coords 3380.849 12.189 5157.328
+ angleX 1.789
+ angleY 0
+ angleZ -2.683
+ scale 1.82
+}
+$grp StaticModelEntity : "{4A4BFC5FE128F9F1}PrefabLibrary/Props/Agricultural/HaystackSmall_01.et" {
+ {
+  coords 3379.858 12.887 5181.356
+  scale 1.037
+ }
+ {
+  coords 3367.228 12.108 5145.017
+  scale 1.111
+ }
+}
+$grp StaticModelEntity : "{782060F7B5338D93}PrefabLibrary/Props/Agricultural/HaystackDryer_01_folded.et" {
+ {
+  coords 3380.46 9.186 5095.008
+  angleX 3.818
+  angleY -9.344
+  angleZ 1.184
+  scale 1.12
+ }
+ {
+  coords 3367.784 10.239 5104.24
+  angleX -2.817
+  angleY 156.313
+  angleZ 0.259
+  scale 1.02
+ }
+}
+SCR_DestructibleBuildingEntity : "{AFD0F05F3FD48D6C}PrefabLibrary/Structures/Houses/Cottage_E_01.et" {
+ coords 3369.497 0 5430.002
+ angleY -172.884
+}
+SCR_DestructibleBuildingEntity : "{CAF57CAE8680A78D}PrefabLibrary/Structures/Houses/House_Mountain_E_1I01.et" {
+ coords 3350.415 1.577 5424.341
+ angleY 9.862
+}
+StaticModelEntity : "{CD09BF68FFF3D3CE}PrefabLibrary/Props/Agricultural/HaystackDryer_01.et" {
+ coords 3386.72 0.647 5123.883
+ angleX -1.465
+ angleY -163.621
+ angleZ -1.363
+ scale 1.096
 }

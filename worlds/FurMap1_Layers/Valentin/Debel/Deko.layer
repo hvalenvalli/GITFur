@@ -1,3 +1,20 @@
+GenericEntity : "{3A86948A2B20C881}PrefabLibrary/Props/Agricultural/HayPile_01.et" {
+ coords 3099.944 9.958 4797.444
+ angleX 1.789
+ angleY 0
+ angleZ -2.683
+ scale 1.82
+}
+$grp StaticModelEntity : "{4A4BFC5FE128F9F1}PrefabLibrary/Props/Agricultural/HaystackSmall_01.et" {
+ {
+  coords 3098.953 10.607 4821.473
+  scale 1.037
+ }
+ {
+  coords 3086.322 9.072 4785.132
+  scale 1.111
+ }
+}
 $grp GenericEntity : "{5452BDA9DEFBA5E6}PrefabLibrary/Props/Garbage/TirePile_01_small.et" {
  {
   coords 2668.151 20.121 5016.76
@@ -35,6 +52,119 @@ $grp GenericEntity : "{72DB1179C1201B64}PrefabLibrary/Props/Garbage/Cardboard_03
   scale 0.929
  }
 }
+$grp SCR_DestructibleBuildingEntity : "{768F3387F294F8CA}PrefabLibrary/Props/Agricultural/Hotbed_01_Closed.et" {
+ {
+  coords 2712.606 20.974 5085.353
+  angleY 91.979
+  {
+   $grp Tree : "{0730D3271265110D}PrefabLibrary/Vegetation/Vegetables/CabbageCrop_01.et" {
+    {
+     coords 0.445 0.347 0.182
+     angleX -9.6
+     angleY -50.87
+     angleZ 4.012
+     scale 0.453
+    }
+    {
+     coords 0.496 0.377 -0.243
+     angleX -9.6
+     angleY -50.87
+     angleZ 4.012
+     scale 0.453
+    }
+    {
+     coords -0.213 0.37 0.229
+     angleX 2.817
+     angleY 136.461
+     angleZ 2.759
+     scale 0.453
+    }
+    {
+     coords -0.215 0.369 -0.198
+     angleX 2.817
+     angleY 136.461
+     angleZ -2.312
+     scale 0.453
+    }
+    {
+     coords -0.725 0.38 -0.337
+     angleX -9.6
+     angleY -50.87
+     angleZ 4.012
+     scale 0.453
+    }
+    {
+     coords -0.777 0.35 0.087
+     angleX -9.6
+     angleY -50.87
+     angleZ 4.012
+     scale 0.453
+    }
+   }
+  }
+ }
+ {
+  coords 2712.739 20.925 5088.513
+  angleY 91.979
+  {
+   $grp Tree : "{0730D3271265110D}PrefabLibrary/Vegetation/Vegetables/CabbageCrop_01.et" {
+    {
+     coords 0.489 0.361 0.227
+     angleX -9.6
+     angleY -50.87
+     angleZ 4.012
+     scale 0.453
+    }
+    {
+     coords -0.171 0.383 0.274
+     angleX 2.817
+     angleY 136.461
+     angleZ 2.759
+     scale 0.453
+    }
+    {
+     coords 0.538 0.391 -0.198
+     angleX -9.6
+     angleY -50.87
+     angleZ 4.012
+     scale 0.453
+    }
+    {
+     coords -0.173 0.382 -0.152
+     angleX 2.817
+     angleY 136.461
+     angleZ -2.312
+     scale 0.453
+    }
+    {
+     coords -0.735 0.364 0.133
+     angleX -9.6
+     angleY -50.87
+     angleZ 4.012
+     scale 0.453
+    }
+    {
+     coords -0.684 0.394 -0.292
+     angleX -9.6
+     angleY -50.87
+     angleZ 4.012
+     scale 0.453
+    }
+   }
+  }
+ }
+ {
+  coords 2715.557 20.808 5085.144
+  angleY -87.996
+  {
+   Tree : "{543AA6086D8B116F}PrefabLibrary/Vegetation/Vegetables/PumpkinCrop_01_Line.et" {
+    coords -0.036 0.321 0.056
+    angleY 88.26
+    scale 0.418
+   }
+  }
+ }
+}
 SCR_DestructibleBuildingEntity : "{777E7553D60DF9A1}PrefabLibrary/Structures/Agriculture/SilageStorage_E_01_silage.et" {
  coords 2597.487 -0.112 5141.034
  angleY -79.831
@@ -42,6 +172,22 @@ SCR_DestructibleBuildingEntity : "{777E7553D60DF9A1}PrefabLibrary/Structures/Agr
 SCR_DestructibleBuildingEntity : "{777E7553D60DF9A2}PrefabLibrary/Structures/Agriculture/SilageStorage_E_01.et" {
  coords 2595.432 -0.011 5126.719
  angleY -79.214
+}
+$grp StaticModelEntity : "{782060F7B5338D93}PrefabLibrary/Props/Agricultural/HaystackDryer_01_folded.et" {
+ {
+  coords 3133.814 9.818 4799.495
+  angleX 3.818
+  angleY -9.344
+  angleZ 1.184
+  scale 1.12
+ }
+ {
+  coords 3114.323 9.985 4789.119
+  angleX -2.817
+  angleY 156.313
+  angleZ 0.258
+  scale 1.02
+ }
 }
 SCR_DestructibleBuildingEntity : "{972D4847ED6244AC}PrefabLibrary/Structures/Agriculture/Hayloft_E_01/Hayloft_E_01_metal.et" {
  coords 2563.905 0.915 5142.226
@@ -52,11 +198,39 @@ GenericEntity : "{9C47AA9369ACB1C6}PrefabLibrary/Props/Military/Tire_BTR70.et" {
  angleX -81.292
  scale 1.59
 }
+SCR_DestructibleBuildingEntity : "{A271322F18016DF5}PrefabLibrary/Props/Agricultural/Hotbed_01_Open.et" {
+ coords 2715.692 20.762 5088.177
+ angleY -87.387
+ {
+  Tree : "{884DE6D0F08040E0}PrefabLibrary/Vegetation/Vegetables/PotatoCrop_01_Shortline.et" {
+   coords -0.064 0.242 0.08
+   angleY -0.134
+   scale 0.779
+  }
+ }
+}
+GenericEntity : "{A7C844EE85DBB3F5}PrefabLibrary/Props/Civilian/WateringCan_01.et" {
+ coords 2711.526 20.81 5089.721
+ angleX -0.984
+ angleY -83.985
+ angleZ 0.796
+}
 GenericEntity : "{B93C7A4A43696971}PrefabLibrary/Props/Garbage/PostersGround_01_Eden_Single.et" {
  coords 2668.477 21.981 5015.962
  angleX -89.394
  angleY -63.894
  angleZ 56.06
+}
+StaticModelEntity : "{CD09BF68FFF3D3CE}PrefabLibrary/Props/Agricultural/HaystackDryer_01.et" {
+ coords 3125.113 -0 4765.459
+ angleX -1.465
+ angleY -163.621
+ angleZ -1.363
+ scale 1.096
+}
+GenericEntity : "{E9FA4D7B531C7FF0}PrefabLibrary/Props/Agricultural/WaterTank_01/WaterTank_01.et" {
+ coords 2722.233 20.644 5098.801
+ angleX -0.895
 }
 GenericEntity : "{F60BDAFDAF677A65}PrefabLibrary/Props/Garbage/Junk_01_single_mattress.et" {
  coords 2666.559 19.846 5017.526
