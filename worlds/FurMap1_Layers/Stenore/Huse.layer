@@ -726,16 +726,6 @@ Tree : "{2A7C3319DE914965}PrefabLibrary/Vegetation/Trees/t_salix_fragilis_3s.et"
  angleY 4.801
  scale 0.936
 }
-$grp SCR_DestructibleBuildingEntity : "{2AF3CD76090EC6F8}PrefabLibrary/Structures/Military/Barracks_01/Barracks_01_white.et" {
- {
-  coords 4130.731 1.39 2779.902
-  angleY -10.417
- }
- {
-  coords 4111.519 1.142 2773.475
-  angleY 170.2
- }
-}
 Tree : "{2EBA53AE283F487F}PrefabLibrary/Vegetation/Trees/t_betula_pendula_2xw.et" {
  coords 2992.233 0 3323.74
  angleX -0.669
@@ -786,7 +776,13 @@ $grp SCR_DestructibleBuildingEntity : "{3B371BE806867EF2}PrefabLibrary/Structure
 $grp SCR_DestructibleBuildingEntity : "{3B877DB7AE5EA3BC}PrefabLibrary/Structures/Houses/House_Wooden_E_1I01/House_Wooden_E_1I01.et" {
  {
   coords 4220.49 0 2861.22
-  angleY -79.72
+  angleY -116.263
+  {
+   Building {
+    ID "59B08DAC86061034"
+    coords 0 0 0
+   }
+  }
  }
  {
   coords 2734.622 0.05 3857.948
@@ -840,8 +836,8 @@ SCR_DestructibleBuildingEntity : "{57632F08BA42F1DC}PrefabLibrary/Structures/Hou
  angleY -89.98
 }
 SCR_DestructibleBuildingEntity : "{57D34957129A2C92}PrefabLibrary/Structures/Houses/House_Wooden_E_1I02.et" {
- coords 4310.808 1.058 2879.492
- angleY -93.818
+ coords 4309.894 1.01 2882.242
+ angleY -108.387
 }
 $grp SCR_DestructibleBuildingEntity : "{5ECE42250DAB009E}PrefabLibrary/Structures/Houses/House_Prefab_2I01/House_Prefab_2I01.et" {
  {
