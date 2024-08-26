@@ -1,0 +1,238 @@
+$grp SCR_DestructibleBuildingEntity : "{768F3387F294F8CA}PrefabLibrary/Props/Agricultural/Hotbed_01_Closed.et" {
+ {
+  coords 3888.105 12.862 4365.176
+  angleY 12.729
+  {
+   Tree : "{543AA6086D8B116F}PrefabLibrary/Vegetation/Vegetables/PumpkinCrop_01_Line.et" {
+    coords -0.036 0.321 0.056
+    angleY 88.26
+    scale 0.418
+   }
+  }
+ }
+ {
+  coords 3891.941 12.875 4367.317
+  angleY -167.295
+  {
+   $grp Tree : "{0730D3271265110D}PrefabLibrary/Vegetation/Vegetables/CabbageCrop_01.et" {
+    {
+     coords 0.489 0.361 0.227
+     angleX -9.6
+     angleY -50.87
+     angleZ 4.012
+     scale 0.453
+    }
+    {
+     coords -0.171 0.383 0.274
+     angleX 2.817
+     angleY 136.461
+     angleZ 2.759
+     scale 0.453
+    }
+    {
+     coords 0.538 0.391 -0.198
+     angleX -9.6
+     angleY -50.87
+     angleZ 4.012
+     scale 0.453
+    }
+    {
+     coords -0.173 0.382 -0.152
+     angleX 2.817
+     angleY 136.461
+     angleZ -2.312
+     scale 0.453
+    }
+    {
+     coords -0.735 0.364 0.133
+     angleX -9.6
+     angleY -50.87
+     angleZ 4.012
+     scale 0.453
+    }
+    {
+     coords -0.684 0.394 -0.292
+     angleX -9.6
+     angleY -50.87
+     angleZ 4.012
+     scale 0.453
+    }
+   }
+  }
+ }
+ {
+  coords 3888.859 12.875 4368.035
+  angleY -167.296
+  {
+   $grp Tree : "{0730D3271265110D}PrefabLibrary/Vegetation/Vegetables/CabbageCrop_01.et" {
+    {
+     coords 0.445 0.347 0.182
+     angleX -9.6
+     angleY -50.87
+     angleZ 4.012
+     scale 0.453
+    }
+    {
+     coords 0.496 0.377 -0.243
+     angleX -9.6
+     angleY -50.87
+     angleZ 4.012
+     scale 0.453
+    }
+    {
+     coords -0.213 0.37 0.229
+     angleX 2.817
+     angleY 136.461
+     angleZ 2.759
+     scale 0.453
+    }
+    {
+     coords -0.215 0.369 -0.198
+     angleX 2.817
+     angleY 136.461
+     angleZ -2.312
+     scale 0.453
+    }
+    {
+     coords -0.725 0.38 -0.337
+     angleX -9.6
+     angleY -50.87
+     angleZ 4.012
+     scale 0.453
+    }
+    {
+     coords -0.777 0.35 0.087
+     angleX -9.6
+     angleY -50.87
+     angleZ 4.012
+     scale 0.453
+    }
+   }
+  }
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{A271322F18016DF5}PrefabLibrary/Props/Agricultural/Hotbed_01_Open.et" {
+ {
+  coords 3891.061 12.851 4364.478
+  angleY 13.339
+  {
+   Tree : "{884DE6D0F08040E0}PrefabLibrary/Vegetation/Vegetables/PotatoCrop_01_Shortline.et" {
+    coords -0.064 0.242 0.08
+    angleY -0.134
+    scale 0.779
+   }
+  }
+ }
+ {
+  coords 3885.766 12.884 4368.593
+  angleY -167.634
+  {
+   Tree : "{884DE6D0F08040E0}PrefabLibrary/Vegetation/Vegetables/PotatoCrop_01_Shortline.et" {
+    coords -0.085 0.188 0.037
+    angleY 175.853
+    scale 0.835
+   }
+  }
+ }
+}
+SCR_DestructibleBuildingEntity : "{CBFC8C2E1EB3FBBC}PrefabLibrary/Props/Agricultural/Hotbed_01_Half_Open.et" {
+ coords 3885.284 12.874 4365.981
+ angleY 11.896
+ {
+  Tree : "{543AA6086D8B116F}PrefabLibrary/Vegetation/Vegetables/PumpkinCrop_01_Line.et" {
+   coords 0.085 0.334 -0.115
+   angleY 89.094
+   scale 0.418
+  }
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{DFE759EE77F61ACD}PrefabLibrary/Structures/Agriculture/Greenhouse_01.et" {
+ {
+  coords 3884.373 -0.02 4361.629
+  angleY 13.755
+  {
+   $grp Tree : "{884DE6D0F08040E0}PrefabLibrary/Vegetation/Vegetables/PotatoCrop_01_Shortline.et" {
+    {
+     coords 1.022 0.216 0.749
+     angleY 88.943
+     scale 0.924
+    }
+    {
+     coords -1.11 0.198 0.568
+     angleY 88.943
+     scale 1.021
+    }
+   }
+   $grp Tree : "{A5265EF79AAF3EAD}PrefabLibrary/Vegetation/Vegetables/TomatoCrop_01.et" {
+    {
+     coords 0.975 0.223 -1.301
+     angleY -48.302
+     scale 1.093
+    }
+    {
+     coords 0.067 0.264 -1.264
+     angleY 21.001
+     scale 0.99
+    }
+    {
+     coords -1.037 0.225 -1.287
+     angleY 45.161
+     scale 1.125
+    }
+   }
+  }
+ }
+ {
+  coords 3891.225 0 4360.421
+  angleY 9.34
+  {
+   $grp Tree : "{0940EEB7D2D8F592}PrefabLibrary/Vegetation/Vegetables/CapsicumCrop_01.et" {
+    {
+     coords 0.923 0.223 -1.3
+     angleY 167.613
+     scale 0.927
+    }
+    {
+     coords 0.206 0.271 -1.176
+     angleY 109.197
+     scale 1.072
+    }
+    {
+     coords -0.957 0.218 -1.376
+     angleY -82.378
+     scale 1.119
+    }
+    {
+     coords 1.345 0.222 1.275
+     angleY -102.505
+     scale 1.011
+    }
+    {
+     coords 1.127 0.262 0.21
+     angleY 80.653
+     scale 0.897
+    }
+    {
+     coords -1.171 0.22 -0.209
+     angleY -143.002
+     scale 0.938
+    }
+    {
+     coords -1.098 0.232 1.402
+     angleY 156.253
+     scale 1.124
+    }
+    {
+     coords 1.199 0.22 -0.401
+     angleY -100.132
+     scale 0.876
+    }
+    {
+     coords -1.098 0.21 0.523
+     angleY -142.288
+     scale 1.063
+    }
+   }
+  }
+ }
+}
