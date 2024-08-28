@@ -26,6 +26,22 @@ $grp SCR_DestructibleBuildingEntity : "{972D4847ED6244AC}PrefabLibrary/Structure
   angleY 96.678
  }
 }
+$grp GenericEntity : "{9A430AFBA821FBAD}PrefabLibrary/Structures/Addons/Doorstep_01_5m.et" {
+ {
+  coords 4541.028 7.695 4109.779
+  angleY 29.533
+ }
+ {
+  coords 4530.232 10.04 4118.773
+  angleY -56.602
+  scale 0.863
+ }
+}
+StaticModelEntity : "{9AF0242036F3D3D3}PrefabLibrary/Terrain/Erosion/ErodedEmbankment_01_dirt_straight.et" {
+ coords 4535.663 6.309 4109.519
+ angleX 8.209
+ angleY -157.197
+}
 SCR_DestructibleBuildingEntity : "{9B4EE2EF2E6F986D}PrefabLibrary/Structures/Industrial/FactoryHall_E_01.et" {
  coords 3743.693 25.122 5630.595
  angleY 166.618
@@ -47,6 +63,10 @@ GenericEntity : "{B292AEB29FA68532}PrefabLibrary/Props/Construction/MetalContain
  angleX 4.181
  angleY 11.336
  angleZ 1.005
+}
+SCR_DestructibleBuildingEntity : "{BB32FDB0A276A95D}PrefabLibrary/Structures/Houses/House_Village_E_1I01.et" {
+ coords 4521.029 0.091 4136.382
+ angleY 116.482
 }
 $grp SCR_DestructibleBuildingEntity : "{D5ABBAFBDAF43275}PrefabLibrary/Structures/Industrial/SmokestackBrick_E_01.et" {
  {
