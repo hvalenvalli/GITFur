@@ -193,11 +193,89 @@ $grp SplineShapeEntity {
    }
   }
  }
-}
-SCR_DestructibleBuildingEntity : "{106216A0F7EB2E32}PrefabLibrary/Infrastructure/Bridges/ConcreteBridge_01_Narrow.et" {
- coords 6304.463 3.458 6764.748
- angleX -0.025
- angleY 91.191
- angleZ -178.792
- scale 2.079
+ {
+  coords 6647.306 1.351 6529.068
+  Points {
+   ShapePoint "{6244ED21D232C4F0}" {
+    Position 0 0 0
+   }
+   ShapePoint "{6244ED21D232BC21}" {
+    Position 4.57 -0.187 3.395
+   }
+   ShapePoint "{6244ED21C478ABBE}" {
+    Position 5.432 0.599 16.325
+   }
+   ShapePoint "{6244ED21C65CD3B1}" {
+    Position 14.798 0.183 42.75
+   }
+   ShapePoint "{6244ED21F66E95FA}" {
+    Position 31.669 -0.543 80.354
+   }
+   ShapePoint "{6244ED21F02ABFDD}" {
+    Position 45.939 0.489 103.676
+   }
+   ShapePoint "{6244ED21F25B8155}" {
+    Position 60.689 0.697 119.269
+   }
+   ShapePoint "{6244ED21E47C25D9}" {
+    Position 76.494 0.965 130.383
+   }
+   ShapePoint "{6244ED21EE3B5D72}" {
+    Position 91.148 0.561 148.929
+   }
+   ShapePoint "{6244ED2199FC7FA1}" {
+    Position 89.548 1.367 164.429
+   }
+   ShapePoint "{6244ED21EF7D3FCB}" {
+    Position 103.145 1.352 185.051
+   }
+  }
+  {
+   RoadGeneratorEntity : "{47E7068FE332800D}PrefabLibrary/Generators/Roads/Dirt/RG_TrailDirt_01.et" {
+    coords 0 0 0
+    {
+     RoadEntity {
+      ID "526283EEB3C31502"
+      SplinePoints {
+       ShapePoint "{5256E6ED186CB7B5}" {
+        Position 0 0 0
+       }
+       ShapePoint "{5256E6ED186CB58D}" {
+        Position 4.57 -0.187 3.395
+       }
+       ShapePoint "{6244F652015636C2}" {
+        Position 5.432 0.599 16.325
+       }
+       ShapePoint "{6244F6520156377A}" {
+        Position 14.798 0.183 42.75
+       }
+       ShapePoint "{6244F652015637E4}" {
+        Position 31.669 -0.543 80.354
+       }
+       ShapePoint "{6244F65201563467}" {
+        Position 45.939 0.489 103.676
+       }
+       ShapePoint "{6244F652015634FA}" {
+        Position 60.689 0.697 119.269
+       }
+       ShapePoint "{6244F6520156357B}" {
+        Position 76.494 0.965 130.383
+       }
+       ShapePoint "{6244F652015635FC}" {
+        Position 91.148 0.561 148.929
+       }
+       ShapePoint "{6244F65201563270}" {
+        Position 89.548 1.367 164.429
+       }
+       ShapePoint "{6244F652015632C9}" {
+        Position 103.145 1.352 185.051
+       }
+      }
+      IsClosedSpline 0
+      Width 1.75
+     }
+    }
+   }
+  }
+ }
 }
