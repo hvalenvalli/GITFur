@@ -93,6 +93,63 @@ $grp PolylineShapeEntity {
   }
  }
 }
+$grp GenericEntity : "{038175C0596A575F}PrefabLibrary/Props/Construction/GravelPile_01_large.et" {
+ {
+  coords 6602.636 2.906 6723.209
+  angleY 156.285
+  scale 0.939
+ }
+ {
+  coords 6592.057 3.155 6720.417
+  angleY 93.723
+  scale 1.174
+ }
+ {
+  coords 6542.021 3.258 6720.874
+  angleY -177.787
+  scale 0.573
+ }
+ {
+  coords 6567.048 3.258 6723.156
+  angleY 72.867
+  scale 0.573
+ }
+ {
+  coords 6577.951 3.258 6720.103
+  angleY 72.867
+  scale 0.573
+ }
+ {
+  coords 6546.797 3.258 6718.028
+  angleY 72.867
+  scale 0.71
+ }
+ {
+  coords 6569.953 3.258 6716.998
+  angleY -177.787
+  scale 0.573
+ }
+ {
+  coords 6556.937 3.155 6720.416
+  angleY 93.723
+  scale 1.174
+ }
+ {
+  coords 6582.755 2.906 6716.082
+  angleY 156.285
+  scale 0.939
+ }
+ {
+  coords 6575.818 3.258 6715.451
+  angleY -177.787
+  scale 0.573
+ }
+ {
+  coords 6583.266 3.258 6722.905
+  angleY -177.787
+  scale 0.481
+ }
+}
 GenericEntity : "{080E381B512E1B01}Prefabs/Props/Crates/CrateWooden_02/CrateWooden_02_1x15x3.et" {
  coords 6413.407 4.85 6841.619
 }
@@ -619,6 +676,32 @@ SCR_DestructibleBuildingEntity : "{11BFDE0724119A52}PrefabLibrary/Structures/Ind
  coords 6356.088 -0.264 6769.172
  angleY 179.91
 }
+$grp StaticModelEntity : "{1288D9926C434DB8}PrefabLibrary/Terrain/Erosion/ErodedEmbankment_01_forest_wave.et" {
+ {
+  coords 6534.467 4.183 6722.448
+  angleY -132.228
+ }
+ {
+  coords 6519.698 4.183 6729.261
+  angleY -176.197
+ }
+ {
+  coords 6513.494 4.183 6730.345
+  angleY -162.534
+ }
+ {
+  coords 6490.417 3.81 6762.412
+  angleY -114.724
+ }
+ {
+  coords 6478.813 3.909 6770.42
+  angleY 108.433
+ }
+ {
+  coords 6473.738 3.909 6738.165
+  angleY 108.433
+ }
+}
 GenericEntity : "{157E18D526C3A7E6}Prefabs/Compositions/Misc/SubCompositions/CrateWooden_Stacked_02.et" {
  coords 6413.415 4.852 6843.072
  angleY 0
@@ -818,8 +901,59 @@ $grp StaticModelEntity : "{56CF791F12BB17B0}Prefabs/Structures/Infrastructure/Pi
   scale 5.44
  }
 }
+$grp GenericEntity : "{5B65BDE2BBC3F2F8}PrefabLibrary/Props/Construction/GravelPile_01_medium.et" {
+ {
+  coords 6606.616 3.469 6715.938
+  angleX 0.544
+  angleY -127.442
+  angleZ 0.711
+  scale 1.074
+ }
+ {
+  coords 6563.755 3.482 6715.091
+  angleX 0.544
+  angleY -127.442
+  angleZ 0.711
+  scale 0.913
+ }
+ {
+  coords 6546.963 3.317 6725.659
+  angleX 0.888
+  angleY 172.64
+  angleZ -0.114
+  scale 1.297
+ }
+ {
+  coords 6611.93 3.477 6715.472
+  angleX 0.568
+  angleY 129.347
+  angleZ -0.692
+  scale 1.074
+ }
+ {
+  coords 6574.275 3.347 6723.771
+  angleX -0.73
+  angleY -35.411
+  angleZ 0.518
+  scale 0.913
+ }
+}
 SCR_DestructibleBuildingEntity : "{5BC4F6DB3D4A81FD}PrefabLibrary/Structures/Industrial/Sawmill_E_01.et" {
  coords 6269.337 1.035 6789.893
+}
+$grp StaticModelEntity : "{5E7DCD0C74688ADE}PrefabLibrary/Terrain/Erosion/ErodedEmbankment_01_forest_turnin.et" {
+ {
+  coords 6505.565 4.041 6731.88
+  angleY -144.497
+ }
+ {
+  coords 6502.544 4.041 6740.121
+  angleY -71.506
+ }
+ {
+  coords 6493.591 3.763 6753.422
+  angleY -128.727
+ }
 }
 GenericEntity : "{6C57BFFFA642C60C}Prefabs/Compositions/Misc/SubCompositions/CrateStacked_04.et" {
  coords 6410.018 4.875 6841.453
@@ -858,6 +992,94 @@ $grp SCR_DestructibleBuildingEntity : "{7D5B4278FA09B0DE}PrefabLibrary/Structure
   coords 6299.999 3.035 6779.386
   angleY -155.209
   scale 1.737
+ }
+}
+$grp StaticModelEntity : "{82B378151A9AEF2F}Prefabs/Structures/Military/Fortifications/DirtPile_01/DirtPile_01_large.et" {
+ {
+  coords 6623.252 2.621 6743.511
+  angleY -131.807
+  scale 2.323
+ }
+ {
+  coords 6619.252 2.464 6748.785
+  angleY 102.792
+  scale 2.671
+ }
+ {
+  coords 6615.627 2.383 6744.236
+  scale 2.323
+ }
+ {
+  coords 6609.446 2.23 6745.859
+  angleY 138.197
+  scale 2.764
+ }
+ {
+  coords 6614.054 2.303 6738.86
+  scale 1.951
+ }
+ {
+  coords 6607.878 2.143 6739.985
+  angleY -30.006
+  scale 2.323
+ }
+ {
+  coords 6605.296 2.009 6734.961
+  angleY -45.93
+  scale 2.067
+ }
+ {
+  coords 6598.874 1.935 6734.261
+  angleY 26.006
+  scale 2.578
+ }
+ {
+  coords 6604.745 1.887 6729.973
+  angleY -18.933
+  scale 2.323
+ }
+ {
+  coords 6610.994 2.128 6733.872
+  angleY 54.148
+  scale 2.323
+ }
+ {
+  coords 6609.2 1.912 6726.633
+  scale 2.509
+ }
+ {
+  coords 6618.953 2.487 6740.063
+  angleY -154.552
+  scale 2.323
+ }
+ {
+  coords 6623.172 2.65 6736.321
+  angleY 128.267
+  scale 2.323
+ }
+ {
+  coords 6617.241 2.368 6732.521
+  angleY 32.406
+  scale 1.812
+ }
+ {
+  coords 6613.842 2.142 6728.252
+  scale 2.114
+ }
+ {
+  coords 6618.814 2.385 6728.893
+  angleY 45.363
+  scale 2.323
+ }
+ {
+  coords 6615.823 2.104 6722.937
+  angleY -45.872
+  scale 2.323
+ }
+ {
+  coords 6609.958 1.748 6720.21
+  angleY -30.299
+  scale 2.323
  }
 }
 $grp SCR_DestructibleBuildingEntity : "{8732EEEE5AC2B938}PrefabLibrary/Structures/Houses/Garage_E_01.et" {
@@ -944,6 +1166,32 @@ $grp SCR_DestructibleBuildingEntity : "{9C2DEB01D3F52BD6}PrefabLibrary/Structure
 SCR_DestructibleBuildingEntity : "{AFB66B5D636927AD}PrefabLibrary/Structures/Industrial/Workshop_02.et" {
  coords 6355.235 0.378 6826.913
  angleY -88.264
+}
+$grp StaticModelEntity : "{AFC5471AE0EB8294}PrefabLibrary/Terrain/Erosion/ErodedEmbankment_01_forest_straight.et" {
+ {
+  coords 6528.288 3.972 6726.974
+  angleY -156.016
+ }
+ {
+  coords 6501.688 3.814 6749.796
+  angleY -156.016
+ }
+ {
+  coords 6477.114 3.826 6751.782
+  angleY 98.354
+ }
+ {
+  coords 6487.632 3.826 6770.23
+  angleY -104.18
+ }
+ {
+  coords 6478.303 3.826 6760.677
+  angleY 94.953
+ }
+ {
+  coords 6476.007 3.826 6746.362
+  angleY 104.839
+ }
 }
 GenericEntity : "{B4FFD63EDFCBD850}Prefabs/Compositions/Misc/SubCompositions/CrateStacked_02.et" {
  coords 6410.366 4.86 6837.555
@@ -1238,6 +1486,71 @@ $grp SCR_DestructibleEntity : "{B750739447281376}PrefabLibrary/Walls/Concrete/Co
   angleY 89.471
   angleZ 109.349
   scale 0.458
+ }
+}
+$grp GenericEntity : "{CF482D1FBE0E8B14}PrefabLibrary/Props/Construction/SandPile_01.et" {
+ {
+  coords 6643.471 2.985 6779.499
+  angleX 0.693
+  angleY -136.82
+  angleZ 1.877
+  scale 0.885
+ }
+ {
+  coords 6642.026 2.988 6773.99
+  angleX -1.116
+  angleY -82.66
+  angleZ 1.661
+  scale 0.885
+ }
+ {
+  coords 6602.686 3.122 6780.1
+  angleX -1.985
+  angleY -19.361
+  angleZ -0.251
+  scale 0.885
+ }
+ {
+  coords 6639.411 2.835 6768.815
+  angleX -1.091
+  angleY 30.413
+  angleZ -1.677
+  scale 0.885
+ }
+ {
+  coords 6602.458 3.168 6774.538
+  angleX 0.791
+  angleY 86.704
+  angleZ -1.838
+  scale 0.743
+ }
+ {
+  coords 6636.69 2.923 6773.412
+  angleX 0.08
+  angleY -118.842
+  angleZ 1.999
+  scale 0.956
+ }
+ {
+  coords 6632.046 3.132 6777.543
+  angleX 1.944
+  angleY 167.062
+  angleZ 0.471
+  scale 1.089
+ }
+ {
+  coords 6638.01 3.017 6778.874
+  angleX -1.091
+  angleY 30.413
+  angleZ -1.677
+  scale 0.761
+ }
+ {
+  coords 6611.272 3.307 6777.007
+  angleX -1.985
+  angleY -19.361
+  angleZ -0.251
+  scale 1.859
  }
 }
 SCR_DestructibleBuildingEntity : "{D5ABBAFBDAF43275}PrefabLibrary/Structures/Industrial/SmokestackBrick_E_01.et" {
