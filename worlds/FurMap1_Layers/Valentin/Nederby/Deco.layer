@@ -1,3 +1,11 @@
+$grp SCR_DestructibleEntity : "{2812E43B66E0BC1E}PrefabLibrary/Walls/Stone/StoneWall_02_pole.et" {
+ {
+  coords 4560.312 -0.007 4068.323
+ }
+ {
+  coords 4549.13 0.029 4072.101
+ }
+}
 $grp SCR_DestructibleBuildingEntity : "{34B95ECB9BCFE6A5}PrefabLibrary/Props/Infrastructure/ElectricCabinet_01.et" {
  {
   coords 4580.006 -0.011 4146.604
@@ -6,5 +14,43 @@ $grp SCR_DestructibleBuildingEntity : "{34B95ECB9BCFE6A5}PrefabLibrary/Props/Inf
  {
   coords 4592.715 0.04 4153.969
   angleY -171.84
+ }
+}
+$grp SCR_DestructibleEntity : "{63DD752848ACA853}PrefabLibrary/Walls/Stone/StoneWall_02_start.et" {
+ {
+  coords 4549.094 -0.09 4071.972
+  angleY 11.282
+ }
+ {
+  coords 4549.177 0.177 4072.295
+  angleY -63.352
+ }
+ {
+  coords 4555.736 -0.049 4073.516
+ }
+}
+GenericEntity : "{B890D78FDADD4847}PrefabLibrary/Props/Civilian/PlaygroundSlide_01.et" {
+ coords 4511.983 8.219 4126.034
+ angleY -84.24
+}
+SCR_DestructibleEntity : "{D20D9BCDE674CD27}PrefabLibrary/Walls/Stone/StoneWall_02_4m_v2.et" {
+ coords 4552.857 -0.092 4070.393
+ angleY 19.854
+}
+GenericEntity : "{DE8B50C7F745F770}PrefabLibrary/Props/Civilian/PlaygroundSwing_01.et" {
+ coords 4505.514 8.219 4126.625
+ angleY -50.472
+}
+$grp SCR_DestructibleEntity : "{DFAD5338DECCD74E}PrefabLibrary/Walls/Stone/StoneWall_02_4m.et" {
+ {
+  coords 4556.304 -0.302 4068.995
+  angleY 9.319
+ }
+ {
+  coords 4549.345 -0.216 4072.134
+  angleY 26.052
+ }
+ {
+  coords 4557.25 -0.161 4073.477
  }
 }

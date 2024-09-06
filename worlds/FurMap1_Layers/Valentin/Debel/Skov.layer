@@ -62975,7 +62975,6 @@ $grp PolylineShapeEntity {
        angleX -0.635
        angleY 241.234
        angleZ 0.657
-       scale 1
       }
       {
        coords 75.696 -19.235 -184.692
@@ -63059,7 +63058,6 @@ $grp PolylineShapeEntity {
        angleX -0.634
        angleY 338.345
        angleZ -0.696
-       scale 1
       }
       {
        coords 91.531 -13.784 -131.222
@@ -64010,7 +64008,6 @@ $grp PolylineShapeEntity {
       {
        coords 114.195 -11.313 -102.758
        angleY 326.754
-       scale 1
       }
       {
        coords 158.432 -14.642 -142.895
@@ -69911,7 +69908,6 @@ $grp PolylineShapeEntity {
        angleX -1.371
        angleY 5.34
        angleZ -0.641
-       scale 1
       }
       {
        coords -22.711 0.847 -2.532
@@ -71400,7 +71396,6 @@ $grp PolylineShapeEntity {
       {
        coords -15.848 2.214 8.808
        angleY 147.584
-       scale 1
       }
       {
        coords -21.836 1.978 1.852
@@ -72303,7 +72298,7 @@ $grp PolylineShapeEntity {
   coords 3618.216 43.197 5804.377
   Points {
    ShapePoint "{6238DD868E0032DC}" {
-    Position 0 -0 0
+    Position 0 0 0
     Data {
      ForestGeneratorPointData "{000000002C57B0BA}" {
      }
@@ -73638,7 +73633,6 @@ $grp PolylineShapeEntity {
       {
        coords 34.946 -6.898 -60.266
        angleY 201.166
-       scale 1
       }
       {
        coords 40.423 -4.919 -19.893
@@ -78862,7 +78856,7 @@ $grp PolylineShapeEntity {
   coords 3923.258 37.422 5925.773
   Points {
    ShapePoint "{6238DD87EDA8B88A}" {
-    Position 0 -0 0
+    Position 0 0 0
     Data {
      ForestGeneratorPointData "{000000002C57B0BA}" {
      }
@@ -79292,7 +79286,6 @@ $grp PolylineShapeEntity {
        coords -27.414 0.134 -21.339
        angleX 0.449
        angleY 56.911
-       angleZ -0
        scale 0.717
       }
       {
@@ -79984,7 +79977,6 @@ $grp PolylineShapeEntity {
       {
        coords -132.409 7.375 38.041
        angleY 128.489
-       scale 1
       }
       {
        coords -146.171 11.094 73.927
@@ -85317,7 +85309,6 @@ $grp PolylineShapeEntity {
        angleX 1.466
        angleY 359.451
        angleZ -0.68
-       scale 1
       }
       {
        coords 145.057 -10.992 -95.27
@@ -86585,7 +86576,6 @@ $grp PolylineShapeEntity {
        angleX 0.644
        angleY 155.296
        angleZ -1.255
-       scale 1
       }
      }
      $grp Tree : "{C8E68C4C6AF159DA}PrefabLibrary/Vegetation/Trees/t_betula_pendula_2sw.et" {
@@ -91584,7 +91574,6 @@ $grp PolylineShapeEntity {
        angleX 0.513
        angleY 92.266
        angleZ -1.791
-       scale 1
       }
      }
      $grp Tree : "{425761285F36BF16}PrefabLibrary/Vegetation/Trees/t_betula_pendula_1s.et" {
@@ -92903,7 +92892,6 @@ $grp PolylineShapeEntity {
        angleX 1.586
        angleY 248.057
        angleZ -0.692
-       scale 1
       }
       {
        coords -56.357 -6.07 55.479
@@ -93619,7 +93607,7 @@ $grp PolylineShapeEntity {
   coords 3118.117 45.519 5552.482
   Points {
    ShapePoint "{6238DD87141781E6}" {
-    Position 0 -0 0
+    Position 0 0 0
     Data {
      ForestGeneratorPointData "{000000002C57B0BA}" {
      }
@@ -94723,7 +94711,7 @@ $grp PolylineShapeEntity {
   coords 3152.213 57.34 5823.451
   Points {
    ShapePoint "{6238DD85D5B1769C}" {
-    Position 0 -0 0
+    Position 0 0 0
     Data {
      ForestGeneratorPointData "{000000002C57B0BA}" {
      }
@@ -103934,6 +103922,11 @@ $grp GenericEntity : "{3583AB98E185C249}PrefabLibrary/Rocks/Granite/Granite_Ston
   scale 0.851
  }
 }
+GenericEntity : "{3B3F46AE50FE582D}PrefabLibrary/Rocks/Granite/GraniteSurfaceStone_02/GraniteSurfaceStone_02.et" {
+ coords 3259.923 36.102 5502.886
+ angleY -21.764
+ scale 0.944
+}
 GenericEntity : "{59D79F785D414D67}PrefabLibrary/Rocks/Granite/Granite_Stone_01/Granite_ForestStone_01.et" {
  coords 3370.643 -0.512 5791.849
  angleX -9.792
@@ -104055,6 +104048,22 @@ Tree : "{99D77B10B980D106}PrefabLibrary/Vegetation/Trees/t_carpinus_betulus_1f.e
  angleZ 2.785
  scale 1.18
 }
+$grp StaticModelEntity : "{9AF0242036F3D3D3}PrefabLibrary/Terrain/Erosion/ErodedEmbankment_01_dirt_straight.et" {
+ {
+  coords 3287.296 35.676 5505.725
+  angleY -11.173
+ }
+ {
+  coords 3267.972 36.397 5501.547
+  scale 0.65
+ }
+ {
+  coords 3239.33 36.711 5492.436
+  angleX -7.071
+  angleY -22.023
+  scale 0.71
+ }
+}
 $grp GenericEntity : "{A071678C03AE3769}PrefabLibrary/Rocks/Granite/GraniteSurfaceStone_01/GraniteSurfaceStone_01_Forest.et" {
  {
   coords 3270.578 50.177 5845.904
@@ -104073,6 +104082,11 @@ $grp GenericEntity : "{A071678C03AE3769}PrefabLibrary/Rocks/Granite/GraniteSurfa
   angleZ -2.445
   scale 0.976
  }
+}
+StaticModelEntity : "{AFC5471AE0EB8294}PrefabLibrary/Terrain/Erosion/ErodedEmbankment_01_forest_straight.et" {
+ coords 3231.694 36.267 5488.418
+ angleX -3.39
+ angleY -19.237
 }
 $grp Tree : "{C44F51A81AC2B063}PrefabLibrary/Vegetation/Trees/t_carpinus_betulus_3s.et" {
  {
@@ -104113,7 +104127,7 @@ $grp GenericEntity : "{D01FE761ED605522}PrefabLibrary/Rocks/Granite/Granite_Ston
   scale 1.057
  }
  {
-  coords 3276.29 -0 5837.873
+  coords 3276.29 0 5837.873
   angleX -8.06
   angleY 299.793
   angleZ -4.987
@@ -104173,8 +104187,19 @@ SCR_DestructibleBuildingEntity : "{DFE759EE77F61ACD}PrefabLibrary/Structures/Agr
   }
  }
 }
-GenericEntity : "{E3972F6F29774671}PrefabLibrary/Rocks/Granite/GraniteSurfaceStone_04.et" {
- coords 3256.792 48.795 5831.116
- angleY 134.483
- scale 0.983
+$grp GenericEntity : "{E3972F6F29774671}PrefabLibrary/Rocks/Granite/GraniteSurfaceStone_04.et" {
+ {
+  coords 3256.792 48.795 5831.116
+  angleY 134.483
+  scale 0.983
+ }
+ {
+  coords 3298.49 35.385 5511.417
+  scale 0.714
+ }
+ {
+  coords 3272.808 34.12 5509.013
+  angleX -6.125
+  scale 1.051
+ }
 }
