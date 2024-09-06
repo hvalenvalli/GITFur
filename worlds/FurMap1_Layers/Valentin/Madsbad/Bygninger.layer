@@ -2457,9 +2457,15 @@ SCR_DestructibleBuildingEntity : "{0734A1B6BD445637}PrefabLibrary/Structures/Hou
  coords 4195.745 0.739 4183.624
  angleY 5.292
 }
-SCR_DestructibleBuildingEntity : "{1197707983F2D7CF}PrefabLibrary/Structures/Addons/Warehouse_01_Workshop.et" {
- coords 3575.808 0.026 4320.259
- angleY -156.914
+$grp SCR_DestructibleBuildingEntity : "{1197707983F2D7CF}PrefabLibrary/Structures/Addons/Warehouse_01_Workshop.et" {
+ {
+  coords 3575.808 0.026 4320.259
+  angleY -156.914
+ }
+ {
+  coords 4807.538 0.291 4381.13
+  angleY -154.968
+ }
 }
 SCR_DestructibleBuildingEntity : "{11BFDE0724119A52}PrefabLibrary/Structures/Industrial/Garage_E_02.et" {
  coords 3413.304 0.444 4532.529
@@ -2563,6 +2569,10 @@ $grp SCR_DestructibleBuildingEntity : "{446671DE9607E741}PrefabLibrary/Structure
   angleY 26.346
  }
 }
+SCR_DestructibleBuildingEntity : "{50309EB34CA81D70}PrefabLibrary/Structures/Houses/House_Prefab_2I01/House_Prefab_2I01t.et" {
+ coords 4670.372 0.464 4246.407
+ angleY -151.087
+}
 $grp SCR_DestructibleBuildingEntity : "{53ED57F93F1DCE1F}PrefabLibrary/Structures/Industrial/Warehouse_01.et" {
  {
   coords 3377.759 0.472 4611.16
@@ -2625,6 +2635,10 @@ $grp SCR_DestructibleBuildingEntity : "{63352C2865C9C735}PrefabLibrary/Structure
  {
   coords 4105.463 -0.213 4293.992
   angleY 12.821
+ }
+ {
+  coords 4634.467 0.637 4200.365
+  angleY 116.944
  }
 }
 $grp SCR_DestructibleBuildingEntity : "{680FDCA1A8C8C4EE}PrefabLibrary/Structures/Industrial/PortableCabin_E_01/PortableCabin_E_01_white.et" {

@@ -1,8 +1,62 @@
+SplineShapeEntity {
+ coords 4561.229 5.804 4133.556
+ Points {
+  ShapePoint "{624ABA94AE065153}" {
+   Position 8.98 -0.805 -12.777
+  }
+  ShapePoint "{624ABA94AFA8E610}" {
+   Position 7.704 -0.659 -9.987
+  }
+  ShapePoint "{624ABA94A81CA880}" {
+   Position 4.763 -0.371 -4.996
+   Data {
+    SplinePointData SplinePointData {
+     InTangent -2.756 0.275 4.536
+     OutTangent -2.756 0.275 4.536
+    }
+   }
+  }
+  ShapePoint "{624ABA94A81B7D59}" {
+   Position -0.316 0.032 0.539
+  }
+ }
+ LineColor 0 0 0 0
+ {
+  WallGeneratorEntity : "{309167DDBA2BD0D8}PrefabLibrary/Generators/Walls/CrashBarrier/WG_CrashBarrier_01A.et" {
+   coords 0 0 0
+   Flags 1048579
+   {
+    SCR_DestructibleEntity : "{04A36304123DADEF}PrefabLibrary/Infrastructure/Roads/CrashBarrier_01_8m_V1.et" {
+     coords 8.859 -0.791 -12.513
+     angleY -118.591
+    }
+    SCR_DestructibleEntity : "{68F757E4AEF922C1}PrefabLibrary/Infrastructure/Roads/CrashBarrier_01_8m_V2.et" {
+     coords 5.036 -0.399 -5.497
+     angleY -131.561
+    }
+    SCR_DestructibleEntity : "{979B717B2D7DE4F3}PrefabLibrary/Infrastructure/Roads/CrashBarrier_01_Start.et" {
+     coords 8.98 -0.805 -12.777
+     angleY -114.583
+    }
+    SCR_DestructibleEntity : "{B62582848252DF2B}PrefabLibrary/Infrastructure/Roads/CrashBarrier_01_End.et" {
+     coords -0.264 0.027 0.481
+     angleY -131.561
+    }
+   }
+  }
+ }
+}
 GenericEntity : "{393EA7D4604211A7}PrefabLibrary/Infrastructure/Sings/SignParking.et" {
  coords 1715.284 15.419 6062.781
  angleX -1.612
  angleY 82.528
  angleZ -1.528
+}
+GenericEntity : "{43E505BF759653CA}PrefabLibrary/Infrastructure/Sings/SignGiveWay.et" {
+ coords 4616.926 4.874 4147.192
+ angleX 1.016
+ angleY -77.643
+ angleZ 1.652
 }
 $grp GenericEntity : "{A1995229BEEE7793}PrefabLibrary/Infrastructure/Sings/SignAnimals.et" {
  {
