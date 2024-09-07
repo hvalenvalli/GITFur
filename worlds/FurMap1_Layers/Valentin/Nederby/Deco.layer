@@ -29,6 +29,38 @@ $grp SCR_DestructibleEntity : "{63DD752848ACA853}PrefabLibrary/Walls/Stone/Stone
   coords 4555.736 -0.049 4073.516
  }
 }
+$grp GenericEntity : "{6E1D4B04802CB5E5}PrefabLibrary/Props/Garbage/TrashBin_02/TrashBin_02.et" {
+ {
+  coords 4532.368 6.894 4141.374
+  angleX 0.864
+  angleY 15.115
+  angleZ 0.234
+ }
+ {
+  coords 4531.514 6.942 4141.721
+  angleX 0.495
+  angleY 56.411
+  angleZ 0.746
+ }
+ {
+  coords 4527.796 7.128 4154.821
+  angleX -0.816
+  angleY -155.747
+  angleZ -0.368
+ }
+}
+GenericEntity : "{77AB91E8C0DB9198}PrefabLibrary/Props/Infrastructure/PostOfficeBox_01.et" {
+ coords 4530.907 7.248 4153.524
+ angleX -1.586
+ angleY -168.021
+ angleZ -0.36
+}
+GenericEntity : "{90E65AB61E31082A}PrefabLibrary/Structures/Addons/Doorstep_02_5m.et" {
+ coords 4528.706 7.16 4142.277
+ angleX -3.027
+ angleY 27.356
+ angleZ 0.958
+}
 GenericEntity : "{B890D78FDADD4847}PrefabLibrary/Props/Civilian/PlaygroundSlide_01.et" {
  coords 4511.983 8.219 4126.034
  angleY -84.24
@@ -53,4 +85,10 @@ $grp SCR_DestructibleEntity : "{DFAD5338DECCD74E}PrefabLibrary/Walls/Stone/Stone
  {
   coords 4557.25 -0.161 4073.477
  }
+}
+StaticModelEntity : "{E97EC3EC76DD7310}PrefabLibrary/Props/Civilian/Well_02/Well_02_green.et" {
+ coords 4587.947 0.294 4070.922
+ angleX -2.666
+ angleY 141.761
+ angleZ 0.717
 }

@@ -198,10 +198,34 @@ $grp GenericEntity : "{03262D2D61225380}PrefabLibrary/Infrastructure/Lamps/LampS
   angleZ 0.975
  }
  {
-  coords 3500.337 -0 4458.339
+  coords 3500.337 0 4458.339
   angleX -0.061
   angleY -151.217
   angleZ 0.994
+ }
+ {
+  coords 3386.023 -0.046 4549.758
+  angleX -0.985
+  angleY -55.945
+  angleZ -0.152
+ }
+ {
+  coords 3401.954 -0.022 4585.088
+  angleX -0.99
+  angleY -71.11
+  angleZ 0.111
+ }
+ {
+  coords 3414.758 0 4621.899
+  angleX -0.996
+  angleY -63.725
+  angleZ -0.018
+ }
+ {
+  coords 4408.1 0.042 4191.602
+  angleX 0.943
+  angleY 96.326
+  angleZ -0.324
  }
 }
 $grp DecalEntity : "{22B0830DD0070203}PrefabLibrary/Decals/Markings/Decal_CrossWalk_01.et" {
@@ -381,4 +405,29 @@ GenericEntity : "{C4E5117D9A7DE906}PrefabLibrary/Infrastructure/Sings/SignNoPeds
  angleX -1.76
  angleY 98.906
  angleZ 0.311
+}
+StaticModelEntity : "{C9ADC723088689F3}PrefabLibrary/Structures/Industrial/LightTower_01.et" {
+ coords 3409.886 8.875 4718.575
+}
+$grp GenericEntity : "{E926CA518C814E34}PrefabLibrary/Infrastructure/Lamps/LampStreet_E_02_addon/LampStreet_E_02_addon.et" {
+ {
+  coords 3397.191 5.354 4642.172
+  angleY 83.619
+  scale 0.6
+ }
+ {
+  coords 3399.869 5.354 4660.764
+  angleY 96.751
+  scale 0.6
+ }
+ {
+  coords 3393.251 5.326 4605.598
+  angleY 102.763
+  scale 0.6
+ }
+ {
+  coords 3403.468 3.673 4692.178
+  angleY 93.477
+  scale 0.6
+ }
 }
