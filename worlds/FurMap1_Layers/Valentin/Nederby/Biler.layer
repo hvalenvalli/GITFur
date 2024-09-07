@@ -1,9 +1,28 @@
+Vehicle UAZ469_uncovered_CIV_base1 : "{26AF1879FBDA37EB}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_uncovered_CIV_base.et" {
+ coords 4508.389 7.373 4091.078
+ angleY 20.182
+}
 Tree : "{3B137DBFF3AF57C6}PrefabLibrary/Vegetation/Bushes/b_juniperus_communis_0.et" {
  coords 4529.987 0.117 4090.995
  angleX 0.658
  angleY 92.408
  angleZ -0.149
  scale 0.967
+}
+Vehicle UAZ469_covered_CIV_JZD2 : "{5070B3749C7782D8}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_covered_CIV_JZD.et" {
+ coords 4413.862 8.874 4010.027
+ angleY -82.893
+}
+Vehicle S105_beige3 : "{54C3CC22DEBD57BE}Prefabs/Vehicles/Wheeled/S105/S105_beige.et" {
+ coords 4382.182 10.906 4110.776
+ angleY 28.351
+}
+Vehicle S105_white2 : "{63880E311299A016}Prefabs/Vehicles/Wheeled/S105/S105_white.et" {
+ coords 4403.768 9.694 4049.035
+ angleY 102.735
+}
+Vehicle S105_darkred2 : "{8000A0F649FB4B0D}Prefabs/Vehicles/Wheeled/S105/S105_darkred.et" {
+ coords 4409.663 9.127 4019.221
 }
 Vehicle S105_red4 : "{85F0BD6AF0F42D6D}Prefabs/Vehicles/Wheeled/S105/S105_red.et" {
  coords 4478.331 10.676 4258.417
@@ -24,9 +43,15 @@ Tree : "{AD7EFA7B1214DD21}PrefabLibrary/Vegetation/Bushes/b_corylus_avellana_0l.
  angleZ -0.444
  scale 0.634
 }
-Vehicle S105_green1 : "{AD80FB47D868C775}Prefabs/Vehicles/Wheeled/S105/S105_green.et" {
- coords 4427.84 11.445 4277.485
- angleY -81.822
+$grp Vehicle : "{AD80FB47D868C775}Prefabs/Vehicles/Wheeled/S105/S105_green.et" {
+ S105_green1 {
+  coords 4427.84 11.445 4277.485
+  angleY -81.822
+ }
+ S105_green2 {
+  coords 4404.213 9.881 4074.21
+  angleY 103.583
+ }
 }
 Tree : "{B1062DFA6850D829}PrefabLibrary/Vegetation/Bushes/b_juniperus_communis_2w.et" {
  coords 4527.347 0 4093.901
@@ -34,6 +59,18 @@ Tree : "{B1062DFA6850D829}PrefabLibrary/Vegetation/Bushes/b_juniperus_communis_2
  angleY -151.002
  angleZ -2.781
  scale 0.951
+}
+Vehicle UAZ469_covered_CIV_blue1 : "{C8B16ABCA57679A2}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_covered_CIV_blue.et" {
+ coords 4322.783 10.844 4121.394
+ angleY -55.044
+}
+Vehicle UAZ469_uncovered_CIV_teal1 : "{D4855501D5B12AF2}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_uncovered_CIV_teal.et" {
+ coords 4404.556 7.932 3987.564
+ angleY 21.556
+}
+Vehicle UAZ469_covered_CIV_brown3 : "{D7C51A961BF675B2}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_covered_CIV_brown.et" {
+ coords 4432.653 9.959 4109.583
+ angleY -79.891
 }
 Tree : "{DA7492F3E6B63251}PrefabLibrary/Vegetation/Bushes/b_corylus_avellana_1l.et" {
  coords 4530.108 0.029 4095.101
@@ -57,4 +94,18 @@ $grp Vehicle : "{DA79E34823120087}Prefabs/Vehicles/Wheeled/S105/S105_base.et" {
 SCR_DestructibleBuildingEntity : "{F640FDB4D1AAF0BD}PrefabLibrary/Props/Civilian/Recreation/Caravan_03.et" {
  coords 4394.247 0 4013.363
  angleY 82.698
+}
+Vehicle M151A1 : "{F649585ABB3706C4}Prefabs/Vehicles/Wheeled/M151A2/M151A2.et" {
+ coords 4430.015 10.027 4105.806
+ angleY -79.596
+}
+$grp Vehicle : "{F77C41245A580FD1}Prefabs/Vehicles/Wheeled/S1203/S1203_transport_blue.et" {
+ S1203_transport_blue3 {
+  coords 4421.612 10.22 4077.303
+  angleY -79.76
+ }
+ S1203_transport_blue2 {
+  coords 4422.676 10.22 4082.169
+  angleY 99.638
+ }
 }
