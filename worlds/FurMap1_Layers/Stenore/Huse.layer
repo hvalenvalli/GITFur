@@ -1,3 +1,27 @@
+GenericEntity TankstationDebel {
+ coords 4202.632 2.345 3040.692
+ {
+  SCR_DestructibleBuildingEntity : "{43A8DE767957446C}PrefabLibrary/Structures/Commercial/FuelStation_E_01_building_small.et" {
+   coords 17.723 -0.206 -3.462
+  }
+  GenericEntity : "{572ACA2BEB674B26}PrefabLibrary/Structures/Addons/Doorstep_03_5m.et" {
+   coords 3.027 0.18 -0.233
+   angleY -90.836
+   scale 1.27
+  }
+  SCR_DestructibleBuildingEntity : "{61986EB0E0286DC7}PrefabLibrary/Structures/Commercial/FuelStation_E_01.et" {
+   coords 2.878 0.159 -0.008
+  }
+  $grp SCR_DestructibleBuildingEntity : "{6A840CC1C486CFA0}PrefabLibrary/Structures/Commercial/FuelStation_E_01_tankpistol.et" {
+   {
+    coords 4.524 0.092 -0.265
+   }
+   {
+    coords 2.035 0.14 -0.176
+   }
+  }
+ }
+}
 $grp SplineShapeEntity {
  {
   coords 3227.614 10.969 3652.042
