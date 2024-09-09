@@ -6799,7 +6799,7 @@ $grp SplineShapeEntity {
   coords 4310.303 8.166 3732.121
   Points {
    ShapePoint "{6250E12D8EA96850}" {
-    Position 0 -0 0
+    Position 0 0 0
    }
    ShapePoint "{6250E12D8EAAAA2E}" {
     Position -16.413 0.176 4.573
@@ -6831,7 +6831,7 @@ $grp SplineShapeEntity {
       angleY -81.028
      }
      SCR_DestructibleEntity : "{7F10A3A0528DD357}Prefabs/Structures/Walls/Wooden/WoodenWall_02/WoodenWall_02_8m_B.et" {
-      coords 0.029 -0 -0.008
+      coords 0.029 0 -0.008
       angleY -164.431
      }
     }
@@ -7640,6 +7640,20 @@ $grp Tree : "{6813E89F9EF2BDAC}PrefabLibrary/Vegetation/Bushes/b_rosa_canina_1s.
   angleY 5.307
   angleZ 1.322
   scale 0.951
+ }
+}
+$grp GenericEntity : "{6E1D4B04802CB5E5}PrefabLibrary/Props/Garbage/TrashBin_02/TrashBin_02.et" {
+ {
+  coords 4294.006 7.821 3737.689
+  angleX -0.071
+  angleY 94.485
+  angleZ 0.892
+ }
+ {
+  coords 4294.71 7.832 3738.51
+  angleX 0.034
+  angleY 57.144
+  angleZ 0.4
  }
 }
 $grp SCR_DestructibleBuildingEntity : "{70CD78BCB2DCFE20}PrefabLibrary/Props/Cultural/GraveStone_E_02_D.et" {
