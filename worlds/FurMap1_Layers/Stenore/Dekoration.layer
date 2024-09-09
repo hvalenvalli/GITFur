@@ -1656,6 +1656,10 @@ $grp SCR_DestructibleEntity : "{2F3B772F3FF94C7F}PrefabLibrary/Props/Decoration/
   angleZ 0.013
  }
 }
+SCR_DestructibleBuildingEntity : "{34B95ECB9BCFE6A5}PrefabLibrary/Props/Infrastructure/ElectricCabinet_01.et" {
+ coords 4287.041 0 3179.028
+ angleY -85.557
+}
 SCR_DestructibleEntity : "{358B3FF55BA04C88}PrefabLibrary/Walls/Brick/BrickWall_02_4m.et" {
  coords 4236.542 0.021 2871.303
  angleY -50
@@ -1675,6 +1679,15 @@ $grp SCR_DestructibleBuildingEntity : "{3B877DB7AE5EA3BC}PrefabLibrary/Structure
  {
   coords 4113.327 -0.065 2928.224
   angleY -5.292
+ }
+}
+$grp SCR_DestructibleEntity : "{419A31406081524B}PrefabLibrary/Props/Civilian/Sport/FootballNetFence_01_15m.et" {
+ {
+  coords 4180.778 -0 3001.367
+  angleY 175.297
+ }
+ {
+  coords 4180.607 0 2974.425
  }
 }
 $grp SCR_DestructibleEntity : "{41DBB422CDB858C1}PrefabLibrary/Props/Civilian/TrashBin_01.et" {
@@ -1799,6 +1812,20 @@ Tree : "{6813E89F9EF2BDAC}PrefabLibrary/Vegetation/Bushes/b_rosa_canina_1s.et" {
  angleY 249.221
  angleZ -1.15
  scale 1.174
+}
+SCR_DestructibleBuildingEntity : "{6A497F2704236607}PrefabLibrary/Props/Infrastructure/ElectricCabinet_01_double.et" {
+ coords 4289.124 0.064 3179.033
+ angleY 8.786
+}
+$grp GenericEntity : "{6B4B7F12AD795641}PrefabLibrary/Props/Civilian/Sport/GoalPost_01.et" {
+ {
+  coords 4181.031 2.469 2998.513
+  angleY 176.837
+ }
+ {
+  coords 4181.739 2.469 2976.825
+  angleY -2.999
+ }
 }
 $grp Tree : "{797885BBBC1FEFA0}PrefabLibrary/Vegetation/Bushes/b_juniperus_communis_1s.et" {
  {
@@ -1943,6 +1970,20 @@ $grp Tree : "{8BE77738D77B8ACE}PrefabLibrary/Vegetation/Plants/p_carduus_acantho
   coords 4264.8 0.005 2818.105
   angleY -176.512
   scale 0.959
+ }
+}
+$grp GenericEntity : "{8C8F12C64813023F}PrefabLibrary/Props/Civilian/Sport/BenchStadium_01.et" {
+ {
+  coords 4191.126 2.606 2981.829
+  angleY -91.486
+ }
+ {
+  coords 4190.969 2.606 2987.875
+  angleY -91.486
+ }
+ {
+  coords 4190.812 2.606 2993.912
+  angleY -91.486
  }
 }
 SCR_DestructibleBuildingEntity : "{93147981639AC149}PrefabLibrary/Structures/Agriculture/Barn_E_03/Barn_E_03_closed.et" {
@@ -2260,6 +2301,10 @@ $grp SCR_DestructibleEntity : "{E116180B5DCD5EFF}PrefabLibrary/Props/Civilian/Pi
 SCR_DestructibleBuildingEntity : "{E3584595FC988951}PrefabLibrary/Structures/Industrial/Workshop_01_Garage.et" {
  coords 4123.183 0.07 2880.024
  angleY 70.713
+}
+StaticModelEntity : "{E680B16A04C3FDEA}PrefabLibrary/Props/Infrastructure/UtilityCabinet_02.et" {
+ coords 4291.27 0.025 3178.896
+ angleY 6.655
 }
 Tree : "{F1DB9A8115310093}PrefabLibrary/Vegetation/Trees/t_betula_pendula_1f.et" {
  coords 4305.731 0 2866.644
