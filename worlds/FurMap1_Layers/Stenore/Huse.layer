@@ -755,6 +755,10 @@ $grp SCR_DestructibleBuildingEntity : "{0734A1B6BD445637}PrefabLibrary/Structure
 GenericEntity : "{0B0C4F7940C1CE26}Prefabs/Weapons/Rifles/M16/Variants/Rifle_M16A2_4x20_OliveGreen_Sand_Stripes.et" {
  coords 3040.4 11.869 3701.114
 }
+SCR_DestructibleBuildingEntity : "{0B6EA07B566C2054}PrefabLibrary/Structures/Addons/HouseAddon_ShedMetal_01_Short.et" {
+ coords 4066.745 4.487 2940.7
+ angleY -96.002
+}
 $grp SCR_DestructibleBuildingEntity : "{0E7899885A92BF4F}PrefabLibrary/Structures/Houses/FarmHouse_E_1L01/FarmHouse_E_1L01.et" {
  {
   coords 3000.655 -0.008 3306.135
@@ -764,6 +768,10 @@ $grp SCR_DestructibleBuildingEntity : "{0E7899885A92BF4F}PrefabLibrary/Structure
   coords 3067.541 0.356 3682.725
   angleY -78.331
  }
+}
+SCR_DestructibleBuildingEntity : "{1197707983F2D7CF}PrefabLibrary/Structures/Addons/Warehouse_01_Workshop.et" {
+ coords 4048.912 -0.072 2938.935
+ angleY 82.835
 }
 SCR_DestructibleBuildingEntity : "{13D9C4416ED532D2}PrefabLibrary/Structures/Houses/House_Village_E_1L02t.et" {
  coords 2703.262 0.193 3790.151
@@ -831,6 +839,10 @@ Tree : "{2A7C3319DE914965}PrefabLibrary/Vegetation/Trees/t_salix_fragilis_3s.et"
  coords 3016.624 0.001 3294.654
  angleY 4.801
  scale 0.936
+}
+SCR_DestructibleBuildingEntity : "{2AEEE9C9512908FD}PrefabLibrary/Structures/Naval/FishermanShed_02/FishermanShed_02_V2.et" {
+ coords 4091.414 0 2914.631
+ angleY 172.134
 }
 Tree : "{2EBA53AE283F487F}PrefabLibrary/Vegetation/Trees/t_betula_pendula_2xw.et" {
  coords 2992.233 0 3323.74
@@ -917,6 +929,10 @@ $grp SCR_DestructibleBuildingEntity : "{3B371BE806867EF2}PrefabLibrary/Structure
   coords 4187.343 0 2883.802
   angleY -17.225
  }
+ {
+  coords 4074.946 0.064 2927.47
+  angleY 175.05
+ }
 }
 $grp SCR_DestructibleBuildingEntity : "{3B877DB7AE5EA3BC}PrefabLibrary/Structures/Houses/House_Wooden_E_1I01/House_Wooden_E_1I01.et" {
  {
@@ -940,6 +956,10 @@ $grp SCR_DestructibleBuildingEntity : "{3B877DB7AE5EA3BC}PrefabLibrary/Structure
  {
   coords 4227.139 -0.003 2896.959
   angleY 160.016
+ }
+ {
+  coords 4117.678 0 2927.689
+  angleY -5.292
  }
 }
 $grp SCR_DestructibleEntity : "{3F2E6FB8EDB0BF0F}PrefabLibrary/Walls/Brick/BrickWall_01_4m.et" {
@@ -976,6 +996,10 @@ $grp SCR_DestructibleBuildingEntity : "{446671DE9607E741}PrefabLibrary/Structure
  {
   coords 4300.731 0.691 3029.404
   angleY -175.853
+ }
+ {
+  coords 4110.893 0 2935.64
+  angleY 86.086
  }
 }
 SCR_DestructibleEntity : "{4AE97701C1430CAA}PrefabLibrary/Walls/Brick/BrickGate_01_4m.et" {
@@ -1014,9 +1038,17 @@ $grp SCR_DestructibleBuildingEntity : "{51BF59A7E99DC66E}PrefabLibrary/Structure
   angleY 85.267
  }
 }
+SCR_DestructibleBuildingEntity : "{54E4045E67826963}PrefabLibrary/Structures/Houses/Shed_02_big_V2.et" {
+ coords 4084.433 -0.073 2940.502
+ angleY -96.255
+}
 SCR_DestructibleBuildingEntity : "{57632F08BA42F1DC}PrefabLibrary/Structures/Houses/House_Village_E_1I03.et" {
  coords 4342.207 0.434 2947.444
  angleY -89.98
+}
+SCR_DestructibleBuildingEntity : "{57D34957129A2C92}PrefabLibrary/Structures/Houses/House_Wooden_E_1I02.et" {
+ coords 4097.5 0.023 2931.8
+ angleY -2.961
 }
 $grp SCR_DestructibleBuildingEntity : "{5ECE42250DAB009E}PrefabLibrary/Structures/Houses/House_Prefab_2I01/House_Prefab_2I01.et" {
  {
@@ -1161,6 +1193,10 @@ $grp SCR_DestructibleBuildingEntity : "{7BE9DE15EE9823C2}PrefabLibrary/Structure
   coords 4256.985 0.191 2988.136
   angleY 88.343
  }
+ {
+  coords 4059.103 0.935 2917.56
+  angleY 83.632
+ }
 }
 SCR_DestructibleBuildingEntity : "{7F8DF0A1D211BDFC}PrefabLibrary/Structures/Houses/House_Village_E_1L03t.et" {
  coords 2890.451 0.428 3723.863
@@ -1246,6 +1282,14 @@ $grp SCR_DestructibleBuildingEntity : "{8732EEEE5AC2B938}PrefabLibrary/Structure
  {
   coords 4256.118 0.034 2945.414
   angleY 88.795
+ }
+ {
+  coords 4041.234 0.265 2937.885
+  angleY 171.449
+ }
+ {
+  coords 4126.394 -0.016 2939.83
+  angleY 175.293
  }
 }
 $grp SCR_DestructibleEntity : "{8842EF33BFBD669E}PrefabLibrary/Walls/Wooden/WoodenWall_01_2m.et" {
@@ -1356,8 +1400,14 @@ SCR_DestructibleBuildingEntity : "{AC16E15E979F9072}PrefabLibrary/Structures/Ser
  coords 4256.397 1.022 2854.924
  angleY 78.965
 }
-SCR_DestructibleBuildingEntity : "{AFB66B5D636927AD}PrefabLibrary/Structures/Industrial/Workshop_02.et" {
- coords 4163.554 1.229 2794.419
+$grp SCR_DestructibleBuildingEntity : "{AFB66B5D636927AD}PrefabLibrary/Structures/Industrial/Workshop_02.et" {
+ {
+  coords 4163.554 1.229 2794.419
+ }
+ {
+  coords 4031.871 0.323 2914.471
+  angleY -97.918
+ }
 }
 $grp SCR_DestructibleBuildingEntity : "{AFD0F05F3FD48D6C}PrefabLibrary/Structures/Houses/Cottage_E_01.et" {
  {
@@ -1380,6 +1430,11 @@ $grp SCR_DestructibleBuildingEntity : "{AFD0F05F3FD48D6C}PrefabLibrary/Structure
 SCR_DestructibleBuildingEntity : "{B27A03D5CBF266AE}PrefabLibrary/Structures/Naval/FishermanShed_01/FishermanShed_01.et" {
  coords 4308.407 0.476 3027.328
  angleY 179.804
+}
+GenericEntity : "{B292AEB29FA68532}PrefabLibrary/Props/Construction/MetalContainer_01.et" {
+ coords 4112.056 3.531 2909.297
+ angleY 83.087
+ angleZ -1.06
 }
 $grp SCR_DestructibleBuildingEntity : "{BB32FDB0A276A95D}PrefabLibrary/Structures/Houses/House_Village_E_1I01.et" {
  {
@@ -1480,9 +1535,15 @@ SCR_DestructibleBuildingEntity : "{CCB19FE7B8422989}PrefabLibrary/Structures/Rui
  angleZ 1.093
  scale 1.041
 }
-SCR_DestructibleBuildingEntity : "{D1C2FE6DD2C12309}PrefabLibrary/Structures/Houses/House_Village_E_1L01.et" {
- coords 2622.62 -0.172 3625.019
- angleY -82.5
+$grp SCR_DestructibleBuildingEntity : "{D1C2FE6DD2C12309}PrefabLibrary/Structures/Houses/House_Village_E_1L01.et" {
+ {
+  coords 2622.62 -0.172 3625.019
+  angleY -82.5
+ }
+ {
+  coords 4148.675 0 2938.349
+  angleY 175.519
+ }
 }
 SCR_DestructibleBuildingEntity : "{D288E1E16D11D57B}PrefabLibrary/Structures/Houses/House_Town_E_2I03.et" {
  coords 4250.642 0.505 3069.81
