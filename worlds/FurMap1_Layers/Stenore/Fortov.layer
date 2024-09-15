@@ -1059,6 +1059,137 @@ $grp SplineShapeEntity {
    }
   }
  }
+ {
+  coords 4197.807 1.5 2730.15
+  Points {
+   ShapePoint "{625EBB60B2940A81}" {
+    Position 0 0.306 0
+   }
+   ShapePoint "{625EBB60B2EA8680}" {
+    Position -9.425 0.063 -4.386
+   }
+   ShapePoint "{625EBB60B01F5C46}" {
+    Position -15.677 0.499 -4.248
+   }
+   ShapePoint "{625EBB60B74FB603}" {
+    Position -27.918 0.531 1.061
+   }
+   ShapePoint "{625EBB60B7F714E7}" {
+    Position -39.347 0.531 4.552
+   }
+   ShapePoint "{625EBB60B7A245C1}" {
+    Position -52.501 0.531 4.326
+   }
+   ShapePoint "{625EBB60B607A96A}" {
+    Position -59.764 0.531 -3.727
+   }
+   ShapePoint "{625EBB60B68083F8}" {
+    Position -61.895 0.531 -15.313
+   }
+   ShapePoint "{625EBB60B52A3E42}" {
+    Position -63.5 -0.216 -27.382
+   }
+  }
+  LineColor 0 0 0 0
+  {
+   WallGeneratorEntity : "{B369FBF98A1B3541}PrefabLibrary/Generators/Pavements/Asphalt/WG_Asphalt_Pavement_01_Narrow.et" {
+    coords 0 0 0
+    Flags 1048579
+    {
+     $grp StaticModelEntity : "{1B2F4654BAEFFB71}PrefabLibrary/Infrastructure/Pavements/Asphalt/AsphaltPavement_01_Narrow_4m_A.et" {
+      {
+       coords 0.189 0.311 0.088
+       angleY -204.954
+      }
+      {
+       coords -3.397 0.218 -1.581
+       angleY -204.954
+      }
+      {
+       coords -6.966 0.111 -3.316
+       angleY -186.106
+      }
+      {
+       coords -10.897 0.286 -3.736
+       angleY -186.106
+      }
+      {
+       coords -14.841 0.47 -4.258
+       angleY -157.867
+      }
+      {
+       coords -18.507 0.487 -2.767
+       angleY -157.867
+      }
+      {
+       coords -22.172 0.504 -1.276
+       angleY -157.867
+      }
+      {
+       coords -25.832 0.522 0.23
+       angleY -162.265
+      }
+      {
+       coords -29.601 0.525 1.435
+       angleY -162.265
+      }
+      {
+       coords -33.371 0.527 2.641
+       angleY -162.265
+      }
+      {
+       coords -37.13 0.53 3.904
+       angleY -178.426
+      }
+      {
+       coords -41.085 0.53 4.013
+       angleY -178.426
+      }
+      {
+       coords -45.041 0.531 4.121
+       angleY -178.426
+      }
+      {
+       coords -49.039 0.531 4.362
+       angleY -217.023
+      }
+      {
+       coords -52.198 0.531 1.979
+       angleY -217.023
+      }
+      {
+       coords -55.357 0.531 -0.404
+       angleY -217.023
+      }
+      {
+       coords -58.631 0.531 -2.71
+       angleY -255.481
+      }
+      {
+       coords -59.623 0.531 -6.541
+       angleY -255.481
+      }
+      {
+       coords -60.615 0.531 -10.371
+       angleY -255.481
+      }
+      {
+       coords -61.63 0.543 -14.198
+       angleY -261.929
+      }
+      {
+       coords -62.185 0.318 -18.109
+       angleY -261.929
+      }
+      {
+       coords -62.74 0.092 -22.021
+       angleY -261.929
+      }
+     }
+    }
+   }
+  }
+ }
 }
 $grp GenericEntity : "{572ACA2BEB674B26}PrefabLibrary/Structures/Addons/Doorstep_03_5m.et" {
  {
@@ -1111,9 +1242,105 @@ $grp GenericEntity : "{572ACA2BEB674B26}PrefabLibrary/Structures/Addons/Doorstep
   scale 1.27
  }
 }
+StaticModelEntity : "{6DE1E57D37090245}PrefabLibrary/Infrastructure/Roads/ConcreteKerb_01_2m_entry.et" {
+ coords 4288.811 -0.07 2793.802
+ angleX -31.467
+ angleY 73.5
+ angleZ 2.533
+ scale 1.46
+}
 GenericEntity : "{7F93BDB10482A993}PrefabLibrary/Infrastructure/Sings/SignFuelStation.et" {
  coords 4261.443 2.79 3045.089
  angleX 1.969
  angleY 90.162
  angleZ 0.401
+}
+StaticModelEntity : "{A3952863D474AF32}PrefabLibrary/Infrastructure/Roads/ConcreteKerb_01_4m_v2.et" {
+ coords 4311.644 0.087 2797.428
+ angleX -88.687
+ angleY -180
+ angleZ 167.473
+ scale 1.57
+ placement none
+}
+StaticModelEntity : "{DE260584F8C2D47F}PrefabLibrary/Infrastructure/Pavements/Asphalt/AsphaltPavement_01_Narrow_End_Left.et" {
+ coords 4287.931 0.026 2792.822
+ angleX -1.359
+ angleY 78.057
+}
+$grp StaticModelEntity : "{ED29E019F9280C74}PrefabLibrary/Infrastructure/Roads/ConcreteKerb_01_8m_v2.et" {
+ {
+  coords 4301.361 -0.019 2795.146
+  angleX 84.588
+  angleY -9.455
+  angleZ -177.119
+  scale 1.32
+  placement none
+ }
+ {
+  coords 4311.667 0.122 2797.463
+  angleX 84.593
+  angleY -13.871
+  angleZ 178.967
+  scale 1.333
+  placement none
+ }
+}
+$grp StaticModelEntity : "{FAB463E79EA75017}PrefabLibrary/Infrastructure/Pavements/Asphalt/AsphaltPavement_01_Narrow_8m.et" {
+ {
+  coords 4210.315 -0.016 2722.789
+  angleY -31.425
+ }
+ {
+  coords 4217.153 -0.097 2726.966
+  angleY -31.425
+ }
+ {
+  coords 4230.803 -0.071 2735.307
+  angleY -31.425
+ }
+ {
+  coords 4223.969 -0.072 2731.13
+  angleY -31.425
+ }
+ {
+  coords 4258.087 0.014 2751.978
+  angleY -31.425
+ }
+ {
+  coords 4251.253 0.078 2747.802
+  angleY -31.425
+ }
+ {
+  coords 4237.602 -0.07 2739.46
+  angleY -31.425
+ }
+ {
+  coords 4244.437 0.201 2743.638
+  angleY -31.425
+ }
+ {
+  coords 4285.405 -0.071 2768.702
+  angleY -31.913
+ }
+ {
+  coords 4278.586 -0.071 2764.503
+  angleY -31.425
+ }
+ {
+  coords 4264.935 -0.07 2756.162
+  angleY -31.425
+ }
+ {
+  coords 4271.771 -0.071 2760.338
+  angleY -31.425
+ }
+ {
+  coords 4290.313 0.039 2781.087
+  angleY 80.468
+ }
+ {
+  coords 4288.756 0.035 2789.025
+  angleY 78.689
+ }
 }
