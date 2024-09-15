@@ -947,7 +947,7 @@ $grp SCR_DestructibleBuildingEntity : "{3B371BE806867EF2}PrefabLibrary/Structure
   angleY -179.865
  }
  {
-  coords 4187.343 0 2883.802
+  coords 4186.52 -0.004 2883.547
   angleY -17.225
  }
  {
@@ -1361,6 +1361,10 @@ $grp SCR_DestructibleBuildingEntity : "{8732EEEE5AC2B938}PrefabLibrary/Structure
   coords 4227.551 0.166 2859.461
   angleY -25.68
  }
+ {
+  coords 4181.96 -0.055 2898.031
+  angleY -102.674
+ }
 }
 $grp SCR_DestructibleEntity : "{8842EF33BFBD669E}PrefabLibrary/Walls/Wooden/WoodenWall_01_2m.et" {
  {
@@ -1682,6 +1686,10 @@ $grp SCR_DestructibleBuildingEntity : "{DEF852CB2596122D}PrefabLibrary/Structure
   coords 4191.438 0.768 2825.911
   angleY -94.737
  }
+ {
+  coords 4245.246 0.701 2776.055
+  angleY 61.975
+ }
 }
 $grp SCR_DestructibleBuildingEntity : "{E192B19B229A0539}PrefabLibrary/Structures/Commercial/NewspaperBooth_E_01/NewspaperBooth_E_01_redwhite.et" {
  {
@@ -1752,10 +1760,42 @@ SCR_DestructibleBuildingEntity : "{F83712D420A65B02}PrefabLibrary/Infrastructure
  coords 4291.265 -5.044 2782.323
  angleY -101.381
 }
-SCR_DestructibleEntity : "{F88F7DEA2D99332D}PrefabLibrary/Walls/Wooden/WoodenWall_01_4m.et" {
- coords 4241.699 0.102 3001.681
- angleY -93.007
- scale 1.29
+$grp SCR_DestructibleEntity : "{F88F7DEA2D99332D}PrefabLibrary/Walls/Wooden/WoodenWall_01_4m.et" {
+ {
+  coords 4241.699 0.102 3001.681
+  angleY -93.007
+  scale 1.29
+ }
+ {
+  coords 4242.731 -0.852 2777.545
+  angleY -117.851
+  placement none
+ }
+ {
+  coords 4244.642 -0.852 2774
+  angleY -118.066
+  placement none
+ }
+ {
+  coords 4246.512 -0.852 2770.46
+  angleY -117.851
+  placement none
+ }
+ {
+  coords 4242.659 -0.833 2777.607
+  angleY 146.993
+  placement none
+ }
+ {
+  coords 4239.301 -0.833 2775.429
+  angleY 146.778
+  placement none
+ }
+ {
+  coords 4235.941 -0.833 2773.207
+  angleY 146.993
+  placement none
+ }
 }
 SCR_DestructibleBuildingEntity : "{F973FD2C8F3C05DB}PrefabLibrary/Structures/Houses/House_Village_E_1I04sf/House_Village_E_1I04sf_green.et" {
  coords 3514.088 0 3629.613

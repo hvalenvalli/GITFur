@@ -92,6 +92,21 @@ $grp SCR_DestructibleBuildingEntity : "{0BDA77618F7586C5}PrefabLibrary/Infrastru
   angleY -127.5
  }
 }
+GameEntity : "{2BF048C6593C3D1B}PrefabLibrary/Infrastructure/Naval/Ladder_Pier_520_B.et" {
+ coords 4287.802 3.625 2733.799
+ angleX -0.349
+ angleY 59.929
+}
+GenericEntity : "{334CFE68AE6F498F}PrefabLibrary/Props/Naval/FishingNet_03.et" {
+ coords 4258.063 1.529 2752.629
+ angleX 1.125
+ angleY 51.069
+ angleZ -3.562
+}
+SCR_DestructibleBuildingEntity : "{34B95ECB9BCFE6A5}PrefabLibrary/Props/Infrastructure/ElectricCabinet_01.et" {
+ coords 4274.8 0.223 2761.781
+ angleY -30.437
+}
 SCR_DestructibleBuildingEntity : "{38E10020B67F0EAC}PrefabLibrary/Infrastructure/Naval/PierWooden_02_pier.et" {
  coords 4308.531 -1.493 2789.983
  angleY -12.497
@@ -150,7 +165,7 @@ $grp SCR_DestructibleBuildingEntity : "{506702C2AE56D8B6}PrefabLibrary/Infrastru
   angleY -120.707
  }
  {
-  coords 4234.742 0 2690.512
+  coords 4236.92 0 2687.093
   angleY -32.5
  }
  {
@@ -162,8 +177,8 @@ $grp SCR_DestructibleBuildingEntity : "{506702C2AE56D8B6}PrefabLibrary/Infrastru
   angleY -120.707
  }
  {
-  coords 4235.392 0 2676.448
-  angleY -122.5
+  coords 4236.185 0 2674.741
+  angleY -114.004
  }
  {
   coords 4135.344 0 2640.134
@@ -198,13 +213,13 @@ $grp SCR_DestructibleBuildingEntity : "{506702C2AE56D8B6}PrefabLibrary/Infrastru
   angleY -62.5
  }
  {
-  coords 4222.803 0 2709.254
-  angleY -32.5
- }
- {
   coords 4214.788 0 2619.516
   angleY -120.707
  }
+}
+SCR_DestructibleBuildingEntity : "{6A497F2704236607}PrefabLibrary/Props/Infrastructure/ElectricCabinet_01_double.et" {
+ coords 4273.706 1.83 2760.461
+ angleY -32.215
 }
 $grp SCR_DestructibleBuildingEntity : "{789B763780E23203}PrefabLibrary/Infrastructure/Naval/PierConcrete_01_10m_end.et" {
  {
@@ -224,6 +239,25 @@ $grp SCR_DestructibleEntity : "{AA4CE99BD493879D}PrefabLibrary/Props/Commercial/
   coords 4294.458 1.875 2845.326
  }
 }
+$grp GenericEntity : "{BA8486711E4E51CA}PrefabLibrary/Props/Naval/FishingNet_01.et" {
+ {
+  coords 4276.244 1.568 2764.113
+  angleX 0.071
+  angleY 155.551
+  angleZ -0.142
+  scale 0.92
+ }
+ {
+  coords 4239.395 1.563 2741.532
+  angleY 153.378
+  scale 0.924
+ }
+}
+SCR_DestructibleBuildingEntity : "{D604DFB891E8F6CB}PrefabLibrary/Infrastructure/Naval/Pier_Stairs01.et" {
+ coords 4213.442 1.024 2723.36
+ angleY -31.479
+ scale 0.5
+}
 $grp GenericEntity : "{DB6A6F1554219C14}PrefabLibrary/Infrastructure/Lamps/LampStreet_E_03_single/LampStreet_E_03_single.et" {
  {
   coords 4285.261 0.001 2822.501
@@ -242,6 +276,23 @@ $grp GenericEntity : "{DB6A6F1554219C14}PrefabLibrary/Infrastructure/Lamps/LampS
   angleX 0.415
   angleY -110.958
   angleZ 0.94
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{E75C00C19E18329A}PrefabLibrary/Infrastructure/Naval/PierWooden_01_10m.et" {
+ {
+  coords 4219.352 0.549 2714.312
+  angleX 2.757
+  angleY -33.393
+ }
+ {
+  coords 4225.051 0.05 2705.665
+  angleX 0.505
+  angleY -33.393
+ }
+ {
+  coords 4213.635 1.049 2722.984
+  angleX 2.757
+  angleY -33.393
  }
 }
 SCR_DestructibleBuildingEntity : "{F09400CC1A27BE39}PrefabLibrary/Infrastructure/Naval/PierConcrete_01_20m.et" {
