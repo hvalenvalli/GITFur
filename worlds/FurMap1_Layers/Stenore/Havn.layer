@@ -138,6 +138,10 @@ $grp GenericEntity : "{15CB11EFB66A02F6}PrefabLibrary/Props/Naval/LifeBuoy_01_se
   angleY -120.062
  }
 }
+GenericEntity : "{24B117CBDEBAF9FA}PrefabLibrary/Props/Naval/HarborWinch_01.et" {
+ coords 4223.477 0.996 2624.691
+ angleY 149.577
+}
 GameEntity : "{2BF048C6593C3D1B}PrefabLibrary/Infrastructure/Naval/Ladder_Pier_520_B.et" {
  coords 4287.802 3.625 2733.799
  angleX -0.349
@@ -318,12 +322,37 @@ $grp GenericEntity : "{BA8486711E4E51CA}PrefabLibrary/Props/Naval/FishingNet_01.
   angleY 153.378
   scale 0.924
  }
+ {
+  coords 4244.507 1.004 2678.516
+  angleX 0.12
+  angleY 178.282
+  angleZ -0.104
+  scale 0.92
+ }
 }
 GenericEntity : "{C1E318C4198DFA2A}PrefabLibrary/Props/Military/Duckboard_01.et" {
  coords 4313.078 1.118 2783.525
  angleX 3.47
  angleY -14.898
  scale 1.086
+}
+$grp SCR_DestructibleEntity : "{C7BA8907568AA96F}PrefabLibrary/Props/Civilian/BenchStreet_02.et" {
+ {
+  coords 4295.634 1.224 2792.644
+  angleY 170.24
+ }
+ {
+  coords 4314.13 1.224 2796.587
+  angleY 169.733
+ }
+ {
+  coords 4301.632 1.224 2793.856
+  angleY 167.605
+ }
+ {
+  coords 4309.084 1.222 2795.464
+  angleY 167.605
+ }
 }
 SCR_DestructibleBuildingEntity : "{D604DFB891E8F6CB}PrefabLibrary/Infrastructure/Naval/Pier_Stairs01.et" {
  coords 4213.442 1.024 2723.36
@@ -401,6 +430,12 @@ $grp SCR_DestructibleBuildingEntity : "{F83712D420A65B02}PrefabLibrary/Infrastru
   angleY -121.209
  }
 }
-GenericEntity : "{F857D65788E3BA3A}PrefabLibrary/Props/Naval/BoatWreck_01.et" {
- coords 4381.791 0 2730.773
+$grp GenericEntity : "{F857D65788E3BA3A}PrefabLibrary/Props/Naval/BoatWreck_01.et" {
+ {
+  coords 4381.791 0 2730.773
+ }
+ {
+  coords 4141.344 -0.044 2693.683
+  angleX 8.005
+ }
 }
