@@ -7,7 +7,7 @@ DecalEntity : "{22B0830DD0070203}PrefabLibrary/Decals/Markings/Decal_CrossWalk_0
 }
 $grp DecalEntity : "{316A472DA92C35EC}PrefabLibrary/Decals/Cracks/Decal_Asphalt_Cracks_02.et" {
  {
-  coords 4232.001 -0 3050.178
+  coords 4232.001 0 3050.178
   angleX -90
   scale 1.289
  }
@@ -23,9 +23,35 @@ $grp DecalEntity : "{316A472DA92C35EC}PrefabLibrary/Decals/Cracks/Decal_Asphalt_
   scale 1.261
  }
 }
+$grp GenericEntity : "{393EA7D4604211A7}PrefabLibrary/Infrastructure/Sings/SignParking.et" {
+ {
+  coords 4186.581 1.692 2736.839
+  angleX 1.436
+  angleY 55.247
+  angleZ -1.193
+ }
+ {
+  coords 4177.807 1.835 2748.931
+  angleX -0.071
+  angleY 59.521
+  angleZ -2.171
+ }
+ {
+  coords 4149.916 3.44 2776.102
+  angleX 0.396
+  angleY -32.614
+  angleZ 0.109
+ }
+ {
+  coords 4161.698 2.478 2758.624
+  angleX -0.464
+  angleY 33.612
+  angleZ -0.902
+ }
+}
 $grp DecalEntity : "{5D3E73CD15E8BAC2}PrefabLibrary/Decals/Cracks/Decal_Asphalt_Cracks_01.et" {
  {
-  coords 4289.943 -0 2991.961
+  coords 4289.943 0 2991.961
   angleX -89.972
   scale 2.141
  }
@@ -60,7 +86,7 @@ $grp DecalEntity : "{E9C22EECD0A52BB0}PrefabLibrary/Decals/Cracks/Decal_Asphalt_
   scale 1.473
  }
  {
-  coords 4288.218 -0 2986.735
+  coords 4288.218 0 2986.735
   angleX -90
   scale 1.443
  }
