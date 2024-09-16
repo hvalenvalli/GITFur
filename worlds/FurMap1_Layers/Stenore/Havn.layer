@@ -92,6 +92,52 @@ $grp SCR_DestructibleBuildingEntity : "{0BDA77618F7586C5}PrefabLibrary/Infrastru
   angleY -127.5
  }
 }
+$grp GenericEntity : "{15CB11EFB66A02F6}PrefabLibrary/Props/Naval/LifeBuoy_01_set.et" {
+ {
+  coords 4321.29 1.008 2756.435
+  angleY 67.103
+ }
+ {
+  coords 4336.273 1.003 2717.879
+  angleY -109.146
+ }
+ {
+  coords 4352.724 0.998 2700.898
+  angleY -32.608
+ }
+ {
+  coords 4331.1 1.005 2689.295
+  angleY 150.161
+ }
+ {
+  coords 4302.716 1.003 2674.461
+  angleY 58.533
+ }
+ {
+  coords 4287.714 1 2662.301
+  angleY -28.604
+ }
+ {
+  coords 4261.402 1.002 2647.802
+  angleY 146.222
+ }
+ {
+  coords 4229.867 0.969 2697.523
+  angleY 55.166
+ }
+ {
+  coords 4214.668 1 2682.702
+  angleY -137.539
+ }
+ {
+  coords 4234.228 1 2673.253
+  angleY -22.454
+ }
+ {
+  coords 4202.928 0.514 2640.657
+  angleY -120.062
+ }
+}
 GameEntity : "{2BF048C6593C3D1B}PrefabLibrary/Infrastructure/Naval/Ladder_Pier_520_B.et" {
  coords 4287.802 3.625 2733.799
  angleX -0.349
@@ -117,8 +163,8 @@ $grp SCR_DestructibleBuildingEntity : "{506702C2AE56D8B6}PrefabLibrary/Infrastru
   angleY -20
  }
  {
-  coords 4316.236 0 2771.55
-  angleY -20
+  coords 4316.683 0 2771.901
+  angleY -17.544
  }
  {
   coords 4332.101 0 2727.963
@@ -217,6 +263,26 @@ $grp SCR_DestructibleBuildingEntity : "{506702C2AE56D8B6}PrefabLibrary/Infrastru
   angleY -120.707
  }
 }
+$grp GenericEntity : "{630333773491A8F5}PrefabLibrary/Props/Naval/LifeBuoy_01.et" {
+ {
+  coords 4212.377 1.645 2617.173
+  angleX -71.591
+  angleY 61.114
+  angleZ -88.607
+ }
+ {
+  coords 4193.438 1.65 2605.931
+  angleX -71.591
+  angleY 61.114
+  angleZ -88.607
+ }
+ {
+  coords 4170.148 1.686 2592.127
+  angleX -71.591
+  angleY 61.114
+  angleZ -88.607
+ }
+}
 SCR_DestructibleBuildingEntity : "{6A497F2704236607}PrefabLibrary/Props/Infrastructure/ElectricCabinet_01_double.et" {
  coords 4273.706 1.83 2760.461
  angleY -32.215
@@ -252,6 +318,12 @@ $grp GenericEntity : "{BA8486711E4E51CA}PrefabLibrary/Props/Naval/FishingNet_01.
   angleY 153.378
   scale 0.924
  }
+}
+GenericEntity : "{C1E318C4198DFA2A}PrefabLibrary/Props/Military/Duckboard_01.et" {
+ coords 4313.078 1.118 2783.525
+ angleX 3.47
+ angleY -14.898
+ scale 1.086
 }
 SCR_DestructibleBuildingEntity : "{D604DFB891E8F6CB}PrefabLibrary/Infrastructure/Naval/Pier_Stairs01.et" {
  coords 4213.442 1.024 2723.36
