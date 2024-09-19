@@ -1,8 +1,63 @@
-GenericEntity : "{16E63075F932AC76}PrefabLibrary/Props/Garbage/GarbageContainter_01.et" {
- coords 4282.021 2.962 3098.463
- angleX 0.888
- angleY 97.575
- angleZ 0.118
+SCR_DestructibleEntity : "{152E0513F396DAB9}PrefabLibrary/Props/Civilian/Garden/FlowerpotFlowers_01_begonia/FlowerpotFlowers_01_begonia_white.et" {
+ coords 4328.332 1.442 2857.455
+ angleY 256
+}
+$grp GenericEntity : "{16E63075F932AC76}PrefabLibrary/Props/Garbage/GarbageContainter_01.et" {
+ {
+  coords 4282.021 2.962 3098.463
+  angleX 0.888
+  angleY 97.575
+  angleZ 0.118
+ }
+ {
+  coords 4295.266 1.567 2857.226
+  angleX -1.613
+  angleY -9.724
+  angleZ 1.184
+ }
+ {
+  coords 4316.676 1.42 2851.123
+  angleX -1.673
+  angleY 84.468
+  angleZ 1.097
+ }
+}
+GenericEntity : "{2249E2108688E004}PrefabLibrary/Props/Decoration/FlowerpotPelargonia_01/FlowerpotPelargonia_01_pink_v2.et" {
+ coords 4335.175 2.305 2857.208
+ angleX -4.026
+ angleY -1.228
+ angleZ 1.064
+}
+$grp GenericEntity : "{2C23344BB9907209}PrefabLibrary/Props/Garbage/Cardboard_Pile_07.et" {
+ {
+  coords 4299.962 1.656 2849.55
+  angleY 101.363
+  scale 0.997
+ }
+ {
+  coords 4293.684 1.601 2856.923
+  angleY 101.363
+  scale 0.997
+ }
+ {
+  coords 4317.675 1.393 2852.026
+  angleY -167.478
+  scale 0.997
+ }
+ {
+  coords 4317.993 1.375 2851.387
+  angleY -167.478
+  angleZ -0.491
+  scale 1.246
+ }
+}
+$grp SCR_DestructibleEntity : "{2F3B772F3FF94C7F}PrefabLibrary/Props/Decoration/FlowerpotFlowers_01_begonia/FlowerpotFlowers_01_begonia_red.et" {
+ {
+  coords 4328.128 1.442 2857.94
+ }
+ {
+  coords 4337.98 1.441 2857.624
+ }
 }
 $grp SCR_DestructibleBuildingEntity : "{34B95ECB9BCFE6A5}PrefabLibrary/Props/Infrastructure/ElectricCabinet_01.et" {
  {
@@ -17,6 +72,33 @@ $grp SCR_DestructibleBuildingEntity : "{34B95ECB9BCFE6A5}PrefabLibrary/Props/Inf
   coords 4253.58 0 2883.834
   angleY -10.426
  }
+}
+GenericEntity : "{42A2D1BD123CB71A}PrefabLibrary/Props/Garbage/GarbageStack_01_Short.et" {
+ coords 4297.185 1.586 2855.642
+ angleX -1.149
+ angleY 81.521
+ angleZ -1.638
+}
+GenericEntity : "{43890921C37778E9}PrefabLibrary/Props/Industrial/MarsBoxContainer_01.et" {
+ coords 4298.122 1.656 2851.568
+ angleY 82.987
+}
+SCR_DestructibleEntity : "{4A30B3AB1BF62C51}PrefabLibrary/Props/Decoration/FlowerpotFlowers_01_tagetes/FlowerpotFlowers_01_tagetes_yellow.et" {
+ coords 4298.25 1.768 2869.327
+ angleX -0.38
+ angleZ -1.075
+}
+GenericEntity : "{56A2AF5971604146}PrefabLibrary/Props/Decoration/FlowerpotPelargonia_01/FlowerpotPelargonia_01_white_v2.et" {
+ coords 4325.464 2.32 2856.986
+ angleX -0.48
+ angleY -2.976
+ angleZ 0.003
+}
+SCR_DestructibleEntity : "{64C2B556359933A2}PrefabLibrary/Props/Decoration/FlowerpotStreet_01_rect_long/FlowerpotStreet_01_rect_long_begonia_white.et" {
+ coords 4307.245 1.636 2838.504
+ angleX -0.883
+ angleY 80.392
+ angleZ 0.149
 }
 $grp GenericEntity : "{670F3221F5114B42}PrefabLibrary/Vegetation/Debris/BranchTrash_dec_01.et" {
  {
@@ -36,6 +118,9 @@ $grp GenericEntity : "{670F3221F5114B42}PrefabLibrary/Vegetation/Debris/BranchTr
   angleY -167.536
   scale 0.756
  }
+}
+SCR_DestructibleEntity : "{6A5C6D2127C08EFE}PrefabLibrary/Props/Decoration/FlowerpotFlowers_01_begonia/FlowerpotFlowers_01_begonia_pink.et" {
+ coords 4337.917 1.441 2857.896
 }
 $grp GenericEntity : "{6E1D4B04802CB5E5}PrefabLibrary/Props/Garbage/TrashBin_02/TrashBin_02.et" {
  {
@@ -134,6 +219,60 @@ $grp GenericEntity : "{6E1D4B04802CB5E5}PrefabLibrary/Props/Garbage/TrashBin_02/
   angleY 138.392
   angleZ 1.328
  }
+ {
+  coords 4291.498 1.434 2863.599
+  angleX 0.794
+  angleY -32.326
+  angleZ -0.414
+ }
+ {
+  coords 4290.972 1.402 2864.247
+  angleX 0.794
+  angleY -32.326
+  angleZ -0.414
+ }
+ {
+  coords 4298.233 1.656 2849.807
+  angleX -0.748
+  angleY 141.854
+  angleZ 0.492
+ }
+ {
+  coords 4327.784 1.217 2856.342
+  angleX 0.794
+  angleY -32.326
+  angleZ -0.414
+ }
+ {
+  coords 4336.912 0.989 2856.575
+  angleX 0.794
+  angleY -32.326
+  angleZ -0.414
+ }
+ {
+  coords 4315.881 1.381 2853.708
+  angleX 0.794
+  angleY -32.326
+  angleZ -0.414
+ }
+ {
+  coords 4316.311 1.393 2852.573
+  angleX 0.5
+  angleY -60.828
+  angleZ -0.742
+ }
+ {
+  coords 4295.905 1.176 2870.831
+  angleX -0.077
+  angleY -99.757
+  angleZ -0.892
+ }
+ {
+  coords 4296.704 1.149 2871.067
+  angleX -0.077
+  angleY -99.757
+  angleZ -0.892
+ }
 }
 $grp GenericEntity : "{77AB91E8C0DB9198}PrefabLibrary/Props/Infrastructure/PostOfficeBox_01.et" {
  {
@@ -155,6 +294,54 @@ $grp GenericEntity : "{77AB91E8C0DB9198}PrefabLibrary/Props/Infrastructure/PostO
   angleX 0.43
   angleY 85.974
   angleZ -0.255
+ }
+ {
+  coords 4239.96 2.944 2874.627
+  angleX -0.322
+  angleY -13.501
+  angleZ -0.382
+ }
+ {
+  coords 4256.59 2.72 2876.465
+  angleX 0.405
+  angleY 80.773
+  angleZ -0.293
+ }
+ {
+  coords 4290.827 1.98 2860.056
+  angleX 0.418
+  angleY 83.5
+  angleZ -0.273
+ }
+}
+$grp GenericEntity : "{7990C717E09292FA}PrefabLibrary/Props/Civilian/FlowerpotPelargonia_01_Red.et" {
+ {
+  coords 4328.887 1.442 2861.863
+ }
+ {
+  coords 4338.778 1.441 2862.211
+ }
+}
+GenericEntity : "{7D43259370387410}PrefabLibrary/Props/Garbage/Cardboard_Pile_03.et" {
+ coords 4298.965 1.672 2848.033
+ angleX 1.212
+ angleY -151.844
+ angleZ -0.367
+ scale 0.981
+}
+$grp SCR_DestructibleEntity : "{82811097384BF4D3}PrefabLibrary/Props/Decoration/FlowerpotFlowers_01_begonia/FlowerpotFlowers_01_begonia_white.et" {
+ {
+  coords 4338 1.441 2858.065
+ }
+ {
+  coords 4298.284 1.767 2869.604
+  angleX 0.317
+  angleZ -0.799
+ }
+ {
+  coords 4298.619 1.958 2869.577
+  angleX -0.38
+  angleZ -1.075
  }
 }
 $grp GenericEntity : "{931D0F9487462634}PrefabLibrary/Props/Infrastructure/Mailbox_02.et" {
@@ -195,6 +382,44 @@ $grp GenericEntity : "{931D0F9487462634}PrefabLibrary/Props/Infrastructure/Mailb
   angleZ -0.854
  }
 }
+GenericEntity : "{A9ABB5DF9160A75B}PrefabLibrary/Props/Industrial/VehicleGarbage_01_pile_small.et" {
+ coords 4298.068 1.633 2853.38
+ angleX 0.471
+ angleY 156.848
+ angleZ -1.175
+}
+$grp SCR_DestructibleEntity : "{ABD42182D8F3E85A}PrefabLibrary/Props/Decoration/FlowerpotStreet_01_rect_long/FlowerpotStreet_01_rect_long_begonia_pink.et" {
+ {
+  coords 4306.407 1.612 2846.421
+  angleX -1.016
+  angleY 81.595
+  angleZ -0.754
+ }
+ {
+  coords 4306.059 1.563 2849.915
+  angleX -0.99
+  angleY 83.541
+  angleZ -0.789
+ }
+}
+GenericEntity : "{AEDCB4708FE94641}PrefabLibrary/Props/Industrial/VehicleGarbage_01_pile_medium.et" {
+ coords 4298.715 1.619 2853.636
+ angleX 1.244
+ angleY -124.239
+ angleZ 0.236
+}
+$grp SCR_DestructibleEntity : "{DE011ABA0277333B}PrefabLibrary/Props/Decoration/FlowerpotFlowers_01_tagetes/FlowerpotFlowers_01_tagetes_orange.et" {
+ {
+  coords 4297.745 1.388 2869.177
+  angleX -0.381
+  angleZ -1.076
+ }
+ {
+  coords 4297.937 1.576 2869.571
+  angleX 0.317
+  angleZ -0.799
+ }
+}
 $grp StaticModelEntity : "{E680B16A04C3FDEA}PrefabLibrary/Props/Infrastructure/UtilityCabinet_02.et" {
  {
   coords 4267.029 0 3087.01
@@ -203,5 +428,29 @@ $grp StaticModelEntity : "{E680B16A04C3FDEA}PrefabLibrary/Props/Infrastructure/U
  {
   coords 4261.363 0.003 3000.652
   angleY 85.596
+ }
+}
+$grp GenericEntity : "{E681FC9543B34B51}PrefabLibrary/Props/Commercial/CardboardBoxStack_01.et" {
+ {
+  coords 4298.755 1.664 2848.775
+  angleX 1.111
+  angleY -106.327
+  angleZ 0.607
+ }
+ {
+  coords 4298.89 1.656 2849.872
+  angleY 136.762
+ }
+ {
+  coords 4292.612 1.605 2857.245
+  angleY 136.762
+ }
+ {
+  coords 4316.988 1.368 2853.493
+  angleY 12.35
+ }
+ {
+  coords 4316.615 1.356 2849.907
+  angleY -114.924
  }
 }
