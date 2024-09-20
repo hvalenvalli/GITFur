@@ -12590,6 +12590,67 @@ $grp SplineShapeEntity {
    }
   }
  }
+ {
+  coords 3119.246 3.998 2594.657
+  Points {
+   ShapePoint "{6268D6181E5FEB2A}" {
+    Position 0 0 0
+   }
+   ShapePoint "{6268D6181E5FD8E8}" {
+    Position -5.638 -0.433 -19.252
+   }
+   ShapePoint "{6268D6181D6589CD}" {
+    Position -12.922 -1.544 -48.961
+   }
+   ShapePoint "{6268D619C0FCE490}" {
+    Position -18.884 -2.22 -81.58
+   }
+   ShapePoint "{6268D619C746AEB1}" {
+    Position -6.726 -1.998 -94.861
+   }
+   ShapePoint "{6268D619C7DBA48F}" {
+    Position 26.092 -2.578 -109.764
+   }
+   ShapePoint "{6268D619C7AC4878}" {
+    Position 55.946 -2.861 -122.307
+   }
+  }
+  {
+   RoadGeneratorEntity : "{41CEDBF0493A26A5}PrefabLibrary/Generators/Roads/Dirt/RG_Road_Dirt_02.et" {
+    coords 0 0 0
+    {
+     RoadEntity {
+      ID "556C65569DF42CF7"
+      SplinePoints {
+       ShapePoint "{556C65561A62B78A}" {
+        Position 0 0 0
+       }
+       ShapePoint "{556C65561A62EBA9}" {
+        Position -5.638 -0.433 -19.252
+       }
+       ShapePoint "{6268D619E6AE53B3}" {
+        Position -12.922 -1.544 -48.961
+       }
+       ShapePoint "{6268D619C0FCB75C}" {
+        Position -18.884 -2.22 -81.58
+       }
+       ShapePoint "{6268D619C7457DD3}" {
+        Position -6.726 -1.998 -94.861
+       }
+       ShapePoint "{6268D619C7DA757A}" {
+        Position 26.092 -2.578 -109.764
+       }
+       ShapePoint "{6268D619C7AC167C}" {
+        Position 55.946 -2.861 -122.307
+       }
+      }
+      IsClosedSpline 0
+      Width 4.5
+     }
+    }
+   }
+  }
+ }
 }
 SCR_DestructibleBuildingEntity : "{1FC97AF2F48F5F55}PrefabLibrary/Infrastructure/Bridges/ConcreteBridge_01_Narrow_Long_PillarSmall.et" {
  coords 783.781 3.455 5661.158
