@@ -5124,28 +5124,28 @@ $grp SplineShapeEntity {
 }
 $grp Tree : "{0730D3271265110D}PrefabLibrary/Vegetation/Vegetables/CabbageCrop_01.et" {
  {
-  coords 3027.158 -0 2708.963
+  coords 3027.158 0 2708.963
   angleX 1.235
   angleY -133.617
   angleZ 1.296
   scale 0.873
  }
  {
-  coords 3025.735 -0 2709.494
+  coords 3025.735 0 2709.494
   angleX 1.581
   angleY -168.763
   angleZ 1.226
   scale 0.992
  }
  {
-  coords 3023.786 -0 2709.83
+  coords 3023.786 0 2709.83
   angleX -0.451
   angleY 50.401
   angleZ -1.949
   scale 1.136
  }
  {
-  coords 3021.687 -0 2710.351
+  coords 3021.687 0 2710.351
   angleX -0.54
   angleY -109.758
   angleZ 1.145
@@ -5166,14 +5166,14 @@ $grp Tree : "{0730D3271265110D}PrefabLibrary/Vegetation/Vegetables/CabbageCrop_0
   scale 0.903
  }
  {
-  coords 3016.357 -0 2711.664
+  coords 3016.357 0 2711.664
   angleX -0.297
   angleY -121.457
   angleZ 1.231
   scale 0.925
  }
  {
-  coords 3014.229 -0 2712.306
+  coords 3014.229 0 2712.306
   angleX -1.255
   angleY -52.404
   angleZ 0.163
@@ -5201,7 +5201,7 @@ $grp Tree : "{0730D3271265110D}PrefabLibrary/Vegetation/Vegetables/CabbageCrop_0
   scale 0.903
  }
  {
-  coords 3021.145 -0 2709.657
+  coords 3021.145 0 2709.657
   angleX -2.73
   angleY 33.992
   angleZ -0.776
@@ -5236,7 +5236,7 @@ $grp Tree : "{0730D3271265110D}PrefabLibrary/Vegetation/Vegetables/CabbageCrop_0
   scale 0.873
  }
  {
-  coords 3027.047 -0 2707.184
+  coords 3027.047 0 2707.184
   angleX 0.909
   angleY 126.779
   angleZ -2.689
@@ -5278,7 +5278,7 @@ $grp Tree : "{0730D3271265110D}PrefabLibrary/Vegetation/Vegetables/CabbageCrop_0
   scale 1.136
  }
  {
-  coords 3015.501 -0 2709.839
+  coords 3015.501 0 2709.839
   angleX -1.935
   angleY 10.413
   angleZ 0.554
@@ -5292,7 +5292,7 @@ $grp Tree : "{0730D3271265110D}PrefabLibrary/Vegetation/Vegetables/CabbageCrop_0
   scale 0.873
  }
  {
-  coords 3015.303 -0 2711.783
+  coords 3015.303 0 2711.783
   angleX 0.164
   angleY -142.458
   angleZ 1.255
@@ -5313,28 +5313,28 @@ $grp Tree : "{0730D3271265110D}PrefabLibrary/Vegetation/Vegetables/CabbageCrop_0
   scale 1.068
  }
  {
-  coords 3013.157 -0 2710.429
+  coords 3013.157 0 2710.429
   angleX 0.887
   angleY 97.903
   angleZ 0.123
   scale 1.091
  }
  {
-  coords 3020.392 -0 2709.894
+  coords 3020.392 0 2709.894
   angleX -1.217
   angleY 25.975
   angleZ -1.588
   scale 0.875
  }
  {
-  coords 3020.598 -0 2708.764
+  coords 3020.598 0 2708.764
   angleX -1.858
   angleY -48.334
   angleZ 0.742
   scale 1.081
  }
  {
-  coords 3025.488 -0 2708.49
+  coords 3025.488 0 2708.49
   angleX -0.276
   angleY -108.655
   angleZ 1.982
@@ -5510,6 +5510,22 @@ SCR_DestructibleBuildingEntity : "{38B030BEDB46E64D}PrefabLibrary/Structures/Hou
  coords 1833.615 0.037 4583.34
  angleY 105.459
 }
+$grp GenericEntity : "{38CC50480D29CCFD}PrefabLibrary/Rocks/Granite/Granite_Boulder_01/Granite_Boulder_01.et" {
+ {
+  coords 2925.376 -0.039 2720
+  angleX 151.512
+  angleY 2.736
+  angleZ 7.993
+  scale 0.836
+ }
+ {
+  coords 2940.093 0.076 2713.208
+  angleX -143.557
+  angleY 342.927
+  angleZ -169.596
+  scale 0.856
+ }
+}
 GenericEntity : "{39D1544F266C887B}PrefabLibrary/Props/Agricultural/Scythe_01.et" {
  coords 2550.37 9.759 4144.664
  angleZ 173.006
@@ -5544,10 +5560,10 @@ SCR_DestructibleBuildingEntity : "{41B0E910A5DA080A}PrefabLibrary/Props/Agricult
 }
 $grp GenericEntity : "{45E014028EFFD050}PrefabLibrary/Props/Civilian/Garden/ClotheslinePole_01.et" {
  {
-  coords 3012.991 1.906 2697.583
-  angleX -0.259
-  angleY 102.182
-  angleZ 0.274
+  coords 3012.963 1.906 2697.589
+  angleX -0.273
+  angleY 105.206
+  angleZ 0.26
  }
  {
   coords 3009.096 1.925 2698.533
@@ -5799,6 +5815,13 @@ $grp GenericEntity : "{715025A3286CC408}PrefabLibrary/Props/Agricultural/Cartwhe
   angleX -6.561
   angleY 0
  }
+}
+GenericEntity : "{75E7837701ADA216}PrefabLibrary/Rocks/Granite/Granite_Stone_03/Granite_BeachStone_03.et" {
+ coords 2919.269 -0.373 2721.186
+ angleX 4.561
+ angleY 120.062
+ angleZ -0.942
+ scale 0.881
 }
 $grp SCR_DestructibleBuildingEntity : "{768F3387F294F8CA}PrefabLibrary/Props/Agricultural/Hotbed_01_Closed.et" {
  {
@@ -6264,6 +6287,13 @@ $grp Tree : "{8D323A83404413AC}PrefabLibrary/Vegetation/Vegetables/PotatoCrop_01
   angleY 14.935
   scale 1.08
  }
+}
+GenericEntity : "{907BCF8E0D48357D}PrefabLibrary/Rocks/Granite/Granite_Stone_02/Granite_BeachStone_02.et" {
+ coords 2914.458 -0.799 2722.016
+ angleX 0.17
+ angleY -32.273
+ angleZ 4.9
+ scale 1.104
 }
 GenericEntity : "{92D5247D2FEFBEAF}PrefabLibrary/Props/Agricultural/Beehive_01_small/Beehive_01_small_red.et" {
  coords 2572.191 8.859 4150.809
