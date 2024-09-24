@@ -104,11 +104,19 @@ SCR_DestructibleBuildingEntity : "{6A497F2704236607}PrefabLibrary/Props/Infrastr
  coords 4262.147 0.185 2975.748
  angleY 87.823
 }
-GenericEntity : "{6BB29831A665858D}PrefabLibrary/Infrastructure/Sings/SignBendLeft.et" {
- coords 2890.55 0.388 2740.823
- angleX 1.714
- angleY 15.647
- angleZ 0.691
+$grp GenericEntity : "{6BB29831A665858D}PrefabLibrary/Infrastructure/Sings/SignBendLeft.et" {
+ {
+  coords 2890.55 0.388 2740.823
+  angleX 1.714
+  angleY 15.647
+  angleZ 0.691
+ }
+ {
+  coords 2926.138 2.218 2904.584
+  angleX -2.788
+  angleY -166.158
+  angleZ 3.109
+ }
 }
 GenericEntity : "{AFB807B563FBF819}PrefabLibrary/Infrastructure/Sings/Eden/Large/SignLarge_WaterTreatmentPlant.et" {
  coords 2898.094 0.318 2712.706
@@ -137,9 +145,17 @@ $grp DecalEntity : "{E9C22EECD0A52BB0}PrefabLibrary/Decals/Cracks/Decal_Asphalt_
   scale 1.443
  }
 }
-GenericEntity : "{F6CB9F9497340046}PrefabLibrary/Infrastructure/Sings/SignBendRight.et" {
- coords 2910.865 0.678 2720.745
- angleX 0.347
- angleY 130.117
- angleZ 2.309
+$grp GenericEntity : "{F6CB9F9497340046}PrefabLibrary/Infrastructure/Sings/SignBendRight.et" {
+ {
+  coords 2910.865 0.678 2720.745
+  angleX 0.347
+  angleY 130.117
+  angleZ 2.309
+ }
+ {
+  coords 2912.167 2.394 2920.944
+  angleX -0.429
+  angleY -51.921
+  angleZ -2.295
+ }
 }
