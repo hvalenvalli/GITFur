@@ -1,7 +1,15 @@
-GenericEntity : "{025B64D88EC05D15}PrefabLibrary/Infrastructure/Sings/SignDeadEnd.et" {
- coords 4231.873 2.936 2870.492
- angleX -1.728
- angleZ -0.065
+$grp GenericEntity : "{025B64D88EC05D15}PrefabLibrary/Infrastructure/Sings/SignDeadEnd.et" {
+ {
+  coords 4231.873 2.936 2870.492
+  angleX -1.728
+  angleZ -0.065
+ }
+ {
+  coords 2890.838 0.319 2712.305
+  angleX 1.572
+  angleY 25.103
+  angleZ 1.001
+ }
 }
 DecalEntity : "{22B0830DD0070203}PrefabLibrary/Decals/Markings/Decal_CrossWalk_01.et" {
  coords 4262.894 0.212 3049.256
@@ -72,6 +80,12 @@ $grp GenericEntity : "{393EA7D4604211A7}PrefabLibrary/Infrastructure/Sings/SignP
   angleZ 1.276
  }
 }
+GenericEntity : "{518CE3793C15C5F2}PrefabLibrary/Props/Agricultural/WaterTank_01/WaterTank_01_v2.et" {
+ coords 3066.133 3.064 2667.271
+ angleX 1.063
+ angleY -167.902
+ angleZ -0.688
+}
 $grp DecalEntity : "{5D3E73CD15E8BAC2}PrefabLibrary/Decals/Cracks/Decal_Asphalt_Cracks_01.et" {
  {
   coords 4289.943 0 2991.961
@@ -89,6 +103,15 @@ $grp DecalEntity : "{5D3E73CD15E8BAC2}PrefabLibrary/Decals/Cracks/Decal_Asphalt_
 SCR_DestructibleBuildingEntity : "{6A497F2704236607}PrefabLibrary/Props/Infrastructure/ElectricCabinet_01_double.et" {
  coords 4262.147 0.185 2975.748
  angleY 87.823
+}
+GenericEntity : "{6BB29831A665858D}PrefabLibrary/Infrastructure/Sings/SignBendLeft.et" {
+ coords 2890.55 0.388 2740.823
+ angleX 1.714
+ angleY 15.647
+ angleZ 0.691
+}
+GenericEntity : "{AFB807B563FBF819}PrefabLibrary/Infrastructure/Sings/Eden/Large/SignLarge_WaterTreatmentPlant.et" {
+ coords 2898.094 0.318 2712.706
 }
 $grp DecalEntity : "{D4F60BD4A5C9A287}PrefabLibrary/Decals/Cracks/Decal_Asphalt_Cracks_03.et" {
  {
@@ -113,4 +136,10 @@ $grp DecalEntity : "{E9C22EECD0A52BB0}PrefabLibrary/Decals/Cracks/Decal_Asphalt_
   angleX -90
   scale 1.443
  }
+}
+GenericEntity : "{F6CB9F9497340046}PrefabLibrary/Infrastructure/Sings/SignBendRight.et" {
+ coords 2910.865 0.678 2720.745
+ angleX 0.347
+ angleY 130.117
+ angleZ 2.309
 }

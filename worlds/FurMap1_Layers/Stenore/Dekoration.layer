@@ -2225,7 +2225,7 @@ $grp SplineShapeEntity {
   coords 4280.442 1.797 2830.55
   Points {
    ShapePoint "{6266CDF4529DFE7C}" {
-    Position 2.525 -0 0.013
+    Position 2.525 0 0.013
    }
    ShapePoint "{6266CDF4529D1917}" {
     Position 14.242 0.024 1.707
@@ -2234,16 +2234,16 @@ $grp SplineShapeEntity {
     Position 26.145 0 0.682
    }
    ShapePoint "{6266CDF4577F93DA}" {
-    Position 40.104 -0 1.016
+    Position 40.104 0 1.016
    }
    ShapePoint "{6266CDF457259218}" {
-    Position 45.281 -0 7.057
+    Position 45.281 0 7.057
    }
    ShapePoint "{6266CDF457952BB3}" {
-    Position 44.672 -0 15.678
+    Position 44.672 0 15.678
    }
    ShapePoint "{6266CDF4561B56BB}" {
-    Position 43.838 -0 21.569
+    Position 43.838 0 21.569
    }
   }
   {
@@ -3524,12 +3524,96 @@ GenericEntity : "{66FF9BE6539065D2}PrefabLibrary/Props/Construction/ConcreteMixe
  coords 3929.478 4.375 2990.808
  angleY 157.162
 }
-GenericEntity : "{670F3221F5114B42}PrefabLibrary/Vegetation/Debris/BranchTrash_dec_01.et" {
- coords 4106.355 3.57 2890.216
- angleX -1.015
- angleY 111.365
- angleZ -2.318
- scale 1.025
+$grp GenericEntity : "{670F3221F5114B42}PrefabLibrary/Vegetation/Debris/BranchTrash_dec_01.et" {
+ {
+  coords 4106.355 3.57 2890.216
+  angleX -1.015
+  angleY 111.365
+  angleZ -2.318
+  scale 1.025
+ }
+ {
+  coords 3151.848 3.924 2603
+  angleY -108.779
+  scale 3.119
+ }
+ {
+  coords 3150.245 3.729 2598.369
+  angleX 0.039
+  angleY 19.682
+  angleZ 0.799
+  scale 1.47
+ }
+ {
+  coords 3147.042 3.795 2603.124
+  angleX 0.755
+  angleY -86.788
+  angleZ -0.263
+  scale 1.148
+ }
+ {
+  coords 3153.444 3.747 2609.657
+  angleX 0.481
+  angleY -14.531
+  angleZ 0.639
+  scale 1.619
+ }
+ {
+  coords 3157.801 3.653 2602.534
+  angleX -0.765
+  angleY 95.601
+  angleZ 0.232
+  scale 1.424
+ }
+ {
+  coords 3148.158 3.807 2608.143
+  angleX 0.745
+  angleY -46.242
+  angleZ 0.291
+  scale 1.297
+ }
+ {
+  coords 3156.542 3.649 2598.869
+  angleX 0.268
+  angleY 2.888
+  angleZ 0.753
+  scale 1.148
+ }
+ {
+  coords 3156.386 3.694 2606.813
+  angleX -0.661
+  angleY 78.204
+  angleZ 0.45
+  scale 1.424
+ }
+ {
+  coords 3150.793 5.255 2602.314
+  angleX 23.311
+  angleY 20.026
+  angleZ -7.088
+  scale 1.47
+ }
+ {
+  coords 3152.202 6.187 2604.061
+  angleX 4.418
+  angleY 22.338
+  angleZ -0.657
+  scale 1.47
+ }
+ {
+  coords 3155.032 4.763 2604.531
+  angleX -10.167
+  angleY 95.994
+  angleZ 4.145
+  scale 1.47
+ }
+ {
+  coords 3148.749 4.366 2600.877
+  angleX -5.902
+  angleY -86.757
+  angleZ -5.46
+  scale 1.148
+ }
 }
 Tree : "{6813E89F9EF2BDAC}PrefabLibrary/Vegetation/Bushes/b_rosa_canina_1s.et" {
  coords 4053.127 -0.096 2893.39
