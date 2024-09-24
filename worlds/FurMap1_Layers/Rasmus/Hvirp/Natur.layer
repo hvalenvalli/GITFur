@@ -43583,7 +43583,7 @@ $grp SplineShapeEntity {
   coords 5239.396 1.82 5932.667
   Points {
    ShapePoint "{6270E03A3F7262CC}" {
-    Position 0 -0 0
+    Position 0 0 0
     Data {
      ForestGeneratorPointData "{000000002C57B0BA}" {
      }
@@ -46728,7 +46728,7 @@ $grp SplineShapeEntity {
        scale 1.154
       }
       {
-       coords -0.041 -0 -0.135
+       coords -0.041 0 -0.135
        angleX -0.103
        angleY 186.488
        angleZ 0.59
@@ -51071,7 +51071,6 @@ $grp SplineShapeEntity {
        angleX 0.754
        angleY 200.474
        angleZ 0.383
-       scale 1
       }
      }
      $grp Tree : "{C44F51A81AC2B063}PrefabLibrary/Vegetation/Trees/t_carpinus_betulus_3s.et" {
@@ -51879,13 +51878,6 @@ $grp SplineShapeEntity {
        scale 1.081
       }
       {
-       coords -32.533 1.416 137.708
-       angleX -1.256
-       angleY 203.649
-       angleZ -0.433
-       scale 0.863
-      }
-      {
        coords -18.123 1.319 129.612
        angleX -0.416
        angleY 225.369
@@ -51928,13 +51920,6 @@ $grp SplineShapeEntity {
        scale 1.11
       }
       {
-       coords -33.654 1.564 126.933
-       angleX 0.897
-       angleY 91.464
-       angleZ 1.221
-       scale 0.945
-      }
-      {
        coords -23.428 1.447 127.63
        angleX -0.288
        angleY 73.347
@@ -51947,13 +51932,6 @@ $grp SplineShapeEntity {
        angleY 116.019
        angleZ -0.363
        scale 1.153
-      }
-      {
-       coords -30.289 1.454 133.271
-       angleX 1.301
-       angleY 65.074
-       angleZ -0.65
-       scale 0.96
       }
       {
        coords -23.681 1.392 136.285
@@ -51982,13 +51960,6 @@ $grp SplineShapeEntity {
        angleY 112.152
        angleZ 1.116
        scale 1.199
-      }
-      {
-       coords -29.549 1.511 127.597
-       angleX -0.17
-       angleY 124.852
-       angleZ -0.284
-       scale 1.101
       }
       {
        coords 5.789 0.215 83.441
@@ -53421,6 +53392,194 @@ $grp SplineShapeEntity {
    }
   }
  }
+ {
+  coords 5277.248 -4.837 5849.915
+  Points {
+   ShapePoint "{6270FADB8A24C87C}" {
+    Position 0 0 0
+   }
+   ShapePoint "{6270FADB8A1B1E59}" {
+    Position 9.92 0 12.546
+   }
+   ShapePoint "{6270FADB84F3B17A}" {
+    Position 17.413 0 26.385
+   }
+   ShapePoint "{6270FADB845EC3A9}" {
+    Position 19.74 0 39.259
+   }
+   ShapePoint "{6270FADB85F23599}" {
+    Position 16.514 0 60.877
+   }
+   ShapePoint "{6270FADB827D3C3C}" {
+    Position 10.888 0.001 78.87
+   }
+   ShapePoint "{6270FADB8376A29E}" {
+    Position 6.877 0 98.717
+   }
+   ShapePoint "{6270FADBBE37E6F5}" {
+    Position 5.694 0 108.128
+   }
+   ShapePoint "{6270FADBBF5DF6A3}" {
+    Position 7.624 0 111.399
+   }
+   ShapePoint "{6270FADBB8C3F13D}" {
+    Position 17.153 0 114.684
+   }
+   ShapePoint "{6270FADBB544E2B8}" {
+    Position 22.081 0 117.497
+   }
+   ShapePoint "{6270FADBB525169E}" {
+    Position 25.353 -0 125.833
+   }
+   ShapePoint "{6270FADBB7D85796}" {
+    Position 26.65 -0.192 144.937
+   }
+   ShapePoint "{6270FADBB70D21DF}" {
+    Position 24.484 0 162.525
+   }
+   ShapePoint "{6270FADBB0B86388}" {
+    Position 24.74 0 170.936
+   }
+   ShapePoint "{6270FADBB0291CF3}" {
+    Position 27.711 -0 175.368
+   }
+   ShapePoint "{6270FADBB2BBF0F8}" {
+    Position 47.34 0 187.319
+   }
+   ShapePoint "{6270FADBAD5AA3BD}" {
+    Position 66.175 -0 197.204
+   }
+   ShapePoint "{6270FADBAFCB35B6}" {
+    Position 109.719 0 220.955
+   }
+   ShapePoint "{6270FADBAF0D1F27}" {
+    Position 139.032 0 236.957
+   }
+   ShapePoint "{6270FADBA8F16B0E}" {
+    Position 162.79 0 251.349
+   }
+   ShapePoint "{6270FADBA952A98A}" {
+    Position 186.829 -0 259.759
+   }
+   ShapePoint "{6270FADBAA9D8132}" {
+    Position 212.413 0 268.883
+   }
+   ShapePoint "{6270FADBA4C3990D}" {
+    Position 239.548 -0 278.107
+   }
+   ShapePoint "{6270FADBA786186C}" {
+    Position 280.998 0 294.3
+   }
+   ShapePoint "{6270FADBA7182C79}" {
+    Position 305.667 0 300.342
+   }
+   ShapePoint "{6270FADBA05AFC5F}" {
+    Position 330.222 0 304.339
+   }
+  }
+  {
+   RoadGeneratorEntity : "{2D9AEF10F5FEA98B}PrefabLibrary/Generators/Roads/Dirt/RG_Road_Dirt_01.et" {
+    coords 0 0 0
+    FalloffStartWidth -4.5
+    RoadFalloffWidth 6
+    {
+     RoadEntity {
+      ID "523EAA80CAA6C6B5"
+      Flags 2
+      SplinePoints {
+       ShapePoint "{52346539D885C296}" {
+        Position 0 0 0
+       }
+       ShapePoint "{52346539D885C1A2}" {
+        Position 9.92 0 12.546
+       }
+       ShapePoint "{6270FADB53912D15}" {
+        Position 17.413 0 26.385
+       }
+       ShapePoint "{6270FADB53912DA1}" {
+        Position 19.74 0 39.259
+       }
+       ShapePoint "{6270FADB53912A2A}" {
+        Position 16.514 0 60.877
+       }
+       ShapePoint "{6270FADB53912AAB}" {
+        Position 10.888 0.001 78.87
+       }
+       ShapePoint "{6270FADB53912B28}" {
+        Position 6.877 0 98.717
+       }
+       ShapePoint "{6270FADB53912BDB}" {
+        Position 5.694 0 108.128
+       }
+       ShapePoint "{6270FADB53912846}" {
+        Position 7.624 0 111.399
+       }
+       ShapePoint "{6270FADB539128C4}" {
+        Position 17.153 0 114.684
+       }
+       ShapePoint "{6270FADB53912943}" {
+        Position 22.081 0 117.497
+       }
+       ShapePoint "{6270FADB539129C4}" {
+        Position 25.353 -0 125.832
+       }
+       ShapePoint "{6270FADB53912644}" {
+        Position 26.65 -0.192 144.937
+       }
+       ShapePoint "{6270FADB539126C2}" {
+        Position 24.484 0 162.525
+       }
+       ShapePoint "{6270FADB53912740}" {
+        Position 24.74 0 170.936
+       }
+       ShapePoint "{6270FADB539127C9}" {
+        Position 27.711 -0 175.368
+       }
+       ShapePoint "{6270FADB5391244B}" {
+        Position 47.34 0 187.319
+       }
+       ShapePoint "{6270FADB539124C9}" {
+        Position 66.175 -0 197.204
+       }
+       ShapePoint "{6270FADB53912548}" {
+        Position 109.719 0 220.955
+       }
+       ShapePoint "{6270FADB539125CA}" {
+        Position 139.032 0 236.957
+       }
+       ShapePoint "{6270FADB5391224A}" {
+        Position 162.79 0 251.349
+       }
+       ShapePoint "{6270FADB539122CB}" {
+        Position 186.829 -0 259.759
+       }
+       ShapePoint "{6270FADB5391234A}" {
+        Position 212.413 0 268.883
+       }
+       ShapePoint "{6270FADB539123C0}" {
+        Position 239.548 -0 278.107
+       }
+       ShapePoint "{6270FADB5391204F}" {
+        Position 280.998 0 294.3
+       }
+       ShapePoint "{6270FADB539120CE}" {
+        Position 305.666 0 300.342
+       }
+       ShapePoint "{6270FADB5391214F}" {
+        Position 330.222 0 304.339
+       }
+      }
+      IsClosedSpline 0
+      Width 4
+     }
+    }
+   }
+   RiverEntity : "{DBFC6B2C12D5ED5A}PrefabLibrary/Generators/Water/River/R_RiverMedium_01.et" {
+    coords 0 0 0
+    GUID "6270FADB587F86C3"
+   }
+  }
+ }
 }
 Tree : "{00C9C289A467E096}PrefabLibrary/Vegetation/Trees/t_carpinus_betulus_2f.et" {
  coords 4983.457 0.512 5553.365
@@ -53440,6 +53599,24 @@ GenericEntity : "{187DF45E4944307D}PrefabLibrary/Infrastructure/Naval/Breakwater
  angleX -35.644
  angleY 2.14
  scale 0.185
+}
+$grp StaticModelEntity : "{1C2C424CBCF3A599}PrefabLibrary/Terrain/Erosion/ErodedEmbankment_01_dirt_turnin.et" {
+ {
+  coords 5276.895 -1.18 5849.75
+  angleY -143.005
+ }
+ {
+  coords 5282.769 -1.29 5960.518
+  angleY -49.764
+ }
+ {
+  coords 5301.54 -1.283 6023.831
+  angleY -57.915
+ }
+ {
+  coords 5608.16 -1.286 6154.212
+  angleY 76.096
+ }
 }
 Tree : "{20C4A23B039DFCF3}PrefabLibrary/Vegetation/Trees/t_picea_abies_3s.et" {
  coords 5230.98 0.913 5992.526
@@ -53494,6 +53671,702 @@ $grp StaticModelEntity : "{9AF0242036F3D3D3}PrefabLibrary/Terrain/Erosion/Eroded
  {
   coords 4976.101 -1.161 5553.455
   angleY 108.781
+ }
+ {
+  coords 5279.393 -1.259 5851.039
+  angleY 129.449
+ }
+ {
+  coords 5278.903 -1.259 5852.904
+  angleY -52.006
+ }
+ {
+  coords 5284.09 -1.259 5859.208
+  angleY -52.006
+ }
+ {
+  coords 5284.58 -1.259 5857.343
+  angleY 129.449
+ }
+ {
+  coords 5287.5 -1.259 5863.79
+  angleY -61.909
+ }
+ {
+  coords 5288.302 -1.259 5862.039
+  angleY 119.546
+ }
+ {
+  coords 5290.961 -1.259 5870.004
+  angleY -64.637
+ }
+ {
+  coords 5291.845 -1.259 5868.292
+  angleY 116.818
+ }
+ {
+  coords 5293.678 -1.259 5876.16
+  angleY -72.24
+ }
+ {
+  coords 5294.782 -1.259 5874.58
+  angleY 109.215
+ }
+ {
+  coords 5295.414 -1.259 5882.168
+  angleY -80.682
+ }
+ {
+  coords 5296.739 -1.259 5880.768
+  angleY 100.773
+ }
+ {
+  coords 5296.28 -1.259 5887.913
+  angleY -85.108
+ }
+ {
+  coords 5297.71 -1.259 5886.619
+  angleY 96.347
+ }
+ {
+  coords 5296.064 -1.259 5894.015
+  angleY -96.272
+ }
+ {
+  coords 5297.719 -1.259 5893.022
+  angleY 85.183
+ }
+ {
+  coords 5295.12 -1.259 5900.304
+  angleY -103.725
+ }
+ {
+  coords 5296.889 -1.259 5899.535
+  angleY 77.73
+ }
+ {
+  coords 5293.731 -1.259 5907.442
+  angleY -103.725
+ }
+ {
+  coords 5295.5 -1.259 5906.673
+  angleY 77.73
+ }
+ {
+  coords 5292.952 -1.259 5911.824
+  angleY -103.725
+ }
+ {
+  coords 5294.721 -1.259 5911.055
+  angleY 77.73
+ }
+ {
+  coords 5291.475 -1.259 5918.004
+  angleY -106.975
+ }
+ {
+  coords 5293.285 -1.259 5917.336
+  angleY 74.48
+ }
+ {
+  coords 5289.911 -1.259 5922.916
+  angleY -109.832
+ }
+ {
+  coords 5291.753 -1.259 5922.338
+  angleY 71.623
+ }
+ {
+  coords 5288.02 -1.259 5928.915
+  angleY -109.832
+ }
+ {
+  coords 5289.861 -1.259 5928.336
+  angleY 71.623
+ }
+ {
+  coords 5286.077 -1.259 5935.306
+  angleY -109.832
+ }
+ {
+  coords 5287.917 -1.259 5934.728
+  angleY 71.623
+ }
+ {
+  coords 5283.055 -1.259 5948.744
+  angleY -98.799
+ }
+ {
+  coords 5284.751 -1.259 5947.825
+  angleY 82.656
+ }
+ {
+  coords 5283.03 -1.259 5948.698
+  angleY -100.349
+ }
+ {
+  coords 5284.751 -1.259 5947.825
+  angleY 81.106
+ }
+ {
+  coords 5283.906 -1.259 5953.282
+  angleY 82.656
+ }
+ {
+  coords 5282.21 -1.259 5954.201
+  angleY -98.799
+ }
+ {
+  coords 5289.693 -1.259 5963.472
+  angleY -21.456
+ }
+ {
+  coords 5289.168 -1.259 5961.615
+  angleY 159.999
+ }
+ {
+  coords 5296.03 -1.259 5964.374
+  angleY 150.717
+ }
+ {
+  coords 5296.249 -1.259 5966.292
+  angleY -30.739
+ }
+ {
+  coords 5300.227 -1.259 5969.916
+  angleY -54.282
+ }
+ {
+  coords 5300.792 -1.259 5968.07
+  angleY 127.174
+ }
+ {
+  coords 5303.492 -1.259 5972.654
+  angleY 106.542
+ }
+ {
+  coords 5302.313 -1.259 5974.182
+  angleY -74.913
+ }
+ {
+  coords 5304.712 -1.259 5978.029
+  angleY 96.462
+ }
+ {
+  coords 5303.285 -1.259 5979.329
+  angleY -84.993
+ }
+ {
+  coords 5305.2 -1.259 5984.614
+  angleY 87.793
+ }
+ {
+  coords 5303.594 -1.259 5985.685
+  angleY -93.662
+ }
+ {
+  coords 5304.992 -1.259 5990.224
+  angleY 87.793
+ }
+ {
+  coords 5303.385 -1.259 5991.296
+  angleY -93.662
+ }
+ {
+  coords 5304.831 -1.259 5996.389
+  angleY 87.793
+ }
+ {
+  coords 5303.224 -1.259 5997.461
+  angleY -93.662
+ }
+ {
+  coords 5304.496 -1.259 6001.013
+  angleY 84.436
+ }
+ {
+  coords 5302.828 -1.259 6001.99
+  angleY -97.019
+ }
+ {
+  coords 5304.104 -1.259 6005.221
+  angleY 84.436
+ }
+ {
+  coords 5302.436 -1.259 6006.198
+  angleY -97.019
+ }
+ {
+  coords 5303.33 -1.259 6010.873
+  angleY 84.436
+ }
+ {
+  coords 5301.661 -1.259 6011.85
+  angleY -97.019
+ }
+ {
+  coords 5300.922 -1.259 6017.763
+  angleY -97.019
+ }
+ {
+  coords 5303.066 -1.259 6017.303
+  angleY 92.292
+ }
+ {
+  coords 5306.603 -1.259 6024.834
+  angleY 143.312
+ }
+ {
+  coords 5305.194 -1.259 6026.605
+  angleY -34.863
+ }
+ {
+  coords 5311.633 -1.259 6028.255
+  angleY 143.312
+ }
+ {
+  coords 5310.225 -1.259 6030.025
+  angleY -34.863
+ }
+ {
+  coords 5316.024 -1.259 6031.026
+  angleY 146.399
+ }
+ {
+  coords 5314.713 -1.259 6032.869
+  angleY -31.776
+ }
+ {
+  coords 5320.841 -1.259 6033.636
+  angleY 149.969
+ }
+ {
+  coords 5319.648 -1.259 6035.557
+  angleY -28.206
+ }
+ {
+  coords 5325.744 -1.259 6036.354
+  angleY 146.68
+ }
+ {
+  coords 5324.443 -1.259 6038.203
+  angleY -31.495
+ }
+ {
+  coords 5330.186 -1.259 6039.072
+  angleY 146.68
+ }
+ {
+  coords 5328.885 -1.259 6040.921
+  angleY -31.495
+ }
+ {
+  coords 5333.987 -1.259 6041.172
+  angleY 149.974
+ }
+ {
+  coords 5332.793 -1.259 6043.092
+  angleY -28.201
+ }
+ {
+  coords 5338.947 -1.259 6043.65
+  angleY 149.974
+ }
+ {
+  coords 5337.753 -1.259 6045.57
+  angleY -28.201
+ }
+ {
+  coords 5343.706 -1.259 6046.227
+  angleY 148.738
+ }
+ {
+  coords 5342.47 -1.259 6048.12
+  angleY -29.437
+ }
+ {
+  coords 5348.648 -1.259 6048.975
+  angleY 148.738
+ }
+ {
+  coords 5347.412 -1.259 6050.868
+  angleY -29.437
+ }
+ {
+  coords 5355.199 -1.259 6052.318
+  angleY 150.447
+ }
+ {
+  coords 5354.019 -1.259 6054.249
+  angleY -27.728
+ }
+ {
+  coords 5361.306 -1.259 6055.692
+  angleY 150.447
+ }
+ {
+  coords 5360.125 -1.259 6057.623
+  angleY -27.728
+ }
+ {
+  coords 5366.528 -1.259 6058.557
+  angleY 150.447
+ }
+ {
+  coords 5365.347 -1.259 6060.489
+  angleY -27.728
+ }
+ {
+  coords 5371.473 -1.259 6061.247
+  angleY 150.447
+ }
+ {
+  coords 5370.292 -1.259 6063.179
+  angleY -27.728
+ }
+ {
+  coords 5377.069 -1.259 6064.201
+  angleY 150.447
+ }
+ {
+  coords 5375.889 -1.259 6066.132
+  angleY -27.728
+ }
+ {
+  coords 5382.301 -1.259 6067.175
+  angleY 150.447
+ }
+ {
+  coords 5381.121 -1.259 6069.105
+  angleY -27.728
+ }
+ {
+  coords 5387.313 -1.259 6069.917
+  angleY 150.447
+ }
+ {
+  coords 5386.133 -1.259 6071.847
+  angleY -27.728
+ }
+ {
+  coords 5391.085 -1.259 6072.083
+  angleY 150.447
+ }
+ {
+  coords 5389.906 -1.259 6074.013
+  angleY -27.728
+ }
+ {
+  coords 5395.724 -1.259 6074.375
+  angleY 150.447
+ }
+ {
+  coords 5394.544 -1.259 6076.305
+  angleY -27.728
+ }
+ {
+  coords 5400.277 -1.259 6076.991
+  angleY 149.145
+ }
+ {
+  coords 5399.054 -1.259 6078.894
+  angleY -29.03
+ }
+ {
+  coords 5404.91 -1.259 6079.623
+  angleY 149.145
+ }
+ {
+  coords 5403.687 -1.259 6081.526
+  angleY -29.03
+ }
+ {
+  coords 5409.797 -1.259 6082.244
+  angleY 149.145
+ }
+ {
+  coords 5408.574 -1.259 6084.146
+  angleY -29.03
+ }
+ {
+  coords 5414.643 -1.259 6084.729
+  angleY 151.16
+ }
+ {
+  coords 5413.487 -1.259 6086.673
+  angleY -27.015
+ }
+ {
+  coords 5419.97 -1.259 6087.863
+  angleY 146.922
+ }
+ {
+  coords 5418.672 -1.259 6089.716
+  angleY -31.253
+ }
+ {
+  coords 5424.457 -1.259 6093.275
+  angleY -31.253
+ }
+ {
+  coords 5425.755 -1.259 6091.422
+  angleY 146.922
+ }
+ {
+  coords 5430.266 -1.259 6096.85
+  angleY -27.841
+ }
+ {
+  coords 5431.451 -1.259 6094.923
+  angleY 150.334
+ }
+ {
+  coords 5435.813 -1.259 6099.845
+  angleY -27.841
+ }
+ {
+  coords 5437 -1.259 6097.917
+  angleY 150.334
+ }
+ {
+  coords 5441.47 -1.259 6102.906
+  angleY -25.369
+ }
+ {
+  coords 5442.571 -1.259 6100.93
+  angleY 152.805
+ }
+ {
+  coords 5447.147 -1.259 6105.481
+  angleY -20.34
+ }
+ {
+  coords 5448.071 -1.259 6103.416
+  angleY 157.835
+ }
+ {
+  coords 5452.686 -1.259 6107.263
+  angleY -16.267
+ }
+ {
+  coords 5453.462 -1.259 6105.138
+  angleY 161.908
+ }
+ {
+  coords 5457.581 -1.259 6108.75
+  angleY -16.124
+ }
+ {
+  coords 5458.353 -1.259 6106.624
+  angleY 162.052
+ }
+ {
+  coords 5463.212 -1.259 6110.187
+  angleY -16.124
+ }
+ {
+  coords 5463.983 -1.259 6108.061
+  angleY 162.052
+ }
+ {
+  coords 5468.861 -1.259 6112.251
+  angleY -21.418
+ }
+ {
+  coords 5469.824 -1.259 6110.206
+  angleY 156.758
+ }
+ {
+  coords 5474.656 -1.259 6114.385
+  angleY -17.789
+ }
+ {
+  coords 5475.489 -1.259 6112.285
+  angleY 160.386
+ }
+ {
+  coords 5479.856 -1.259 6116.574
+  angleY -20.622
+ }
+ {
+  coords 5480.793 -1.259 6114.519
+  angleY 157.553
+ }
+ {
+  coords 5486.042 -1.259 6118.744
+  angleY -18.744
+ }
+ {
+  coords 5486.91 -1.259 6116.659
+  angleY 159.431
+ }
+ {
+  coords 5490.994 -1.259 6120.591
+  angleY -18.744
+ }
+ {
+  coords 5491.862 -1.259 6118.506
+  angleY 159.431
+ }
+ {
+  coords 5496.421 -1.259 6122.498
+  angleY -18.744
+ }
+ {
+  coords 5497.29 -1.259 6120.413
+  angleY 159.431
+ }
+ {
+  coords 5502.25 -1.259 6124.242
+  angleY -16.488
+ }
+ {
+  coords 5503.035 -1.259 6122.125
+  angleY 161.687
+ }
+ {
+  coords 5507.865 -1.259 6126.017
+  angleY -16.488
+ }
+ {
+  coords 5508.65 -1.259 6123.898
+  angleY 161.687
+ }
+ {
+  coords 5513.53 -1.259 6127.903
+  angleY -19.659
+ }
+ {
+  coords 5514.431 -1.259 6125.831
+  angleY 158.516
+ }
+ {
+  coords 5518.495 -1.259 6129.994
+  angleY -23.431
+ }
+ {
+  coords 5519.53 -1.259 6127.985
+  angleY 154.745
+ }
+ {
+  coords 5523.758 -1.259 6132.177
+  angleY -23.431
+ }
+ {
+  coords 5524.793 -1.259 6130.169
+  angleY 154.745
+ }
+ {
+  coords 5528.806 -1.259 6134.166
+  angleY -19.816
+ }
+ {
+  coords 5529.712 -1.259 6132.096
+  angleY 158.359
+ }
+ {
+  coords 5534.239 -1.259 6136.164
+  angleY -18.208
+ }
+ {
+  coords 5535.087 -1.259 6134.068
+  angleY 159.967
+ }
+ {
+  coords 5540.202 -1.259 6135.987
+  angleY 157.326
+ }
+ {
+  coords 5539.257 -1.259 6138.042
+  angleY -20.849
+ }
+ {
+  coords 5544.15 -1.259 6140.08
+  angleY -20.849
+ }
+ {
+  coords 5545.096 -1.259 6138.024
+  angleY 157.326
+ }
+ {
+  coords 5549.774 -1.259 6142.239
+  angleY -18.523
+ }
+ {
+  coords 5550.635 -1.259 6140.146
+  angleY 159.652
+ }
+ {
+  coords 5555.393 -1.259 6144.27
+  angleY -18.523
+ }
+ {
+  coords 5556.253 -1.259 6142.175
+  angleY 159.652
+ }
+ {
+  coords 5561.607 -1.259 6146.273
+  angleY -16.128
+ }
+ {
+  coords 5562.378 -1.259 6144.146
+  angleY 162.047
+ }
+ {
+  coords 5567.513 -1.259 6147.998
+  angleY -13.64
+ }
+ {
+  coords 5568.191 -1.259 6145.84
+  angleY 164.535
+ }
+ {
+  coords 5574.704 -1.259 6147.545
+  angleY 164.535
+ }
+ {
+  coords 5574.026 -1.259 6149.703
+  angleY -13.64
+ }
+ {
+  coords 5579.368 -1.259 6148.327
+  angleY 167.843
+ }
+ {
+  coords 5578.814 -1.259 6150.522
+  angleY -10.332
+ }
+ {
+  coords 5585.926 -1.259 6149.586
+  angleY 169.951
+ }
+ {
+  coords 5585.453 -1.259 6151.8
+  angleY -8.224
+ }
+ {
+  coords 5591.788 -1.259 6150.535
+  angleY 169.951
+ }
+ {
+  coords 5591.314 -1.259 6152.749
+  angleY -8.224
+ }
+ {
+  coords 5597.5 -1.259 6151.474
+  angleY 169.951
+ }
+ {
+  coords 5597.027 -1.259 6153.688
+  angleY -8.224
+ }
+ {
+  coords 5603.345 -1.259 6152.345
+  angleY 169.951
+ }
+ {
+  coords 5602.872 -1.259 6154.559
+  angleY -8.224
  }
 }
 Tree : "{9D6B4E946D1074EA}PrefabLibrary/Vegetation/Trees/t_piceaabies_2s.et" {
