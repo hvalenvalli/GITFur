@@ -800,9 +800,21 @@ SCR_DestructibleBuildingEntity : "{15D4F4467E3F79F1}PrefabLibrary/Structures/Hou
  coords 3955.936 0.05 2835.041
  angleY 167.07
 }
-SCR_DestructibleBuildingEntity : "{204BB984E739FB7A}PrefabLibrary/Structures/Naval/FishermanShed_01/FishermanShed_01_V2.et" {
- coords 4044.054 0 2805.023
- angleY -176.712
+GenericEntity : "{17D680E889BAAB59}PrefabLibrary/Props/Civilian/DogHouse_01.et" {
+ coords 2974.942 2.484 2640.849
+ angleX 0.136
+ angleY 175.485
+ angleZ 0.885
+}
+$grp SCR_DestructibleBuildingEntity : "{204BB984E739FB7A}PrefabLibrary/Structures/Naval/FishermanShed_01/FishermanShed_01_V2.et" {
+ {
+  coords 4044.054 0 2805.023
+  angleY -176.712
+ }
+ {
+  coords 2988.891 0.3 2630.916
+  angleY -70.874
+ }
 }
 GenericEntity : "{207442723F49FC41}Prefabs/Compositions/Misc/SubCompositions/Sandbag_MG_US_02_M60.et" {
  coords 4292.323 1.406 2817.614
@@ -1009,6 +1021,10 @@ SCR_DestructibleBuildingEntity : "{40CB72D2B509489C}PrefabLibrary/Structures/Ind
  coords 4242.634 0.218 2861.439
  angleY 172.274
 }
+SCR_DestructibleBuildingEntity : "{41B0E910A5DA080A}PrefabLibrary/Props/Agricultural/Henhouse_01.et" {
+ coords 2972.396 0.002 2639.703
+ angleY 115.484
+}
 SCR_DestructibleEntity : "{41DBB422CDB858C1}PrefabLibrary/Props/Civilian/TrashBin_01.et" {
  coords 4286.767 3.259 2976.539
  angleY 3.515
@@ -1070,6 +1086,20 @@ $grp SCR_DestructibleBuildingEntity : "{51BF59A7E99DC66E}PrefabLibrary/Structure
  {
   coords 4179.941 0.214 2943.528
   angleY 85.267
+ }
+}
+$grp GenericEntity : "{53718E531C2D4F47}PrefabLibrary/Props/Civilian/Garden/Birdhouse_01_pole.et" {
+ {
+  coords 2977.686 2.412 2626.648
+  angleX -1.081
+  angleY 16.872
+  angleZ 1.123
+ }
+ {
+  coords 3025.705 2.872 2690.923
+  angleX 2.06
+  angleY -65.375
+  angleZ 1.642
  }
 }
 $grp SCR_DestructibleBuildingEntity : "{54E4045E67826963}PrefabLibrary/Structures/Houses/Shed_02_big_V2.et" {
@@ -1806,7 +1836,13 @@ Tree : "{FA0813CCD98B815B}PrefabLibrary/Vegetation/Trees/t_malus_domestica_2s.et
  angleY -64.788
  scale 1.002
 }
-SCR_DestructibleBuildingEntity : "{FD91510268A541A7}PrefabLibrary/Structures/Houses/House_Wooden_E_1I01/House_Wooden_E_1I01_panels.et" {
- coords 4357.946 0.122 2845.946
- angleY -122.734
+$grp SCR_DestructibleBuildingEntity : "{FD91510268A541A7}PrefabLibrary/Structures/Houses/House_Wooden_E_1I01/House_Wooden_E_1I01_panels.et" {
+ {
+  coords 4357.946 0.122 2845.946
+  angleY -122.734
+ }
+ {
+  coords 2984.174 0.085 2640.772
+  angleY -159.895
+ }
 }
