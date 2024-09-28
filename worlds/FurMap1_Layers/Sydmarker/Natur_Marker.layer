@@ -12876,8 +12876,8 @@ $grp PolylineShapeEntity {
      }
      $grp Tree : "{CF0A210B7AC7B329}PrefabLibrary/Vegetation/Bushes/b_corylus_avellana_2.et" {
       {
-       coords 8.017 0.235 51.964
-       angleY 357.967
+       coords 7.652 0.299 50.414
+       angleY -2.033
        scale 1.126
       }
       {
@@ -60740,7 +60740,7 @@ $grp PolylineShapeEntity {
   coords 3014.082 3.034 2632.1
   Points {
    ShapePoint "{627740F75A6541CE}" {
-    Position 0 -0 0
+    Position 0 0 0
     Data {
      ForestGeneratorPointData "{000000002C57B0BA}" {
      }
@@ -60768,7 +60768,7 @@ $grp PolylineShapeEntity {
     }
    }
    ShapePoint "{627740F75835683D}" {
-    Position -22.575 -0 49.283
+    Position -22.575 0 49.283
     Data {
      ForestGeneratorPointData "{000000002C57B0BA}" {
      }
@@ -60796,21 +60796,21 @@ $grp PolylineShapeEntity {
     }
    }
    ShapePoint "{627740F75DD27CC3}" {
-    Position 5.98 -0 12.008
+    Position 5.98 0 12.008
     Data {
      ForestGeneratorPointData "{000000002C57B0BA}" {
      }
     }
    }
    ShapePoint "{627740F75DAA4814}" {
-    Position 8.991 -0 0.155
+    Position 8.991 0 0.155
     Data {
      ForestGeneratorPointData "{000000002C57B0BA}" {
      }
     }
    }
    ShapePoint "{627740F75C3B0FF1}" {
-    Position 0.139 -0 -0.199
+    Position 0.139 0 -0.199
     Data {
      ForestGeneratorPointData "{000000002C57B0BA}" {
      }
@@ -60825,19 +60825,15 @@ $grp PolylineShapeEntity {
     {
      $grp Tree : "{0A56ED2CC73ABB23}PrefabLibrary/Vegetation/Bushes/b_sambucus_nigra_2.et" {
       {
-       _layer 42
        coords -25.386 -0.744 19.416
        angleY 141.431
        scale 1.008
       }
       {
-       _layer 42
        coords 4.362 0.038 2.069
        angleY 189.883
        scale 1.154
       }
-     }
-     $grp Tree : "{0A56ED2CC73ABB23}PrefabLibrary/Vegetation/Bushes/b_sambucus_nigra_2.et" {
       {
        coords -19.199 -0.74 42.296
        angleY 329.732
@@ -60851,36 +60847,32 @@ $grp PolylineShapeEntity {
      }
      $grp Tree : "{168F4536FBB8FC36}Prefabs/Vegetation/Tree/t_carpinus_betulus_0s.et" {
       {
-       _layer 42
        coords -9.016 -0.049 10.942
        angleX 0.608
        angleZ -0.771
        scale 0.957
       }
       {
-       _layer 42
        coords -16.995 -0.142 8.042
        angleX -0.601
        angleZ -1.371
        scale 0.91
       }
       {
-       _layer 42
        coords -2.443 0.028 5.579
        angleX 0.095
        angleZ 1.049
        scale 0.904
       }
-     }
-     Tree : "{168F4536FBB8FC36}Prefabs/Vegetation/Tree/t_carpinus_betulus_0s.et" {
-      coords -17.739 -0.71 41.52
-      angleX -1.092
-      angleZ 0.983
-      scale 1.174
+      {
+       coords -17.739 -0.71 41.52
+       angleX -1.092
+       angleZ 0.983
+       scale 1.174
+      }
      }
      $grp Tree : "{425761285F36BF16}PrefabLibrary/Vegetation/Trees/t_betula_pendula_1s.et" {
       {
-       _layer 42
        coords -8.545 -0.048 3.481
        angleX -0.17
        angleY 151.627
@@ -60888,7 +60880,6 @@ $grp PolylineShapeEntity {
        scale 0.899
       }
       {
-       _layer 42
        coords -19.457 -0.234 15.194
        angleX 0.917
        angleY 33.696
@@ -60896,7 +60887,6 @@ $grp PolylineShapeEntity {
        scale 0.849
       }
       {
-       _layer 42
        coords -19.771 -0.38 26.34
        angleX 0.721
        angleY 208.164
@@ -60904,7 +60894,6 @@ $grp PolylineShapeEntity {
        scale 0.769
       }
       {
-       _layer 42
        coords -17.587 -0.199 14.937
        angleX -0.937
        angleY 292.839
@@ -60912,7 +60901,6 @@ $grp PolylineShapeEntity {
        scale 0.95
       }
       {
-       _layer 42
        coords -4.418 -0.008 11.295
        angleX 0.461
        angleY 11.173
@@ -60920,85 +60908,74 @@ $grp PolylineShapeEntity {
        scale 0.81
       }
       {
-       _layer 42
        coords 5.689 0.059 4.24
        angleX -0.889
        angleY 355.737
        angleZ 0.919
        scale 0.971
       }
-     }
-     Tree : "{425761285F36BF16}PrefabLibrary/Vegetation/Trees/t_betula_pendula_1s.et" {
-      coords -22.163 -1.006 42.553
-      angleX 0.035
-      angleY 203.803
-      angleZ 0.381
-      scale 0.79
+      {
+       coords -22.163 -1.006 42.553
+       angleX 0.035
+       angleY 203.803
+       angleZ 0.381
+       scale 0.79
+      }
      }
      $grp Tree : "{79BC4FC331405E37}PrefabLibrary/Vegetation/Trees/t_carpinus_betulus_0.et" {
       {
-       _layer 42
        coords -3.227 0.01 7.29
        angleY 293.805
        scale 1.078
       }
       {
-       _layer 42
        coords -12.236 -0.097 7.375
        angleY 322.503
        scale 1.159
       }
       {
-       _layer 42
        coords -22.833 -0.349 18.359
        angleY 219.601
        scale 0.911
       }
       {
-       _layer 42
        coords -16.889 -0.532 34.932
        angleY 68.337
        scale 0.955
       }
       {
-       _layer 42
        coords -17.328 -0.651 39.634
        angleY 281.665
        scale 0.975
       }
       {
-       _layer 42
        coords -6.333 -0.009 10.28
        angleY 122.293
        scale 0.813
       }
       {
-       _layer 42
        coords -1.629 0.028 7.188
        angleY 44.386
        scale 0.915
       }
       {
-       _layer 42
        coords -21.271 -0.268 13.666
        angleY 238.323
        scale 1.095
       }
       {
-       _layer 42
        coords -2.571 0.012 1.371
        angleY 289.224
        scale 1.164
       }
-     }
-     Tree : "{79BC4FC331405E37}PrefabLibrary/Vegetation/Trees/t_carpinus_betulus_0.et" {
-      coords -16.606 -0.707 41.413
-      angleY 184.807
-      scale 1.059
+      {
+       coords -16.606 -0.707 41.413
+       angleY 184.807
+       scale 1.059
+      }
      }
      $grp Tree : "{99D77B10B980D106}PrefabLibrary/Vegetation/Trees/t_carpinus_betulus_1f.et" {
       {
-       _layer 42
        coords -5.698 -0.003 8.82
        angleX 0.638
        angleY 53.835
@@ -61006,7 +60983,6 @@ $grp PolylineShapeEntity {
        scale 0.745
       }
       {
-       _layer 42
        coords -17.023 -0.379 29.001
        angleX -0.935
        angleY 150.418
@@ -61014,7 +60990,6 @@ $grp PolylineShapeEntity {
        scale 0.704
       }
       {
-       _layer 42
        coords -22.237 -0.431 25.716
        angleX 0.237
        angleY 140.421
@@ -61022,7 +60997,6 @@ $grp PolylineShapeEntity {
        scale 0.888
       }
       {
-       _layer 42
        coords -15.83 -0.206 19.138
        angleX 0.422
        angleY 194.123
@@ -61030,7 +61004,6 @@ $grp PolylineShapeEntity {
        scale 0.662
       }
       {
-       _layer 42
        coords -21.717 -0.483 30.988
        angleX 0.915
        angleY 321.788
@@ -61038,7 +61011,6 @@ $grp PolylineShapeEntity {
        scale 0.738
       }
       {
-       _layer 42
        coords -24.94 -1.039 34.176
        angleX 0.156
        angleY 323.953
@@ -61046,7 +61018,6 @@ $grp PolylineShapeEntity {
        scale 0.819
       }
       {
-       _layer 42
        coords -24.801 -0.971 30.459
        angleX 0.335
        angleY 298.782
@@ -61054,7 +61025,6 @@ $grp PolylineShapeEntity {
        scale 0.774
       }
       {
-       _layer 42
        coords -18.178 -0.194 12.572
        angleX 0.467
        angleY 182.587
@@ -61062,7 +61032,6 @@ $grp PolylineShapeEntity {
        scale 0.824
       }
       {
-       _layer 42
        coords -1.703 0.028 2.761
        angleX 0.432
        angleY 44.419
@@ -61070,7 +61039,6 @@ $grp PolylineShapeEntity {
        scale 0.754
       }
       {
-       _layer 42
        coords 0.619 0.025 0.968
        angleX -0.251
        angleY 72.896
@@ -61078,7 +61046,6 @@ $grp PolylineShapeEntity {
        scale 0.707
       }
       {
-       _layer 42
        coords 6.779 0.059 6.478
        angleX 1.34
        angleY 349.969
@@ -61088,139 +61055,115 @@ $grp PolylineShapeEntity {
      }
      $grp Tree : "{A35E15EBC6033C07}PrefabLibrary/Vegetation/Bushes/b_corylus_avellana_1.et" {
       {
-       _layer 42
        coords -3.679 0.001 1.786
        angleY 250.979
        scale 1.132
       }
       {
-       _layer 42
        coords -8.033 -0.034 11.869
        angleY 287.422
        scale 1.174
       }
       {
-       _layer 42
        coords -20.91 -0.334 22.268
        angleY 110.68
        scale 1.047
       }
       {
-       _layer 42
        coords -17.145 -0.439 31.855
        angleY 211.197
        scale 1.114
       }
       {
-       _layer 42
        coords -19.18 -0.317 22.889
        angleY 12.569
        scale 0.806
       }
       {
-       _layer 42
        coords -20.1 -0.302 21.04
        angleY 359.901
        scale 1.001
       }
       {
-       _layer 42
        coords -20.567 -0.438 29.22
        angleY 161.119
        scale 1.05
       }
       {
-       _layer 42
        coords -15.284 -0.626 38.849
        angleY 40.947
        scale 0.899
       }
       {
-       _layer 42
        coords -21.296 -0.358 23.398
        angleY 178.204
        scale 0.806
       }
       {
-       _layer 42
        coords -22.484 -0.517 27.928
        angleY 55.944
        scale 1.055
       }
       {
-       _layer 42
        coords -15.527 -0.549 36.375
        angleY 327.842
        scale 0.813
       }
       {
-       _layer 42
        coords -25.125 -1.014 31.312
        angleY 350.98
        scale 1.022
       }
       {
-       _layer 42
        coords -15.78 -0.155 9.91
        angleY 147.43
        scale 1.183
       }
       {
-       _layer 42
        coords -0.623 0.028 7.286
        angleY 276.249
        scale 0.912
       }
       {
-       _layer 42
        coords 2.264 0.05 8.498
        angleY 93.233
        scale 0.843
       }
       {
-       _layer 42
        coords 4.899 0.059 6.128
        angleY 140.904
        scale 0.901
       }
       {
-       _layer 42
        coords 4.65 0.028 0.315
        angleY 182.543
        scale 0.84
       }
       {
-       _layer 42
        coords 2.642 0.059 6.587
        angleY 122.15
        scale 0.919
       }
       {
-       _layer 42
        coords 2.614 0.059 5.108
        angleY 354.562
        scale 1.144
       }
       {
-       _layer 42
        coords 3.737 0.056 10.094
        angleY 10.075
        scale 0.898
       }
       {
-       _layer 42
        coords 1.861 0.059 4.237
        angleY 17.007
        scale 1.075
       }
       {
-       _layer 42
        coords 0.657 0.028 2.095
        angleY 212.834
        scale 1.192
       }
-     }
-     $grp Tree : "{A35E15EBC6033C07}PrefabLibrary/Vegetation/Bushes/b_corylus_avellana_1.et" {
       {
        coords -20.52 -0.959 45.302
        angleY 2.241
@@ -61234,7 +61177,6 @@ $grp PolylineShapeEntity {
      }
      $grp Tree : "{B3453920EE605F13}PrefabLibrary/Vegetation/Trees/t_carpinus_betulus_2s.et" {
       {
-       _layer 42
        coords -12.961 -0.154 17.558
        angleX 0.499
        angleY 6.174
@@ -61242,7 +61184,6 @@ $grp PolylineShapeEntity {
        scale 0.82
       }
       {
-       _layer 42
        coords 2.229 0.033 10.26
        angleX 0.507
        angleY 240.059
@@ -61250,7 +61191,6 @@ $grp PolylineShapeEntity {
        scale 0.709
       }
       {
-       _layer 42
        coords -11.164 -0.082 12.329
        angleX 0.931
        angleY 331.545
@@ -61258,7 +61198,6 @@ $grp PolylineShapeEntity {
        scale 0.896
       }
       {
-       _layer 42
        coords -2.621 0.02 10.345
        angleX -0.862
        angleY 333.621
@@ -61266,7 +61205,6 @@ $grp PolylineShapeEntity {
        scale 0.764
       }
       {
-       _layer 42
        coords -18.373 -0.277 21.147
        angleX -0.23
        angleY 263.076
@@ -61274,7 +61212,6 @@ $grp PolylineShapeEntity {
        scale 0.775
       }
       {
-       _layer 42
        coords -16.976 -0.609 38.281
        angleX 0.142
        angleY 192.047
@@ -61282,7 +61219,6 @@ $grp PolylineShapeEntity {
        scale 0.737
       }
       {
-       _layer 42
        coords -21.147 -0.606 35.581
        angleX 0.265
        angleY 91.794
@@ -61290,7 +61226,6 @@ $grp PolylineShapeEntity {
        scale 0.701
       }
       {
-       _layer 42
        coords -9.735 -0.06 5.798
        angleX 0.742
        angleY 228.281
@@ -61298,7 +61233,6 @@ $grp PolylineShapeEntity {
        scale 0.855
       }
       {
-       _layer 42
        coords 0.746 0.041 5.611
        angleX 0.54
        angleY 31.806
@@ -61306,15 +61240,12 @@ $grp PolylineShapeEntity {
        scale 0.741
       }
       {
-       _layer 42
        coords -3.716 0.026 5.421
        angleX -0.882
        angleY 283.049
        angleZ -0.777
        scale 0.71
       }
-     }
-     $grp Tree : "{B3453920EE605F13}PrefabLibrary/Vegetation/Trees/t_carpinus_betulus_2s.et" {
       {
        coords -16.117 -0.787 42.75
        angleX -0.823
@@ -61332,19 +61263,16 @@ $grp PolylineShapeEntity {
      }
      $grp Tree : "{C8E68C4C6AF159DA}PrefabLibrary/Vegetation/Trees/t_betula_pendula_2sw.et" {
       {
-       _layer 42
        coords -7.514 -0.025 10.047
        angleY 228.49
        scale 0.904
       }
       {
-       _layer 42
        coords -15.214 -0.521 35.478
        angleY 315.965
        scale 0.813
       }
       {
-       _layer 42
        coords 8.455 0.059 0.906
        angleY 7.68
        scale 0.846
@@ -61352,13 +61280,11 @@ $grp PolylineShapeEntity {
      }
      $grp Tree : "{CF0A210B7AC7B329}PrefabLibrary/Vegetation/Bushes/b_corylus_avellana_2.et" {
       {
-       _layer 42
        coords -19.907 -0.245 13.533
        angleY 252.232
        scale 0.831
       }
       {
-       _layer 42
        coords -23.379 -0.974 37.853
        angleY 178.61
        scale 0.969
@@ -61366,40 +61292,35 @@ $grp PolylineShapeEntity {
      }
      $grp Tree : "{DA7492F3E6B63251}PrefabLibrary/Vegetation/Bushes/b_corylus_avellana_1l.et" {
       {
-       _layer 42
        coords -5.628 -0.003 4.448
        angleY 92.178
        scale 1.063
       }
       {
-       _layer 42
        coords -11.674 -0.09 9.493
        angleY 78.785
        scale 0.833
       }
       {
-       _layer 42
        coords -13.322 -0.116 11.948
        angleY 92.299
        scale 1.104
       }
       {
-       _layer 42
        coords -25.994 -1.092 21.746
        angleY 173.721
        scale 0.929
       }
       {
-       _layer 42
        coords -20.184 -0.666 39.762
        angleY 39.475
        scale 0.937
       }
-     }
-     Tree : "{DA7492F3E6B63251}PrefabLibrary/Vegetation/Bushes/b_corylus_avellana_1l.et" {
-      coords -20.808 -1.12 48.701
-      angleY 111.844
-      scale 0.833
+      {
+       coords -20.808 -1.12 48.701
+       angleY 111.844
+       scale 0.833
+      }
      }
     }
    }
@@ -61423,7 +61344,7 @@ $grp PolylineShapeEntity {
     }
    }
    ShapePoint "{627740F71F6A1B9E}" {
-    Position -24.496 -0 35.879
+    Position -24.496 0 35.879
     Data {
      ForestGeneratorPointData "{000000002C57B0BA}" {
      }
@@ -62484,13 +62405,11 @@ $grp PolylineShapeEntity {
     {
      $grp Tree : "{053196EF2505964A}PrefabLibrary/Vegetation/Trees/t_picea_abies_0.et" {
       {
-       _layer 41
        coords -2.386 -0.336 19.92
        angleY 213.482
        scale 0.885
       }
       {
-       _layer 41
        coords 1.081 -0.03 5.04
        angleY 113.778
        scale 1.063
@@ -62498,85 +62417,71 @@ $grp PolylineShapeEntity {
      }
      $grp Tree : "{20C4A23B039DFCF3}PrefabLibrary/Vegetation/Trees/t_picea_abies_3s.et" {
       {
-       _layer 41
        coords -35.573 -0.78 13.412
        angleY 316.13
        scale 0.961
       }
       {
-       _layer 41
        coords -15.697 -0.776 11.477
        angleY 270.887
        scale 0.796
       }
       {
-       _layer 41
        coords -19.787 -0.78 14.966
        angleY 210.966
        scale 0.62
       }
       {
-       _layer 41
        coords -7.152 -0.413 4.092
        angleY 344.421
        scale 0.733
       }
       {
-       _layer 41
        coords -2.111 -0.098 2.225
        angleY 219.634
        scale 0.816
       }
       {
-       _layer 41
        coords -10.452 -0.756 14.685
        angleY 246.244
        scale 0.855
       }
       {
-       _layer 41
        coords -16.921 -0.78 18.921
        angleY 143.189
        scale 0.869
       }
       {
-       _layer 41
        coords -2.474 -0.58 13.502
        angleY 351.584
        scale 0.774
       }
       {
-       _layer 41
        coords -21.205 -0.78 22.76
        angleY 346.805
        scale 0.689
       }
       {
-       _layer 41
        coords -9.76 -0.636 20.062
        angleY 88.959
        scale 0.747
       }
       {
-       _layer 41
        coords -25.617 -0.78 23.158
        angleY 87.333
        scale 0.722
       }
       {
-       _layer 41
        coords -7.383 -0.554 8.689
        angleY 43.606
        scale 0.793
       }
       {
-       _layer 41
        coords -2.914 -0.285 6.834
        angleY 355.583
        scale 0.685
       }
       {
-       _layer 41
        coords 1.834 -0.342 11.511
        angleY 32.389
        scale 0.743
@@ -62584,19 +62489,16 @@ $grp PolylineShapeEntity {
      }
      $grp Tree : "{425761285F36BF16}PrefabLibrary/Vegetation/Trees/t_betula_pendula_1s.et" {
       {
-       _layer 41
        coords -18.066 -0.78 14.579
        angleY 38.585
        scale 0.968
       }
       {
-       _layer 41
        coords -37.857 -0.78 12.254
        angleY 114.503
        scale 0.854
       }
       {
-       _layer 41
        coords -18.019 -0.717 25.052
        angleY 66.085
        scale 0.883
@@ -62604,19 +62506,16 @@ $grp PolylineShapeEntity {
      }
      $grp Tree : "{531BB93086610CA1}PrefabLibrary/Vegetation/Trees/t_betula_pendula_0.et" {
       {
-       _layer 41
        coords -37.848 -0.78 13.363
        angleY 116.536
        scale 0.943
       }
       {
-       _layer 41
        coords -10.312 -0.705 11.186
        angleY 77.577
        scale 1.143
       }
       {
-       _layer 41
        coords -0.812 -0.074 4.434
        angleY 113.987
        scale 0.999
@@ -62624,13 +62523,11 @@ $grp PolylineShapeEntity {
      }
      $grp Tree : "{68C5231808D63103}PrefabLibrary/Vegetation/Trees/t_betula_pendula_2f.et" {
       {
-       _layer 41
        coords -29.233 -0.78 12.043
        angleY 263.823
        scale 0.942
       }
       {
-       _layer 41
        coords -24.433 -0.78 15.834
        angleY 176.061
        scale 0.89
@@ -62638,25 +62535,21 @@ $grp PolylineShapeEntity {
      }
      $grp Tree : "{960EA50FD57CD7D5}PrefabLibrary/Vegetation/Trees/t_betula_pendula_1sw.et" {
       {
-       _layer 41
        coords -30.178 -0.78 13.459
        angleY 322.667
        scale 0.924
       }
       {
-       _layer 41
        coords -19.435 -0.654 28.8
        angleY 277.029
        scale 0.982
       }
       {
-       _layer 41
        coords -13.537 -0.548 25.673
        angleY 269.745
        scale 0.975
       }
       {
-       _layer 41
        coords -1.464 -0.509 12.227
        angleY 59.844
        scale 0.887
@@ -62664,51 +62557,43 @@ $grp PolylineShapeEntity {
      }
      $grp Tree : "{9D6B4E946D1074EA}PrefabLibrary/Vegetation/Trees/t_piceaabies_2s.et" {
       {
-       _layer 41
        coords -13.559 -0.78 16.123
        angleY 103.637
        scale 0.927
       }
       {
-       _layer 41
        coords -23.39 -0.78 20.295
        angleY 172.458
        scale 0.939
       }
       {
-       _layer 41
        coords -5.978 -0.653 12.954
        angleY 301.364
        scale 1.044
       }
       {
-       _layer 41
        coords -18.598 -0.78 22.845
        angleY 237.653
        scale 0.95
       }
      }
      Tree : "{A35E15EBC6033C07}PrefabLibrary/Vegetation/Bushes/b_corylus_avellana_1.et" {
-      _layer 41
       coords 1.402 -0.294 14.077
       angleY 86.839
       scale 1.005
      }
      $grp Tree : "{CED0732AEAD82213}PrefabLibrary/Vegetation/Trees/t_picea_abies_1s.et" {
       {
-       _layer 41
        coords -8.548 -0.593 8.584
        angleY 216.679
        scale 0.95
       }
       {
-       _layer 41
        coords -37.949 -0.78 14.139
        angleY 138.575
        scale 1.041
       }
       {
-       _layer 41
        coords -7.608 -0.446 20.685
        angleY 349.727
        scale 0.939
@@ -62716,25 +62601,21 @@ $grp PolylineShapeEntity {
      }
      $grp Tree : "{CF0A210B7AC7B329}PrefabLibrary/Vegetation/Bushes/b_corylus_avellana_2.et" {
       {
-       _layer 41
        coords -12.637 -0.707 6.843
        angleY 75.248
        scale 0.85
       }
       {
-       _layer 41
        coords -3.213 -0.223 4.995
        angleY 35.498
        scale 1.178
       }
       {
-       _layer 41
        coords -16.036 -0.594 27.313
        angleY 297.651
        scale 0.894
       }
       {
-       _layer 41
        coords -0.571 -0.293 18.57
        angleY 63.184
        scale 0.691
@@ -62742,44 +62623,37 @@ $grp PolylineShapeEntity {
      }
      $grp Tree : "{DA7492F3E6B63251}PrefabLibrary/Vegetation/Bushes/b_corylus_avellana_1l.et" {
       {
-       _layer 41
        coords -34.139 -0.78 9.211
        angleY 205.517
        scale 0.975
       }
       {
-       _layer 41
        coords -34.48 -0.78 19.291
        angleY 35.882
        scale 1.172
       }
       {
-       _layer 41
        coords -25.317 -0.81 26.397
        angleY 196.222
        scale 1.179
       }
       {
-       _layer 41
        coords -24.734 -0.78 28.464
        angleY 252.704
        scale 1.186
       }
       {
-       _layer 41
        coords 1.939 0.035 4.004
        angleY 324.579
        scale 0.825
       }
      }
      Tree : "{DB49D8B142D18E86}PrefabLibrary/Vegetation/Trees/t_betula_pendula_2s.et" {
-      _layer 41
       coords 3.422 -0.107 7.581
       angleY 198.595
       scale 1.01
      }
      Tree : "{F1DB9A8115310093}PrefabLibrary/Vegetation/Trees/t_betula_pendula_1f.et" {
-      _layer 41
       coords -25.447 -0.78 12.588
       angleX 1.389
       angleY 41.079
@@ -62794,7 +62668,7 @@ $grp PolylineShapeEntity {
   coords 3093.878 3.377 2588.322
   Points {
    ShapePoint "{627740F3E18114B8}" {
-    Position 0 -0 0
+    Position 0 0 0
    }
    ShapePoint "{627740F3E1817F92}" {
     Position 6.575 0.534 16.831
@@ -62872,7 +62746,7 @@ $grp PolylineShapeEntity {
      }
      $grp Tree : "{79BC4FC331405E37}PrefabLibrary/Vegetation/Trees/t_carpinus_betulus_0.et" {
       {
-       coords 0.012 -0 -0.005
+       coords 0.012 0 -0.005
        angleX 4.531
        angleY 130.008
        angleZ -2.619
@@ -62991,7 +62865,7 @@ $grp PolylineShapeEntity {
     Flags 1048579
     {
      SCR_DestructibleEntity : "{3D24CF45345054DD}Prefabs/Structures/Walls/Wooden/WoodenFenceOld_01/WoodenFenceOld_01_start.et" {
-      coords 0 -0 0
+      coords 0 0 0
       angleY -68.661
      }
      $grp SCR_DestructibleEntity : "{422C2BC6C73E34D2}Prefabs/Structures/Walls/Wooden/WoodenFenceOld_01/WoodenFenceOld_01_8m.et" {
@@ -63653,7 +63527,6 @@ $grp PolylineShapeEntity {
       {
        coords -10.631 -0.348 -5.071
        angleY 262.592
-       scale 1
       }
      }
     }
@@ -63853,6 +63726,3374 @@ $grp PolylineShapeEntity {
       coords 0.473 0.009 -3.836
       angleY 64.909
       scale 0.996
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 3069.56 2.096 2713.012
+  Points {
+   ShapePoint "{62793671A79130D7}" {
+    Position 0 -0 0
+    Data {
+     ForestGeneratorPointData "{000000002C57B0BA}" {
+     }
+    }
+   }
+   ShapePoint "{62793671A79178E3}" {
+    Position 18.531 2.189 67.965
+    Data {
+     ForestGeneratorPointData "{000000002C57B0BA}" {
+     }
+    }
+   }
+   ShapePoint "{62793671AAF0761E}" {
+    Position -51.455 -0.329 87.318
+    Data {
+     ForestGeneratorPointData "{000000002C57B0BA}" {
+     }
+    }
+   }
+   ShapePoint "{62793671A9644B81}" {
+    Position -69.062 -0.918 27.556
+    Data {
+     ForestGeneratorPointData "{000000002C57B0BA}" {
+     }
+    }
+   }
+   ShapePoint "{62793671A9914549}" {
+    Position 0.492 0.02 0.333
+    Data {
+     ForestGeneratorPointData "{000000002C57B0BA}" {
+     }
+    }
+   }
+  }
+  LineColor 0 0 0 0
+  {
+   ForestGeneratorEntity : "{07CBFED2E7F69FBB}PrefabLibrary/Generators/Brushlands/FG_Brushland_Sorbus_Sparse.et" {
+    coords 0 0 0
+    Flags 1048579
+    {
+     $grp GenericEntity : "{1BA4712EED0CB208}PrefabLibrary/Rocks/Granite/GraniteStone_03.et" {
+      {
+       coords -7.612 0.401 59.368
+       angleY 192.552
+       scale 1.114
+      }
+      {
+       coords -6.634 0.462 61.065
+       angleY 243.563
+       scale 0.905
+      }
+      {
+       coords -13.507 0.001 61.524
+       angleY 101.242
+       scale 1.086
+      }
+      {
+       coords -9.455 0.286 59.884
+       angleY 21.973
+       scale 0.623
+      }
+      {
+       coords -13.74 -0.013 59.909
+       angleY 140.684
+       scale 0.883
+      }
+      {
+       coords -13.748 0.049 44.572
+       angleY 307.033
+       scale 1.116
+      }
+      {
+       coords -12.617 0.091 41.156
+       angleY 135.444
+       scale 0.872
+      }
+      {
+       coords -12.397 0.134 45.079
+       angleY 148.661
+       scale 0.634
+      }
+     }
+     $grp Tree : "{1F1980176A5052DC}PrefabLibrary/Vegetation/Bushes/b_rosa_canina_0s.et" {
+      {
+       coords -13.165 0.039 64.025
+       angleX 0.892
+       angleY -0.056
+       angleZ -3.577
+       scale 0.857
+      }
+      {
+       coords -11.853 0.104 62.582
+       angleZ -3.576
+       scale 0.808
+      }
+      {
+       coords -13.314 -0.186 14.142
+       angleZ -0.895
+       scale 1.028
+      }
+      {
+       coords -21.136 -0.275 12.444
+       angleX -0.895
+       scale 0.81
+      }
+      {
+       coords -15.474 -0.237 16.13
+       angleX -0.895
+       angleY 0.014
+       angleZ -0.895
+       scale 1.1
+      }
+      {
+       coords -15.824 -0.225 11.228
+       angleX -0.895
+       scale 1.091
+      }
+      {
+       coords -18.519 -0.258 12.42
+       angleX -0.895
+       angleY 0.014
+       angleZ -0.895
+       scale 1.023
+      }
+      {
+       coords -11.867 -0.163 11.673
+       angleZ -0.895
+       scale 0.85
+      }
+      {
+       coords -19.67 -0.249 10.79
+       angleX -0.895
+       scale 1.195
+      }
+      {
+       coords -0.28 0.847 62.19
+       angleX 0.892
+       angleY -0.056
+       angleZ -3.577
+       scale 1.006
+      }
+      {
+       coords -1.439 0.785 62.523
+       angleZ -2.684
+       scale 1.029
+      }
+      {
+       coords -2.474 0.722 58.128
+       angleZ -3.576
+       scale 1.114
+      }
+      {
+       coords 3.404 1.074 60.722
+       angleZ -2.684
+       scale 0.977
+      }
+      {
+       coords 0.352 0.869 60.697
+       angleZ -2.684
+       scale 1.036
+      }
+      {
+       coords -1.606 0.776 61.84
+       angleZ -3.576
+       scale 0.925
+      }
+     }
+     $grp Tree : "{2A1012C2B5B4F1FA}PrefabLibrary/Vegetation/Bushes/b_rubus_idaeus_1s.et" {
+      {
+       coords -16.575 -0.185 37.34
+       angleX -0.932
+       angleY 29.972
+       angleZ 0.342
+       scale 0.903
+      }
+      {
+       coords -27.479 -0.687 41.526
+       angleX 0.492
+       angleY 26.456
+       angleZ -0.385
+       scale 0.856
+      }
+      {
+       coords -16.425 -0.139 39.716
+       angleX -0.759
+       angleY 310.813
+       angleZ -0.811
+       scale 0.701
+      }
+      {
+       coords -17.823 -0.255 37.847
+       angleX 1.727
+       angleY 158.823
+       angleZ -0.082
+       scale 0.77
+      }
+      {
+       coords -18.735 -0.307 36.997
+       angleX -0.252
+       angleY 330.402
+       angleZ 0.557
+       scale 0.869
+      }
+      {
+       coords -21.987 -0.46 39.216
+       angleX -1.919
+       angleY 168.909
+       angleZ 0.765
+       scale 0.826
+      }
+      {
+       coords -14.289 -0.009 39.492
+       angleX 1.201
+       angleY 311.692
+       angleZ -1.766
+       scale 0.937
+      }
+      {
+       coords -22.594 -0.457 43.227
+       angleX 0.089
+       angleY 103.582
+       angleZ 1.012
+       scale 0.721
+      }
+      {
+       coords -22.065 -0.444 40.71
+       angleX -0.135
+       angleY 236.158
+       angleZ -1.761
+       scale 0.987
+      }
+      {
+       coords -13.377 -0.018 35.239
+       angleX -0.222
+       angleY 346.058
+       angleZ -1.08
+       scale 0.954
+      }
+      {
+       coords -14.641 -0.022 40.107
+       angleX -1.46
+       angleY 98.012
+       angleZ 0.091
+       scale 0.818
+      }
+      {
+       coords -14.759 -0.058 38.238
+       angleX 0.671
+       angleY 34.762
+       angleZ -1.734
+       scale 0.834
+      }
+      {
+       coords -18.986 -0.319 37.404
+       angleX -0.411
+       angleY 23.116
+       angleZ -1.215
+       scale 0.89
+      }
+      {
+       coords -12.929 0.036 36.927
+       angleX -1.569
+       angleY 206.648
+       angleZ -1.874
+       scale 0.757
+      }
+      {
+       coords -18.217 -0.235 40.714
+       angleX 0.175
+       angleY 219.942
+       angleZ -1.759
+       scale 0.798
+      }
+      {
+       coords -20.935 -0.379 43.456
+       angleX -1.019
+       angleY 29.917
+       angleZ 0.885
+       scale 0.944
+      }
+      {
+       coords -25.696 -0.631 41.12
+       angleX -1.188
+       angleY 340.158
+       angleZ -0.048
+       scale 0.932
+      }
+      {
+       coords 8.609 1.404 61.646
+       angleX -0.802
+       angleY 354.397
+       angleZ 0.969
+       scale 0.734
+      }
+      {
+       coords 7.07 1.28 60.554
+       angleX -1.604
+       angleY 342.905
+       angleZ 0.607
+       scale 0.807
+      }
+      {
+       coords 4.471 1.159 63.191
+       angleX -1.519
+       angleY 196.431
+       angleZ -0.449
+       scale 0.85
+      }
+      {
+       coords -1.257 0.853 66.536
+       angleX 0.328
+       angleY 300.233
+       angleZ -1.693
+       scale 0.915
+      }
+      {
+       coords -0.069 0.898 64.66
+       angleX 0.461
+       angleY 316.009
+       angleZ -0.024
+       scale 0.986
+      }
+      {
+       coords 7.378 1.347 62.818
+       angleX 1.785
+       angleY 196.354
+       angleZ 0.889
+       scale 0.732
+      }
+      {
+       coords 3.266 1.076 62.686
+       angleX -1.955
+       angleY 9.613
+       angleZ -0.101
+       scale 0.914
+      }
+      {
+       coords -0.303 0.987 70.509
+       angleX 0.692
+       angleY 0.165
+       angleZ -0.348
+       scale 0.771
+      }
+      {
+       coords 9.053 1.426 61.45
+       angleX 1.582
+       angleY 323.162
+       angleZ -0.6
+       scale 0.852
+      }
+      {
+       coords 4.57 1.316 69.835
+       angleX 0.192
+       angleY 265.075
+       angleZ -1.841
+       scale 0.882
+      }
+      {
+       coords 9.484 1.488 62.599
+       angleX 0.151
+       angleY 275.71
+       angleZ -1.165
+       scale 0.725
+      }
+      {
+       coords 1.533 1.054 68.237
+       angleX 0.532
+       angleY 80.433
+       angleZ 1.733
+       scale 0.895
+      }
+      {
+       coords 9.498 1.393 59.12
+       angleX 0.124
+       angleY 99.254
+       angleZ -0.471
+       scale 0.945
+      }
+     }
+     Tree : "{3475D26BFBAD50D5}PrefabLibrary/Vegetation/Trees/t_sorbus_aucuparia_1w.et" {
+      coords 13.892 1.239 42.946
+      angleX 0.541
+      angleY 33.191
+      angleZ -0.776
+      scale 0.793
+     }
+     $grp Tree : "{5D1A7A4A41161E8A}PrefabLibrary/Vegetation/Bushes/b_rubus_idaeus_0s.et" {
+      {
+       coords -18.247 -0.301 35.928
+       angleX -0.283
+       angleY 334.555
+       angleZ -1.266
+       scale 1.051
+      }
+      {
+       coords -19.396 -0.331 39.319
+       angleX 0.16
+       angleY 168.656
+       angleZ -0.654
+       scale 0.891
+      }
+      {
+       coords -22.421 -0.518 34.553
+       angleX 1.014
+       angleY 15.238
+       angleZ -0.843
+       scale 0.892
+      }
+      {
+       coords -22.566 -0.456 42.066
+       angleX 1.141
+       angleY 254.22
+       angleZ 1.415
+       scale 0.962
+      }
+      {
+       coords -20.87 -0.376 44.136
+       angleX -0.324
+       angleY 125.083
+       angleZ -1.614
+       scale 0.911
+      }
+      {
+       coords -20.481 -0.429 34.435
+       angleX -0.997
+       angleY 85.245
+       angleZ 0.184
+       scale 0.995
+      }
+      {
+       coords -24.225 -0.533 43.748
+       angleX -0.867
+       angleY 80.203
+       angleZ 1.972
+       scale 0.957
+      }
+      {
+       coords -21.524 -0.407 44.693
+       angleX -1.829
+       angleY 71.985
+       angleZ -1.177
+       scale 1.029
+      }
+      {
+       coords -23.437 -0.498 42.767
+       angleX -1.752
+       angleY 320.953
+       angleZ -1.546
+       scale 0.805
+      }
+      {
+       coords -17.522 -0.282 33.472
+       angleX -0.958
+       angleY 12.041
+       angleZ -0.051
+       scale 0.832
+      }
+      {
+       coords -17.11 -0.238 36.068
+       angleX 1.264
+       angleY 351.694
+       angleZ -0.314
+       scale 0.913
+      }
+      {
+       coords -17.516 -0.281 34.513
+       angleX 0.033
+       angleY 215.229
+       angleZ 0.824
+       scale 0.918
+      }
+      {
+       coords 3.951 1.1 61.4
+       angleX 1.689
+       angleY 148.781
+       angleZ -1.33
+       scale 0.839
+      }
+      {
+       coords 4.156 1.156 64.244
+       angleX 1.01
+       angleY 265.163
+       angleZ -1.519
+       scale 1.055
+      }
+      {
+       coords 3.423 1.228 69.898
+       angleX -1.56
+       angleY 185.07
+       angleZ 0.733
+       scale 1.111
+      }
+      {
+       coords 7.439 1.252 56.241
+       angleX 0.667
+       angleY 108.636
+       angleZ 0.81
+       scale 1.021
+      }
+      {
+       coords 0.709 0.942 64.37
+       angleX -0.4
+       angleY 117.052
+       angleZ -0.195
+       scale 1.101
+      }
+      {
+       coords 1.492 1.041 67.559
+       angleX 1.474
+       angleY 237.894
+       angleZ -0.179
+       scale 0.876
+      }
+      {
+       coords 1.781 1.059 67.56
+       angleX 1.45
+       angleY 147.771
+       angleZ 0.641
+       scale 1.012
+      }
+      {
+       coords 5.986 1.224 61.26
+       angleX 1.297
+       angleY 354.298
+       angleZ -0.071
+       scale 0.969
+      }
+      {
+       coords 5.584 1.194 59.974
+       angleX -0.762
+       angleY 228.731
+       angleZ 1.364
+       scale 1.036
+      }
+      {
+       coords 7.591 1.302 59.466
+       angleX 0.998
+       angleY 79.434
+       angleZ 1.545
+       scale 0.874
+      }
+      {
+       coords -2.688 0.745 66.469
+       angleX -0.065
+       angleY 225.93
+       angleZ 0.285
+       scale 0.817
+      }
+      {
+       coords 8.612 1.39 61.19
+       angleX 1.762
+       angleY 54.988
+       angleZ -0.847
+       scale 0.858
+      }
+      {
+       coords 3.931 1.131 63.534
+       angleX 1.747
+       angleY 247.376
+       angleZ -1.878
+       scale 1.164
+      }
+      {
+       coords -0.343 1.03 72.167
+       angleX -1.684
+       angleY 64.206
+       angleZ 1.809
+       scale 1.004
+      }
+      {
+       coords -1.076 0.847 65.405
+       angleX 1.729
+       angleY 100.978
+       angleZ -1.492
+       scale 0.95
+      }
+      {
+       coords 4.882 1.136 58.047
+       angleX -0.045
+       angleY 148.353
+       angleZ -0.632
+       scale 0.861
+      }
+      {
+       coords 2.536 1.066 64.999
+       angleX -0.822
+       angleY 142.86
+       angleZ -1.206
+       scale 1.046
+      }
+      {
+       coords 2.616 1.04 62.968
+       angleX 1.461
+       angleY 304.847
+       angleZ -0.847
+       scale 0.919
+      }
+     }
+     $grp Tree : "{6813E89F9EF2BDAC}PrefabLibrary/Vegetation/Bushes/b_rosa_canina_1s.et" {
+      {
+       coords -16.936 -0.192 63.058
+       angleX 1.737
+       angleY 243.058
+       angleZ -0.526
+       scale 1.316
+      }
+      {
+       coords -0.154 0.845 61.108
+       angleX -1.134
+       angleY 255.187
+       angleZ 1.728
+       scale 0.96
+      }
+     }
+     $grp GenericEntity : "{926C09375D2DAA4D}PrefabLibrary/Rocks/Granite/GraniteStone_01.et" {
+      {
+       coords -10.151 0.233 61.535
+       angleY 28.192
+       scale 1.179
+      }
+      {
+       coords -10.043 0.245 59.256
+       angleY 157.615
+       scale 0.641
+      }
+      {
+       coords -12.154 0.104 59.784
+       angleY 333.193
+       scale 0.991
+      }
+      {
+       coords -7.468 0.41 57.148
+       angleY 195.09
+       scale 0.53
+      }
+      {
+       coords -13.082 0.051 57.521
+       angleY 260.461
+       scale 0.554
+      }
+      {
+       coords -10.578 0.215 64.157
+       angleY 217.909
+       scale 0.222
+      }
+      {
+       coords -11.094 0.186 41.194
+       angleY 66.865
+       scale 1.01
+      }
+      {
+       coords -12.658 0.138 46.329
+       angleY 270.327
+       scale 0.884
+      }
+      {
+       coords -16.277 -0.098 47.24
+       angleY 246.321
+       scale 0.601
+      }
+      {
+       coords -19.609 -0.348 37.208
+       angleY 323.261
+       scale 0.36
+      }
+      {
+       coords -13.928 0.037 50.873
+       angleY 327.963
+       scale 0.308
+      }
+     }
+     $grp Tree : "{960EA50FD57CD7D5}PrefabLibrary/Vegetation/Trees/t_betula_pendula_1sw.et" {
+      {
+       coords 0.808 0.857 43.22
+       angleX -0.094
+       angleY 98.869
+       angleZ 0.783
+       scale 0.88
+      }
+      {
+       coords 1.31 0.844 41.411
+       angleX -0.705
+       angleY 273.095
+       angleZ -1.52
+       scale 0.835
+      }
+      {
+       coords 8.836 1.157 46.36
+       angleX 1.434
+       angleY 178.292
+       angleZ -0.163
+       scale 1.102
+      }
+      {
+       coords 3.897 0.915 40.78
+       angleX 0.841
+       angleY 220.217
+       angleZ 1.96
+       scale 1.157
+      }
+     }
+     $grp Tree : "{A35E15EBC6033C07}PrefabLibrary/Vegetation/Bushes/b_corylus_avellana_1.et" {
+      {
+       coords -5.684 0.553 53.315
+       angleX -0.522
+       angleY 325.908
+       angleZ -0.109
+       scale 0.709
+      }
+      {
+       coords -11.211 0.176 58.319
+       angleX 0.437
+       angleY 324.315
+       angleZ 0.971
+       scale 0.913
+      }
+      {
+       coords 7.421 1.15 48.794
+       angleX 0.993
+       angleY 78.093
+       angleZ 0.872
+       scale 0.968
+      }
+     }
+     $grp Tree : "{DA7492F3E6B63251}PrefabLibrary/Vegetation/Bushes/b_corylus_avellana_1l.et" {
+      {
+       coords -4.271 0.61 57.07
+       angleX -0.236
+       angleY 256.769
+       angleZ -0.997
+       scale 0.874
+      }
+      {
+       coords 5.103 0.973 42.094
+       angleX 0.182
+       angleY 41.431
+       angleZ 0.215
+       scale 1.165
+      }
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 3038.483 1.265 2748.025
+  Points {
+   ShapePoint "{62793671BE2B1D60}" {
+    Position 0 0 0
+   }
+   ShapePoint "{62793671BE2B5148}" {
+    Position -22.418 -0.296 5.74
+   }
+   ShapePoint "{62793671BDC73D05}" {
+    Position -32.5 -0.296 6.303
+   }
+   ShapePoint "{62793671BC515D19}" {
+    Position -39.435 -0.111 -7.311
+   }
+  }
+  LineColor 0 0 0 0
+  {
+   PrefabGeneratorEntity : "{EA23B4C7CB74E107}PrefabLibrary/Generators/Bushlines/PG_Bushline_Sorbus_01.et" {
+    coords 0 0 0
+    Flags 1048579
+    m_fPerlinThreshold -9.8
+    {
+     $grp Tree : "{425761285F36BF16}PrefabLibrary/Vegetation/Trees/t_betula_pendula_1s.et" {
+      {
+       coords -32.797 -0.296 3.358
+       angleX -1.893
+       angleY 62.354
+       angleZ -1.309
+       scale 1.088
+      }
+      {
+       coords -37.196 -0.198 -4.5
+       angleX 0.681
+       angleY 33.162
+       angleZ -1.712
+       scale 1.111
+      }
+     }
+     Tree : "{4F87818365E5D8D9}PrefabLibrary/Vegetation/Trees/t_sorbus_aucuparia_2f.et" {
+      coords -28.43 -0.296 5.701
+      angleX 0.581
+      angleY 136.842
+      angleZ -2.624
+      scale 1.132
+     }
+     $grp Tree : "{960EA50FD57CD7D5}PrefabLibrary/Vegetation/Trees/t_betula_pendula_1sw.et" {
+      {
+       coords -35.239 -0.296 1.236
+       angleX -0.494
+       angleY -96.414
+       angleZ 1.988
+       scale 1.148
+      }
+      {
+       coords -39.364 -0.13 -6.763
+       angleX 1.676
+       angleY 128.966
+       angleZ -1.575
+       scale 1.192
+      }
+     }
+     $grp Tree : "{A35E15EBC6033C07}PrefabLibrary/Vegetation/Bushes/b_corylus_avellana_1.et" {
+      {
+       coords -14.541 -0.26 3.678
+       angleX 0.552
+       angleY 118.837
+       angleZ 0.073
+       scale 1.2
+      }
+      {
+       coords -25.36 -0.296 6.872
+       angleX -1.845
+       angleY -110.182
+       angleZ 1.714
+       scale 1.138
+      }
+     }
+     $grp Tree : "{AD6B6BF2E64A6145}PrefabLibrary/Vegetation/Trees/t_sorbus_aucuparia_2w.et" {
+      {
+       coords -2.801 -0.069 1.155
+       angleX 2.791
+       angleY -160.894
+       angleZ 0.793
+       scale 1.177
+      }
+      {
+       coords -23.118 -0.296 6.461
+       angleX -2.219
+       angleY 52.06
+       angleZ 1.021
+       scale 1.154
+      }
+     }
+     $grp Tree : "{CF0A210B7AC7B329}PrefabLibrary/Vegetation/Bushes/b_corylus_avellana_2.et" {
+      {
+       coords -8.539 -0.172 2.931
+       angleX 0.167
+       angleY 144.667
+       angleZ -1.316
+      }
+      {
+       coords -35.786 -0.296 -1.852
+       angleX 2.504
+       angleY -111.818
+       angleZ -1.537
+       scale 0.926
+      }
+     }
+     $grp Tree : "{DA7492F3E6B63251}PrefabLibrary/Vegetation/Bushes/b_corylus_avellana_1l.et" {
+      {
+       coords 0.056 0.002 0.218
+       angleX -1.993
+       angleY 39.239
+       angleZ -0.49
+       scale 1.108
+      }
+      {
+       coords -5.938 -0.131 0.997
+       angleX -1.756
+       angleY -29.725
+       angleZ -1.033
+       scale 1.15
+      }
+      {
+       coords -11.515 -0.218 3.4
+       angleX 0.145
+       angleY 140.92
+       angleZ 1.623
+       scale 1.15
+      }
+      {
+       coords -17.458 -0.265 4.38
+       angleX -2.404
+       angleY -19.056
+       angleZ 1.466
+       scale 1.15
+      }
+      {
+       coords -20.56 -0.296 4.356
+       angleX -2.662
+       angleY 42.645
+       angleZ 0.847
+       scale 1.136
+      }
+      {
+       coords -31.479 -0.296 4.911
+       angleX -0.919
+       angleY -75.937
+       angleZ 1.926
+       scale 1.058
+      }
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 3002.882 1.142 2780.534
+  Points {
+   ShapePoint "{6279367195A45613}" {
+    Position 0 -0 0
+    Data {
+     ForestGeneratorPointData "{000000002C57B0BA}" {
+     }
+    }
+   }
+   ShapePoint "{6279367195A58649}" {
+    Position -72.002 0.983 35.918
+    Data {
+     ForestGeneratorPointData "{000000002C57B0BA}" {
+     }
+    }
+   }
+   ShapePoint "{627936719B4F2151}" {
+    Position -62.99 2.069 69.31
+    Data {
+     ForestGeneratorPointData "{000000002C57B0BA}" {
+     }
+    }
+   }
+   ShapePoint "{627936719BDD0E41}" {
+    Position -38.875 2.548 56.169
+    Data {
+     ForestGeneratorPointData "{000000002C57B0BA}" {
+     }
+    }
+   }
+   ShapePoint "{627936719BBFB6F7}" {
+    Position -13.728 1.112 30.034
+    Data {
+     ForestGeneratorPointData "{000000002C57B0BA}" {
+     }
+    }
+   }
+   ShapePoint "{627936719A7E9B72}" {
+    Position 8.405 0.464 16.865
+    Data {
+     ForestGeneratorPointData "{000000002C57B0BA}" {
+     }
+    }
+   }
+   ShapePoint "{627936719AFC78A2}" {
+    Position -0.161 -0.01 -0.327
+    Data {
+     ForestGeneratorPointData "{000000002C57B0BA}" {
+     }
+    }
+   }
+  }
+  LineColor 0 0 0 0
+  {
+   ForestGeneratorEntity : "{409C0D82C840053D}PrefabLibrary/Generators/Brushlands/FG_Brushland_Dense.et" {
+    coords 0 0 0
+    Flags 1048579
+    m_iSeed 70
+    {
+     $grp GenericEntity : "{1BA4712EED0CB208}PrefabLibrary/Rocks/Granite/GraniteStone_03.et" {
+      {
+       coords -6.459 0.482 17.425
+       angleY 301.342
+       scale 0.758
+      }
+      {
+       coords -6.375 0.353 13.289
+       angleY 267.899
+       scale 0.887
+      }
+      {
+       coords -7.143 0.383 14.401
+       angleY 354.243
+       scale 0.613
+      }
+      {
+       coords -31.448 0.7 23.42
+       angleY 134.839
+       scale 0.574
+      }
+      {
+       coords -35.732 0.701 23.442
+       angleY 22.72
+       scale 1.15
+      }
+     }
+     $grp Tree : "{1F1980176A5052DC}PrefabLibrary/Vegetation/Bushes/b_rosa_canina_0s.et" {
+      {
+       coords -35.162 1.416 35.391
+       angleX 3.576
+       scale 1.013
+      }
+      {
+       coords -35.893 1.7 39.693
+       angleX 3.575
+       angleY -0.056
+       angleZ -0.897
+       scale 0.975
+      }
+     }
+     $grp Tree : "{2A1012C2B5B4F1FA}PrefabLibrary/Vegetation/Bushes/b_rubus_idaeus_1s.et" {
+      {
+       coords -37.222 2.013 45.108
+       angleX 0.3
+       angleY 283.851
+       angleZ -0.575
+       scale 0.974
+      }
+      {
+       coords -49.498 1.54 43.098
+       angleX 1.321
+       angleY 193.453
+       angleZ 0.018
+       scale 1.009
+      }
+      {
+       coords -39.782 2.038 47.238
+       angleX -1.249
+       angleY 306.704
+       angleZ 1.143
+       scale 0.807
+      }
+      {
+       coords -36.268 2.148 47.3
+       angleX 0.784
+       angleY 219.645
+       angleZ 0.557
+       scale 0.973
+      }
+      {
+       coords -36.562 2.289 49.879
+       angleX 0.928
+       angleY 36.959
+       angleZ 0.688
+       scale 1.019
+      }
+      {
+       coords -32.637 2.088 45.042
+       angleX -0.664
+       angleY 218.909
+       angleZ -0.956
+       scale 0.938
+      }
+      {
+       coords -44.983 1.32 36.028
+       angleX 0.937
+       angleY 262.933
+       angleZ -0.378
+       scale 0.811
+      }
+      {
+       coords -49.846 1.204 35.161
+       angleX -0.738
+       angleY 280.533
+       angleZ -0.372
+       scale 1.193
+      }
+      {
+       coords -50.32 1.495 42.683
+       angleX 0.452
+       angleY 5.548
+       angleZ 1.141
+       scale 1.112
+      }
+      {
+       coords -45.624 1.511 40.275
+       angleX 1.201
+       angleY 322.612
+       angleZ 0.69
+       scale 0.868
+      }
+      {
+       coords -44.437 1.93 48.032
+       angleX 0.867
+       angleY 79.412
+       angleZ 0.092
+       scale 0.968
+      }
+      {
+       coords -43.889 1.786 44.606
+       angleX 0.784
+       angleY 276.512
+       angleZ 1.153
+       scale 0.845
+      }
+      {
+       coords -39.848 1.946 45.348
+       angleX 1.34
+       angleY 16.909
+       angleZ 0.416
+       scale 0.902
+      }
+      {
+       coords -47.823 1.213 34.691
+       angleX -0.145
+       angleY 81.993
+       angleZ -0.474
+       scale 0.852
+      }
+      {
+       coords -51.693 1.302 38.54
+       angleX -0.019
+       angleY 315.076
+       angleZ 1.483
+       scale 0.88
+      }
+      {
+       coords -39.351 1.923 44.733
+       angleX -1.163
+       angleY 320.338
+       angleZ 1.245
+       scale 1.101
+      }
+      {
+       coords -42.281 1.661 41.515
+       angleX -1.478
+       angleY 2.175
+       angleZ -0.399
+       scale 0.884
+      }
+      {
+       coords -47.4 1.333 37.099
+       angleX 1.387
+       angleY 49.374
+       angleZ 0.091
+       scale 0.948
+      }
+      {
+       coords 3.51 0.372 14.909
+       angleX 0.763
+       angleY 67.854
+       angleZ 0.846
+       scale 1.157
+      }
+      {
+       coords 2.256 0.366 14.709
+       angleX -1.252
+       angleY 289.312
+       angleZ 0.725
+       scale 0.82
+      }
+      {
+       coords 1.871 0.347 14.108
+       angleX -0.651
+       angleY 70.348
+       angleZ 1.347
+       scale 0.978
+      }
+      {
+       coords 4.634 0.319 13.208
+       angleX 1.423
+       angleY 302.441
+       angleZ -0.818
+       scale 0.934
+      }
+      {
+       coords 2.889 0.422 16.515
+       angleX 1.32
+       angleY 276.798
+       angleZ -0.169
+       scale 1.049
+      }
+     }
+     $grp Tree : "{425761285F36BF16}PrefabLibrary/Vegetation/Trees/t_betula_pendula_1s.et" {
+      {
+       coords -24.089 0.886 26.719
+       angleX -0.416
+       angleY 137.059
+       angleZ 1.467
+       scale 0.61
+      }
+      {
+       coords -26.055 0.454 16.942
+       angleX 1.837
+       angleY 9.877
+       angleZ -1.902
+       scale 1.048
+      }
+      {
+       coords -26.536 1.184 31.177
+       angleX -0.808
+       angleY 157.659
+       angleZ -1.466
+       scale 0.968
+      }
+     }
+     $grp Tree : "{531BB93086610CA1}PrefabLibrary/Vegetation/Trees/t_betula_pendula_0.et" {
+      {
+       coords -33.737 0.49 17.689
+       angleX -0.214
+       angleY 119.722
+       angleZ 0.014
+       scale 0.968
+      }
+      {
+       coords -37.075 0.538 19.226
+       angleX 0.877
+       angleY 252.122
+       angleZ -1.098
+       scale 0.857
+      }
+      {
+       coords -27.538 0.708 23.558
+       angleX 0.421
+       angleY 285.95
+       angleZ -0.093
+       scale 1.169
+      }
+     }
+     $grp Tree : "{5D1A7A4A41161E8A}PrefabLibrary/Vegetation/Bushes/b_rubus_idaeus_0s.et" {
+      {
+       coords -41.516 1.782 43.062
+       angleY 54.285
+       scale 1.017
+      }
+      {
+       coords -43.904 1.389 37.132
+       angleY 245.53
+       scale 1.155
+      }
+      {
+       coords -35.133 2.146 46.695
+       angleY 354.88
+       scale 0.982
+      }
+      {
+       coords -49.448 1.659 46.26
+       angleY 159.241
+       scale 1.036
+      }
+      {
+       coords -45.733 1.403 38.033
+       angleY 104
+       scale 1.18
+      }
+      {
+       coords -36.96 1.746 40.687
+       angleY 230.72
+       scale 0.912
+      }
+      {
+       coords 4.949 0.261 11.272
+       angleX 1.209
+       angleY 304.001
+       angleZ -1.335
+       scale 1.123
+      }
+      {
+       coords 9.961 0.37 13.849
+       angleX -0.477
+       angleY 43.639
+       angleZ 1.42
+       scale 0.813
+      }
+      {
+       coords 4.391 0.409 16.08
+       angleX 0.912
+       angleY 20.281
+       angleZ -0.707
+       scale 1.053
+      }
+     }
+     $grp Tree : "{6813E89F9EF2BDAC}PrefabLibrary/Vegetation/Bushes/b_rosa_canina_1s.et" {
+      {
+       coords -32.086 1.367 34.111
+       angleX -1.511
+       angleY 85.245
+       angleZ -1.84
+       scale 1.262
+      }
+      {
+       coords -36.635 1.602 38.309
+       angleX -1.162
+       angleY 268.338
+       angleZ 0.83
+       scale 1.29
+      }
+     }
+     $grp GenericEntity : "{926C09375D2DAA4D}PrefabLibrary/Rocks/Granite/GraniteStone_01.et" {
+      {
+       coords -5.156 0.446 16.278
+       angleY 61.591
+       scale 1.176
+      }
+      {
+       coords -9.19 0.447 16.699
+       angleY 326.732
+       scale 0.707
+      }
+      {
+       coords -7.483 0.455 16.576
+       angleY 193.574
+       scale 1.159
+      }
+      {
+       coords -36.482 0.964 28.155
+       angleY 270.656
+       scale 0.775
+      }
+     }
+     Tree : "{960EA50FD57CD7D5}PrefabLibrary/Vegetation/Trees/t_betula_pendula_1sw.et" {
+      coords -34.737 0.64 21.562
+      angleX 1.464
+      angleY 141.937
+      angleZ -1.406
+      scale 1.023
+     }
+     $grp Tree : "{9C6CE0F73E3AED80}PrefabLibrary/Vegetation/Trees/t_pinus_sylvestris_1f.et" {
+      {
+       coords -50.313 1.955 53.993
+       angleX -1.418
+       angleY 314.988
+       angleZ 0.762
+       scale 1.157
+      }
+      {
+       coords -61.297 1.659 55.508
+       angleX -0.381
+       angleY 193.058
+       angleZ 0.136
+       scale 1.11
+      }
+      {
+       coords -62.009 1.828 61.072
+       angleX 0.776
+       angleY 210.351
+       angleZ -0.556
+       scale 0.898
+      }
+      {
+       coords -55.211 1.812 55.327
+       angleX -0.02
+       angleY 192.838
+       angleZ 0.555
+       scale 0.986
+      }
+      {
+       coords -53.959 2.183 63.93
+       angleX 0.626
+       angleY 81.477
+       angleZ 0.152
+       scale 0.81
+      }
+      {
+       coords -22.29 0.779 24.704
+       angleX 1.765
+       angleY 224.348
+       angleZ -0.092
+       scale 0.968
+      }
+      {
+       coords -12.859 1.155 30.718
+       angleX 0.357
+       angleY 96.826
+       angleZ -0.571
+       scale 0.979
+      }
+      {
+       coords -22.009 1.057 29.209
+       angleX -1.898
+       angleY 328.831
+       angleZ 1.058
+       scale 0.745
+      }
+      {
+       coords -14.173 1.132 30.339
+       angleX 1.391
+       angleY 204.901
+       angleZ -1.35
+       scale 0.552
+      }
+      {
+       coords -14.265 0.676 22.913
+       angleX -0.88
+       angleY 209.768
+       angleZ 0.63
+       scale 0.554
+      }
+     }
+     $grp Tree : "{A35E15EBC6033C07}PrefabLibrary/Vegetation/Bushes/b_corylus_avellana_1.et" {
+      {
+       coords -34.675 2.364 50.456
+       angleX 0.622
+       angleY 210.966
+       angleZ 1.066
+       scale 1.076
+      }
+      {
+       coords -28.664 2.706 54.881
+       angleX -0.025
+       angleY 244.497
+       angleZ -0.18
+       scale 0.997
+      }
+      {
+       coords -43.033 1.977 48.106
+       angleX -1.106
+       angleY 80.269
+       angleZ 0.648
+       scale 1.079
+      }
+      {
+       coords -40.043 1.511 37.789
+       angleY 56.482
+       scale 0.883
+      }
+      {
+       coords -45.296 1.232 34.243
+       angleY 286.005
+       scale 0.913
+      }
+      {
+       coords -33.004 1.133 30.864
+       angleY 304.583
+       scale 0.815
+      }
+      {
+       coords -34.813 1.68 39.093
+       angleY 179.764
+       scale 0.804
+      }
+     }
+     Tree : "{A3C21E24597FF803}PrefabLibrary/Vegetation/Trees/t_betula_pendula_2sd.et" {
+      coords -29.687 0.881 26.622
+      angleX 0.898
+      angleY 0
+      angleZ -1.503
+      scale 0.794
+     }
+     Tree : "{B2865E0C5A335E76}PrefabLibrary/Vegetation/Trees/t_betula_pendula_stem_01.et" {
+      coords -36.074 0.811 25.215
+      angleX 3.576
+      scale 0.808
+     }
+     $grp Tree : "{C8E68C4C6AF159DA}PrefabLibrary/Vegetation/Trees/t_betula_pendula_2sw.et" {
+      {
+       coords -25.246 1.09 29.71
+       angleX 0.996
+       angleY 185.565
+       angleZ 1.155
+       scale 0.973
+      }
+      {
+       coords -36.388 0.492 17.742
+       angleX 0.915
+       angleY 22.149
+       angleZ 1.142
+       scale 1.097
+      }
+     }
+     $grp Tree : "{CF0A210B7AC7B329}PrefabLibrary/Vegetation/Bushes/b_corylus_avellana_2.et" {
+      {
+       coords -37.428 2.166 48.16
+       angleX -0.961
+       angleY 216.822
+       angleZ 0.857
+       scale 0.868
+      }
+      {
+       coords -45.974 1.12 32.391
+       angleX -0.376
+       angleY 323.03
+       angleZ -0.707
+       scale 0.908
+      }
+     }
+     $grp Tree : "{DA7492F3E6B63251}PrefabLibrary/Vegetation/Bushes/b_corylus_avellana_1l.et" {
+      {
+       coords -41.286 2.233 51.868
+       angleX -0.45
+       angleY 106.142
+       angleZ 0.069
+       scale 0.809
+      }
+      {
+       coords -46.03 0.632 21.23
+       angleX 0.714
+       angleY 184.697
+       angleZ -0.499
+       scale 0.836
+      }
+      {
+       coords -54.784 1.178 36.662
+       angleX -0.091
+       angleY 197.452
+       angleZ -0.731
+       scale 0.719
+      }
+      {
+       coords -42.689 0.957 28.503
+       angleX 0.707
+       angleY 1.417
+       angleZ 0.756
+       scale 0.968
+      }
+      {
+       coords -47.009 0.969 29.16
+       angleX 0.591
+       angleY 270.283
+       angleZ 0.328
+       scale 1.032
+      }
+      {
+       coords -57.358 0.944 30.198
+       angleX -0.682
+       angleY 209.823
+       angleZ -0.584
+       scale 0.989
+      }
+      {
+       coords -33.533 0.668 22.74
+       angleX 0.56
+       angleY 302.529
+       angleZ -0.145
+       scale 1.093
+      }
+      {
+       coords -37.821 0.658 22.047
+       angleX 0.682
+       angleY 254.429
+       angleZ -0.787
+       scale 0.845
+      }
+      {
+       coords -29.529 0.771 24.567
+       angleX -0.453
+       angleY 17.798
+       angleZ -0.734
+       scale 1.126
+      }
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 2755.295 3.044 2977.997
+  Points {
+   ShapePoint "{62793676948B871A}" {
+    Position 0 -0.001 0
+    Data {
+     ForestGeneratorPointData "{000000002C57B0BA}" {
+     }
+    }
+   }
+   ShapePoint "{62793676948BF6C2}" {
+    Position -10.347 -0.012 2.209
+    Data {
+     ForestGeneratorPointData "{000000002C57B0BA}" {
+     }
+    }
+   }
+   ShapePoint "{627936769A4A84BA}" {
+    Position -16.5 0.647 -27.805
+    Data {
+     ForestGeneratorPointData "{000000002C57B0BA}" {
+     }
+    }
+   }
+   ShapePoint "{627936769AE87E22}" {
+    Position -3.076 0.688 -29.387
+    Data {
+     ForestGeneratorPointData "{000000002C57B0BA}" {
+     }
+    }
+   }
+   ShapePoint "{62793676995B05B4}" {
+    Position -3.031 0.794 -22.362
+    Data {
+     ForestGeneratorPointData "{000000002C57B0BA}" {
+     }
+    }
+   }
+   ShapePoint "{62793676992A4464}" {
+    Position 6.635 0.856 -22.376
+    Data {
+     ForestGeneratorPointData "{000000002C57B0BA}" {
+     }
+    }
+   }
+   ShapePoint "{6279367698DD6867}" {
+    Position 0.109 -0.006 0.095
+    Data {
+     ForestGeneratorPointData "{000000002C57B0BA}" {
+     }
+    }
+   }
+  }
+  LineColor 0 1 0 0
+  {
+   ForestGeneratorEntity : "{19E4EBD1CD1A4E41}PrefabLibrary/Generators/Forests/FG_Forest_Hornbeam2.et" {
+    coords 0 0 0
+    Flags 1048579
+    {
+     Tree : "{0A56ED2CC73ABB23}PrefabLibrary/Vegetation/Bushes/b_sambucus_nigra_2.et" {
+      coords -8.273 0.831 -20.033
+      angleY 150.451
+      scale 0.991
+     }
+     $grp Tree : "{168F4536FBB8FC36}Prefabs/Vegetation/Tree/t_carpinus_betulus_0s.et" {
+      {
+       coords -2.733 0.871 -15.428
+       angleX -1.228
+       angleZ -0.732
+       scale 1.143
+      }
+      {
+       coords -5.63 0.908 -13.087
+       angleX -0.47
+       angleZ -0.449
+       scale 0.862
+      }
+      {
+       coords -9.636 0.829 -20.133
+       angleX -0.289
+       angleZ 0.047
+       scale 1.159
+      }
+      {
+       coords -7.858 0.523 -0.568
+       angleX -1.255
+       angleZ 0.522
+       scale 0.951
+      }
+     }
+     $grp Tree : "{425761285F36BF16}PrefabLibrary/Vegetation/Trees/t_betula_pendula_1s.et" {
+      {
+       coords -0.159 0.906 -3.79
+       angleX -0.517
+       angleY 146.024
+       angleZ 0.275
+       scale 0.708
+      }
+      {
+       coords -4.259 0.958 -7.861
+       angleX 0.502
+       angleY 22.083
+       angleZ -0.371
+       scale 0.805
+      }
+      {
+       coords 5.565 0.863 -20.609
+       angleX -0.407
+       angleY 86.146
+       angleZ -0.362
+       scale 0.736
+      }
+      {
+       coords -6.988 0.691 -28.637
+       angleX 0.38
+       angleY 93.837
+       angleZ 0.931
+       scale 0.721
+      }
+      {
+       coords -4.224 0.785 -22.944
+       angleX -0.611
+       angleY 283.884
+       angleZ 0.112
+       scale 0.924
+      }
+      {
+       coords -6.855 0.767 -24.054
+       angleX 0.08
+       angleY 174.523
+       angleZ -0.249
+       scale 0.967
+      }
+     }
+     $grp Tree : "{79BC4FC331405E37}PrefabLibrary/Vegetation/Trees/t_carpinus_betulus_0.et" {
+      {
+       coords 2.375 0.849 -18.538
+       angleY 154.253
+       scale 0.91
+      }
+      {
+       coords -12.841 0.942 -14.427
+       angleY 269.734
+       scale 1.127
+      }
+      {
+       coords -4.813 0.168 0.15
+       angleY 331.006
+       scale 0.961
+      }
+      {
+       coords -11.028 0.918 -14.474
+       angleY 340.587
+       scale 1.145
+      }
+      {
+       coords -8.809 0.394 0.007
+       angleY 70.337
+       scale 1.176
+      }
+     }
+     $grp Tree : "{99D77B10B980D106}PrefabLibrary/Vegetation/Trees/t_carpinus_betulus_1f.et" {
+      {
+       coords -12.792 0.992 -11.185
+       angleX -1.453
+       angleY 59.339
+       angleZ 0.025
+       scale 1.233
+      }
+      {
+       coords -9.536 0.928 -13.787
+       angleX -1.42
+       angleY 304.759
+       angleZ -0.069
+       scale 1.218
+      }
+      {
+       coords 2.375 0.867 -15.651
+       angleX -0.587
+       angleY 336.071
+       angleZ 1.437
+       scale 0.904
+      }
+      {
+       coords 1.99 0.615 -6.757
+       angleX 0.171
+       angleY 23.72
+       angleZ -1.271
+       scale 0.829
+      }
+      {
+       coords -2.814 0.954 -6.151
+       angleX 0.228
+       angleY 104.681
+       angleZ 0.597
+       scale 0.725
+      }
+      {
+       coords -15.416 0.764 -23.087
+       angleX 1.31
+       angleY 217.349
+       angleZ 0.576
+       scale 1.346
+      }
+      {
+       coords -7.635 0.95 -10.772
+       angleX -0.027
+       angleY 353.463
+       angleZ -0.934
+       scale 0.911
+      }
+      {
+       coords -3.918 0.399 -0.78
+       angleX 1.233
+       angleY 301.595
+       angleZ -0.341
+       scale 1.291
+      }
+      {
+       coords 0.318 0.894 -12.377
+       angleX -0.46
+       angleY 36.728
+       angleZ -0.025
+       scale 1.104
+      }
+      {
+       coords -10.15 0.679 -0.627
+       angleX -0.605
+       angleY 274.678
+       angleZ 0.703
+       scale 0.936
+      }
+     }
+     $grp Tree : "{A35E15EBC6033C07}PrefabLibrary/Vegetation/Bushes/b_corylus_avellana_1.et" {
+      {
+       coords -2.473 0.585 -1.592
+       angleY 191.399
+       scale 0.936
+      }
+      {
+       coords -2.176 0.897 -13.796
+       angleY 284.95
+       scale 0.874
+      }
+      {
+       coords -5.771 0.964 -9.434
+       angleY 253.825
+       scale 1.163
+      }
+      {
+       coords -6.536 0.988 -5.804
+       angleY 345.706
+       scale 0.911
+      }
+      {
+       coords 2.545 0.861 -17.96
+       angleY 168.876
+       scale 0.871
+      }
+      {
+       coords 2.6 0.856 -18.323
+       angleY 169.052
+       scale 0.99
+      }
+      {
+       coords -7.482 0.706 -27.625
+       angleY 356.067
+       scale 1.01
+      }
+      {
+       coords -7.984 0.809 -21.436
+       angleY 93.376
+       scale 1.132
+      }
+      {
+       coords -11.398 0.844 -19.318
+       angleY 300.375
+       scale 0.823
+      }
+      {
+       coords -6.644 0.732 -25.169
+       angleY 14.535
+       scale 0.96
+      }
+      {
+       coords -5.699 0.807 -21.555
+       angleY 167.635
+       scale 1.175
+      }
+      {
+       coords -8.279 0.063 1.52
+       angleY 200.419
+       scale 0.806
+      }
+     }
+     $grp Tree : "{B3453920EE605F13}PrefabLibrary/Vegetation/Trees/t_carpinus_betulus_2s.et" {
+      {
+       coords -6.806 0.988 -4.37
+       angleX -0.598
+       angleY 171.809
+       angleZ -0.552
+       scale 0.858
+      }
+      {
+       coords -4.673 0.734 -25.422
+       angleX 0.119
+       angleY 350.672
+       angleZ 0.83
+       scale 0.908
+      }
+     }
+     Tree : "{C44F51A81AC2B063}PrefabLibrary/Vegetation/Trees/t_carpinus_betulus_3s.et" {
+      coords -3.554 0.835 -19.041
+      angleX -0.784
+      angleY 183.653
+      angleZ -0.638
+      scale 0.743
+     }
+     $grp Tree : "{C8E68C4C6AF159DA}PrefabLibrary/Vegetation/Trees/t_betula_pendula_2sw.et" {
+      {
+       coords -13.019 0.777 -22.724
+       angleY 39.662
+       scale 1.047
+      }
+      {
+       coords -6.571 0.814 -1.665
+       angleY 96.265
+       scale 1.144
+      }
+      {
+       coords -8.941 1.013 -4.242
+       angleY 344.652
+       scale 1.166
+      }
+     }
+     $grp Tree : "{CF0A210B7AC7B329}PrefabLibrary/Vegetation/Bushes/b_corylus_avellana_2.et" {
+      {
+       coords 0.302 0.449 -1.613
+       angleY 129.038
+       scale 0.938
+      }
+      {
+       coords 3.45 0.706 -13.232
+       angleY 107.801
+       scale 0.811
+      }
+      {
+       coords -10.911 0.719 -25.194
+       angleY 157.406
+       scale 0.895
+      }
+      {
+       coords -11.942 0.68 -27.687
+       angleY 237.4
+       scale 0.838
+      }
+      {
+       coords -1.353 0.054 -0.1
+       angleY 224.798
+       scale 0.808
+      }
+     }
+     $grp Tree : "{DA7492F3E6B63251}PrefabLibrary/Vegetation/Bushes/b_corylus_avellana_1l.et" {
+      {
+       coords 1.035 0.8 -22.223
+       angleY 226.523
+       scale 0.984
+      }
+      {
+       coords -7.144 0.985 -7.373
+       angleY 343.916
+       scale 0.889
+      }
+      {
+       coords -0.892 0.84 -17.417
+       angleY 11.371
+       scale 1.08
+      }
+      {
+       coords -8.76 0.698 -27.085
+       angleY 255.308
+       scale 1.087
+      }
+      {
+       coords -9.529 0.892 -16.127
+       angleY 320.975
+       scale 1.131
+      }
+      {
+       coords -8.958 0.988 -7.945
+       angleY 230.665
+       scale 0.823
+      }
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 2808.743 2.87 2967.696
+  Points {
+   ShapePoint "{6279367636FC40E0}" {
+    Position 0 0 0
+    Data {
+     ForestGeneratorPointData "{000000002C57B0BA}" {
+     }
+    }
+   }
+   ShapePoint "{6279367636FDAA16}" {
+    Position -7.184 0.03 1.913
+    Data {
+     ForestGeneratorPointData "{000000002C57B0BA}" {
+     }
+    }
+   }
+   ShapePoint "{62793676340B18CC}" {
+    Position -14.23 1.15 -45.48
+    Data {
+     ForestGeneratorPointData "{000000002C57B0BA}" {
+     }
+    }
+   }
+   ShapePoint "{627936763A2FCB90}" {
+    Position -26.119 1.164 -43.899
+    Data {
+     ForestGeneratorPointData "{000000002C57B0BA}" {
+     }
+    }
+   }
+   ShapePoint "{627936763AF475C1}" {
+    Position -26.148 1.202 -49.892
+    Data {
+     ForestGeneratorPointData "{000000002C57B0BA}" {
+     }
+    }
+   }
+   ShapePoint "{62793676394AAEFC}" {
+    Position -11.285 1.164 -48.508
+    Data {
+     ForestGeneratorPointData "{000000002C57B0BA}" {
+     }
+    }
+   }
+   ShapePoint "{6279367639DBD675}" {
+    Position -6.637 0.984 -44.571
+    Data {
+     ForestGeneratorPointData "{000000002C57B0BA}" {
+     }
+    }
+   }
+   ShapePoint "{627936763845E2B5}" {
+    Position 0.125 0 0.003
+    Data {
+     ForestGeneratorPointData "{000000002C57B0BA}" {
+     }
+    }
+   }
+  }
+  LineColor 0 1 0 0
+  {
+   ForestGeneratorEntity : "{FC78A728C1FFD92A}PrefabLibrary/Generators/Forests/FG_Forest_HornBeam3.et" {
+    coords 0 0 0
+    Flags 1048579
+    {
+     $grp Tree : "{168F4536FBB8FC36}Prefabs/Vegetation/Tree/t_carpinus_betulus_0s.et" {
+      {
+       coords -24.952 1.189 -47.609
+       angleX -0.296
+       angleZ 0.556
+       scale 0.91
+      }
+      {
+       coords -0.142 -0.012 -0.522
+       angleX 0.932
+       angleZ -0.584
+       scale 1.118
+      }
+     }
+     $grp Tree : "{425761285F36BF16}PrefabLibrary/Vegetation/Trees/t_betula_pendula_1s.et" {
+      {
+       coords -3.595 -0.027 -3.664
+       angleX 0.014
+       angleY 37.41
+       angleZ -0.33
+       scale 0.851
+      }
+      {
+       coords -9.507 1.048 -43.601
+       angleX 0.341
+       angleY 263.9
+       angleZ 0.996
+       scale 0.929
+      }
+      {
+       coords -18.836 1.223 -48.434
+       angleX -0.445
+       angleY 349.738
+       angleZ 0.474
+       scale 0.899
+      }
+      {
+       coords -9.942 0.896 -35.529
+       angleX -0.51
+       angleY 325.985
+       angleZ -0.234
+       scale 0.849
+      }
+      {
+       coords -5.087 0.665 -33.292
+       angleX 0.934
+       angleY 120.919
+       angleZ -0.491
+       scale 0.769
+      }
+      {
+       coords -6.774 0.277 -15.028
+       angleX 0.255
+       angleY 273.93
+       angleZ 0.254
+       scale 0.955
+      }
+      {
+       coords -8.637 0.686 -29.51
+       angleX -0.856
+       angleY 243.585
+       angleZ -0.087
+       scale 0.976
+      }
+      {
+       coords -7.739 0.206 -10.614
+       angleX 0.399
+       angleY 353.375
+       angleZ -0.643
+       scale 0.975
+      }
+     }
+     $grp Tree : "{79BC4FC331405E37}PrefabLibrary/Vegetation/Trees/t_carpinus_betulus_0.et" {
+      {
+       coords -4.879 -0.011 -4.043
+       angleY 329.6
+       scale 1.075
+      }
+      {
+       coords -12.206 1.092 -42.379
+       angleY 49.89
+       scale 0.961
+      }
+      {
+       coords -7.688 0.402 -19.23
+       angleY 304.704
+       scale 0.86
+      }
+      {
+       coords -3.706 0.052 -7.77
+       angleY 261.252
+       scale 0.903
+      }
+      {
+       coords -15.21 1.203 -48.374
+       angleY 315.9
+       scale 0.961
+      }
+      {
+       coords -15.522 1.174 -45.777
+       angleY 175.204
+       scale 0.932
+      }
+      {
+       coords -7.122 0.337 -17.775
+       angleY 210.208
+       scale 0.911
+      }
+      {
+       coords -8.031 0.966 -40.636
+       angleY 243.629
+       scale 1.154
+      }
+      {
+       coords -10.94 0.822 -31.646
+       angleY 61.371
+       scale 1.128
+      }
+      {
+       coords -7.117 0.026 1.644
+       angleY 142.816
+       scale 0.878
+      }
+      {
+       coords -4.113 0.171 -13.654
+       angleY 72.369
+       scale 0.84
+      }
+     }
+     $grp Tree : "{99D77B10B980D106}PrefabLibrary/Vegetation/Trees/t_carpinus_betulus_1f.et" {
+      {
+       coords -7.321 0.033 -2.352
+       angleX -1.377
+       angleY 111.855
+       angleZ 0.781
+       scale 0.722
+      }
+      {
+       coords -7.634 0.102 -6.17
+       angleX -1.003
+       angleY 46.1
+       angleZ 0.314
+       scale 0.893
+      }
+      {
+       coords -5.006 0.485 -26.174
+       angleX 0.556
+       angleY 97.496
+       angleZ -0.002
+       scale 0.69
+      }
+      {
+       coords -6.337 0.806 -35.952
+       angleX -0.372
+       angleY 235.917
+       angleZ 0.594
+       scale 0.653
+      }
+      {
+       coords -6.472 0.148 -9.543
+       angleX -0.84
+       angleY 243.421
+       angleZ 0.655
+       scale 0.747
+      }
+      {
+       coords -10.161 0.945 -37.363
+       angleX 0.559
+       angleY 231.346
+       angleZ -0.367
+       scale 0.686
+      }
+     }
+     $grp Tree : "{A35E15EBC6033C07}PrefabLibrary/Vegetation/Bushes/b_corylus_avellana_1.et" {
+      {
+       coords -10.891 0.907 -35.268
+       angleY 186.169
+       scale 0.977
+      }
+      {
+       coords -5.193 0.187 -13.09
+       angleY 5.274
+       scale 0.823
+      }
+      {
+       coords -2.284 0.136 -14.573
+       angleY 4.68
+       scale 0.975
+      }
+      {
+       coords -8.375 0.316 -14.343
+       angleY 0.769
+       scale 0.898
+      }
+      {
+       coords -2.322 0.13 -14.135
+       angleY 287.18
+       scale 1.047
+      }
+      {
+       coords -4.116 -0.04 -0.554
+       angleY 117.909
+       scale 1.14
+      }
+      {
+       coords -4.02 -0.034 -0.287
+       angleY 123.567
+       scale 0.977
+      }
+     }
+     $grp Tree : "{B3453920EE605F13}PrefabLibrary/Vegetation/Trees/t_carpinus_betulus_2s.et" {
+      {
+       coords -13.117 1.056 -38.948
+       angleX 0.347
+       angleY 247.299
+       angleZ -0.609
+       scale 0.876
+      }
+      {
+       coords -9.969 0.611 -24.887
+       angleX 0.092
+       angleY 344.729
+       angleZ -0.982
+       scale 0.876
+      }
+      {
+       coords -16.706 1.192 -46.843
+       angleX 0.36
+       angleY 332.632
+       angleZ 0.805
+       scale 0.862
+      }
+      {
+       coords -11.448 1.13 -46.991
+       angleX -0.455
+       angleY 131.994
+       angleZ -0.828
+       scale 0.79
+      }
+      {
+       coords -4.121 0.368 -22.944
+       angleX 0.779
+       angleY 177.006
+       angleZ -0.931
+       scale 0.834
+      }
+      {
+       coords -6.628 0.895 -39.305
+       angleX 0.154
+       angleY 251.122
+       angleZ -0.305
+       scale 0.878
+      }
+      {
+       coords -1.82 0.03 -8.235
+       angleX 0.926
+       angleY 95.145
+       angleZ 0.224
+       scale 0.833
+      }
+     }
+     $grp Tree : "{C8E68C4C6AF159DA}PrefabLibrary/Vegetation/Trees/t_betula_pendula_2sw.et" {
+      {
+       coords -6.556 0.973 -44.024
+       angleY 110.02
+       scale 1.074
+      }
+      {
+       coords -24.042 1.192 -45.754
+       angleY 151.155
+       scale 0.816
+      }
+      {
+       coords -13.255 1.098 -41.42
+       angleY 341.378
+       scale 1.094
+      }
+     }
+     $grp Tree : "{CF0A210B7AC7B329}PrefabLibrary/Vegetation/Bushes/b_corylus_avellana_2.et" {
+      {
+       coords -3.504 0.086 -10.126
+       angleY 16.008
+       scale 0.907
+      }
+      {
+       coords -11.503 0.721 -27.868
+       angleY 316.855
+       scale 0.874
+      }
+      {
+       coords -5.046 -0.045 -1.884
+       angleY 133.081
+       scale 1.001
+      }
+     }
+     $grp Tree : "{DA7492F3E6B63251}PrefabLibrary/Vegetation/Bushes/b_corylus_avellana_1l.et" {
+      {
+       coords -4.926 0.059 -6.964
+       angleY 144.134
+       scale 1.118
+      }
+      {
+       coords -9.353 0.342 -14.062
+       angleY 358.693
+       scale 0.921
+      }
+      {
+       coords -9.587 0.459 -19.085
+       angleY 101.791
+       scale 1.034
+      }
+      {
+       coords -7.456 0.869 -37.561
+       angleY 106.318
+       scale 0.912
+      }
+      {
+       coords -20.283 1.192 -45.043
+       angleY 324.14
+       scale 1.104
+      }
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 3074.547 11.823 3638.782
+  Points {
+   ShapePoint "{6279367A0E2D16A8}" {
+    Position 0 0 0
+   }
+   ShapePoint "{6279367A0E2D4163}" {
+    Position 5.322 -0.096 5.595
+   }
+   ShapePoint "{6279367A0D1C743E}" {
+    Position 4.318 -0.055 12.301
+   }
+   ShapePoint "{6279367A0D2A8D46}" {
+    Position -1.363 0.021 17.701
+   }
+   ShapePoint "{62793679E176616F}" {
+    Position -4.63 0.021 16.675
+   }
+  }
+  LineColor 0 0 0 0
+  {
+   WallGeneratorEntity : "{4B79744D3A369B0D}PrefabLibrary/Generators/Walls/Stone/WG_StoneWall_01.et" {
+    coords 0 0 0
+    Flags 1048579
+    {
+     SCR_DestructibleEntity : "{20304FC74D23C37F}Prefabs/Structures/Walls/Stone/StoneWall_01/StoneWall_01_4m_A.et" {
+      coords 1.849 -0.023 14.201
+      angleY -132.535
+     }
+     SCR_DestructibleEntity : "{3E1FF1C56363D645}Prefabs/Structures/Walls/Stone/StoneWall_01/StoneWall_01_end.et" {
+      coords -4.412 0.02 16.697
+      angleY -185.945
+     }
+     $grp SCR_DestructibleEntity : "{781EA3F923020334}Prefabs/Structures/Walls/Stone/StoneWall_01/StoneWall_01_4m_B.et" {
+      {
+       coords 1.156 -0.021 1.216
+       angleY -46.435
+      }
+      {
+       coords 4.065 -0.064 7.615
+       angleY -86.907
+      }
+      {
+       coords 4.396 -0.058 11.424
+       angleY -132.535
+      }
+      {
+       coords -0.614 0.013 17.093
+       angleY -185.945
+      }
+     }
+     SCR_DestructibleEntity : "{9A7FC9D9A8206B74}Prefabs/Structures/Walls/Stone/StoneWall_01/StoneWall_01_start.et" {
+      coords 0 0 0
+      angleY -46.435
+     }
+     SCR_DestructibleEntity : "{A0B6CA385A8B1D68}Prefabs/Structures/Walls/Stone/StoneWall_01/StoneWall_01_4m_D.et" {
+      coords 3.864 -0.07 3.898
+      angleY -86.907
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 3066.63 11.875 3652.56
+  Points {
+   ShapePoint "{6279367A111CEDA6}" {
+    Position -0.201 -0 0.98
+   }
+   ShapePoint "{6279367A111CDF8A}" {
+    Position -4.819 0.031 -6.477
+   }
+   ShapePoint "{6279367A100C5111}" {
+    Position -1.013 0.031 -13.002
+   }
+   ShapePoint "{6279367A10F1194C}" {
+    Position 3.272 -0 -14.37
+   }
+  }
+  LineColor 0 0 0 0
+  {
+   WallGeneratorEntity : "{4B79744D3A369B0D}PrefabLibrary/Generators/Walls/Stone/WG_StoneWall_01.et" {
+    coords 0 0 0
+    Flags 1048579
+    {
+     $grp SCR_DestructibleEntity : "{20304FC74D23C37F}Prefabs/Structures/Walls/Stone/StoneWall_01/StoneWall_01_4m_A.et" {
+      {
+       coords -1.085 0.006 -0.447
+       angleY -238.232
+      }
+      {
+       coords -2.333 0.024 -7.265
+       angleY 77.049
+      }
+      {
+       coords -1.602 0.03 -10.966
+       angleY 34.929
+      }
+     }
+     SCR_DestructibleEntity : "{3E1FF1C56363D645}Prefabs/Structures/Walls/Stone/StoneWall_01/StoneWall_01_end.et" {
+      coords 1.493 0.011 -13.127
+      angleY 34.929
+     }
+     SCR_DestructibleEntity : "{781EA3F923020334}Prefabs/Structures/Walls/Stone/StoneWall_01/StoneWall_01_4m_B.et" {
+      coords -3.177 0.02 -3.592
+      angleY 77.049
+     }
+     SCR_DestructibleEntity : "{9A7FC9D9A8206B74}Prefabs/Structures/Walls/Stone/StoneWall_01/StoneWall_01_start.et" {
+      coords -0.201 -0 0.98
+      angleY -238.232
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 3558.394 11.616 3767.899
+  Points {
+   ShapePoint "{6279367FADFA4F19}" {
+    Position 0 0 0
+   }
+   ShapePoint "{6279367FADFBB549}" {
+    Position 79.359 0.273 183.227
+   }
+   ShapePoint "{6279367FB26B84FD}" {
+    Position 132.893 -0.44 327.56
+   }
+   ShapePoint "{6279367FB13FD78D}" {
+    Position 105.783 0.007 349.538
+   }
+  }
+  LineColor 0 0 0 0
+  {
+   WallGeneratorEntity : "{4B79744D3A369B0D}PrefabLibrary/Generators/Walls/Stone/WG_StoneWall_01.et" {
+    coords 0 0 0
+    Flags 1048579
+    {
+     $grp SCR_DestructibleEntity : "{20304FC74D23C37F}Prefabs/Structures/Walls/Stone/StoneWall_01/StoneWall_01_4m_A.et" {
+      {
+       coords 3.662 0.013 8.456
+       angleY -66.582
+      }
+      {
+       coords 6.641 0.023 15.332
+       angleY -66.582
+      }
+      {
+       coords 11.117 0.038 25.667
+       angleY -66.582
+      }
+      {
+       coords 15.593 0.054 36.001
+       angleY -66.582
+      }
+      {
+       coords 18.571 0.064 42.878
+       angleY -66.582
+      }
+      {
+       coords 21.549 0.074 49.754
+       angleY -66.582
+      }
+      {
+       coords 23.03 0.079 53.173
+       angleY -66.582
+      }
+      {
+       coords 24.511 0.084 56.591
+       angleY -66.582
+      }
+      {
+       coords 25.991 0.089 60.009
+       angleY -66.582
+      }
+      {
+       coords 28.97 0.1 66.886
+       angleY -66.582
+      }
+      {
+       coords 30.45 0.105 70.304
+       angleY -66.582
+      }
+      {
+       coords 34.926 0.12 80.639
+       angleY -66.582
+      }
+      {
+       coords 36.407 0.125 84.057
+       angleY -66.582
+      }
+      {
+       coords 37.887 0.13 87.476
+       angleY -66.582
+      }
+      {
+       coords 40.866 0.141 94.352
+       angleY -66.582
+      }
+      {
+       coords 42.346 0.146 97.771
+       angleY -66.582
+      }
+      {
+       coords 43.827 0.151 101.189
+       angleY -66.582
+      }
+      {
+       coords 45.307 0.156 104.607
+       angleY -66.582
+      }
+      {
+       coords 48.286 0.166 111.484
+       angleY -66.582
+      }
+      {
+       coords 51.264 0.176 118.36
+       angleY -66.582
+      }
+      {
+       coords 58.718 0.202 135.569
+       angleY -66.582
+      }
+      {
+       coords 60.198 0.207 138.987
+       angleY -66.582
+      }
+      {
+       coords 63.176 0.217 145.864
+       angleY -66.582
+      }
+      {
+       coords 64.657 0.222 149.282
+       angleY -66.582
+      }
+      {
+       coords 69.133 0.238 159.617
+       angleY -66.582
+      }
+      {
+       coords 75.107 0.258 173.409
+       angleY -66.582
+      }
+      {
+       coords 78.094 0.27 180.282
+       angleY -69.591
+      }
+      {
+       coords 79.393 0.253 183.774
+       angleY -69.591
+      }
+      {
+       coords 80.692 0.236 187.265
+       angleY -69.591
+      }
+      {
+       coords 83.305 0.202 194.288
+       angleY -69.591
+      }
+      {
+       coords 89.845 0.118 211.865
+       angleY -69.591
+      }
+      {
+       coords 96.401 0.033 229.483
+       angleY -69.591
+      }
+      {
+       coords 99.014 -0.001 236.507
+       angleY -69.591
+      }
+      {
+       coords 102.925 -0.052 247.019
+       angleY -69.591
+      }
+      {
+       coords 106.853 -0.103 257.574
+       angleY -69.591
+      }
+      {
+       coords 112.078 -0.17 271.618
+       angleY -69.591
+      }
+      {
+       coords 122.576 -0.306 299.833
+       angleY -69.591
+      }
+      {
+       coords 123.876 -0.323 303.324
+       angleY -69.591
+      }
+      {
+       coords 127.803 -0.374 313.879
+       angleY -69.591
+      }
+      {
+       coords 129.102 -0.391 317.371
+       angleY -69.591
+      }
+      {
+       coords 126.469 -0.337 329.659
+       angleY -136.14
+      }
+      {
+       coords 123.783 -0.292 332.24
+       angleY -136.14
+      }
+      {
+       coords 118.38 -0.203 337.432
+       angleY -136.14
+      }
+      {
+       coords 115.694 -0.158 340.013
+       angleY -136.14
+      }
+     }
+     SCR_DestructibleEntity : "{3E1FF1C56363D645}Prefabs/Structures/Walls/Stone/StoneWall_01/StoneWall_01_end.et" {
+      coords 110.288 -0.068 345.208
+      angleY -136.14
+     }
+     $grp SCR_DestructibleEntity : "{781EA3F923020334}Prefabs/Structures/Walls/Stone/StoneWall_01/StoneWall_01_4m_B.et" {
+      {
+       coords 0.667 0.002 1.54
+       angleY -66.582
+      }
+      {
+       coords 2.165 0.007 4.998
+       angleY -66.582
+      }
+      {
+       coords 5.143 0.018 11.874
+       angleY -66.582
+      }
+      {
+       coords 8.121 0.028 18.751
+       angleY -66.582
+      }
+      {
+       coords 9.619 0.033 22.209
+       angleY -66.582
+      }
+      {
+       coords 12.597 0.043 29.085
+       angleY -66.582
+      }
+      {
+       coords 14.095 0.048 32.543
+       angleY -66.582
+      }
+      {
+       coords 17.073 0.059 39.42
+       angleY -66.582
+      }
+      {
+       coords 20.052 0.069 46.296
+       angleY -66.582
+      }
+      {
+       coords 27.472 0.095 63.428
+       angleY -66.582
+      }
+      {
+       coords 31.931 0.11 73.723
+       angleY -66.582
+      }
+      {
+       coords 33.428 0.115 77.181
+       angleY -66.582
+      }
+      {
+       coords 39.368 0.135 90.894
+       angleY -66.582
+      }
+      {
+       coords 46.788 0.161 108.026
+       angleY -66.582
+      }
+      {
+       coords 49.766 0.171 114.902
+       angleY -66.582
+      }
+      {
+       coords 52.745 0.181 121.779
+       angleY -66.582
+      }
+      {
+       coords 54.242 0.187 125.237
+       angleY -66.582
+      }
+      {
+       coords 57.22 0.197 132.111
+       angleY -66.582
+      }
+      {
+       coords 61.679 0.212 142.406
+       angleY -66.582
+      }
+      {
+       coords 66.138 0.228 152.701
+       angleY -66.582
+      }
+      {
+       coords 67.635 0.233 156.159
+       angleY -66.582
+      }
+      {
+       coords 70.614 0.243 163.035
+       angleY -66.582
+      }
+      {
+       coords 72.111 0.248 166.493
+       angleY -66.582
+      }
+      {
+       coords 73.609 0.253 169.951
+       angleY -66.582
+      }
+      {
+       coords 76.588 0.263 176.828
+       angleY -66.582
+      }
+      {
+       coords 81.991 0.219 190.757
+       angleY -69.591
+      }
+      {
+       coords 84.604 0.185 197.78
+       angleY -69.591
+      }
+      {
+       coords 85.918 0.168 201.312
+       angleY -69.591
+      }
+      {
+       coords 88.531 0.135 208.333
+       angleY -69.591
+      }
+      {
+       coords 91.144 0.101 215.356
+       angleY -69.591
+      }
+      {
+       coords 92.458 0.084 218.888
+       angleY -69.591
+      }
+      {
+       coords 93.772 0.067 222.42
+       angleY -69.591
+      }
+      {
+       coords 95.087 0.05 225.952
+       angleY -69.591
+      }
+      {
+       coords 97.7 0.016 232.975
+       angleY -69.591
+      }
+      {
+       coords 100.313 -0.018 239.998
+       angleY -69.591
+      }
+      {
+       coords 104.224 -0.069 250.51
+       angleY -69.591
+      }
+      {
+       coords 105.539 -0.086 254.042
+       angleY -69.591
+      }
+      {
+       coords 108.152 -0.119 261.066
+       angleY -69.591
+      }
+      {
+       coords 110.764 -0.153 268.086
+       angleY -69.591
+      }
+      {
+       coords 113.377 -0.187 275.11
+       angleY -69.591
+      }
+      {
+       coords 114.692 -0.204 278.642
+       angleY -69.591
+      }
+      {
+       coords 116.006 -0.221 282.173
+       angleY -69.591
+      }
+      {
+       coords 117.32 -0.238 285.705
+       angleY -69.591
+      }
+      {
+       coords 118.634 -0.255 289.237
+       angleY -69.591
+      }
+      {
+       coords 119.948 -0.272 292.769
+       angleY -69.591
+      }
+      {
+       coords 121.262 -0.289 296.301
+       angleY -69.591
+      }
+      {
+       coords 125.175 -0.34 306.816
+       angleY -69.591
+      }
+      {
+       coords 126.489 -0.357 310.347
+       angleY -69.591
+      }
+      {
+       coords 130.401 -0.408 320.862
+       angleY -69.591
+      }
+      {
+       coords 131.902 -0.427 324.437
+       angleY -136.14
+      }
+      {
+       coords 129.186 -0.382 327.048
+       angleY -136.14
+      }
+      {
+       coords 121.097 -0.248 334.821
+       angleY -136.14
+      }
+     }
+     SCR_DestructibleEntity : "{9A7FC9D9A8206B74}Prefabs/Structures/Walls/Stone/StoneWall_01/StoneWall_01_start.et" {
+      coords 0 0 0
+      angleY -66.582
+     }
+     $grp SCR_DestructibleEntity : "{A0B6CA385A8B1D68}Prefabs/Structures/Walls/Stone/StoneWall_01/StoneWall_01_4m_D.et" {
+      {
+       coords 55.74 0.192 128.695
+       angleY -66.582
+      }
+      {
+       coords 87.233 0.151 204.844
+       angleY -69.591
+      }
+      {
+       coords 101.627 -0.035 243.53
+       angleY -69.591
+      }
+      {
+       coords 109.466 -0.136 264.597
+       angleY -69.591
+      }
+      {
+       coords 113.008 -0.113 342.594
+       angleY -136.14
+      }
+     }
+    }
+   }
+   PrefabGeneratorEntity : "{EA23B4C7CB74E107}PrefabLibrary/Generators/Bushlines/PG_Bushline_Sorbus_01.et" {
+    coords 0 0 0
+    Flags 1048579
+    {
+     $grp Tree : "{3475D26BFBAD50D5}PrefabLibrary/Vegetation/Trees/t_sorbus_aucuparia_1w.et" {
+      {
+       coords 23.011 0.29 52.15
+       angleX 0.924
+       angleY 165.74
+       angleZ 1.141
+       scale 1.2
+      }
+      {
+       coords 30.24 0.228 71.904
+       angleX 1.819
+       angleY -5.751
+       angleZ -0.171
+       scale 1.2
+      }
+      {
+       coords 49.922 0.134 115.688
+       angleX -2.127
+       angleY 124.254
+       angleZ -0.086
+       scale 0.87
+      }
+      {
+       coords 52.795 0.134 120.983
+       angleX -1.356
+       angleY 145.513
+       angleZ -0.188
+       scale 1.2
+      }
+      {
+       coords 104.042 0.089 250.864
+       angleX 1.52
+       angleY 108.694
+       angleZ -0.696
+       scale 1.2
+      }
+     }
+     $grp Tree : "{425761285F36BF16}PrefabLibrary/Vegetation/Trees/t_betula_pendula_1s.et" {
+      {
+       coords 3.888 0.067 11.393
+       angleX -1.808
+       angleY 31.647
+       angleZ 1.492
+       scale 1.2
+      }
+      {
+       coords 29.288 0.228 69.047
+       angleX -0.249
+       angleY 155.072
+       angleZ -1.171
+       scale 1.2
+      }
+      {
+       coords 130.45 -0.319 324.26
+       angleX 0.493
+       angleY -152.239
+       angleZ 0.376
+       scale 0.8
+      }
+     }
+     $grp Tree : "{4F87818365E5D8D9}PrefabLibrary/Vegetation/Trees/t_sorbus_aucuparia_2f.et" {
+      {
+       coords 33.277 0.228 80.397
+       angleX -1.286
+       angleY 178.231
+       angleZ -0.134
+       scale 1.2
+      }
+      {
+       coords 35.854 0.228 82.55
+       angleX -2.035
+       angleY 160.949
+       angleZ -1.033
+       scale 1.2
+      }
+      {
+       coords 113.04 0.254 276.324
+       angleX 2.223
+       angleY 173.054
+       angleZ 0.727
+       scale 0.8
+      }
+     }
+     $grp Tree : "{960EA50FD57CD7D5}PrefabLibrary/Vegetation/Trees/t_betula_pendula_1sw.et" {
+      {
+       coords 56.435 0.166 129.214
+       angleX -0.893
+       angleY 75.122
+       angleZ -1.877
+       scale 1.25
+      }
+      {
+       coords 58.682 0.182 134.779
+       angleX 1.361
+       angleY 38.217
+       angleZ -0.626
+       scale 1.061
+      }
+      {
+       coords 100.803 -0.204 239.267
+       angleX 0.537
+       angleY -100.195
+       angleZ 0.089
+       scale 1.25
+      }
+      {
+       coords 104.219 0.154 253.998
+       angleX -0.028
+       angleY -88.22
+       angleZ -0.532
+       scale 1.25
+      }
+      {
+       coords 121.245 -0.431 337.009
+       angleX 0.213
+       angleY -74.437
+       angleZ 1.896
+       scale 1.25
+      }
+     }
+     $grp Tree : "{A35E15EBC6033C07}PrefabLibrary/Vegetation/Bushes/b_corylus_avellana_1.et" {
+      {
+       coords -0.066 0.054 3.298
+       angleX 1.801
+       angleY -139.272
+       angleZ 1.895
+       scale 0.99
+      }
+      {
+       coords 2.564 0.015 5.428
+       angleX -0.163
+       angleY -64.112
+       angleZ -1.998
+       scale 1.2
+      }
+      {
+       coords 6.313 0.104 16.881
+       angleX -1.39
+       angleY 24.913
+       angleZ -0.264
+       scale 1.2
+      }
+      {
+       coords 23.537 0.274 55.192
+       angleX -1.058
+       angleY 65.376
+       angleZ 1.23
+       scale 1.2
+      }
+      {
+       coords 51.853 0.134 118.121
+       angleX 2.029
+       angleY -51.39
+       angleZ -1.614
+       scale 1.037
+      }
+      {
+       coords 53.929 0.139 123.76
+       angleX -1.362
+       angleY 99.479
+       angleZ -0.293
+       scale 1.2
+      }
+      {
+       coords 57.788 0.168 131.897
+       angleX -0.246
+       angleY -155.401
+       angleZ -1.746
+       scale 1.2
+      }
+      {
+       coords 98.718 -0.249 236.841
+       angleX 0.735
+       angleY 145.983
+       angleZ -0.622
+       scale 1.2
+      }
+      {
+       coords 100.844 -0.124 242.451
+       angleX -0.629
+       angleY -97.679
+       angleZ -1.855
+       scale 1.2
+      }
+      {
+       coords 107.576 0.201 262.352
+       angleX -0.213
+       angleY -148.647
+       angleZ 0.913
+       scale 1.2
+      }
+      {
+       coords 111.043 0.228 270.665
+       angleX -0.032
+       angleY 87.16
+       angleZ 0.335
+       scale 1.2
+      }
+      {
+       coords 129.641 -0.404 328.312
+       angleX -0.97
+       angleY -52.376
+       angleZ -1.331
+       scale 1.2
+      }
+      {
+       coords 126.574 -0.505 334.056
+       angleX 0.483
+       angleY -124.207
+       angleZ 0.912
+       scale 1.2
+      }
+      {
+       coords 116.475 -0.308 340.652
+       angleX -0.891
+       angleY 34.232
+       angleZ 0.22
+       scale 1.2
+      }
+      {
+       coords 113.777 -0.217 342.087
+       angleX 1.767
+       angleY -137.951
+       angleZ -1.012
+       scale 1.2
+      }
+      {
+       coords 111.014 -0.128 343.443
+       angleX 0.473
+       angleY 73.279
+       angleZ 1.745
+       scale 1.2
+      }
+      {
+       coords 108.858 -0.061 345.546
+       angleX -1.255
+       angleY 128.871
+       angleZ 0.793
+       scale 1.2
+      }
+     }
+     $grp Tree : "{AD6B6BF2E64A6145}PrefabLibrary/Vegetation/Trees/t_sorbus_aucuparia_2w.et" {
+      {
+       coords 39.441 0.228 90.804
+       angleX 0.918
+       angleY 20.397
+       angleZ -0.647
+       scale 0.72
+      }
+      {
+       coords 97.477 -0.332 234.101
+       angleX 0.546
+       angleY -118.939
+       angleZ 1.556
+       scale 1.2
+      }
+      {
+       coords 103.536 0.033 247.852
+       angleX -1.051
+       angleY 36.138
+       angleZ -0.183
+       scale 1.2
+      }
+      {
+       coords 105.581 0.175 256.693
+       angleX -2.131
+       angleY 147.246
+       angleZ 2.718
+       scale 1.2
+      }
+      {
+       coords 108.582 0.213 265.179
+       angleX -2.446
+       angleY -64.983
+       angleZ -1.106
+       scale 1.2
+      }
+      {
+       coords 119.459 -0.413 339.568
+       angleX 4.939
+       angleY 52.646
+       angleZ 3.079
+       scale 1.2
+      }
+     }
+     $grp Tree : "{CF0A210B7AC7B329}PrefabLibrary/Vegetation/Bushes/b_corylus_avellana_2.et" {
+      {
+       coords 0.988 -0.029 -0.428
+       angleX -1.246
+       angleY -169.859
+       angleZ 1.707
+       scale 0.65
+      }
+      {
+       coords 7.148 0.048 13.25
+       angleX -0.234
+       angleY -53.148
+       angleZ 0.079
+      }
+      {
+       coords 33.059 0.228 73.953
+       angleX -1.402
+       angleY 137.998
+       angleZ 0.015
+      }
+      {
+       coords 34.678 0.228 76.521
+       angleX 0.443
+       angleY -75.989
+       angleZ -1.013
+      }
+      {
+       coords 35.726 0.228 85.875
+       angleX 0.099
+       angleY -145.546
+       angleZ -1.661
+      }
+      {
+       coords 128.798 -0.507 332.034
+       angleX -0.859
+       angleY -152.124
+       angleZ 0.639
+      }
+      {
+       coords 106.574 -0.006 347.492
+       angleX 0.658
+       angleY 74.674
+       angleZ -0.325
+      }
+      {
+       coords 105.139 0.017 350.485
+       angleX 1.375
+       angleY -83.182
+       angleZ -1.921
+      }
+     }
+     $grp Tree : "{DA7492F3E6B63251}PrefabLibrary/Vegetation/Bushes/b_corylus_avellana_1l.et" {
+      {
+       coords 3.893 0.036 8.122
+       angleX 1.94
+       angleY 29.615
+       angleZ -1.717
+       scale 1.15
+      }
+      {
+       coords 9.122 0.092 18.934
+       angleX -0.119
+       angleY -68.112
+       angleZ 0.496
+       scale 1.004
+      }
+      {
+       coords 8.36 0.141 22.533
+       angleX -1.774
+       angleY -145.666
+       angleZ 1.431
+       scale 0.779
+      }
+      {
+       coords 20.181 0.3 46.837
+       angleX -1.74
+       angleY 127.901
+       angleZ 1.124
+       scale 0.79
+      }
+      {
+       coords 22.162 0.299 49.249
+       angleX -0.054
+       angleY 121.09
+       angleZ -1.986
+       scale 1.077
+      }
+      {
+       coords 26.399 0.259 57.221
+       angleX -0.58
+       angleY 132.769
+       angleZ 0.742
+       scale 1.15
+      }
+      {
+       coords 25.64 0.228 60.819
+       angleX -0.574
+       angleY 87.745
+       angleZ -1.792
+       scale 1.15
+      }
+      {
+       coords 26.924 0.228 63.533
+       angleX 1.035
+       angleY -33.174
+       angleZ -1.235
+       scale 1.15
+      }
+      {
+       coords 29.085 0.228 65.866
+       angleX 1.289
+       angleY 175.529
+       angleZ -0.453
+       scale 1.15
+      }
+      {
+       coords 37.556 0.228 88.351
+       angleX -1.072
+       angleY 43.579
+       angleZ 0.098
+       scale 1.077
+      }
+      {
+       coords 55.833 0.166 126.206
+       angleX 2.045
+       angleY 121.562
+       angleZ -1.066
+       scale 1.15
+      }
+      {
+       coords 59.149 0.19 137.846
+       angleX 0.571
+       angleY 56.279
+       angleZ 1.635
+       scale 0.7
+      }
+      {
+       coords 98.19 -0.389 230.637
+       angleX 0.435
+       angleY -167.082
+       angleZ -0.66
+       scale 0.882
+      }
+      {
+       coords 100.941 -0.027 245.615
+       angleX 1.658
+       angleY 17.856
+       angleZ 0.308
+       scale 1.15
+      }
+      {
+       coords 106.237 0.211 259.649
+       angleX 1.023
+       angleY 92.609
+       angleZ -0.703
+       scale 1.15
+      }
+      {
+       coords 111.268 0.191 267.382
+       angleX 1.187
+       angleY -11.896
+       angleZ -0.32
+       scale 1.15
+      }
+      {
+       coords 113.479 0.228 272.961
+       angleX 0.123
+       angleY -54.722
+       angleZ -0.652
+       scale 0.978
+      }
+      {
+       coords 133.496 -0.43 326.331
+       angleX 1.659
+       angleY -58.677
+       angleZ 0.959
+       scale 1.077
+      }
+      {
+       coords 123.359 -0.444 334.853
+       angleX -0.028
+       angleY 60.051
+       angleZ 0.658
+       scale 1.15
+      }
      }
     }
    }
@@ -111077,6 +114318,276 @@ $grp SplineShapeEntity {
    }
   }
  }
+ {
+  coords 3077.925 11.751 3639.045
+  Points {
+   ShapePoint "{62793679F331D525}" {
+    Position 0 0 0
+   }
+   ShapePoint "{62793679F3313F0E}" {
+    Position 3.526 -0.055 3.886
+   }
+   ShapePoint "{62793679F2207333}" {
+    Position 3.292 -0.02 10.289
+   }
+   ShapePoint "{62793679F2EDFC5D}" {
+    Position 0.841 0.046 15.948
+   }
+   ShapePoint "{62793679F1476629}" {
+    Position -4.456 0.093 19.669
+   }
+   ShapePoint "{62793679F138E422}" {
+    Position -8.237 0.093 18.49
+   }
+  }
+  LineColor 0 0 0 0
+  {
+   PrefabGeneratorEntity : "{D22346876A0446AC}PrefabLibrary/Generators/Bushlines/PG_Bushline_Corylus_Small.et" {
+    coords 0 0 0
+    Flags 1048579
+    {
+     $grp Tree : "{5D51E831072581F3}PrefabLibrary/Vegetation/Trees/t_carpinus_betulus_0s.et" {
+      {
+       coords 2.303 -0.036 2.205
+       angleX -0.482
+       angleY -5.564
+       angleZ -1.583
+       scale 1.027
+      }
+      {
+       coords 2.37 -0.006 11.107
+       angleX 1.332
+       angleY -145.691
+       angleZ 1.516
+       scale 1.2
+      }
+      {
+       coords 1.503 0.016 14.067
+       angleX -0.381
+       angleY 54.691
+       angleZ 1.952
+       scale 1.2
+      }
+     }
+     $grp Tree : "{79BC4FC331405E37}PrefabLibrary/Vegetation/Trees/t_carpinus_betulus_0.et" {
+      {
+       coords -0.209 0.003 0.279
+       angleX -1.027
+       angleY 31.545
+       angleZ -0.609
+       scale 0.75
+      }
+      {
+       coords -3.751 0.09 19.926
+       angleX -0.344
+       angleY 10.561
+       angleZ 2.444
+       scale 0.829
+      }
+     }
+     $grp Tree : "{A35E15EBC6033C07}PrefabLibrary/Vegetation/Bushes/b_corylus_avellana_1.et" {
+      {
+       coords 0.756 -0.012 1.575
+       angleX -0.96
+       angleY -168.793
+       angleZ 1.153
+       scale 0.858
+      }
+      {
+       coords 3.096 -0.047 5.058
+       angleX 0.194
+       angleY 105.233
+       angleZ -1.953
+       scale 1.2
+      }
+      {
+       coords 1.776 0.035 16.103
+       angleX -0.992
+       angleY -19.596
+       angleZ -0.584
+       scale 1.2
+      }
+      {
+       coords -1.836 0.061 17.047
+       angleX 0.393
+       angleY 21.318
+       angleZ 1.448
+       scale 1.053
+      }
+     }
+     $grp Tree : "{AD7EFA7B1214DD21}PrefabLibrary/Vegetation/Bushes/b_corylus_avellana_0l.et" {
+      {
+       coords 3.727 -0.058 3.178
+       angleX 1.433
+       angleY -152.588
+       angleZ 1.154
+       scale 0.665
+      }
+      {
+       coords 3.275 -0.026 6.55
+       angleX 1.084
+       angleY 47.35
+       angleZ 1.124
+       scale 0.7
+      }
+      {
+       coords -2.26 0.067 19.18
+       angleX 0.112
+       angleY 34.532
+       angleZ -1.764
+       scale 0.534
+      }
+     }
+     $grp Tree : "{B48B7DD4E1C5FE40}PrefabLibrary/Vegetation/Bushes/b_corylus_avellana_0.et" {
+      {
+       coords 3.887 -0.029 8.169
+       angleX 0.404
+       angleY 77.54
+       scale 0.7
+      }
+      {
+       coords 3.065 -0.017 9.658
+       angleX 0.458
+       angleY 58.922
+       scale 0.7
+      }
+      {
+       coords 2.824 -0.013 12.896
+       angleX 0.635
+       angleY 74.062
+       scale 0.7
+      }
+      {
+       coords -0.684 0.048 16.128
+       angleX 0.49
+       angleY -74.258
+       scale 0.682
+      }
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 3065.633 11.906 3637.806
+  Points {
+   ShapePoint "{62793679F832FD6E}" {
+    Position 0 -0 0
+   }
+   ShapePoint "{62793679F832278F}" {
+    Position -2.792 -0 3.193
+   }
+   ShapePoint "{62793679FF35B79E}" {
+    Position -5.819 -0.003 9.167
+   }
+   ShapePoint "{62793679FFF5A8B5}" {
+    Position -2.364 -0.031 15.818
+   }
+  }
+  LineColor 0 0 0 0
+  {
+   PrefabGeneratorEntity : "{D22346876A0446AC}PrefabLibrary/Generators/Bushlines/PG_Bushline_Corylus_Small.et" {
+    coords 0 0 0
+    Flags 1048579
+    {
+     $grp Tree : "{5D51E831072581F3}PrefabLibrary/Vegetation/Trees/t_carpinus_betulus_0s.et" {
+      {
+       coords -2.353 -0 4.168
+       angleX -0.325
+       angleY 127.648
+       angleZ -0.343
+       scale 1.148
+      }
+      {
+       coords -4.213 -0 6.748
+       angleX 2.766
+       angleY 43.901
+       angleZ 1.487
+       scale 1.2
+      }
+     }
+     Tree : "{6602D9CC7BFE340D}PrefabLibrary/Vegetation/Bushes/b_sambucus_nigra_1.et" {
+      coords -2.421 -0 2.139
+      angleX -0.85
+      angleY -97.016
+      angleZ -0.724
+      scale 1.016
+     }
+     Tree : "{79BC4FC331405E37}PrefabLibrary/Vegetation/Trees/t_carpinus_betulus_0.et" {
+      coords -1.592 -0 0.681
+      angleX -2.531
+      angleY -83.478
+      angleZ -0.499
+      scale 0.893
+     }
+     $grp Tree : "{839E9535771BA366}PrefabLibrary/Vegetation/Bushes/b_sambucus_nigra_0.et" {
+      {
+       coords -0.436 -0 -0.46
+       angleX 1.948
+       angleY -155.854
+       angleZ 1.844
+       scale 0.8
+      }
+      {
+       coords -3.318 -0 5.422
+       angleX 0.818
+       angleY 11.16
+       angleZ -1.013
+       scale 1.15
+      }
+      {
+       coords -6.5 -0 7.323
+       angleX -1.456
+       angleY -9.859
+       angleZ 1.144
+       scale 1.15
+      }
+      {
+       coords -6.416 -0.015 11.166
+       angleX 0.65
+       angleY -156.051
+       angleZ -1.798
+       scale 1.15
+      }
+      {
+       coords -4.796 -0.031 12.35
+       angleX 1.657
+       angleY 149.436
+       angleZ 0.377
+       scale 1.15
+      }
+      {
+       coords -2.212 -0.031 16.427
+       angleX -1.096
+       angleY 26.333
+       angleZ 1.614
+       scale 1.128
+      }
+     }
+     Tree : "{A35E15EBC6033C07}PrefabLibrary/Vegetation/Bushes/b_corylus_avellana_1.et" {
+      coords -4.212 -0.031 13.882
+      angleX -1.975
+      angleY -139.093
+      angleZ -1.639
+      scale 1.2
+     }
+     Tree : "{AD7EFA7B1214DD21}PrefabLibrary/Vegetation/Bushes/b_corylus_avellana_0l.et" {
+      coords -6.922 -0.016 9.216
+      angleX 1.49
+      angleY -112.234
+      angleZ -1.637
+      scale 0.7
+     }
+     Tree : "{B48B7DD4E1C5FE40}PrefabLibrary/Vegetation/Bushes/b_corylus_avellana_0.et" {
+      coords -2.58 -0.031 14.743
+      angleX -0.227
+      angleY -11.378
+      scale 0.7
+     }
+    }
+   }
+  }
+ }
 }
 $grp Tree : "{077C695F02F4312C}PrefabLibrary/Vegetation/Bushes/b_phragmites_australis_1.et" {
  {
@@ -111107,6 +114618,13 @@ $grp Tree : "{077C695F02F4312C}PrefabLibrary/Vegetation/Bushes/b_phragmites_aust
   angleZ 0.328
   scale 0.812
  }
+}
+Tree : "{0A56ED2CC73ABB23}PrefabLibrary/Vegetation/Bushes/b_sambucus_nigra_2.et" {
+ coords 2764.361 -0 2953.29
+ angleX -0.865
+ angleY 265.185
+ angleZ 0.064
+ scale 1.219
 }
 $grp StaticModelEntity : "{1166DF37DD84C408}PrefabLibrary/Props/Civilian/Garden/VegetableBed_01_big.et" {
  {
@@ -111269,12 +114787,20 @@ $grp Tree : "{2A7C3319DE914965}PrefabLibrary/Vegetation/Trees/t_salix_fragilis_3
   scale 1.09
  }
 }
+SCR_DestructibleBuildingEntity : "{2AEEE9C9512908FD}PrefabLibrary/Structures/Naval/FishermanShed_02/FishermanShed_02_V2.et" {
+ coords 2791.111 0.11 2926.584
+ angleY -83.153
+}
 GenericEntity : "{3583AB98E185C249}PrefabLibrary/Rocks/Granite/Granite_Stone_02/Granite_ForestStone_02.et" {
  coords 1983.524 -0.166 3839.504
  angleX -11.127
  angleY 93.661
  angleZ -10.948
  scale 1.008
+}
+SCR_DestructibleBuildingEntity : "{38B030BEDB46E64D}PrefabLibrary/Structures/Houses/Shed_02_big_V1.et" {
+ coords 2761.24 -0.083 2961.714
+ angleY 96.338
 }
 SCR_DestructibleBuildingEntity : "{3B371BE806867EF2}PrefabLibrary/Structures/Houses/House_Village_E_1I08t.et" {
  coords 2215.714 0.043 4875.961
@@ -111754,13 +115280,13 @@ $grp Tree : "{8520122192ED3D6C}PrefabLibrary/Vegetation/Trees/t_prunus_domestica
   scale 0.929
  }
  {
-  coords 3063.762 -0 2582.996
+  coords 3063.762 0 2582.996
   angleX 2.8
   angleY 216.404
   scale 0.928
  }
  {
-  coords 3040.727 -0 2567.833
+  coords 3040.727 0 2567.833
   angleX -2.65
   angleY 52.912
   scale 1.179
@@ -111772,7 +115298,7 @@ $grp Tree : "{8520122192ED3D6C}PrefabLibrary/Vegetation/Trees/t_prunus_domestica
   scale 1.058
  }
  {
-  coords 3051.523 -0 2543.086
+  coords 3051.523 0 2543.086
   angleX -1.605
   angleY 59.207
   scale 0.933
@@ -111943,6 +115469,13 @@ $grp Tree : "{AD6B6BF2E64A6145}PrefabLibrary/Vegetation/Trees/t_sorbus_aucuparia
   scale 0.613
  }
 }
+Tree : "{B1062DFA6850D829}PrefabLibrary/Vegetation/Bushes/b_juniperus_communis_2w.et" {
+ coords 2763.273 -0 2946.978
+ angleX 0.741
+ angleY 55.886
+ angleZ -0.502
+ scale 0.976
+}
 $grp Tree : "{B3453920EE605F13}PrefabLibrary/Vegetation/Trees/t_carpinus_betulus_2s.et" {
  {
   coords 1711.605 0.32 4945.891
@@ -112091,12 +115624,21 @@ Tree : "{D255E35F1D5D8DB4}PrefabLibrary/Vegetation/Trees/t_alnus_glutinosa_2f.et
  angleZ -0.92
  scale 0.996
 }
-Tree : "{DB49D8B142D18E86}PrefabLibrary/Vegetation/Trees/t_betula_pendula_2s.et" {
- coords 2561.051 0 3095.393
- angleX -2.984
- angleY 67.304
- angleZ -2.542
- scale 0.98
+$grp Tree : "{DB49D8B142D18E86}PrefabLibrary/Vegetation/Trees/t_betula_pendula_2s.et" {
+ {
+  coords 2561.051 0 3095.393
+  angleX -2.984
+  angleY 67.304
+  angleZ -2.542
+  scale 0.98
+ }
+ {
+  coords 2763.483 0 2948.948
+  angleX 2.678
+  angleY 88.772
+  angleZ 1.04
+  scale 1.088
+ }
 }
 $grp SCR_DestructibleBuildingEntity : "{DC93D6FC12072495}PrefabLibrary/Structures/Agriculture/Barn_E_03/Barn_E_03_open.et" {
  {
@@ -112209,12 +115751,12 @@ $grp Tree : "{FA0813CCD98B815B}PrefabLibrary/Vegetation/Trees/t_malus_domestica_
   scale 0.832
  }
  {
-  coords 3091.479 -0 2549.319
+  coords 3091.479 0 2549.319
   angleY 348.903
   scale 1.189
  }
  {
-  coords 3100.677 -0 2559.345
+  coords 3100.677 0 2559.345
   angleY 73.907
   scale 1.017
  }
@@ -112234,7 +115776,7 @@ $grp Tree : "{FA0813CCD98B815B}PrefabLibrary/Vegetation/Trees/t_malus_domestica_
   scale 1.196
  }
  {
-  coords 3064.185 -0 2594.833
+  coords 3064.185 0 2594.833
   angleY 248.606
   scale 1.185
  }
