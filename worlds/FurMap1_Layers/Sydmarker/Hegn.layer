@@ -486,14 +486,289 @@ $grp PolylineShapeEntity {
    }
   }
  }
+ {
+  coords 2918.971 12.109 3712.838
+  Points {
+   ShapePoint "{627D7BEDBD1F4D02}" {
+    Position -0.088 -0.001 -0.315
+   }
+   ShapePoint "{627D7BEDBD10BFE1}" {
+    Position -3.429 -0.121 -29.643
+   }
+   ShapePoint "{627D7BEDBCB2C566}" {
+    Position 19.7 0.011 -34.998
+   }
+  }
+  LineColor 0 0 0 0
+  {
+   WallGeneratorEntity : "{C344BB14626BB0D1}PrefabLibrary/Generators/Walls/Brick/WG_BrickWall_02.et" {
+    coords 0 0 0
+    Flags 1048579
+    {
+     SCR_DestructibleEntity : "{358B3FF55BA04C88}PrefabLibrary/Walls/Brick/BrickWall_02_4m.et" {
+      coords -2.721 -0.096 -23.429
+      angleY -263.501
+     }
+     SCR_DestructibleEntity : "{4546AD2CC984193B}PrefabLibrary/Walls/Brick/BrickWall_02_2m.et" {
+      coords -3.16 -0.112 -27.285
+      angleY -263.501
+     }
+     SCR_DestructibleEntity : "{4EF4686F9F99FE80}PrefabLibrary/Walls/Brick/BrickWall_02_Pole.et" {
+      coords 19.157 0.008 -34.865
+      angleY 13.789
+     }
+     $grp SCR_DestructibleEntity : "{D4101A467FE8E7EE}PrefabLibrary/Walls/Brick/BrickWall_02_8m.et" {
+      {
+       coords -0.064 -0 -0.099
+       angleY -263.501
+      }
+      {
+       coords -0.949 -0.032 -7.876
+       angleY -263.501
+      }
+      {
+       coords -1.835 -0.064 -15.652
+       angleY -263.501
+      }
+      {
+       coords -3.604 -0.121 -29.279
+       angleY 13.789
+      }
+      {
+       coords 3.997 -0.078 -31.144
+       angleY 13.789
+      }
+      {
+       coords 11.598 -0.035 -33.01
+       angleY 13.789
+      }
+     }
+    }
+   }
+   PrefabGeneratorEntity : "{D22346876A0446AC}PrefabLibrary/Generators/Bushlines/PG_Bushline_Corylus_Small.et" {
+    coords 0 0 0
+    Flags 1048579
+    m_fOffsetRight 1.7
+    {
+     $grp Tree : "{5D51E831072581F3}PrefabLibrary/Vegetation/Trees/t_carpinus_betulus_0s.et" {
+      {
+       coords 2.079 0.056 -5.393
+       angleX -0.947
+       angleY -127.851
+       angleZ -2.435
+       scale 1.148
+      }
+      {
+       coords 0.455 0.038 -8.428
+       angleX 2.068
+       angleY 9.087
+       angleZ -1.822
+       scale 1.2
+      }
+      {
+       coords -1.058 0.015 -14.698
+       angleX -2.903
+       angleY 38.157
+       angleZ -2.274
+       scale 1.2
+      }
+      {
+       coords -0.442 0 -16.378
+       angleX 0.613
+       angleY -0.955
+       angleZ 1.574
+       scale 1.2
+      }
+     }
+     Tree : "{6602D9CC7BFE340D}PrefabLibrary/Vegetation/Bushes/b_sambucus_nigra_1.et" {
+      coords 0.626 0.041 -11.669
+      angleX -0.104
+      angleY 47.309
+      angleZ 0.649
+      scale 1.15
+     }
+     $grp Tree : "{79BC4FC331405E37}PrefabLibrary/Vegetation/Trees/t_carpinus_betulus_0.et" {
+      {
+       coords 2.314 0.036 -3.809
+       angleX -2.945
+       angleY -52.439
+       angleZ -2.51
+       scale 1.027
+      }
+      {
+       coords -0.046 0.031 -13.202
+       angleX -2.287
+       angleY -73.731
+       angleZ 0.465
+       scale 1.2
+      }
+      {
+       coords 20.4 0.103 -32.75
+       angleX 2.969
+       angleY 132.128
+       angleZ -2.897
+       scale 0.859
+      }
+     }
+     $grp Tree : "{839E9535771BA366}PrefabLibrary/Vegetation/Bushes/b_sambucus_nigra_0.et" {
+      {
+       coords 2.669 0.042 -0.629
+       angleX -1.517
+       angleY -122.204
+       angleZ -1.865
+       scale 0.8
+      }
+      {
+       coords 0.907 0.014 -2.039
+       angleX 1.305
+       angleY 168.261
+       angleZ 0.484
+       scale 0.911
+      }
+     }
+     $grp Tree : "{A35E15EBC6033C07}PrefabLibrary/Vegetation/Bushes/b_corylus_avellana_1.et" {
+      {
+       coords -0.844 -0.013 -17.943
+       angleX -0.216
+       angleY 138.619
+       angleZ -0.105
+       scale 1.2
+      }
+      {
+       coords 0.465 -0.006 -19.702
+       angleX -2.152
+       angleY -124.885
+       angleZ -0.061
+       scale 1.169
+      }
+      {
+       coords -1.849 -0.046 -22.659
+       angleX -0.687
+       angleY 150.463
+       angleZ 0.669
+       scale 0.924
+      }
+     }
+     $grp Tree : "{AD7EFA7B1214DD21}PrefabLibrary/Vegetation/Bushes/b_corylus_avellana_0l.et" {
+      {
+       coords -1.028 -0.021 -21.142
+       angleX -0.723
+       angleY -174.017
+       angleZ 1.43
+       scale 0.612
+      }
+      {
+       coords -2.035 -0.054 -24.248
+       angleX 1.772
+       angleY 40.421
+       angleZ -1.732
+       scale 0.452
+      }
+     }
+     $grp Tree : "{B48B7DD4E1C5FE40}PrefabLibrary/Vegetation/Bushes/b_corylus_avellana_0.et" {
+      {
+       coords 0.019 0.032 -6.769
+       angleX -0.212
+       angleY -37.86
+       scale 0.7
+      }
+      {
+       coords 1.513 0.055 -10.159
+       angleX -0.212
+       angleY 108.23
+       scale 0.7
+      }
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 3362.055 11.228 3641.402
+  Points {
+   ShapePoint "{627D7BE1BC7E5AC3}" {
+    Position 0 0 0
+   }
+   ShapePoint "{627D7BE1BC7FBFC6}" {
+    Position 7.2 -0.009 -1.249
+   }
+   ShapePoint "{627D7BE183CB2E24}" {
+    Position 9.552 -0.009 10.507
+   }
+  }
+  LineColor 0 0 0 0
+  {
+   WallGeneratorEntity : "{C344BB14626BB0D1}PrefabLibrary/Generators/Walls/Brick/WG_BrickWall_02.et" {
+    coords 0 0 0
+    Flags 1048579
+    {
+     $grp SCR_DestructibleEntity : "{358B3FF55BA04C88}PrefabLibrary/Walls/Brick/BrickWall_02_4m.et" {
+      {
+       coords -0.214 0 0.037
+       angleY 9.843
+      }
+      {
+       coords 8.786 -0.009 6.199
+       angleY -79.918
+      }
+     }
+     $grp SCR_DestructibleEntity : "{4546AD2CC984193B}PrefabLibrary/Walls/Brick/BrickWall_02_2m.et" {
+      {
+       coords 3.61 -0.004 -0.626
+       angleY 9.843
+      }
+      {
+       coords 5.425 -0.007 -0.941
+       angleY 9.843
+      }
+     }
+     SCR_DestructibleEntity : "{4EF4686F9F99FE80}PrefabLibrary/Walls/Brick/BrickWall_02_Pole.et" {
+      coords 9.458 -0.009 9.976
+      angleY -79.918
+     }
+     SCR_DestructibleEntity : "{D4101A467FE8E7EE}PrefabLibrary/Walls/Brick/BrickWall_02_8m.et" {
+      coords 7.416 -0.009 -1.507
+      angleY -79.918
+     }
+    }
+   }
+  }
+ }
+}
+GenericEntity : "{102F94404E45E8D6}PrefabLibrary/Rocks/Granite/Granite_Cluster_Large_01.et" {
+ coords 3379.256 -0.163 3652.271
+ angleX -0.641
+ angleY 134.283
+ angleZ -0.625
+ scale 0.952
 }
 SCR_DestructibleEntity : "{358B3FF55BA04C88}PrefabLibrary/Walls/Brick/BrickWall_02_4m.et" {
  coords 3015.157 0.178 2654.362
  angleY -80.521
 }
+GenericEntity : "{38CC50480D29CCFD}PrefabLibrary/Rocks/Granite/Granite_Boulder_01/Granite_Boulder_01.et" {
+ coords 3377.912 -0.4 3637.344
+ angleX 80.082
+ angleY 46.106
+ angleZ 59.416
+ scale 1.012
+}
 StaticModelEntity : "{41773F32A6C835C2}PrefabLibrary/Walls/Wooden/WoodenFence_03_Gate.et" {
  coords 2949.875 -0.042 2708.232
  angleY -163.266
+}
+GenericEntity : "{43890921C37778E9}PrefabLibrary/Props/Industrial/MarsBoxContainer_01.et" {
+ coords 3372.126 11.202 3648.993
+ angleX 0.188
+ angleY 102.13
+ angleZ -0.875
+}
+GenericEntity : "{549864A8B1ED43D3}PrefabLibrary/Rocks/Granite/Granite_Boulder_02/Granite_Boulder_02.et" {
+ coords 3370.336 -0.558 3637.917
+ angleX 46.468
+ angleY 2.428
+ angleZ 71.063
+ scale 0.826
 }
 $grp SCR_DestructibleEntity : "{5EF68161E25B9320}PrefabLibrary/Walls/Wooden/WoodenFence_03_8m.et" {
  {
@@ -504,6 +779,20 @@ $grp SCR_DestructibleEntity : "{5EF68161E25B9320}PrefabLibrary/Walls/Wooden/Wood
   coords 2941.021 0.125 2711.063
   angleY 17.416
   placement none
+ }
+}
+$grp GenericEntity : "{6FD4315AF0CDA442}PrefabLibrary/Props/Industrial/Pallet_01_Pile.et" {
+ {
+  coords 3371.578 11.307 3645.892
+  angleX 1.969
+  angleY 13.558
+  angleZ 1.987
+ }
+ {
+  coords 3371.18 11.181 3644.466
+  angleX 3.224
+  angleY -166.773
+  angleZ -1.997
  }
 }
 $grp SCR_DestructibleEntity : "{CFA0360B54376DF5}PrefabLibrary/Walls/Wooden/WoodenFence_03_2m.et" {
