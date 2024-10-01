@@ -1214,6 +1214,13 @@ $grp SCR_DestructibleBuildingEntity : "{720E5074722834BF}PrefabLibrary/Structure
   angleZ -8.428
   scale 0.927
  }
+ {
+  coords 3623.163 0.032 3569.309
+  angleX -3.102
+  angleY -46.786
+  angleZ 1.992
+  scale 1.048
+ }
 }
 $grp SCR_DestructibleBuildingEntity : "{75CF81F88D4C3998}PrefabLibrary/Structures/Houses/House_Town_E_2I02/House_Town_E_2I02_v2.et" {
  {
@@ -1630,12 +1637,21 @@ $grp SCR_DestructibleBuildingEntity : "{CB01B5B68D9EF4C4}PrefabLibrary/Structure
   angleY -8.808
  }
 }
-SCR_DestructibleBuildingEntity : "{CCB19FE7B8422989}PrefabLibrary/Structures/Ruins/HouseRuin_01_BrickPile_Big.et" {
- coords 3600.716 0.006 3575.31
- angleX 0.639
- angleY -165.328
- angleZ 1.093
- scale 1.041
+$grp SCR_DestructibleBuildingEntity : "{CCB19FE7B8422989}PrefabLibrary/Structures/Ruins/HouseRuin_01_BrickPile_Big.et" {
+ {
+  coords 3600.716 0.006 3575.31
+  angleX 0.639
+  angleY -165.328
+  angleZ 1.093
+  scale 1.041
+ }
+ {
+  coords 3610.348 0.173 3577.499
+  angleX 1.252
+  angleY 126.494
+  angleZ -0.187
+  scale 1.041
+ }
 }
 Tree : "{CED0732AEAD82213}PrefabLibrary/Vegetation/Trees/t_picea_abies_1s.et" {
  coords 4020.994 0 2908.773
