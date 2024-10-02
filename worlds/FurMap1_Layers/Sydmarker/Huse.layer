@@ -787,6 +787,9 @@ Tree : "{16D3707EA3F8DD41}PrefabLibrary/Vegetation/Trees/t_alnus_glutinosa_3s.et
  angleZ 0.8
  scale 0.974
 }
+GenericEntity : "{16E63075F932AC76}PrefabLibrary/Props/Garbage/GarbageContainter_01.et" {
+ coords 3379.105 11.531 3613.351
+}
 Tree : "{1F1980176A5052DC}PrefabLibrary/Vegetation/Bushes/b_rosa_canina_0s.et" {
  coords 2926.628 0 2924.991
  angleX -0.904
@@ -805,6 +808,10 @@ SCR_DestructibleBuildingEntity : "{1FE85AA2832E0FA5}PrefabLibrary/Structures/Add
 SCR_DestructibleBuildingEntity : "{204BB984E739FB7A}PrefabLibrary/Structures/Naval/FishermanShed_01/FishermanShed_01_V2.et" {
  coords 2967.505 0.152 4374.896
  angleY -172.197
+}
+GenericEntity : "{276365F1E957D1D6}PrefabLibrary/Props/Garbage/Junk_01_pile_large.et" {
+ coords 3386.152 11.531 3614.369
+ angleY -170.811
 }
 SCR_DestructibleBuildingEntity : "{2AEEE9C9512908FD}PrefabLibrary/Structures/Naval/FishermanShed_02/FishermanShed_02_V2.et" {
  coords 3536.601 0.009 3652.877
@@ -901,9 +908,19 @@ $grp SCR_DestructibleBuildingEntity : "{40CB72D2B509489C}PrefabLibrary/Structure
   angleY -43.326
  }
 }
+GenericEntity : "{42A2D1BD123CB71A}PrefabLibrary/Props/Garbage/GarbageStack_01_Short.et" {
+ coords 3381.283 11.531 3615.489
+ angleY -80.063
+}
 SCR_DestructibleBuildingEntity : "{446671DE9607E741}PrefabLibrary/Structures/Houses/Shed_03.et" {
  coords 1964.392 -0.016 3748.53
  angleY -144.638
+}
+GenericEntity : "{48C9E7CE89BA2360}PrefabLibrary/Props/Garbage/TirePile_01_medium.et" {
+ coords 3393.095 11.522 3614.676
+ angleX 0.296
+ angleY 93.886
+ angleZ -0.845
 }
 GenericEntity : "{4DD0E6B6AAA4AD73}PrefabLibrary/Rocks/Granite/Granite_Boulder_02/Granite_Boulder_02_Fucus.et" {
  coords 2828.287 0.499 2973.435
@@ -925,9 +942,19 @@ $grp SCR_DestructibleBuildingEntity : "{51BF59A7E99DC66E}PrefabLibrary/Structure
   angleY 21.78
  }
 }
+GenericEntity : "{53A0C67B9F92F426}PrefabLibrary/Props/Garbage/GarbageStack_01_Long.et" {
+ coords 3383.538 11.507 3612.253
+ angleY 9.453
+}
 SCR_DestructibleBuildingEntity : "{53ED57F93F1DCE1F}PrefabLibrary/Structures/Industrial/Warehouse_01.et" {
  coords 2249.948 0 4345.368
  angleY -66.741
+}
+GenericEntity : "{5452BDA9DEFBA5E6}PrefabLibrary/Props/Garbage/TirePile_01_small.et" {
+ coords 3394.308 11.483 3618.536
+ angleX -0.716
+ angleY -66.436
+ angleZ 1.641
 }
 $grp SCR_DestructibleBuildingEntity : "{54E4045E67826963}PrefabLibrary/Structures/Houses/Shed_02_big_V2.et" {
  {
@@ -1080,6 +1107,10 @@ $grp Tree : "{797885BBBC1FEFA0}PrefabLibrary/Vegetation/Bushes/b_juniperus_commu
   scale 1.067
  }
 }
+GenericEntity : "{7AB486CD1FBB0B0A}PrefabLibrary/Props/Garbage/Junk_01_pile_small.et" {
+ coords 3392.407 11.531 3610.09
+ angleY -66.759
+}
 SCR_DestructibleBuildingEntity : "{7BE9DE15EE9823C2}PrefabLibrary/Structures/Houses/House_Village_E_1I06.et" {
  coords 2494.423 1.377 4648.914
  angleY 27.227
@@ -1214,6 +1245,14 @@ $grp SCR_DestructibleBuildingEntity : "{93147981639AC149}PrefabLibrary/Structure
  {
   coords 3071.277 0.594 2683.203
   angleY -79.918
+ }
+ {
+  coords 3397.465 0.344 3611.693
+  angleY -79.674
+ }
+ {
+  coords 3136.468 0.162 3722.784
+  angleY 11.418
  }
 }
 Tree : "{932E56F57F6F0C9A}PrefabLibrary/Vegetation/Bushes/b_salix_cinerea_1w.et" {
@@ -1425,6 +1464,10 @@ $grp SCR_DestructibleBuildingEntity : "{BC72C74ABB5732A8}PrefabLibrary/Structure
   coords 3110.26 0.012 2644.266
   angleY -63.516
  }
+ {
+  coords 3382.258 0.068 3604.052
+  angleY -79.779
+ }
 }
 Tree : "{C44F51A81AC2B063}PrefabLibrary/Vegetation/Trees/t_carpinus_betulus_3s.et" {
  coords 2086.243 0 4022.687
@@ -1594,6 +1637,10 @@ $grp SCR_DestructibleBuildingEntity : "{DEF852CB2596122D}PrefabLibrary/Structure
   coords 1954.94 -0.016 3754.834
   angleY -145.243
  }
+ {
+  coords 3564.24 0 3749.713
+  angleY -160.316
+ }
 }
 SCR_DestructibleBuildingEntity : "{DFE759EE77F61ACD}PrefabLibrary/Structures/Agriculture/Greenhouse_01.et" {
  coords 2742.704 0 4325.684
@@ -1642,9 +1689,17 @@ $grp SCR_DestructibleBuildingEntity : "{E7143CC469A97E04}PrefabLibrary/Structure
   angleY -165.755
  }
 }
+GenericEntity : "{F16F1407D103F16F}PrefabLibrary/Props/Garbage/PostersGround_01_Eden_V1.et" {
+ coords 3394.107 11.5 3616.876
+ angleY -44.353
+}
 SCR_DestructibleBuildingEntity : "{F5F65D19951ED02F}PrefabLibrary/Structures/Industrial/ShedMetal_02.et" {
  coords 2458.619 -0.041 4551.146
  angleY 117.383
+}
+GenericEntity : "{F60BDAFDAF677A65}PrefabLibrary/Props/Garbage/Junk_01_single_mattress.et" {
+ coords 3389.242 11.531 3612.427
+ angleY 32.224
 }
 SCR_DestructibleBuildingEntity : "{F973FD2C8F3C05DB}PrefabLibrary/Structures/Houses/House_Village_E_1I04sf/House_Village_E_1I04sf_green.et" {
  coords 2536.179 0.431 4746.958
