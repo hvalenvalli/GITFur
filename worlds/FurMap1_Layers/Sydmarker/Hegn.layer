@@ -2101,6 +2101,68 @@ $grp PolylineShapeEntity {
    }
   }
  }
+ {
+  coords 2610.235 9.344 3601.023
+  Points {
+   ShapePoint "{6284A46091301E38}" {
+    Position -1.5 0 0.327
+   }
+   ShapePoint "{6284A4609137A771}" {
+    Position 14.627 0 -1.264
+   }
+  }
+  LineColor 0 0 0 0
+  {
+   WallGeneratorEntity : "{BE0F4C5476112BC7}PrefabLibrary/Generators/Walls/Wooden/WG_WoodenFence_01.et" {
+    coords 0 0 0
+    Flags 1048579
+    {
+     SCR_DestructibleEntity : "{8D66287EE8B4C914}PrefabLibrary/Walls/Wooden/WoodenFence_01_Pole.et" {
+      coords 14.244 0 -1.226
+      angleY 5.634
+     }
+     $grp SCR_DestructibleEntity : "{F3AC596DBEE14810}PrefabLibrary/Walls/Wooden/WoodenFence_01_8m.et" {
+      {
+       coords -1.5 0 0.327
+       angleY 5.634
+      }
+      {
+       coords 6.405 0 -0.453
+       angleY 5.634
+      }
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 2626.469 9.344 3651.8
+  Points {
+   ShapePoint "{6284A46263A4A8CB}" {
+    Position 0 0 0
+   }
+   ShapePoint "{6284A46263A5E811}" {
+    Position -1.459 0 -8.704
+   }
+  }
+  LineColor 0 0 0 0
+  {
+   WallGeneratorEntity : "{BE0F4C5476112BC7}PrefabLibrary/Generators/Walls/Wooden/WG_WoodenFence_01.et" {
+    coords 0 0 0
+    Flags 1048579
+    {
+     SCR_DestructibleEntity : "{8D66287EE8B4C914}PrefabLibrary/Walls/Wooden/WoodenFence_01_Pole.et" {
+      coords -1.303 0 -7.769
+      angleY -260.482
+     }
+     SCR_DestructibleEntity : "{F3AC596DBEE14810}PrefabLibrary/Walls/Wooden/WoodenFence_01_8m.et" {
+      coords 0 0 0
+      angleY -260.482
+     }
+    }
+   }
+  }
+ }
 }
 GenericEntity : "{102F94404E45E8D6}PrefabLibrary/Rocks/Granite/Granite_Cluster_Large_01.et" {
  coords 3379.256 -0.163 3652.271
@@ -2108,6 +2170,24 @@ GenericEntity : "{102F94404E45E8D6}PrefabLibrary/Rocks/Granite/Granite_Cluster_L
  angleY 134.283
  angleZ -0.625
  scale 0.952
+}
+SCR_DestructibleEntity : "{13209AA1FCD7957C}PrefabLibrary/Walls/Stone/StoneWall_01_8m.et" {
+ coords 2613.561 0.233 3666.027
+ angleY 96.053
+}
+$grp SCR_DestructibleEntity : "{31108B96607D3CAA}PrefabLibrary/Walls/Wooden/WoodenWall_02_4m_A.et" {
+ {
+  coords 2607.273 0.074 3622.022
+  angleY -81.004
+ }
+ {
+  coords 2606.19 0.058 3613.945
+  angleY -81.004
+ }
+ {
+  coords 2605.157 0.118 3605.93
+  angleY -81.004
+ }
 }
 SCR_DestructibleEntity : "{358B3FF55BA04C88}PrefabLibrary/Walls/Brick/BrickWall_02_4m.et" {
  coords 3015.157 0.178 2654.362
@@ -2130,12 +2210,40 @@ GenericEntity : "{43890921C37778E9}PrefabLibrary/Props/Industrial/MarsBoxContain
  angleY 102.13
  angleZ -0.875
 }
+SCR_DestructibleEntity : "{4FE3FD617F94EABC}PrefabLibrary/Walls/Brick/BrickWall_01_2m.et" {
+ coords 2628.325 0.016 3633.359
+ angleY -82.074
+}
+SCR_DestructibleEntity : "{50F9ED598269D5A7}PrefabLibrary/Walls/Stone/StoneWall_01_4m_B.et" {
+ coords 2612.112 -0.302 3654.944
+ angleY -83.8
+ placement none
+}
 GenericEntity : "{549864A8B1ED43D3}PrefabLibrary/Rocks/Granite/Granite_Boulder_02/Granite_Boulder_02.et" {
  coords 3370.336 -0.558 3637.917
  angleX 46.468
  angleY 2.428
  angleZ 71.063
  scale 0.826
+}
+$grp SCR_DestructibleEntity : "{5D44BF76DCB9B384}PrefabLibrary/Walls/Wooden/WoodenWall_02_4m_B.et" {
+ {
+  coords 2606.808 0.071 3617.995
+  angleY -83.282
+ }
+ {
+  coords 2605.725 0.051 3609.918
+  angleY -83.282
+ }
+ {
+  coords 2604.693 0.028 3601.903
+  angleY -83.282
+ }
+ {
+  coords 2608.65 -0.514 3601.186
+  angleY -169.316
+  angleZ -1.017
+ }
 }
 $grp SCR_DestructibleEntity : "{5EF68161E25B9320}PrefabLibrary/Walls/Wooden/WoodenFence_03_8m.et" {
  {
@@ -2162,6 +2270,9 @@ $grp GenericEntity : "{6FD4315AF0CDA442}PrefabLibrary/Props/Industrial/Pallet_01
   angleZ -1.997
  }
 }
+SCR_DestructibleEntity : "{8842EF33BFBD669E}PrefabLibrary/Walls/Wooden/WoodenWall_01_2m.et" {
+ coords 2607.882 0.044 3625.928
+}
 $grp SCR_DestructibleEntity : "{CFA0360B54376DF5}PrefabLibrary/Walls/Wooden/WoodenFence_03_2m.et" {
  {
   coords 2949.848 -0.077 2708.233
@@ -2172,5 +2283,19 @@ $grp SCR_DestructibleEntity : "{CFA0360B54376DF5}PrefabLibrary/Walls/Wooden/Wood
   coords 2954.17 0.005 2714.626
   angleY -68.404
   placement none
+ }
+}
+$grp SCR_DestructibleEntity : "{DFAD5338DECCD74E}PrefabLibrary/Walls/Stone/StoneWall_02_4m.et" {
+ {
+  coords 2608.202 0.022 3627.799
+  angleY -82.955
+ }
+ {
+  coords 2609.016 0 3633.619
+  angleY -82.955
+ }
+ {
+  coords 2610.477 -0.063 3645.577
+  angleY -82.955
  }
 }
