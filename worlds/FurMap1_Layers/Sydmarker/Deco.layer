@@ -7488,11 +7488,25 @@ $grp GenericEntity : "{52CE7C3A4CF10307}PrefabLibrary/Props/Civilian/Garden/LogC
   scale 0.977
  }
 }
-GenericEntity : "{53718E531C2D4F47}PrefabLibrary/Props/Civilian/Garden/Birdhouse_01_pole.et" {
- coords 3437.99 12.006 3595.363
- angleX 0.992
- angleY 64.538
- angleZ -0.675
+$grp GenericEntity : "{53718E531C2D4F47}PrefabLibrary/Props/Civilian/Garden/Birdhouse_01_pole.et" {
+ {
+  coords 3437.99 12.006 3595.363
+  angleX 0.992
+  angleY 64.538
+  angleZ -0.675
+ }
+ {
+  coords 2990.289 4.845 2891.454
+  angleX 2.189
+  angleY 110.44
+  angleZ -0.447
+ }
+ {
+  coords 2979.485 3.919 2837.127
+  angleX 0.835
+  angleY 17.35
+  angleZ 0.082
+ }
 }
 $grp GenericEntity : "{53A0C67B9F92F426}PrefabLibrary/Props/Garbage/GarbageStack_01_Long.et" {
  {
@@ -9935,6 +9949,20 @@ GenericEntity : "{D70034C04BF6173B}PrefabLibrary/Props/Industrial/MarsBoxContain
  angleX -2.836
  angleY -62.13
  angleZ 1.534
+}
+$grp GenericEntity : "{D7787456BDF1D199}PrefabLibrary/Props/Agricultural/Scarecrow_01.et" {
+ {
+  coords 2990.988 3.568 2831.123
+  angleY 0
+ }
+ {
+  coords 3009.177 4.157 2878.434
+  angleY 0
+ }
+ {
+  coords 3024.644 2.263 2706.914
+  angleY 52.133
+ }
 }
 GenericEntity : "{D792884620B20EEF}PrefabLibrary/Props/Civilian/BarrelMetal_01/BarrelMetal_01_rust.et" {
  coords 3568.506 11.055 3747.53

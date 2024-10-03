@@ -4,15 +4,42 @@ SCR_DestructibleEntity : "{04DF7CCC29EDBB1A}PrefabLibrary/Props/Infrastructure/S
  angleY 22.868
  angleZ 0.655
 }
-GenericEntity : "{6BB29831A665858D}PrefabLibrary/Infrastructure/Sings/SignBendLeft.et" {
- coords 3528.328 12.924 3593.982
- angleX -1.454
- angleY -73.463
- angleZ 0.365
+GenericEntity : "{43E505BF759653CA}PrefabLibrary/Infrastructure/Sings/SignGiveWay.et" {
+ coords 2519.706 4.668 3114.771
+ angleX -1.735
+ angleY 10.419
+ angleZ -0.493
+}
+$grp GenericEntity : "{6BB29831A665858D}PrefabLibrary/Infrastructure/Sings/SignBendLeft.et" {
+ {
+  coords 3528.328 12.924 3593.982
+  angleX -1.454
+  angleY -73.463
+  angleZ 0.365
+ }
+ {
+  coords 3528.964 6.916 3193.486
+  angleX -0.784
+  angleY -79.215
+  angleZ -0.759
+ }
 }
 SCR_DestructibleEntity : "{E42FA8D3B654283A}PrefabLibrary/Props/Infrastructure/SurveyMarker_E_01_pole/SurveyMarker_E_01_pole_blue.et" {
  coords 3475.059 12 3604.318
  angleX 0.417
  angleY 90.233
  angleZ -3.967
+}
+$grp GenericEntity : "{F6CB9F9497340046}PrefabLibrary/Infrastructure/Sings/SignBendRight.et" {
+ {
+  coords 3728.103 12.462 3636.792
+  angleX -0.742
+  angleY 14.164
+  angleZ -2.11
+ }
+ {
+  coords 3587.232 8.319 3248.398
+  angleX -0.012
+  angleZ -0.628
+ }
 }
