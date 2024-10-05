@@ -15,19 +15,15 @@ SCR_MapEntity MapEntity : "{731564B66F91B107}Prefabs/World/Game/MapEntity.et" {
  }
 }
 SCR_AIWorld SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
- coords 3952.417 12.825 4773.698
- {
-  CommentEntity {
-   coords 0 1 0
-   m_Comment "SCR_AIWorld: "\
-   "Configure navigation mesh"
-   m_Size 0.2
-   m_Color 0 0 0
-   m_FaceCamera 1
-   m_TextBackground 1
-   m_BackgroundColor 1 0.6 0
-   m_BackgroundTransparency 0
+ components {
+  NavmeshWorldComponent "{5584F30E67F617AD}" {
+   NavmeshSettings NavmeshWorld "{50FC63BEBE3973C5}" {
+   }
   }
+ }
+ coords 3952.417 12.825 4773.698
+ "Allowed Link Navmesh Types" {
+  "Soldiers"
  }
 }
 PerceptionManager PerceptionManager : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
