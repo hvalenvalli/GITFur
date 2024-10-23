@@ -581,6 +581,79 @@ $grp SplineShapeEntity {
    }
   }
  }
+ {
+  coords 4570.293 63.322 6694.527
+  Points {
+   ShapePoint "{62AF654BF06ACF15}" {
+    Position -1.396 0.039 -5.705
+   }
+   ShapePoint "{62AF654BA5FE0B64}" {
+    Position 4.403 -0.154 -2.252
+   }
+   ShapePoint "{62AF654BF06A330A}" {
+    Position 6.175 -0.25 5.318
+   }
+   ShapePoint "{62AF654BF76C2590}" {
+    Position 7.521 -0.222 38.439
+   }
+   ShapePoint "{62AF654BF7B751A6}" {
+    Position 11.716 -0.737 56.762
+   }
+   ShapePoint "{62AF654BF6711EF1}" {
+    Position 29.095 -3.175 86.083
+   }
+   ShapePoint "{62AF654BF6E01F2D}" {
+    Position 39.377 -5.496 111.872
+   }
+   ShapePoint "{62AF654BF51AEA99}" {
+    Position 69.313 -7.574 136.776
+   }
+   ShapePoint "{62AF654BF592FC03}" {
+    Position 94.592 -8.682 148.541
+   }
+  }
+  {
+   RoadGeneratorEntity : "{2D9AEF10F5FEA98B}PrefabLibrary/Generators/Roads/Dirt/RG_Road_Dirt_01.et" {
+    coords 0 0 0
+    {
+     RoadEntity {
+      ID "523EAA80CAA6C6B5"
+      SplinePoints {
+       ShapePoint "{52346539D885C296}" {
+        Position -1.396 0.039 -5.705
+       }
+       ShapePoint "{52346539D885C1A2}" {
+        Position 4.403 -0.154 -2.252
+       }
+       ShapePoint "{62AF654BC33E68AC}" {
+        Position 6.175 -0.25 5.318
+       }
+       ShapePoint "{62AF654BC33E68D0}" {
+        Position 7.521 -0.222 38.439
+       }
+       ShapePoint "{62AF654BC33E6709}" {
+        Position 11.716 -0.737 56.762
+       }
+       ShapePoint "{62AF654BC33E6743}" {
+        Position 29.095 -3.175 86.082
+       }
+       ShapePoint "{62AF654BC33E6784}" {
+        Position 39.377 -5.496 111.872
+       }
+       ShapePoint "{62AF654BC33E663E}" {
+        Position 69.312 -7.574 136.776
+       }
+       ShapePoint "{62AF654BA5FEF947}" {
+        Position 94.592 -8.682 148.54
+       }
+      }
+      IsClosedSpline 0
+      Width 4
+     }
+    }
+   }
+  }
+ }
 }
 $grp StaticModelEntity : "{214AACC0EF381CE8}PrefabLibrary/Walls/Metal/MetalGate_03_Green.et" {
  {
