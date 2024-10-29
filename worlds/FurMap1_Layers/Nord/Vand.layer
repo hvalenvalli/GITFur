@@ -43,7 +43,7 @@ $grp PolylineShapeEntity {
   coords 4274.413 32.377 7149.178
   Points {
    ShapePoint "{62AF654C88DE2F1F}" {
-    Position 0 -0 0
+    Position 0 0 0
     Data {
      ForestGeneratorPointData "{000000002C57B0BA}" {
      }
@@ -412,6 +412,81 @@ $grp PolylineShapeEntity {
       }
      }
     }
+   }
+  }
+ }
+ {
+  coords 3632.861 52.122 6517.509
+  Points {
+   ShapePoint "{62BADA51AC1A319A}" {
+    Position 7.393 -0.932 17.109
+   }
+   ShapePoint "{62BADA51AD93E18F}" {
+    Position 27.661 -0.935 -15.648
+   }
+   ShapePoint "{62BADA51AD3FEDCD}" {
+    Position -18.099 -0.895 -50.24
+   }
+   ShapePoint "{62BADA51AE463ABF}" {
+    Position -28.408 -2.956 -38.776
+   }
+   ShapePoint "{62BADA51AE469FC3}" {
+    Position 7.703 -0.932 16.68
+   }
+  }
+  {
+   LakeGeneratorEntity : "{D54725073DA8ED79}PrefabLibrary/Generators/Water/Lake/LG_LakeMountain_01.et" {
+    coords 0 0 0
+   }
+  }
+ }
+ {
+  coords 3526.76 56.063 6267.918
+  Points {
+   ShapePoint "{62BADA5175EC12F0}" {
+    Position 0 -3.071 0
+   }
+   ShapePoint "{62BADA5175ED9F13}" {
+    Position 80.41 -3.071 40.652
+   }
+   ShapePoint "{62BADA517B28E940}" {
+    Position 90.942 -3.071 -0.022
+   }
+   ShapePoint "{62BADA517A39DDE9}" {
+    Position -14.387 -3.071 -43.882
+   }
+   ShapePoint "{62BADA517ABBCD28}" {
+    Position -0.815 -3.071 0.112
+   }
+  }
+  {
+   LakeGeneratorEntity : "{D54725073DA8ED79}PrefabLibrary/Generators/Water/Lake/LG_LakeMountain_01.et" {
+    coords 0 0 0
+   }
+  }
+ }
+ {
+  coords 3558.822 51.261 6303.037
+  Points {
+   ShapePoint "{62BADA51231E839F}" {
+    Position 0.891 -4.528 0.503
+   }
+   ShapePoint "{62BADA515C99F758}" {
+    Position -13.65 -4.528 26.729
+   }
+   ShapePoint "{62BADA515C32C92B}" {
+    Position 61.765 -4.528 47.778
+   }
+   ShapePoint "{62BADA515D6646BB}" {
+    Position 71.763 -4.311 28.562
+   }
+   ShapePoint "{62BADA515D663EA4}" {
+    Position 0.012 -4.528 0.005
+   }
+  }
+  {
+   LakeGeneratorEntity : "{D54725073DA8ED79}PrefabLibrary/Generators/Water/Lake/LG_LakeMountain_01.et" {
+    coords 0 0 0
    }
   }
  }
@@ -790,7 +865,6 @@ SplineShapeEntity {
       angleX -1.911
       angleY 128.061
       angleZ 0.603
-      scale 1
      }
      {
       coords -4.058 0.359 -1.808
