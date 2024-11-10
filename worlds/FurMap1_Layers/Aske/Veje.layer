@@ -1,0 +1,38 @@
+SplineShapeEntity {
+ coords 2894.687 18.344 5135.366
+ Points {
+  ShapePoint "{62D527638FD80D8B}" {
+   Position 1.001 0.011 1.325
+  }
+  ShapePoint "{62D527638F200040}" {
+   Position -29.969 1.801 22.207
+  }
+ }
+ {
+  RoadGeneratorEntity : "{2D9AEF10F5FEA98B}PrefabLibrary/Generators/Roads/Dirt/RG_Road_Dirt_01.et" {
+   coords 4.077 0 -5.535
+   {
+    RoadEntity {
+     ID "523EAA80CAA6C6B5"
+     SplinePoints {
+      ShapePoint "{52346539D885C296}" {
+       Position -3.076 0.011 6.86
+      }
+      ShapePoint "{52346539D885C1A2}" {
+       Position -34.045 1.801 27.742
+      }
+     }
+     IsClosedSpline 0
+     Width 4
+    }
+   }
+  }
+ }
+}
+Tree : "{C44F51A81AC2B063}PrefabLibrary/Vegetation/Trees/t_carpinus_betulus_3s.et" {
+ coords 2880.992 -0.616 5141.267
+ angleX -0.799
+ angleY -154.758
+ angleZ 2.503
+ scale 0.387
+}
