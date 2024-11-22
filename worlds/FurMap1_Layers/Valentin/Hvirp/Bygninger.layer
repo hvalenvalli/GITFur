@@ -132,7 +132,7 @@ $grp PolylineShapeEntity {
   coords 4893.315 1.402 4650.28
   Points {
    ShapePoint "{62E50776DDEA6594}" {
-    Position 0 -0 0
+    Position 0 0 0
    }
    ShapePoint "{62E50776DDEB963C}" {
     Position 3.344 -0.121 10.282
@@ -146,18 +146,15 @@ $grp PolylineShapeEntity {
     {
      $grp SCR_DestructibleEntity : "{7F6F9A345E4F2E4C}PrefabLibrary/Walls/Net/NetFence_01_2m_End_green.et" {
       {
-       _layer 83
-       coords 0 -0 0
+       coords 0 0 0
        angleY -71.982
       }
       {
-       _layer 83
        coords 2.319 -0.084 7.131
        angleY -71.982
       }
      }
      SCR_DestructibleEntity : "{DB48CA0929D309B1}PrefabLibrary/Walls/Net/NetFence_01_4m_green.et" {
-      _layer 83
       coords 0.773 -0.028 2.377
       angleY -71.982
      }
@@ -178,9 +175,19 @@ SCR_DestructibleBuildingEntity : "{13D9C4416ED532D2}PrefabLibrary/Structures/Hou
  coords 4997.385 0.108 4600.212
  angleY 31.524
 }
-SCR_DestructibleBuildingEntity : "{141F88915AD1B5B6}PrefabLibrary/Structures/Addons/HouseAddon_Workshop_E_01.et" {
- coords 4851.375 -0.306 4588.164
- angleY 103.578
+$grp SCR_DestructibleBuildingEntity : "{141F88915AD1B5B6}PrefabLibrary/Structures/Addons/HouseAddon_Workshop_E_01.et" {
+ {
+  coords 4851.375 -0.306 4588.164
+  angleY 103.578
+ }
+ {
+  coords 4945.483 0 4826.344
+  angleY 126.289
+ }
+}
+SCR_DestructibleBuildingEntity : "{15D4F4467E3F79F1}PrefabLibrary/Structures/Houses/Shed_02_line.et" {
+ coords 4947.698 0 4831.196
+ angleY 35.026
 }
 GenericEntity : "{218371AE0F7B0168}PrefabLibrary/Structures/Addons/Doorstep_01_Stairs.et" {
  coords 4858.92 3.625 4642.737
@@ -244,9 +251,15 @@ SCR_DestructibleBuildingEntity : "{8606D888D71A206A}PrefabLibrary/Structures/Hou
  coords 4904.553 0.61 4523.291
  angleY 119.523
 }
-SCR_DestructibleBuildingEntity : "{8732EEEE5AC2B938}PrefabLibrary/Structures/Houses/Garage_E_01.et" {
- coords 4909.253 0.094 4568.982
- angleY 118.063
+$grp SCR_DestructibleBuildingEntity : "{8732EEEE5AC2B938}PrefabLibrary/Structures/Houses/Garage_E_01.et" {
+ {
+  coords 4909.253 0.094 4568.982
+  angleY 118.063
+ }
+ {
+  coords 4941.734 0 4792.271
+  angleY -155.929
+ }
 }
 SCR_DestructibleBuildingEntity : "{9A11BC58DEF42A97}PrefabLibrary/Structures/Houses/House_Village_E_1I04t/House_Village_E_1I04t.et" {
  coords 4965.509 0 4858.122
