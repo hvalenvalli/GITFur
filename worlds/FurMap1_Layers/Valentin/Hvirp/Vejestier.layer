@@ -1,14 +1,80 @@
+PolylineShapeEntity {
+ coords 4852.082 2.75 4540.426
+ Points {
+  ShapePoint "{62ED373EB0554E02}" {
+   Position 0 -0 0
+  }
+  ShapePoint "{62ED373EB18E7AF1}" {
+   Position -10.121 0.125 -20.155
+  }
+ }
+ LineColor 0 0 0 0
+ {
+  WallGeneratorEntity : "{59203B19BC344845}PrefabLibrary/Generators/Pavements/Concrete/WG_ConcreteKerb_01.et" {
+   coords 0 0 0
+   Flags 1048579
+   {
+    $grp StaticModelEntity : "{84CB4C5EC2DAFE91}PrefabLibrary/Infrastructure/Roads/ConcreteKerb_01_2m_v2.et" {
+     {
+      coords 0 -0 0
+      angleY -243.336
+     }
+     {
+      coords -0.907 0.011 -1.805
+      angleY -243.336
+     }
+     {
+      coords -1.813 0.022 -3.611
+      angleY -243.336
+     }
+     {
+      coords -2.72 0.033 -5.416
+      angleY -243.336
+     }
+     {
+      coords -3.626 0.045 -7.221
+      angleY -243.336
+     }
+     {
+      coords -4.533 0.056 -9.027
+      angleY -243.336
+     }
+     {
+      coords -5.439 0.067 -10.832
+      angleY -243.336
+     }
+     {
+      coords -6.346 0.078 -12.637
+      angleY -243.336
+     }
+     {
+      coords -7.252 0.089 -14.442
+      angleY -243.336
+     }
+     {
+      coords -8.159 0.101 -16.248
+      angleY -243.336
+     }
+     {
+      coords -9.065 0.112 -18.053
+      angleY -243.336
+     }
+    }
+   }
+  }
+ }
+}
 SplineShapeEntity {
  coords 4955.681 1.422 4621.014
  Points {
   ShapePoint "{62BF073E76987B56}" {
-   Position -3.675 -0 3.753
+   Position -3.675 0 3.753
   }
   ShapePoint "{62BF073E76998D69}" {
-   Position 15.714 -0 -10.387
+   Position 15.714 0 -10.387
   }
   ShapePoint "{62BF073E7580EF95}" {
-   Position 25.614 -0 -9.826
+   Position 25.614 0 -9.826
   }
   ShapePoint "{62BF073E744E9F34}" {
    Position 36.615 0 -7.782
@@ -29,13 +95,13 @@ SplineShapeEntity {
      ID "523EAA80CAA6C6B5"
      SplinePoints {
       ShapePoint "{52346539D885C296}" {
-       Position -3.675 -0 3.753
+       Position -3.675 0 3.753
       }
       ShapePoint "{52346539D885C1A2}" {
-       Position 15.714 -0 -10.387
+       Position 15.714 0 -10.387
       }
       ShapePoint "{62BF073E5BBD7924}" {
-       Position 25.614 -0 -9.826
+       Position 25.614 0 -9.826
       }
       ShapePoint "{62BF073E5BBD7945}" {
        Position 36.615 0 -7.782
