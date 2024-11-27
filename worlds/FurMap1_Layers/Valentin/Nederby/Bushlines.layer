@@ -7237,6 +7237,121 @@ $grp PolylineShapeEntity {
    }
   }
  }
+ {
+  coords 4681.82 5.156 4289.535
+  Points {
+   ShapePoint "{62F6869E4C180CA2}" {
+    Position 0 0 0
+    Data {
+     ForestGeneratorPointData "{000000002C57B0BA}" {
+     }
+    }
+   }
+   ShapePoint "{62F6869E4C187B56}" {
+    Position 2.507 -0.087 6.571
+    Data {
+     ForestGeneratorPointData "{000000002C57B0BA}" {
+     }
+    }
+   }
+   ShapePoint "{62F6869E5301560C}" {
+    Position 9.139 -0.592 1.528
+    Data {
+     ForestGeneratorPointData "{000000002C57B0BA}" {
+     }
+    }
+   }
+   ShapePoint "{62F6869E53C6D381}" {
+    Position 7.948 -0.562 -3.624
+    Data {
+     ForestGeneratorPointData "{000000002C57B0BA}" {
+     }
+    }
+   }
+   ShapePoint "{62F6869E52544D0E}" {
+    Position -0.053 0.005 0.021
+    Data {
+     ForestGeneratorPointData "{000000002C57B0BA}" {
+     }
+    }
+   }
+  }
+  LineColor 0 1 0 0
+  {
+   ForestGeneratorEntity : "{C3BFCEE99048B3EE}PrefabLibrary/Generators/Forests/FG_Forest_Pine2.et" {
+    coords 0 0 0
+    Flags 1048579
+    {
+     $grp Tree : "{2FE01B5E743D5205}PrefabLibrary/Vegetation/Trees/t_pinus_sylvestris_1s.et" {
+      {
+       coords 3.207 -0.184 3.118
+       angleY 285.697
+       scale 0.798
+      }
+      {
+       coords 6.47 -0.447 2.962
+       angleY 204.55
+       scale 1.16
+      }
+      {
+       coords 6.172 -0.44 2.21
+       angleY 135.103
+       scale 0.927
+      }
+      {
+       coords 1.33 -0.045 2.65
+       angleY 288.587
+       scale 1.026
+      }
+      {
+       coords 2.952 -0.241 0.047
+       angleY 337.093
+       scale 1.176
+      }
+     }
+     Tree : "{960EA50FD57CD7D5}PrefabLibrary/Vegetation/Trees/t_betula_pendula_1sw.et" {
+      coords 7.548 -0.562 -2.233
+      angleY 68.271
+      scale 0.924
+     }
+     $grp Tree : "{B6FEA2C769DA6395}PrefabLibrary/Vegetation/Trees/t_pinus_sylvestris_2s.et" {
+      {
+       coords 5.946 -0.532 -1.212
+       angleY 38.937
+       scale 1.265
+      }
+      {
+       coords 5.081 -0.34 3.156
+       angleY 354.847
+       scale 1.02
+      }
+     }
+     Tree : "{C1F4CA4F9D788CE5}PrefabLibrary/Vegetation/Trees/t_pinus_sylvestris_3s.et" {
+      coords 1.617 -0.07 3.075
+      angleY 324.513
+      scale 0.804
+     }
+     Tree : "{CF0A210B7AC7B329}PrefabLibrary/Vegetation/Bushes/b_corylus_avellana_2.et" {
+      coords 4.414 -0.339 1.062
+      angleY 207.044
+      scale 1.016
+     }
+     $grp Tree : "{DA7492F3E6B63251}PrefabLibrary/Vegetation/Bushes/b_corylus_avellana_1l.et" {
+      {
+       coords 2.853 -0.267 -0.794
+       angleY 55.614
+       scale 1.097
+      }
+      {
+       coords 4.437 -0.406 -0.898
+       angleY 336.851
+       scale 1.101
+      }
+     }
+    }
+   }
+  }
+ }
 }
 $grp SplineShapeEntity {
  {
