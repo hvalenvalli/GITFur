@@ -7352,6 +7352,71 @@ $grp PolylineShapeEntity {
    }
   }
  }
+ {
+  coords 4724.861 3.586 4319.909
+  Points {
+   ShapePoint "{6309365589EE2E74}" {
+    Position 0 -0 0
+   }
+   ShapePoint "{6309365589EE70BE}" {
+    Position 5.092 -0.12 7.287
+   }
+  }
+  LineColor 0 0 0 0
+  {
+   PrefabGeneratorEntity : "{D22346876A0446AC}PrefabLibrary/Generators/Bushlines/PG_Bushline_Corylus_Small.et" {
+    coords 0 0 0
+    Flags 1048579
+    {
+     Tree : "{6602D9CC7BFE340D}PrefabLibrary/Vegetation/Bushes/b_sambucus_nigra_1.et" {
+      coords 1.646 -0.052 0.801
+      angleX 0.8
+      angleY 108.339
+      angleZ 1.174
+      scale 0.911
+     }
+     $grp Tree : "{839E9535771BA366}PrefabLibrary/Vegetation/Bushes/b_sambucus_nigra_0.et" {
+      {
+       coords 0.747 -0.027 -0.522
+       angleX 0.57
+       angleY 101.571
+       angleZ 1.123
+       scale 0.8
+      }
+      {
+       coords 4.471 -0.102 6.634
+       angleX 0.093
+       angleY -93.464
+       angleZ 0.915
+       scale 1.15
+      }
+     }
+     $grp Tree : "{A35E15EBC6033C07}PrefabLibrary/Vegetation/Bushes/b_corylus_avellana_1.et" {
+      {
+       coords 1.227 0.002 3.046
+       angleX -0.749
+       angleY -119.195
+       angleZ -1.971
+       scale 1.008
+      }
+      {
+       coords 3.502 -0.064 5.36
+       angleX -2.322
+       angleY 122.479
+       angleZ 0.192
+       scale 1.2
+      }
+     }
+     Tree : "{B48B7DD4E1C5FE40}PrefabLibrary/Vegetation/Bushes/b_corylus_avellana_0.et" {
+      coords 2.322 -0.033 4.233
+      angleX -0.774
+      angleY -47.979
+      scale 0.665
+     }
+    }
+   }
+  }
+ }
 }
 $grp SplineShapeEntity {
  {
@@ -9948,9 +10013,9 @@ $grp SplineShapeEntity {
       }
       {
        coords 54.635 -1.807 -27.725
-       angleX 2.901
-       angleY -12.946
-       angleZ -3.106
+       angleX -2.281
+       angleY -88.369
+       angleZ -3.586
        scale 0.801
       }
      }
@@ -11756,6 +11821,10 @@ Tree : "{C8E68C4C6AF159DA}PrefabLibrary/Vegetation/Trees/t_betula_pendula_2sw.et
  angleY 329.743
  angleZ -0.627
  scale 0.92
+}
+Vehicle S105_base3 : "{DA79E34823120087}Prefabs/Vehicles/Wheeled/S105/S105_base.et" {
+ coords 3601.015 2.969 2613.374
+ angleY 61.577
 }
 $grp Tree : "{DB49D8B142D18E86}PrefabLibrary/Vegetation/Trees/t_betula_pendula_2s.et" {
  {
