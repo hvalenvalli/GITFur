@@ -1,3 +1,7 @@
+SCR_DestructibleBuildingEntity : "{13D9C4416ED532D2}PrefabLibrary/Structures/Houses/House_Village_E_1L02t.et" {
+ coords 4381.851 0 5121.735
+ angleY -72.743
+}
 $grp Tree : "{159BD386C0F6F3AD}PrefabLibrary/Vegetation/Trees/t_pinus_sylvestris_3w.et" {
  {
   coords 4446.898 0.154 4805.875
@@ -14,6 +18,10 @@ $grp Tree : "{159BD386C0F6F3AD}PrefabLibrary/Vegetation/Trees/t_pinus_sylvestris
   scale 0.663
  }
 }
+SCR_DestructibleBuildingEntity : "{7F8DF0A1D211BDFC}PrefabLibrary/Structures/Houses/House_Village_E_1L03t.et" {
+ coords 4429.853 0.053 5342.196
+ angleY -165.896
+}
 Tree : "{86FE6FFC07B02673}PrefabLibrary/Vegetation/Trees/t_pinus_sylvestris_3x.et" {
  coords 4453.478 0 4824.95
  angleX -0.465
@@ -21,10 +29,23 @@ Tree : "{86FE6FFC07B02673}PrefabLibrary/Vegetation/Trees/t_pinus_sylvestris_3x.e
  angleZ 1.826
  scale 1.117
 }
-Tree : "{A001654CA3C609CD}PrefabLibrary/Vegetation/Trees/t_tilia_cordata_3s.et" {
- coords 4486.415 0 4792.903
- angleY -120.238
- scale 0.933
+SCR_DestructibleBuildingEntity : "{8732EEEE5AC2B938}PrefabLibrary/Structures/Houses/Garage_E_01.et" {
+ coords 4362.138 0.001 5090.77
+ angleY -73.352
+}
+$grp Tree : "{A001654CA3C609CD}PrefabLibrary/Vegetation/Trees/t_tilia_cordata_3s.et" {
+ {
+  coords 4486.415 0 4792.903
+  angleY -120.238
+  scale 0.933
+ }
+ {
+  coords 4362.51 0 5059.016
+  angleX 1.9
+  angleY -125.631
+  angleZ -1.62
+  scale 0.978
+ }
 }
 $grp Tree : "{B6FEA2C769DA6395}PrefabLibrary/Vegetation/Trees/t_pinus_sylvestris_2s.et" {
  {
@@ -35,12 +56,16 @@ $grp Tree : "{B6FEA2C769DA6395}PrefabLibrary/Vegetation/Trees/t_pinus_sylvestris
   scale 1.082
  }
  {
-  coords 4462.813 -0 4823.082
+  coords 4462.813 0 4823.082
   angleX 0.477
   angleY 33.949
   angleZ -0.271
   scale 0.93
  }
+}
+SCR_DestructibleBuildingEntity : "{BB32FDB0A276A95D}PrefabLibrary/Structures/Houses/House_Village_E_1I01.et" {
+ coords 4368.155 -0.02 5082.124
+ angleY -163.127
 }
 $grp Tree : "{C1F4CA4F9D788CE5}PrefabLibrary/Vegetation/Trees/t_pinus_sylvestris_3s.et" {
  {
@@ -58,10 +83,14 @@ $grp Tree : "{C1F4CA4F9D788CE5}PrefabLibrary/Vegetation/Trees/t_pinus_sylvestris
   scale 0.781
  }
  {
-  coords 4459.357 -0 4824.658
+  coords 4459.357 0 4824.658
   angleX 1.104
   angleY 158.779
   angleZ -1.7
   scale 0.938
  }
+}
+SCR_DestructibleBuildingEntity : "{E3584595FC988951}PrefabLibrary/Structures/Industrial/Workshop_01_Garage.et" {
+ coords 4369.565 0.008 5112.635
+ angleY -159.112
 }
