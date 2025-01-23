@@ -33,6 +33,12 @@ $grp GenericEntity : "{08EC3F22FA0347F3}PrefabLibrary/Props/Industrial/CargoCont
   coords 4351.605 13.982 5046.451
  }
 }
+GenericEntity : "{0F959018CEF117DB}PrefabLibrary/Props/Civilian/BasketWicker_01_wood.et" {
+ coords 4458.807 18.75 4812.825
+ angleY 42.455
+ angleZ -0.895
+ scale 0.989
+}
 GenericEntity : "{117F531A010E0032}PrefabLibrary/Props/Military/T62_wreck.et" {
  coords 4364.302 16.625 4789.241
  angleX -0.351
@@ -74,7 +80,7 @@ $grp GenericEntity : "{28C8DBE11DDB0C78}PrefabLibrary/Props/Industrial/ConcreteP
  }
 }
 StaticModelEntity : "{2C9D288392BDC334}PrefabLibrary/Props/Agricultural/DrainagePit_01.et" {
- coords 4309.254 -0 4698.393
+ coords 4309.254 0 4698.393
  angleX -2.205
  angleY 155.275
  angleZ -1.729
@@ -84,6 +90,17 @@ GenericEntity : "{2E89F89F600EA6C5}PrefabLibrary/Props/Garbage/GarbageStack_01_M
  angleX 1.976
  angleY 6.354
  angleZ -1.58
+}
+$grp GameEntity : "{328BE73FB04612AC}PrefabLibrary/Props/Civilian/Fireplace_01.et" {
+ {
+  coords 4410.241 10.586 5340.689
+  angleX 0.895
+  angleZ 1.79
+ }
+ {
+  coords 4460.261 18.805 4815.523
+  angleX 0.895
+ }
 }
 GenericEntity : "{34527D7098AEC3CD}PrefabLibrary/Props/Garbage/MetalContainer_01/MetalContainer_01_grey.et" {
  coords 4349.387 13.543 5019.962
@@ -133,6 +150,23 @@ $grp GenericEntity : "{4862AAF70918E5A8}PrefabLibrary/Props/Agricultural/HayBale
 }
 GenericEntity : "{4D797B18EB473B0B}PrefabLibrary/Props/Military/FlagPole_01_empty.et" {
  coords 4340.192 15.866 4843.054
+}
+$grp GenericEntity : "{52CE7C3A4CF10307}PrefabLibrary/Props/Civilian/Garden/LogChopping_01.et" {
+ {
+  coords 4458.419 18.758 4814.555
+  angleY -108.656
+  scale 0.962
+ }
+ {
+  coords 4459.711 18.78 4817.105
+  angleY 166.967
+  scale 1.11
+ }
+ {
+  coords 4462.322 18.772 4815.428
+  angleY 166.967
+  scale 1.11
+ }
 }
 GenericEntity : "{53A0C67B9F92F426}PrefabLibrary/Props/Garbage/GarbageStack_01_Long.et" {
  coords 4347.203 13.405 5015.523
@@ -267,6 +301,12 @@ GenericEntity : "{A75D6E68B35908AE}PrefabLibrary/Props/Military/M923A1_wreck.et"
 GenericEntity : "{A7F64E4FCF4A9F50}PrefabLibrary/Props/Industrial/CargoContainer_01_20ft/CargoContainer_01_20ft_green.et" {
  coords 4340.025 13.429 5024.721
  angleY 91.29
+}
+GenericEntity : "{ACF2DBD02D050AF3}PrefabLibrary/Props/Garbage/Litter_01_large.et" {
+ coords 4460.655 18.754 4814.249
+ angleX 0.905
+ angleY -22.856
+ angleZ 0.813
 }
 GenericEntity : "{B292AEB29FA68532}PrefabLibrary/Props/Construction/MetalContainer_01.et" {
  coords 4296.194 14.816 4685.701
