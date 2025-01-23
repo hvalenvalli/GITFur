@@ -1,5 +1,19 @@
+$grp SCR_DestructibleBuildingEntity : "{0B6EA07B566C2054}PrefabLibrary/Structures/Addons/HouseAddon_ShedMetal_01_Short.et" {
+ {
+  coords 4292.989 14.781 4701.446
+  angleY 9.317
+ }
+ {
+  coords 4278.86 14.781 4703.996
+  angleY 9.337
+ }
+}
+SCR_DestructibleBuildingEntity : "{1197707983F2D7CF}PrefabLibrary/Structures/Addons/Warehouse_01_Workshop.et" {
+ coords 4313.161 0.136 4865.476
+ angleY -88.903
+}
 SCR_DestructibleBuildingEntity : "{13D9C4416ED532D2}PrefabLibrary/Structures/Houses/House_Village_E_1L02t.et" {
- coords 4336.843 -0.586 4949.349
+ coords 4336.843 0.649 4949.349
  angleY 2.503
 }
 SCR_DestructibleBuildingEntity : "{141F88915AD1B5B6}PrefabLibrary/Structures/Addons/HouseAddon_Workshop_E_01.et" {
@@ -11,8 +25,14 @@ SCR_DestructibleBuildingEntity : "{2AEEE9C9512908FD}PrefabLibrary/Structures/Nav
  angleY -167.632
 }
 SCR_DestructibleBuildingEntity : "{3B371BE806867EF2}PrefabLibrary/Structures/Houses/House_Village_E_1I08t.et" {
- coords 4392.401 0 5243.962
+ coords 4392.401 0.212 5243.962
  angleY -75.84
+}
+GenericEntity : "{43E505BF759653CA}PrefabLibrary/Infrastructure/Sings/SignGiveWay.et" {
+ coords 4324.813 16.224 4802.54
+ angleX -1.703
+ angleY -75.47
+ angleZ -0.264
 }
 $grp SCR_DestructibleBuildingEntity : "{446671DE9607E741}PrefabLibrary/Structures/Houses/Shed_03.et" {
  {
@@ -23,6 +43,10 @@ $grp SCR_DestructibleBuildingEntity : "{446671DE9607E741}PrefabLibrary/Structure
   coords 4359.657 -0.026 4768.076
   angleY -168.717
  }
+}
+SCR_DestructibleBuildingEntity : "{55C22960844D8A15}PrefabLibrary/Structures/Industrial/PortableCabin_E_02.et" {
+ coords 4355.632 -0.023 4819.131
+ angleY -168.69
 }
 SCR_DestructibleBuildingEntity : "{7F8DF0A1D211BDFC}PrefabLibrary/Structures/Houses/House_Village_E_1L03t.et" {
  coords 4358.664 0.375 4736.82
@@ -38,16 +62,20 @@ $grp SCR_DestructibleBuildingEntity : "{844E20E491FBC531}PrefabLibrary/Structure
   angleY -76.807
  }
  {
-  coords 4358.324 0.023 4756.266
+  coords 4358.324 0.029 4756.266
   angleY 101.234
  }
 }
 SCR_DestructibleBuildingEntity : "{8606D888D71A206A}PrefabLibrary/Structures/Houses/House_Village_E_1I02.et" {
- coords 4334.643 0 4857.588
+ coords 4334.643 0.274 4857.588
  angleY -89.794
 }
+SCR_DestructibleBuildingEntity : "{8732EEEE5AC2B938}PrefabLibrary/Structures/Houses/Garage_E_01.et" {
+ coords 4311.174 0.133 4842.882
+ angleY 97.782
+}
 SCR_DestructibleBuildingEntity : "{972D4847ED6244AC}PrefabLibrary/Structures/Agriculture/Hayloft_E_01/Hayloft_E_01_metal.et" {
- coords 4341.885 0 5003.525
+ coords 4341.885 0.738 5003.525
  angleY -82.46
 }
 SCR_DestructibleBuildingEntity : "{A67AB8173DD14448}PrefabLibrary/Structures/Ruins/House_Village_E_1I01_ruin.et" {
@@ -55,6 +83,6 @@ SCR_DestructibleBuildingEntity : "{A67AB8173DD14448}PrefabLibrary/Structures/Rui
  angleY 104.465
 }
 SCR_DestructibleBuildingEntity : "{E7143CC469A97E04}PrefabLibrary/Structures/Houses/House_Mountain_E_1I01_short.et" {
- coords 4320.456 -0 4563.861
+ coords 4320.456 0.278 4563.861
  angleY 4.8
 }
