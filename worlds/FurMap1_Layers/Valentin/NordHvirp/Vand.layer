@@ -1,0 +1,59 @@
+$grp PolylineShapeEntity {
+ {
+  coords 4717.177 6.788 5161.991
+  Points {
+   ShapePoint "{6476C137A635B50B}" {
+    Position 0.028 0.001 -0.092
+   }
+   ShapePoint "{6476C137A76AFA5E}" {
+    Position 13.83 0.156 -15.57
+   }
+   ShapePoint "{6476C137A084DF09}" {
+    Position 0.861 0.55 -27.235
+   }
+   ShapePoint "{6476C137A1196CAF}" {
+    Position -12.598 0.392 -13.08
+   }
+   ShapePoint "{6476C137A1193BE0}" {
+    Position 0 -0 0
+   }
+  }
+  {
+   LakeGeneratorEntity : "{D54725073DA8ED79}PrefabLibrary/Generators/Water/Lake/LG_LakeMountain_01.et" {
+    coords 0 -0.58 0
+   }
+  }
+ }
+ {
+  coords 4813.867 0.652 5207.576
+  Points {
+   ShapePoint "{6476C136E0969B15}" {
+    Position -0.906 0.019 0.284
+   }
+   ShapePoint "{6476C136E07626A0}" {
+    Position 31.071 -0.205 33.562
+   }
+   ShapePoint "{6476C136E1814A06}" {
+    Position 55.536 -0.339 2.802
+   }
+   ShapePoint "{6476C136E25CCBBC}" {
+    Position 40.082 -0.496 -16.971
+   }
+   ShapePoint "{6476C136E25B080E}" {
+    Position -0.076 0.001 0.032
+   }
+  }
+  {
+   LakeGeneratorEntity : "{ED31344EDD22714D}PrefabLibrary/Generators/Water/Lake/LG_LakeDirty_01.et" {
+    coords 0 0 0
+   }
+  }
+ }
+}
+SCR_DestructibleBuildingEntity : "{7D5B4278FA09B0DE}PrefabLibrary/Structures/Industrial/FuelTank_01/FuelTank_01_rust.et" {
+ coords 4697.272 0.116 5160.973
+ angleY -36.684
+}
+StaticModelEntity : "{C9ADC723088689F3}PrefabLibrary/Structures/Industrial/LightTower_01.et" {
+ coords 4704.633 7.412 5148.278
+}

@@ -26,6 +26,10 @@ SCR_DestructibleBuildingEntity : "{141F88915AD1B5B6}PrefabLibrary/Structures/Add
  coords 4340.246 0 4724.103
  angleY -168.329
 }
+SCR_DestructibleBuildingEntity : "{1C50FB60CA0A6492}PrefabLibrary/Infrastructure/Waterworks/WaterStation_01_Uncovered.et" {
+ coords 4707.063 0.453 5166.059
+ angleY -130.337
+}
 SCR_DestructibleBuildingEntity : "{2AEEE9C9512908FD}PrefabLibrary/Structures/Naval/FishermanShed_02/FishermanShed_02_V2.et" {
  coords 4334.354 0 4887.746
  angleY -167.632
@@ -50,9 +54,28 @@ $grp SCR_DestructibleBuildingEntity : "{446671DE9607E741}PrefabLibrary/Structure
   angleY -168.717
  }
 }
-SCR_DestructibleBuildingEntity : "{55C22960844D8A15}PrefabLibrary/Structures/Industrial/PortableCabin_E_02.et" {
- coords 4355.632 -0.023 4819.131
- angleY -168.69
+$grp SCR_DestructibleBuildingEntity : "{4B9641A1F6B84D2E}PrefabLibrary/Infrastructure/Waterworks/WaterTreatmentPlant_01_small.et" {
+ {
+  coords 4713.146 6.067 5168.393
+  angleY -42.436
+ }
+ {
+  coords 4718.244 6.067 5162.998
+  angleY -43.24
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{55C22960844D8A15}PrefabLibrary/Structures/Industrial/PortableCabin_E_02.et" {
+ {
+  coords 4355.632 -0.023 4819.131
+  angleY -168.69
+ }
+ {
+  coords 4438.891 -0.078 5349.665
+  angleY -73.326
+ }
+}
+SCR_DestructibleBuildingEntity : "{5B43DD9C01A72C40}PrefabLibrary/Structures/Industrial/FuelTank_03/FuelTank_03_green.et" {
+ coords 4435.606 0.211 5650.186
 }
 SCR_DestructibleBuildingEntity : "{78E589607D4761E3}PrefabLibrary/Structures/Houses/House_Village_E_1I04t/House_Village_E_1I04t_green.et" {
  coords 4475.038 0.201 5610.21
@@ -170,4 +193,8 @@ $grp SCR_DestructibleBuildingEntity : "{E7143CC469A97E04}PrefabLibrary/Structure
   coords 4903.454 0.359 5855.373
   angleY -165.099
  }
+}
+SCR_DestructibleBuildingEntity : "{EB583238C7862914}PrefabLibrary/Infrastructure/Waterworks/WaterReservoir_01.et" {
+ coords 4717.053 6.848 5147.069
+ angleY 136.103
 }
