@@ -897,7 +897,6 @@ PolylineShapeEntity {
      }
      {
       coords -48.729 0.604 5.474
-      angleX -0
       angleY 320.92
       angleZ -0.026
       scale 0.887
@@ -1882,6 +1881,10 @@ $grp GenericEntity : "{4D797B18EB473B0B}PrefabLibrary/Props/Military/FlagPole_01
  {
   coords 4472.421 8.875 5590.412
  }
+ {
+  coords 4829.676 16.374 6173.53
+  scale 1.45
+ }
 }
 GenericEntity : "{518CE3793C15C5F2}PrefabLibrary/Props/Agricultural/WaterTank_01/WaterTank_01_v2.et" {
  coords 4702.718 5.998 5163.392
@@ -1971,7 +1974,7 @@ $grp GenericEntity : "{5C4A3F41E63F5C25}PrefabLibrary/Props/Infrastructure/SnowB
  }
 }
 Tree : "{61D918F6575A3231}PrefabLibrary/Vegetation/Trees/t_alnus_glutinosa_2s.et" {
- coords 4606.38 -0 4853.301
+ coords 4606.38 0 4853.301
  angleX -1.22
  angleY 236.158
  angleZ 0.276
@@ -2109,6 +2112,12 @@ GenericEntity : "{914693A090EDA391}PrefabLibrary/Props/Military/Ural4320_wreck.e
  angleY -110.064
  angleZ 0.925
 }
+GenericEntity : "{945834B322F0C535}PrefabLibrary/Props/Garbage/MetalContainer_01_Low/MetalContainer_01_Low_green.et" {
+ coords 4818.756 16.77 6205.332
+ angleX 0.634
+ angleY -45.081
+ angleZ 0.632
+}
 GenericEntity : "{9611E2AC21423D00}PrefabLibrary/Props/Garbage/MetalContainer_01_Low/MetalContainer_01_Low_blue.et" {
  coords 4354.101 13.925 5043.361
  angleX 0.086
@@ -2201,9 +2210,17 @@ GenericEntity : "{A75D6E68B35908AE}PrefabLibrary/Props/Military/M923A1_wreck.et"
  angleX 3.576
  angleZ -0.894
 }
-GenericEntity : "{A7F64E4FCF4A9F50}PrefabLibrary/Props/Industrial/CargoContainer_01_20ft/CargoContainer_01_20ft_green.et" {
- coords 4340.025 13.429 5024.721
- angleY 91.29
+$grp GenericEntity : "{A7F64E4FCF4A9F50}PrefabLibrary/Props/Industrial/CargoContainer_01_20ft/CargoContainer_01_20ft_green.et" {
+ {
+  coords 4340.025 13.429 5024.721
+  angleY 91.29
+ }
+ {
+  coords 4836.253 14.8 6220.093
+  angleX 3.622
+  angleY -54.901
+  angleZ 3.53
+ }
 }
 GenericEntity : "{ACF2DBD02D050AF3}PrefabLibrary/Props/Garbage/Litter_01_large.et" {
  coords 4460.655 18.754 4814.249
@@ -2397,17 +2414,30 @@ GenericEntity : "{D486FC7879A7AC40}PrefabLibrary/Props/Industrial/EngineCrane_01
  angleY 87.433
  angleZ 1.748
 }
-GenericEntity : "{D4A15855911425CB}PrefabLibrary/Props/Construction/ConcretePipe_01_Large.et" {
- coords 4631.915 12.678 4679.437
- angleX 3.908
- angleY -17.687
- angleZ 3.44
+$grp GenericEntity : "{D4A15855911425CB}PrefabLibrary/Props/Construction/ConcretePipe_01_Large.et" {
+ {
+  coords 4631.915 12.678 4679.437
+  angleX 3.908
+  angleY -17.687
+  angleZ 3.44
+ }
+ {
+  coords 5129.492 -0.791 5713.929
+  angleY 91.296
+  scale 1.658
+ }
 }
-GenericEntity : "{D70034C04BF6173B}PrefabLibrary/Props/Industrial/MarsBoxContainer_01_Wood.et" {
- coords 4446.645 11.513 5489.245
- angleX 2.224
- angleY -70.232
- angleZ 1.748
+$grp GenericEntity : "{D70034C04BF6173B}PrefabLibrary/Props/Industrial/MarsBoxContainer_01_Wood.et" {
+ {
+  coords 4446.645 11.513 5489.245
+  angleX 2.224
+  angleY -70.232
+  angleZ 1.748
+ }
+ {
+  coords 4815.892 16.781 6187.603
+  angleY 122.799
+ }
 }
 $grp GenericEntity : "{D7787456BDF1D199}PrefabLibrary/Props/Agricultural/Scarecrow_01.et" {
  {
