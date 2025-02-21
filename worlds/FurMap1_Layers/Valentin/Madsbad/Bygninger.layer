@@ -2550,6 +2550,10 @@ $grp SCR_DestructibleBuildingEntity : "{3B877DB7AE5EA3BC}PrefabLibrary/Structure
   coords 3383.808 0.001 4502.189
   angleY 117.642
  }
+ {
+  coords 3796.834 0.052 4222.754
+  angleY 109.739
+ }
 }
 SCR_DestructibleBuildingEntity : "{40CB72D2B509489C}PrefabLibrary/Structures/Industrial/Workshop_01_Main.et" {
  coords 3372.053 -0.011 4574.697
@@ -2672,6 +2676,24 @@ GenericEntity : "{72DB1179C1201B64}PrefabLibrary/Props/Garbage/Cardboard_03.et" 
  angleY -87.3
  scale 1.029
 }
+$grp SCR_DestructibleBuildingEntity : "{75CF81F88D4C3998}PrefabLibrary/Structures/Houses/House_Town_E_2I02/House_Town_E_2I02_v2.et" {
+ {
+  coords 3871.101 0.005 4215.134
+  angleY 27.856
+ }
+ {
+  coords 3854.95 0.049 4223.67
+  angleY 27.856
+ }
+ {
+  coords 3827.035 0.066 4200.7
+  angleY 117.721
+ }
+ {
+  coords 3835.532 -0.014 4216.872
+  angleY 117.721
+ }
+}
 $grp SCR_DestructibleBuildingEntity : "{78E589607D4761E3}PrefabLibrary/Structures/Houses/House_Village_E_1I04t/House_Village_E_1I04t_green.et" {
  {
   coords 3927.214 0.529 4324.741
@@ -2758,6 +2780,14 @@ $grp SCR_DestructibleBuildingEntity : "{8732EEEE5AC2B938}PrefabLibrary/Structure
  {
   coords 4078.129 -0.008 4209.981
   angleY -173.775
+ }
+ {
+  coords 3873.745 -0.027 4178.326
+  angleY -67.045
+ }
+ {
+  coords 3871.866 0 4173.89
+  angleY -67.045
  }
 }
 SCR_DestructibleBuildingEntity : "{8A54FD8F840E3BC4}PrefabLibrary/Structures/Houses/FarmHouse_E_1L01/FarmHouse_E_1L01_Green.et" {
@@ -2847,6 +2877,10 @@ $grp SCR_DestructibleBuildingEntity : "{9A11BC58DEF42A97}PrefabLibrary/Structure
   coords 3475.787 0.202 4455.067
   angleY 30.608
  }
+ {
+  coords 3854.58 0 4175.817
+  angleY 117.523
+ }
 }
 GenericEntity : "{9A430AFBA821FBAD}PrefabLibrary/Structures/Addons/Doorstep_01_5m.et" {
  coords 3879.037 12.82 4401.369
@@ -2866,9 +2900,19 @@ SCR_DestructibleBuildingEntity : "{A4BB44B5826C63F2}PrefabLibrary/Structures/Hou
  coords 4034.094 0.217 4346.033
  angleY 12.259
 }
-SCR_DestructibleBuildingEntity : "{A7259960AB98A3A0}PrefabLibrary/Structures/Houses/House_Village_E_1I05t.et" {
- coords 3498.218 0.089 4508.232
- angleY 9.247
+$grp SCR_DestructibleBuildingEntity : "{A7259960AB98A3A0}PrefabLibrary/Structures/Houses/House_Village_E_1I05t.et" {
+ {
+  coords 3498.218 0.089 4508.232
+  angleY 9.247
+ }
+ {
+  coords 3837.337 0 4179.485
+  angleY -153.115
+ }
+}
+SCR_DestructibleEntity : "{AA4CE99BD493879D}PrefabLibrary/Props/Commercial/MarketStand_01_Umbrella.et" {
+ coords 3792.215 10.462 4209.373
+ scale 2.07
 }
 $grp GenericEntity : "{AEDCB4708FE94641}PrefabLibrary/Props/Industrial/VehicleGarbage_01_pile_medium.et" {
  {
