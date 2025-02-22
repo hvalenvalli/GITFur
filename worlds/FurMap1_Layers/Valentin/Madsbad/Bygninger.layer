@@ -2457,6 +2457,35 @@ SCR_DestructibleBuildingEntity : "{0734A1B6BD445637}PrefabLibrary/Structures/Hou
  coords 4195.745 0.739 4183.624
  angleY 5.292
 }
+$grp DecalEntity : "{0C5E6215DC40BCDB}PrefabLibrary/Decals/Cracks/Decal_Asphalt_Cracks_05.et" {
+ {
+  coords 3858.794 0 4197.092
+  angleX -90
+  angleY 180
+  scale 2.903
+ }
+ {
+  coords 3897.084 0 4181.264
+  angleX -90
+  angleY 180
+  angleZ -148.296
+  scale 2.856
+ }
+ {
+  coords 3847.693 -0 4213.061
+  angleX -90
+  angleY 180
+  angleZ -155.023
+  scale 2.929
+ }
+ {
+  coords 3871.737 0 4204.609
+  angleX -90
+  angleY 180
+  angleZ -156.88
+  scale 2.969
+ }
+}
 $grp SCR_DestructibleBuildingEntity : "{1197707983F2D7CF}PrefabLibrary/Structures/Addons/Warehouse_01_Workshop.et" {
  {
   coords 3575.808 0.026 4320.259
@@ -2604,6 +2633,11 @@ SCR_DestructibleBuildingEntity : "{57D34957129A2C92}PrefabLibrary/Structures/Hou
 SCR_DestructibleBuildingEntity : "{5BC4F6DB3D4A81FD}PrefabLibrary/Structures/Industrial/Sawmill_E_01.et" {
  coords 3501.189 1.073 4595.39
  angleY 10.177
+}
+DecalEntity : "{5D3E73CD15E8BAC2}PrefabLibrary/Decals/Cracks/Decal_Asphalt_Cracks_01.et" {
+ coords 3850.83 -0 4206.154
+ angleX -90
+ scale 1.803
 }
 $grp SCR_DestructibleBuildingEntity : "{5ECE42250DAB009E}PrefabLibrary/Structures/Houses/House_Prefab_2I01/House_Prefab_2I01.et" {
  {
@@ -2948,6 +2982,10 @@ GenericEntity : "{B292AEB29FA68532}PrefabLibrary/Props/Construction/MetalContain
  coords 3410.878 8.906 4727.128
  angleY -179.133
 }
+StaticModelEntity : "{B96644EF5BFBC2AB}PrefabLibrary/Props/Infrastructure/ManholeCover_E_02.et" {
+ coords 3869.338 12.875 4194.883
+ angleY -160.025
+}
 $grp SCR_DestructibleBuildingEntity : "{BB32FDB0A276A95D}PrefabLibrary/Structures/Houses/House_Village_E_1I01.et" {
  {
   coords 3520.661 0.292 4454.698
@@ -3011,6 +3049,29 @@ SCR_DestructibleBuildingEntity : "{D288E1E16D11D57B}PrefabLibrary/Structures/Hou
  coords 3690.186 0.332 4381.714
  angleY -164.726
 }
+$grp DecalEntity : "{D4F60BD4A5C9A287}PrefabLibrary/Decals/Cracks/Decal_Asphalt_Cracks_03.et" {
+ {
+  coords 3854.178 -0 4190.356
+  angleX -90
+  angleY 180
+  scale 3.12
+ }
+ {
+  coords 3869.615 0 4192.925
+  angleX -90
+  scale 3.007
+ }
+ {
+  coords 3887.67 -0 4181.981
+  angleX -90
+  scale 2.995
+ }
+}
+StaticModelEntity : "{D532700FE73F4D85}PrefabLibrary/Props/Infrastructure/ManholeCover_E_01.et" {
+ coords 3868.59 12.875 4179.43
+ angleY -157.823
+ scale 1.56
+}
 SCR_DestructibleBuildingEntity : "{D5ABBAFBDAF43275}PrefabLibrary/Structures/Industrial/SmokestackBrick_E_01.et" {
  coords 3429.788 -19.693 4592.103
  angleY 13.683
@@ -3045,6 +3106,16 @@ $grp SCR_DestructibleBuildingEntity : "{DEF852CB2596122D}PrefabLibrary/Structure
  {
   coords 3363.656 0.767 4556.122
   angleY 12.81
+ }
+ {
+  coords 3849.192 0.687 4217.896
+  angleY 27.758
+  scale 0.93
+ }
+ {
+  coords 3859.21 0.7 4212.622
+  angleY 27.758
+  scale 0.93
  }
 }
 $grp SCR_DestructibleBuildingEntity : "{DFE759EE77F61ACD}PrefabLibrary/Structures/Agriculture/Greenhouse_01.et" {
@@ -3220,6 +3291,25 @@ $grp SCR_DestructibleBuildingEntity : "{E7143CC469A97E04}PrefabLibrary/Structure
  {
   coords 3359.54 0.386 4520.901
   angleY -141.32
+ }
+}
+$grp DecalEntity : "{E9C22EECD0A52BB0}PrefabLibrary/Decals/Cracks/Decal_Asphalt_Cracks_04.et" {
+ {
+  coords 3903.028 0 4179.312
+  angleX -90
+  scale 1.15
+ }
+ {
+  coords 3846.344 0 4218.836
+  angleX -90
+  scale 1.234
+ }
+ {
+  coords 3839.908 0 4207.812
+  angleX -90
+  angleY 180
+  angleZ 119.296
+  scale 1.212
  }
 }
 GenericEntity : "{F12538ECDBE9D02F}PrefabLibrary/Props/Garbage/Litter_01_small.et" {

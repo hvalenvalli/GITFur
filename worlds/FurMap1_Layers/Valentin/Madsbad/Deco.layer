@@ -285,72 +285,193 @@ $grp GenericEntity {
   }
  }
 }
-PolylineShapeEntity {
- coords 3842.998 12.25 3951.861
- Points {
-  ShapePoint "{62870B85C1BC2F42}" {
-   Position 0 0 0
+$grp PolylineShapeEntity {
+ {
+  coords 3842.998 12.25 3951.861
+  Points {
+   ShapePoint "{62870B85C1BC2F42}" {
+    Position 0 0 0
+   }
+   ShapePoint "{62870B85C1BC1941}" {
+    Position -8.518 0 2.599
+   }
+   ShapePoint "{62870B85C6BE4A10}" {
+    Position -6.007 0 8.034
+   }
+   ShapePoint "{62870B85C4F3894F}" {
+    Position 2.176 0 5.516
+   }
   }
-  ShapePoint "{62870B85C1BC1941}" {
-   Position -8.518 0 2.599
-  }
-  ShapePoint "{62870B85C6BE4A10}" {
-   Position -6.007 0 8.034
-  }
-  ShapePoint "{62870B85C4F3894F}" {
-   Position 2.176 0 5.516
+  LineColor 0 0 0 0
+  {
+   WallGeneratorEntity : "{59203B19BC344845}PrefabLibrary/Generators/Pavements/Concrete/WG_ConcreteKerb_01.et" {
+    coords 0 0 0
+    Flags 1048579
+    {
+     $grp StaticModelEntity : "{84CB4C5EC2DAFE91}PrefabLibrary/Infrastructure/Roads/ConcreteKerb_01_2m_v2.et" {
+      {
+       coords 0 0 0
+       angleY -163.034
+      }
+      {
+       coords -1.932 0 0.589
+       angleY -163.034
+      }
+      {
+       coords -3.865 0 1.179
+       angleY -163.034
+      }
+      {
+       coords -5.797 0 1.768
+       angleY -163.034
+      }
+      {
+       coords -7.729 0 2.358
+       angleY -73.125
+      }
+      {
+       coords -7.143 0 4.291
+       angleY -73.125
+      }
+      {
+       coords -6.556 0 6.224
+       angleY -73.125
+      }
+      {
+       coords -5.97 0 8.157
+       angleY 17.968
+      }
+      {
+       coords -4.048 0 7.534
+       angleY 17.968
+      }
+      {
+       coords -2.126 0 6.911
+       angleY 17.968
+      }
+      {
+       coords -0.205 0 6.288
+       angleY 17.968
+      }
+     }
+    }
+   }
   }
  }
- LineColor 0 0 0 0
  {
-  WallGeneratorEntity : "{59203B19BC344845}PrefabLibrary/Generators/Pavements/Concrete/WG_ConcreteKerb_01.et" {
-   coords 0 0 0
-   Flags 1048579
-   {
-    $grp StaticModelEntity : "{84CB4C5EC2DAFE91}PrefabLibrary/Infrastructure/Roads/ConcreteKerb_01_2m_v2.et" {
-     {
-      coords 0 0 0
-      angleY -163.034
-     }
-     {
-      coords -1.932 0 0.589
-      angleY -163.034
-     }
-     {
-      coords -3.865 0 1.179
-      angleY -163.034
-     }
-     {
-      coords -5.797 0 1.768
-      angleY -163.034
-     }
-     {
-      coords -7.729 0 2.358
-      angleY -73.125
-     }
-     {
-      coords -7.143 0 4.291
-      angleY -73.125
-     }
-     {
-      coords -6.556 0 6.224
-      angleY -73.125
-     }
-     {
-      coords -5.97 0 8.157
-      angleY 17.968
-     }
-     {
-      coords -4.048 0 7.534
-      angleY 17.968
-     }
-     {
-      coords -2.126 0 6.911
-      angleY 17.968
-     }
-     {
-      coords -0.205 0 6.288
-      angleY 17.968
+  coords 3843.632 12.881 4196.792
+  Points {
+   ShapePoint "{64AB73C555F253E7}" {
+    Position -4.823 0.025 3.902
+   }
+   ShapePoint "{64AB73C555F3FAD0}" {
+    Position 5.205 -0.019 7.659
+   }
+   ShapePoint "{64AB73C55B151834}" {
+    Position 8.646 -0.037 -4.658
+   }
+   ShapePoint "{64AB73C55BE1DD15}" {
+    Position -1.45 0.023 -7.923
+   }
+   ShapePoint "{64AB73C55AD6F82E}" {
+    Position -4.645 0.025 3.337
+   }
+  }
+  LineColor 0 0 0 0
+  {
+   WallGeneratorEntity : "{59203B19BC344845}PrefabLibrary/Generators/Pavements/Concrete/WG_ConcreteKerb_01.et" {
+    coords 0 0 0
+    Flags 1048579
+    {
+     $grp StaticModelEntity : "{84CB4C5EC2DAFE91}PrefabLibrary/Infrastructure/Roads/ConcreteKerb_01_2m_v2.et" {
+      {
+       coords -4.823 0.025 3.902
+       angleY -20.537
+      }
+      {
+       coords -2.932 0.017 4.611
+       angleY -20.537
+      }
+      {
+       coords -1.04 0.009 5.319
+       angleY -20.537
+      }
+      {
+       coords 0.852 0 6.028
+       angleY -20.537
+      }
+      {
+       coords 2.744 -0.008 6.737
+       angleY -20.537
+      }
+      {
+       coords 4.635 -0.016 7.445
+       angleY 71.664
+      }
+      {
+       coords 5.271 -0.02 5.528
+       angleY 71.664
+      }
+      {
+       coords 5.906 -0.023 3.61
+       angleY 71.664
+      }
+      {
+       coords 6.542 -0.026 1.693
+       angleY 71.664
+      }
+      {
+       coords 7.177 -0.029 -0.225
+       angleY 71.664
+      }
+      {
+       coords 7.813 -0.033 -2.143
+       angleY 71.664
+      }
+      {
+       coords 8.448 -0.036 -4.06
+       angleY -201.318
+      }
+      {
+       coords 6.567 -0.025 -4.795
+       angleY -201.318
+      }
+      {
+       coords 4.685 -0.014 -5.529
+       angleY -201.318
+      }
+      {
+       coords 2.803 -0.003 -6.264
+       angleY -201.318
+      }
+      {
+       coords 0.921 0.009 -6.998
+       angleY -201.318
+      }
+      {
+       coords -0.961 0.02 -7.732
+       angleY -108.407
+      }
+      {
+       coords -1.599 0.021 -5.816
+       angleY -108.407
+      }
+      {
+       coords -2.237 0.022 -3.899
+       angleY -108.407
+      }
+      {
+       coords -2.875 0.023 -1.982
+       angleY -108.407
+      }
+      {
+       coords -3.513 0.024 -0.065
+       angleY -108.407
+      }
+      {
+       coords -4.151 0.025 1.852
+       angleY -108.407
+      }
      }
     }
    }
@@ -529,6 +650,29 @@ GenericEntity : "{27B78E8BB9F3EEEF}PrefabLibrary/Props/Forest/WoodPile_02_B.et" 
  angleY 109.751
  angleZ -0.605
 }
+$grp Tree : "{2A1012C2B5B4F1FA}PrefabLibrary/Vegetation/Bushes/b_rubus_idaeus_1s.et" {
+ {
+  coords 3842.127 0.335 4202.634
+  angleX -1.304
+  angleY 79.302
+  angleZ -1.907
+  scale 0.838
+ }
+ {
+  coords 3838.605 0.503 4198.772
+  angleX -1.304
+  angleY 79.302
+  angleZ -1.907
+  scale 0.838
+ }
+ {
+  coords 3841.099 0.511 4191.432
+  angleX -1.304
+  angleY 79.302
+  angleZ -1.907
+  scale 0.838
+ }
+}
 GenericEntity : "{3616EE211B0D3851}PrefabLibrary/Props/Civilian/Garden/Broom_01.et" {
  coords 3919.738 11.813 4107.494
  angleX 11.348
@@ -549,6 +693,10 @@ $grp GenericEntity : "{36577302F9EC1D12}PrefabLibrary/Props/Civilian/PlaygroundC
  {
   coords 3803.781 12.438 4209.092
   angleY 106.94
+ }
+ {
+  coords 3846.837 12.875 4201.563
+  angleY -57.803
  }
 }
 GenericEntity : "{38B7F8CF2361E4AD}PrefabLibrary/Props/Construction/CableReelMetal_01.et" {
@@ -621,6 +769,13 @@ $grp StaticModelEntity : "{44F3B8B13878F063}PrefabLibrary/Infrastructure/Pavemen
   coords 3746.037 -0.184 4370.892
   angleY -81.952
  }
+}
+GenericEntity : "{46D02BBCD83033CC}PrefabLibrary/Rocks/Granite/Granite_BeachCluster_01/Granite_BeachCluster_01.et" {
+ coords 3848.344 0 4189.442
+ angleX -0.355
+ angleY 23.366
+ angleZ 0.822
+ scale 0.385
 }
 $grp GenericEntity : "{48C9E7CE89BA2360}PrefabLibrary/Props/Garbage/TirePile_01_medium.et" {
  {
@@ -762,13 +917,26 @@ $grp RoadGeneratorEntity : "{5D1631C1DC145E79}PrefabLibrary/Generators/Decals/Pl
   angleY 13.983
  }
 }
+Tree : "{5D1A7A4A41161E8A}PrefabLibrary/Vegetation/Bushes/b_rubus_idaeus_0s.et" {
+ coords 3844.721 0.515 4203.534
+ angleX -0.089
+ angleY 206.791
+ angleZ -0.406
+ scale 1.063
+}
 GenericEntity : "{62031C7EAA3E846B}PrefabLibrary/Props/Shop/Crate_01/Crate_01_white.et" {
  coords 3896.772 11.813 4059.411
  angleY 38.43
 }
-SCR_DestructibleEntity : "{64C2B556359933A2}PrefabLibrary/Props/Decoration/FlowerpotStreet_01_rect_long/FlowerpotStreet_01_rect_long_begonia_white.et" {
- coords 3903.981 11.797 4076.094
- angleY -72.65
+$grp SCR_DestructibleEntity : "{64C2B556359933A2}PrefabLibrary/Props/Decoration/FlowerpotStreet_01_rect_long/FlowerpotStreet_01_rect_long_begonia_white.et" {
+ {
+  coords 3903.981 11.797 4076.094
+  angleY -72.65
+ }
+ {
+  coords 3844.761 12.875 4220.277
+  angleY -58.625
+ }
 }
 GenericEntity : "{65B03FE703FEEDEC}PrefabLibrary/Props/Civilian/Recreation/SunshadeClosed_01_weight/SunshadeClosed_01_weight_RGBY.et" {
  coords 3825.156 12.799 4218.574
@@ -1007,6 +1175,12 @@ Tree : "{839E9535771BA366}PrefabLibrary/Vegetation/Bushes/b_sambucus_nigra_0.et"
  angleY 165.167
  angleZ -1.208
  scale 0.632
+}
+Tree : "{8520122192ED3D6C}PrefabLibrary/Vegetation/Trees/t_prunus_domestica_2s.et" {
+ coords 3848.28 -0.009 4189.437
+ angleX 1.006
+ angleY 289.652
+ scale 0.807
 }
 GenericEntity : "{862AAEEA1AB10496}PrefabLibrary/Props/Construction/BrickPile_01_Large.et" {
  coords 3836.396 12.314 3939.939
@@ -1278,6 +1452,9 @@ $grp GenericEntity : "{AAB8E353C9CD4EDB}PrefabLibrary/Props/Civilian/PlaygroundS
  {
   coords 3821.688 12.745 4213.3
  }
+ {
+  coords 3847.258 12.875 4198.017
+ }
 }
 $grp SCR_DestructibleEntity : "{ABD42182D8F3E85A}PrefabLibrary/Props/Decoration/FlowerpotStreet_01_rect_long/FlowerpotStreet_01_rect_long_begonia_pink.et" {
  {
@@ -1302,6 +1479,40 @@ $grp GenericEntity : "{B136A715F0D9C44C}PrefabLibrary/Props/Civilian/Garden/Wood
   angleZ 0.161
  }
 }
+$grp SCR_DestructibleEntity : "{B223450F2FB94D7B}PrefabLibrary/Props/Infrastructure/FlowerpotStreet_01_octa.et" {
+ {
+  coords 3846.912 12.875 4204.292
+  angleY -20.199
+ }
+ {
+  coords 3844.785 12.875 4203.501
+  angleY -20.199
+ }
+ {
+  coords 3842.153 12.904 4202.542
+  angleY -20.199
+ }
+ {
+  coords 3839.533 12.906 4201.589
+  angleY -20.199
+ }
+ {
+  coords 3841.073 12.906 4191.365
+  angleY -108.78
+ }
+ {
+  coords 3840.187 12.906 4194.009
+  angleY -108.78
+ }
+ {
+  coords 3839.292 12.906 4196.664
+  angleY -108.78
+ }
+ {
+  coords 3838.554 12.906 4198.808
+  angleY -108.78
+ }
+}
 StaticModelEntity : "{B31AA9B374FB63C9}PrefabLibrary/Infrastructure/Pavements/Asphalt/AsphaltPavement_01_Narrow_4m_90.et" {
  coords 3747.684 0 4375.724
  angleY -173.187
@@ -1310,12 +1521,34 @@ GenericEntity : "{B3286DBA01D17D24}PrefabLibrary/Props/Commercial/BoxWooden_01.e
  coords 3844.553 12.209 3958.65
  angleX -0.895
 }
-Tree : "{B48B7DD4E1C5FE40}PrefabLibrary/Vegetation/Bushes/b_corylus_avellana_0.et" {
- coords 3838.457 0 3940.979
- angleX -0.126
- angleY 141.16
- angleZ 0.038
- scale 0.399
+$grp Tree : "{B48B7DD4E1C5FE40}PrefabLibrary/Vegetation/Bushes/b_corylus_avellana_0.et" {
+ {
+  coords 3838.457 0 3940.979
+  angleX -0.126
+  angleY 141.16
+  angleZ 0.038
+  scale 0.399
+ }
+ {
+  coords 3846.896 0.513 4204.297
+  angleY 344.124
+  scale 0.591
+ }
+ {
+  coords 3839.422 0.514 4201.624
+  angleY -99.224
+  scale 0.514
+ }
+ {
+  coords 3839.281 0.514 4196.655
+  angleY 171.769
+  scale 0.544
+ }
+ {
+  coords 3840.321 0.498 4193.865
+  angleY -99.224
+  scale 0.514
+ }
 }
 Tree : "{B6FEA2C769DA6395}PrefabLibrary/Vegetation/Trees/t_pinus_sylvestris_2s.et" {
  coords 3841.043 0.463 3950.946
@@ -1337,6 +1570,10 @@ $grp GenericEntity : "{B890D78FDADD4847}PrefabLibrary/Props/Civilian/PlaygroundS
  {
   coords 3813.095 12.559 4233.585
   angleY 162.883
+ }
+ {
+  coords 3842.462 12.875 4199.075
+  angleY 30.154
  }
 }
 GenericEntity : "{BCE56C835FE15478}PrefabLibrary/Props/Industrial/CargoContainer_01_20ft/CargoContainer_01_20ft_red.et" {
@@ -1436,6 +1673,10 @@ $grp GenericEntity : "{DE8B50C7F745F770}PrefabLibrary/Props/Civilian/PlaygroundS
  {
   coords 3818.746 12.654 4207.354
   angleY -73.171
+ }
+ {
+  coords 3847.825 12.875 4193.58
+  angleY 26.164
  }
 }
 $grp SCR_DestructibleBuildingEntity : "{DFE759EE77F61ACD}PrefabLibrary/Structures/Agriculture/Greenhouse_01.et" {
@@ -1541,6 +1782,22 @@ $grp SCR_DestructibleEntity : "{E116180B5DCD5EFF}PrefabLibrary/Props/Civilian/Pi
   coords 3823.652 12.776 4219.736
   angleY 26
  }
+ {
+  coords 3870.511 12.883 4198.017
+  angleY 19.497
+ }
+ {
+  coords 3831.496 12.875 4190.906
+  angleY 28.131
+ }
+ {
+  coords 3834.616 12.906 4189.219
+  angleY 26
+ }
+ {
+  coords 3881.099 12.875 4196.103
+  angleY -70.418
+ }
 }
 $grp GenericEntity : "{E90B0E28F74CCA3F}PrefabLibrary/Props/Garbage/Junk_01_pile_long.et" {
  {
@@ -1573,6 +1830,11 @@ GenericEntity : "{E9FA4D7B531C7FF0}PrefabLibrary/Props/Agricultural/WaterTank_01
  coords 3816.845 12.125 3952.195
  angleY 72.203
 }
+SCR_DestructibleBuildingEntity : "{F67E58A0D83A81BF}PrefabLibrary/Structures/Forest/DeerStand_01.et" {
+ coords 3843.245 -0.012 4194.208
+ angleY -108.281
+ scale 0.69
+}
 GenericEntity : "{F73F45E44367CE5C}PrefabLibrary/Props/Civilian/Recreation/PedalBoat_01_red.et" {
  coords 3342.342 9.906 4566.97
 }
@@ -1587,4 +1849,10 @@ GenericEntity : "{F857D65788E3BA3A}PrefabLibrary/Props/Naval/BoatWreck_01.et" {
  angleX 1.262
  angleY 40.803
  angleZ 5.599
+}
+SCR_DestructibleEntity : "{FA0F05C23C2E5111}PrefabLibrary/Props/Decoration/FlowerpotStreet_01_octa/FlowerpotStreet_01_octa_begonia_pink.et" {
+ coords 3868.487 12.883 4208.653
+ angleX 0.408
+ angleY 27.11
+ angleZ -0.797
 }
