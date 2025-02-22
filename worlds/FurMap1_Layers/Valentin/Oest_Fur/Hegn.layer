@@ -5174,6 +5174,97 @@ $grp PolylineShapeEntity {
    }
   }
  }
+ {
+  coords 6045.053 10.704 5053.973
+  Points {
+   ShapePoint "{64ACBE89FF668192}" {
+    Position 22.238 0.214 0.609
+   }
+   ShapePoint "{64ACBE89F9951873}" {
+    Position 23.576 0.14 -15.975
+   }
+   ShapePoint "{64ACBE89F9645543}" {
+    Position -2.786 -0.392 -16.57
+   }
+   ShapePoint "{64ACBE89F4ED39DA}" {
+    Position -3.503 -0.094 -0.479
+   }
+   ShapePoint "{64ACBE89F4EDCA88}" {
+    Position 0.611 0.005 -0.279
+   }
+  }
+  LineColor 0 0 0 0
+  {
+   WallGeneratorEntity : "{A745AC022D54BA60}PrefabLibrary/Generators/Walls/Wooden/WG_WoodenWall_02.et" {
+    coords 0 0 0
+    Flags 1048579
+    {
+     $grp SCR_DestructibleEntity : "{13219FE011DD3FEF}Prefabs/Structures/Walls/Wooden/WoodenWall_02/WoodenWall_02_4m_A.et" {
+      {
+       coords 22.877 0.179 -7.314
+       angleY 85.389
+      }
+      {
+       coords 23.555 0.144 -15.344
+       angleY -182.665
+      }
+      {
+       coords -2.45 -0.386 -16.585
+       angleY -93.741
+      }
+      {
+       coords -3.233 -0.169 -4.612
+       angleY -93.741
+      }
+      {
+       coords -3.527 -0.096 -0.573
+       angleY -4.062
+      }
+     }
+     $grp SCR_DestructibleEntity : "{13449740EE495C79}Prefabs/Structures/Walls/Wooden/WoodenWall_02/WoodenWall_02_8m_A.et" {
+      {
+       coords 22.236 0.214 0.639
+       angleY 85.389
+      }
+      {
+       coords 19.539 0.062 -15.531
+       angleY -182.665
+      }
+      {
+       coords -2.713 -0.313 -12.573
+       angleY -93.741
+      }
+     }
+     $grp SCR_DestructibleEntity : "{5585E2968ACE1D4B}Prefabs/Structures/Walls/Wooden/WoodenWall_02/WoodenWall_02_4m_B.et" {
+      {
+       coords 23.2 0.161 -11.322
+       angleY 85.389
+      }
+      {
+       coords 11.57 -0.1 -15.902
+       angleY -182.665
+      }
+      {
+       coords 7.568 -0.182 -16.088
+       angleY -182.665
+      }
+      {
+       coords 3.567 -0.263 -16.275
+       angleY -182.665
+      }
+     }
+     SCR_DestructibleEntity : "{63EC0D3983F96A5C}Prefabs/Structures/Walls/Wooden/WoodenWall_02/WoodenWall_02_2m.et" {
+      coords -0.435 -0.344 -16.461
+      angleY -182.665
+     }
+     SCR_DestructibleEntity : "{6BB2540CAAD4120B}Prefabs/Structures/Walls/Wooden/WoodenWall_02/WoodenWall_02_Pole.et" {
+      coords 0.493 0.002 -0.287
+      angleY -4.062
+     }
+    }
+   }
+  }
+ }
 }
 SCR_DestructibleEntity : "{01079F398B16C794}PrefabLibrary/Walls/Brick/BrickWallOld_01_D.et" {
  coords 5265.363 -0.022 4787.089

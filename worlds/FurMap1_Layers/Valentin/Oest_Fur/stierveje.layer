@@ -1,3 +1,88 @@
+PolylineShapeEntity {
+ coords 5845.139 13.03 4953.953
+ Points {
+  ShapePoint "{64ACBE8A32839CC0}" {
+   Position 0 0 0
+  }
+  ShapePoint "{64ACBE8A329A9207}" {
+   Position -34.75 0.186 -2.013
+  }
+  ShapePoint "{64ACBE8A3691FA9B}" {
+   Position -36.652 0.661 55.291
+  }
+ }
+ LineColor 0 0 0 0
+ {
+  WallGeneratorEntity : "{D25B78B4CAD5A4E9}PrefabLibrary/Generators/Walls/Wooden/WG_WoodenFence_02.et" {
+   coords 0 0 0
+   Flags 1048579
+   {
+    $grp SCR_DestructibleEntity : "{18922C932CB910F1}PrefabLibrary/Walls/Wooden/WoodenFence_02_4m.et" {
+     {
+      coords -26.314 0.141 -1.524
+      angleY -183.316
+     }
+     {
+      coords -36.151 0.587 46.506
+      angleY -93.266
+     }
+    }
+    SCR_DestructibleEntity : "{65E7B36D8CD0D7D2}PrefabLibrary/Walls/Wooden/WoodenFence_02_4m_D.et" {
+     coords -34.888 0.401 24.38
+     angleY -93.266
+    }
+    $grp SCR_DestructibleEntity : "{685FBE4ABE9D4542}PrefabLibrary/Walls/Wooden/WoodenFence_02_2m.et" {
+     {
+      coords -30.725 0.165 -1.78
+      angleY -183.316
+     }
+     {
+      coords -36.402 0.624 50.917
+      angleY -93.266
+     }
+    }
+    SCR_DestructibleEntity : "{83786C36D543C6CE}PrefabLibrary/Walls/Wooden/WoodenFence_02_Pole.et" {
+     coords -36.541 0.645 53.351
+     angleY -93.266
+    }
+    $grp SCR_DestructibleEntity : "{F909092008F1BB97}PrefabLibrary/Walls/Wooden/WoodenFence_02_8m.et" {
+     {
+      coords 0.248 -0.001 0.014
+      angleY -183.316
+     }
+     {
+      coords -8.606 0.046 -0.499
+      angleY -183.316
+     }
+     {
+      coords -17.46 0.094 -1.012
+      angleY -183.316
+     }
+     {
+      coords -33.372 0.177 -2.182
+      angleY -93.266
+     }
+     {
+      coords -33.878 0.252 6.672
+      angleY -93.266
+     }
+     {
+      coords -34.383 0.326 15.526
+      angleY -93.266
+     }
+     {
+      coords -35.14 0.438 28.797
+      angleY -93.266
+     }
+     {
+      coords -35.645 0.513 37.652
+      angleY -93.266
+     }
+    }
+   }
+  }
+ }
+}
 $grp SplineShapeEntity {
  {
   coords 5504.174 5.467 5624.863
