@@ -1,3 +1,58 @@
+GenericEntity {
+ coords 6022.313 9.85 5282.876
+ scale 0.527
+ {
+  $grp SCR_DestructibleBuildingEntity : "{5AFE0681AA5C74B4}PrefabLibrary/Walls/Concrete/ConcreteRetainingWall_01_8m_30.et" {
+   {
+    coords -3.199 0.686 15.513
+   }
+   {
+    coords 4.64 0.686 15.441
+    angleY 31.713
+   }
+   {
+    coords 14.997 0.686 4.239
+    angleY 93.662
+   }
+   {
+    coords 11.417 0.686 11.243
+    angleY 61.958
+   }
+   {
+    coords 14.413 0.686 -3.624
+    angleY 124.888
+   }
+   {
+    coords 9.975 0.686 -10.179
+    angleY 153.519
+   }
+   {
+    coords -15.074 0.686 -2.453
+    angleY -85.76
+   }
+   {
+    coords -14.41 0.686 5.402
+    angleY -54.534
+   }
+   {
+    coords -9.908 0.686 11.91
+    angleY -25.903
+   }
+   {
+    coords -11.565 0.686 -9.494
+    angleY -117.465
+   }
+   {
+    coords -4.831 0.686 -13.761
+    angleY -147.709
+   }
+   {
+    coords 3.007 0.686 -13.911
+    angleY -179.422
+   }
+  }
+ }
+}
 SCR_DestructibleBuildingEntity : "{1197707983F2D7CF}PrefabLibrary/Structures/Addons/Warehouse_01_Workshop.et" {
  coords 5901.756 0.048 6048.454
  angleY 24.894
@@ -24,9 +79,15 @@ SCR_DestructibleBuildingEntity : "{38B030BEDB46E64D}PrefabLibrary/Structures/Hou
  coords 5346.517 0.027 5453.703
  angleY 179.876
 }
-SCR_DestructibleBuildingEntity : "{3951BF8EC29C556D}PrefabLibrary/Structures/Agriculture/CowShed_E_01_short.et" {
- coords 5684.619 0.594 5716.841
- angleY 8.375
+$grp SCR_DestructibleBuildingEntity : "{3951BF8EC29C556D}PrefabLibrary/Structures/Agriculture/CowShed_E_01_short.et" {
+ {
+  coords 5684.619 0.594 5716.841
+  angleY 8.375
+ }
+ {
+  coords 6026.231 0.531 5240.125
+  angleY 5.196
+ }
 }
 SCR_DestructibleBuildingEntity : "{3B371BE806867EF2}PrefabLibrary/Structures/Houses/House_Village_E_1I08t.et" {
  coords 5665.361 0.245 5716.966
@@ -48,6 +109,24 @@ $grp SCR_DestructibleBuildingEntity : "{51BF59A7E99DC66E}PrefabLibrary/Structure
  {
   coords 5771.656 0.237 4987.126
   angleY -9.083
+ }
+}
+$grp StaticModelEntity : "{5255F7BE946E153F}Prefabs/Structures/Walls/Concrete/SilageWall_01/SilageWall_01_5m.et" {
+ {
+  coords 6012.667 -0.003 5247.149
+  angleY -84.88
+ }
+ {
+  coords 6003.279 -0.003 5253.152
+  angleY 96.367
+ }
+ {
+  coords 6003.826 -0.003 5258.124
+  angleY 96.367
+ }
+ {
+  coords 6013.127 -0.003 5252.175
+  angleY -84.88
  }
 }
 $grp SCR_DestructibleBuildingEntity : "{53ED57F93F1DCE1F}PrefabLibrary/Structures/Industrial/Warehouse_01.et" {
@@ -94,6 +173,10 @@ SCR_DestructibleBuildingEntity : "{75CF81F88D4C3998}PrefabLibrary/Structures/Hou
  coords 5265.916 0.109 4892.957
  angleY 10.431
 }
+SCR_DestructibleBuildingEntity : "{777E7553D60DF9A2}PrefabLibrary/Structures/Agriculture/SilageStorage_E_01.et" {
+ coords 6006.72 0 5232.863
+ angleY 5.695
+}
 $grp SCR_DestructibleBuildingEntity : "{7F8DF0A1D211BDFC}PrefabLibrary/Structures/Houses/House_Village_E_1L03t.et" {
  {
   coords 5358.945 0.648 5404.549
@@ -102,6 +185,10 @@ $grp SCR_DestructibleBuildingEntity : "{7F8DF0A1D211BDFC}PrefabLibrary/Structure
  {
   coords 5837.475 0.256 4994.493
   angleY -92.004
+ }
+ {
+  coords 6114.802 -0.052 5088.887
+  angleY -89.01
  }
 }
 $grp SCR_DestructibleBuildingEntity : "{844E20E491FBC531}PrefabLibrary/Structures/Agriculture/Barn_E_02.et" {
@@ -221,6 +308,9 @@ $grp SCR_DestructibleBuildingEntity : "{BC72C74ABB5732A8}PrefabLibrary/Structure
   coords 5905.874 0.287 6026.973
   angleY -66.82
  }
+ {
+  coords 6109.351 0 5107.079
+ }
 }
 SCR_DestructibleBuildingEntity : "{BFDAD14EBBE6D7FF}PrefabLibrary/Walls/Concrete/ConcreteRetainingWall_01_8m.et" {
  coords 5703.257 9.818 5744.854
@@ -229,6 +319,10 @@ SCR_DestructibleBuildingEntity : "{BFDAD14EBBE6D7FF}PrefabLibrary/Walls/Concrete
 SCR_DestructibleBuildingEntity : "{CAE9DDFBF282E3C7}PrefabLibrary/Structures/Ruins/HouseRuin_01_Corner_Stairs.et" {
  coords 5248.155 0.422 4717.13
  angleY -176.22
+}
+SCR_DestructibleBuildingEntity : "{DC93D6FC12072495}PrefabLibrary/Structures/Agriculture/Barn_E_03/Barn_E_03_open.et" {
+ coords 6089.981 -0.212 5091.104
+ angleY -89.102
 }
 SCR_DestructibleBuildingEntity : "{DE2E37357736E980}PrefabLibrary/Structures/Naval/FishermanShed_02/FishermanShed_02.et" {
  coords 5849.925 0.014 6121.476
