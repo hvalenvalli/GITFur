@@ -14153,6 +14153,109 @@ $grp SplineShapeEntity {
    }
   }
  }
+ Oest_EngelstVej {
+  coords 6097.708 8.787 5288.245
+  Points {
+   ShapePoint "{64D677957CF59FC1}" {
+    Position 0 -0 0
+   }
+   ShapePoint "{64D677957CF5C78A}" {
+    Position 24.923 0.036 -6.097
+   }
+   ShapePoint "{64D6779543E555A3}" {
+    Position 64.745 0.13 -17.385
+   }
+   ShapePoint "{64D67795425E9A3A}" {
+    Position 94.737 -0.38 -25.184
+   }
+   ShapePoint "{64D6779542DCB360}" {
+    Position 122.65 -1.592 -33.823
+   }
+   ShapePoint "{64D67795414F259A}" {
+    Position 141.121 -1.897 -35.186
+   }
+   ShapePoint "{64D67795412B9546}" {
+    Position 159.37 -2.055 -31.064
+   }
+   ShapePoint "{64D67795405C3CE2}" {
+    Position 178.896 -2.327 -18.459
+   }
+   ShapePoint "{64D6779540BC6644}" {
+    Position 212.69 -2.528 12.78
+   }
+   ShapePoint "{64D6779547FEB777}" {
+    Position 242.493 -3.46 42.203
+   }
+   ShapePoint "{64D67795466E2818}" {
+    Position 258.935 -5.286 74.211
+   }
+   ShapePoint "{64D6779545740A51}" {
+    Position 285.437 -6.314 115.792
+   }
+   ShapePoint "{64D6779545B673C0}" {
+    Position 308.208 -5.825 150.219
+   }
+   ShapePoint "{64D677954B13A684}" {
+    Position 346.535 -6.836 193.219
+   }
+  }
+  {
+   RoadGeneratorEntity : "{41CEDBF0493A26A5}PrefabLibrary/Generators/Roads/Dirt/RG_Road_Dirt_02.et" {
+    coords 0 0 0
+    {
+     RoadEntity {
+      ID "556C65569DF42CF7"
+      SplinePoints {
+       ShapePoint "{556C65561A62B78A}" {
+        Position 0 -0 0
+       }
+       ShapePoint "{556C65561A62EBA9}" {
+        Position 24.923 0.036 -6.097
+       }
+       ShapePoint "{64D67794C6AA800E}" {
+        Position 64.745 0.13 -17.385
+       }
+       ShapePoint "{64D67794C6AA80B5}" {
+        Position 94.737 -0.38 -25.184
+       }
+       ShapePoint "{64D67794C6AA80F5}" {
+        Position 122.65 -1.592 -33.823
+       }
+       ShapePoint "{64D67794C6AABF28}" {
+        Position 141.121 -1.897 -35.186
+       }
+       ShapePoint "{64D67794C6AABF6D}" {
+        Position 159.37 -2.055 -31.064
+       }
+       ShapePoint "{64D67794C6AABF9F}" {
+        Position 178.896 -2.327 -18.459
+       }
+       ShapePoint "{64D67794C6AABFE3}" {
+        Position 212.69 -2.528 12.78
+       }
+       ShapePoint "{64D67794C6AABE1F}" {
+        Position 242.493 -3.46 42.203
+       }
+       ShapePoint "{64D67794C6AABE62}" {
+        Position 258.934 -5.286 74.211
+       }
+       ShapePoint "{64D67794C6AABEA6}" {
+        Position 285.437 -6.314 115.791
+       }
+       ShapePoint "{64D67794C6AABEE5}" {
+        Position 308.208 -5.825 150.219
+       }
+       ShapePoint "{64D67794C6AABD22}" {
+        Position 346.535 -6.836 193.219
+       }
+      }
+      IsClosedSpline 0
+      Width 4.5
+     }
+    }
+   }
+  }
+ }
 }
 SCR_DestructibleBuildingEntity : "{1FC97AF2F48F5F55}PrefabLibrary/Infrastructure/Bridges/ConcreteBridge_01_Narrow_Long_PillarSmall.et" {
  coords 783.781 3.455 5661.158
