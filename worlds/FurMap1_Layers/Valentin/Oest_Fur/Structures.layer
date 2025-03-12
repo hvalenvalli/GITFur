@@ -57,7 +57,7 @@ SplineShapeEntity {
  coords 6092.881 6.275 5368.215
  Points {
   ShapePoint "{64D677958078CD9E}" {
-   Position 0 -0 0
+   Position 0 0 0
   }
   ShapePoint "{64D6779580783133}" {
    Position 9.294 -0.245 3.729
@@ -101,7 +101,7 @@ SplineShapeEntity {
      ID "523EAA80CAA6C6B5"
      SplinePoints {
       ShapePoint "{52346539D885C296}" {
-       Position 0 -0 0
+       Position 0 0 0
       }
       ShapePoint "{52346539D885C1A2}" {
        Position 9.294 -0.245 3.729
@@ -171,7 +171,7 @@ $grp SCR_DestructibleBuildingEntity : "{1FE85AA2832E0FA5}PrefabLibrary/Structure
  }
 }
 SCR_DestructibleBuildingEntity : "{2AEEE9C9512908FD}PrefabLibrary/Structures/Naval/FishermanShed_02/FishermanShed_02_V2.et" {
- coords 6055.293 0 5244.834
+ coords 6053.416 -0.374 5276.756
  angleY -177.985
 }
 SCR_DestructibleBuildingEntity : "{38B030BEDB46E64D}PrefabLibrary/Structures/Houses/Shed_02_big_V1.et" {
@@ -317,6 +317,18 @@ SCR_DestructibleBuildingEntity : "{75CF81F88D4C3998}PrefabLibrary/Structures/Hou
  coords 5265.916 0.109 4892.957
  angleY 10.431
 }
+$grp SCR_DestructibleBuildingEntity : "{777E7553D60DF9A1}PrefabLibrary/Structures/Agriculture/SilageStorage_E_01_silage.et" {
+ {
+  coords 5960.985 -0.006 5299.834
+  angleY 99.23
+  scale 1.13
+ }
+ {
+  coords 5932.738 0.027 5219.106
+  angleY 96.56
+  scale 1.13
+ }
+}
 SCR_DestructibleBuildingEntity : "{777E7553D60DF9A2}PrefabLibrary/Structures/Agriculture/SilageStorage_E_01.et" {
  coords 6006.72 0 5232.863
  angleY 5.695
@@ -335,7 +347,7 @@ $grp SCR_DestructibleBuildingEntity : "{7F8DF0A1D211BDFC}PrefabLibrary/Structure
   angleY -92.004
  }
  {
-  coords 6114.802 -0.052 5088.887
+  coords 6114.802 0.218 5088.887
   angleY -89.01
  }
  {
@@ -346,6 +358,14 @@ $grp SCR_DestructibleBuildingEntity : "{7F8DF0A1D211BDFC}PrefabLibrary/Structure
   coords 6070.833 0.194 5288.809
   angleY -177.732
  }
+}
+SCR_DestructibleBuildingEntity : "{810FC4D515FB00F2}PrefabLibrary/Structures/Houses/Shed_02_square.et" {
+ coords 6065.181 0.007 5053.537
+ angleY 176.704
+}
+SCR_DestructibleBuildingEntity : "{831C0BE759BA5BD7}PrefabLibrary/Structures/Naval/BoatShed_01.et" {
+ coords 6129.415 -0.639 5100.218
+ angleY -90.469
 }
 $grp SCR_DestructibleBuildingEntity : "{844E20E491FBC531}PrefabLibrary/Structures/Agriculture/Barn_E_02.et" {
  {
@@ -594,7 +614,7 @@ $grp SCR_DestructibleBuildingEntity : "{BC72C74ABB5732A8}PrefabLibrary/Structure
   angleY -66.82
  }
  {
-  coords 6109.351 0 5107.079
+  coords 6109.351 0.167 5107.079
  }
  {
   coords 6044.42 0.068 5286.303
@@ -626,7 +646,7 @@ $grp StaticModelEntity : "{CAFFE870131947D6}PrefabLibrary/Walls/Brick/BrickGate_
 }
 $grp SCR_DestructibleBuildingEntity : "{DC93D6FC12072495}PrefabLibrary/Structures/Agriculture/Barn_E_03/Barn_E_03_open.et" {
  {
-  coords 6089.981 -0.212 5091.104
+  coords 6089.981 0.323 5091.104
   angleY -89.102
  }
  {
@@ -651,6 +671,14 @@ $grp SCR_DestructibleBuildingEntity : "{DEF852CB2596122D}PrefabLibrary/Structure
   coords 5657.898 0.565 5986.629
   angleY -176.944
   scale 1.18
+ }
+ {
+  coords 6022.377 0 5176.348
+  angleY -175.513
+ }
+ {
+  coords 5963.415 0.649 5179.862
+  angleY -175.513
  }
 }
 SCR_DestructibleBuildingEntity : "{E3584595FC988951}PrefabLibrary/Structures/Industrial/Workshop_01_Garage.et" {
