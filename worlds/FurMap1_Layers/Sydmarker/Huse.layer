@@ -143,15 +143,15 @@ PolylineShapeEntity {
  LineColor 0 1 0 0
  {
   ForestGeneratorEntity : "{19E4EBD1CD1A4E41}PrefabLibrary/Generators/Forests/FG_Forest_Hornbeam2.et" {
-   coords 0 0 0
    Flags 1048579
+   coords 0 0 0
    {
     Tree : "{0A56ED2CC73ABB23}PrefabLibrary/Vegetation/Bushes/b_sambucus_nigra_2.et" {
      coords 7.066 0.048 -5.003
      angleY 100.583
      scale 0.84
     }
-    Tree : "{168F4536FBB8FC36}Prefabs/Vegetation/Tree/t_carpinus_betulus_0s.et" {
+    Tree : "{168F4536FBB8FC36}Prefabs/Vegetation/Tree/t_carpinus_betulus/t_carpinus_betulus_0s.et" {
      coords 17.24 -0.24 -18.07
      angleX -0.803
      angleZ -1.175
@@ -458,8 +458,8 @@ SplineShapeEntity {
  LineColor 0 0 0 0
  {
   WallGeneratorEntity : "{99A65EB56A937C62}PrefabLibrary/Generators/Walls/Pole/WG_PoleFence_01.et" {
-   coords 0 0 0
    Flags 1048579
+   coords 0 0 0
    {
     SCR_DestructibleEntity : "{0568EFE48849C7A8}PrefabLibrary/Walls/Pole/PoleFence_01_3m_End.et" {
      coords 15.355 -5.653 -155.389
@@ -706,7 +706,7 @@ $grp SCR_DestructibleBuildingEntity : "{0B6EA07B566C2054}PrefabLibrary/Structure
   angleY 46.358
  }
 }
-$grp GenericEntity : "{0D20C7931CB82F34}PrefabLibrary/Rocks/Granite/Granite_Boulder_01/Granite_Boulder_01_Fucus.et" {
+$grp SCR_IndestructibleEnvironmentalEntity : "{0D20C7931CB82F34}PrefabLibrary/Rocks/Granite/Granite_Boulder_01/Granite_Boulder_01_Fucus.et" {
  {
   coords 2920.386 0.129 2868.493
   angleX -46.286
@@ -826,7 +826,7 @@ SCR_DestructibleBuildingEntity : "{2F76EAD3331D4E8A}PrefabLibrary/Structures/Rui
  coords 2200.102 -0.03 4089.801
  angleY -142.798
 }
-$grp GenericEntity : "{3583AB98E185C249}PrefabLibrary/Rocks/Granite/Granite_Stone_02/Granite_ForestStone_02.et" {
+$grp SCR_IndestructibleEnvironmentalEntity : "{3583AB98E185C249}PrefabLibrary/Rocks/Granite/Granite_Stone_02/Granite_ForestStone_02.et" {
  {
   coords 2922.311 -0.319 2873.995
   angleX 7.928
@@ -922,7 +922,7 @@ GenericEntity : "{48C9E7CE89BA2360}PrefabLibrary/Props/Garbage/TirePile_01_mediu
  angleY 93.886
  angleZ -0.845
 }
-GenericEntity : "{4DD0E6B6AAA4AD73}PrefabLibrary/Rocks/Granite/Granite_Boulder_02/Granite_Boulder_02_Fucus.et" {
+SCR_IndestructibleEnvironmentalEntity : "{4DD0E6B6AAA4AD73}PrefabLibrary/Rocks/Granite/Granite_Boulder_02/Granite_Boulder_02_Fucus.et" {
  coords 2828.287 0.499 2973.435
  angleX -70.714
  angleY -49.871
@@ -1572,7 +1572,7 @@ $grp SCR_DestructibleBuildingEntity : "{DC93D6FC12072495}PrefabLibrary/Structure
   angleY -82.658
  }
 }
-GenericEntity : "{DEA30A575C1BCF46}PrefabLibrary/Rocks/Granite/GraniteSurfaceStone_03.et" {
+SCR_IndestructibleEnvironmentalEntity : "{DEA30A575C1BCF46}PrefabLibrary/Rocks/Granite/GraniteSurfaceStone_03.et" {
  coords 2928.423 2.613 2887.402
  angleX 20.567
  angleY 102.162
@@ -1660,7 +1660,7 @@ $grp SCR_DestructibleBuildingEntity : "{E3584595FC988951}PrefabLibrary/Structure
   angleY -43.731
  }
 }
-GenericEntity : "{E3972F6F29774671}PrefabLibrary/Rocks/Granite/GraniteSurfaceStone_04.et" {
+SCR_IndestructibleEnvironmentalEntity : "{E3972F6F29774671}PrefabLibrary/Rocks/Granite/GraniteSurfaceStone_04.et" {
  coords 2924.615 2.869 2878.558
  angleY -86.221
  scale 0.365

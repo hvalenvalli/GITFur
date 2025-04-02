@@ -12,8 +12,8 @@ $grp PolylineShapeEntity {
   LineColor 0 0 0 0
   {
    WallGeneratorEntity : "{C290227A0992EDB6}PrefabLibrary/Generators/Pavements/Tile/WG_TilePavement_01_Wide.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     {
      StaticModelEntity : "{034025A47E9A3C13}Prefabs/Structures/Infrastructure/Pavements/TilePavement_01/TilePavement_01_Wide_End_Left.et" {
       coords -27.238 -0.741 -38.799
@@ -82,8 +82,8 @@ $grp PolylineShapeEntity {
   LineColor 0 0 0 0
   {
    WallGeneratorEntity : "{CB1198E29190354E}PrefabLibrary/Generators/Walls/Wooden/WG_WoodenWall_01.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     {
      $grp SCR_DestructibleEntity : "{1914585909D1984B}PrefabLibrary/Walls/Wooden/WoodenWall_01_8m.et" {
       {
@@ -144,8 +144,8 @@ $grp PolylineShapeEntity {
   LineColor 0 0 0 0
   {
    WallGeneratorEntity : "{C290227A0992EDB6}PrefabLibrary/Generators/Pavements/Tile/WG_TilePavement_01_Wide.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     {
      StaticModelEntity : "{034025A47E9A3C13}Prefabs/Structures/Infrastructure/Pavements/TilePavement_01/TilePavement_01_Wide_End_Left.et" {
       coords -18.906 0.13 26.912
@@ -326,7 +326,7 @@ $grp GenericEntity : "{16E63075F932AC76}PrefabLibrary/Props/Garbage/GarbageConta
   angleY 57.961
  }
 }
-$grp GenericEntity : "{187DF45E4944307D}PrefabLibrary/Infrastructure/Naval/BreakwaterStone_01_stack_wall_half.et" {
+$grp SCR_IndestructibleEnvironmentalEntity : "{187DF45E4944307D}PrefabLibrary/Infrastructure/Naval/BreakwaterStone_01_stack_wall_half.et" {
  {
   coords 4132.797 -1.092 2693.778
   angleY 96.391
@@ -1627,7 +1627,7 @@ GenericEntity : "{E3B458A75E52E31C}PrefabLibrary/Props/Garbage/Junk_01_single_ba
  coords 4224.984 1.5 2765.402
  angleY 60.486
 }
-$grp GenericEntity : "{E62ED30ECB655576}PrefabLibrary/Infrastructure/Naval/BreakwaterStone_01_stack_wall.et" {
+$grp SCR_IndestructibleEnvironmentalEntity : "{E62ED30ECB655576}PrefabLibrary/Infrastructure/Naval/BreakwaterStone_01_stack_wall.et" {
  {
   coords 4227.095 -0.098 2627.073
   angleY -29.252
