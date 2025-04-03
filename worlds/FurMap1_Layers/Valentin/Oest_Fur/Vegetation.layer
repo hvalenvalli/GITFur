@@ -24,8 +24,8 @@ $grp PolylineShapeEntity {
   LineColor 0 0 0 0
   {
    PrefabGeneratorEntity : "{C4FECA6CC44F5E08}PrefabLibrary/Generators/Bushlines/PG_Treeline_Birch_01.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     {
      $grp Tree : "{425761285F36BF16}PrefabLibrary/Vegetation/Trees/t_betula_pendula_1s.et" {
       {
@@ -127,7 +127,7 @@ $grp PolylineShapeEntity {
        scale 1.181
       }
      }
-     $grp GenericEntity : "{926C09375D2DAA4D}PrefabLibrary/Rocks/Granite/GraniteStone_01.et" {
+     $grp SCR_IndestructibleEnvironmentalEntity : "{926C09375D2DAA4D}PrefabLibrary/Rocks/Granite/GraniteStone_01.et" {
       {
        coords 0.796 -0.09 -8.802
        angleX -81.116
@@ -536,7 +536,7 @@ $grp PolylineShapeEntity {
        scale 0.984
       }
      }
-     $grp GenericEntity : "{FE383DD7E1E92563}PrefabLibrary/Rocks/Granite/GraniteStone_02.et" {
+     $grp SCR_IndestructibleEnvironmentalEntity : "{FE383DD7E1E92563}PrefabLibrary/Rocks/Granite/GraniteStone_02.et" {
       {
        coords 1.552 0.082 -0.26
        angleX -52.399
@@ -682,11 +682,11 @@ $grp PolylineShapeEntity {
   LineColor 0 1 0 0
   {
    ForestGeneratorEntity : "{421B5C6E4EA518BD}PrefabLibrary/Generators/Forests/FG_Forest_MixedBirchPine.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     m_bAvoidRoads 1
     {
-     GenericEntity : "{1BA4712EED0CB208}PrefabLibrary/Rocks/Granite/GraniteStone_03.et" {
+     SCR_IndestructibleEnvironmentalEntity : "{1BA4712EED0CB208}PrefabLibrary/Rocks/Granite/GraniteStone_03.et" {
       coords -213.23 0.067 90.67
       angleY 349.211
       scale 1.108
@@ -2018,7 +2018,7 @@ $grp PolylineShapeEntity {
        scale 1.096
       }
      }
-     Tree : "{70692C116A6B4177}Prefabs/Vegetation/Tree/t_betula_pendula_1sw.et" {
+     Tree : "{70692C116A6B4177}Prefabs/Vegetation/Tree/t_betula_pendula/t_betula_pendula_1sw.et" {
       coords -202.121 0.4 27.483
       angleX -0.828
       angleZ 0.457
@@ -4193,7 +4193,7 @@ $grp PolylineShapeEntity {
        scale 0.97
       }
      }
-     $grp GenericEntity : "{926C09375D2DAA4D}PrefabLibrary/Rocks/Granite/GraniteStone_01.et" {
+     $grp SCR_IndestructibleEnvironmentalEntity : "{926C09375D2DAA4D}PrefabLibrary/Rocks/Granite/GraniteStone_01.et" {
       {
        coords -200.844 0.367 23.479
        angleY 302.474
@@ -6782,7 +6782,7 @@ $grp PolylineShapeEntity {
        scale 1.002
       }
      }
-     GenericEntity : "{FE383DD7E1E92563}PrefabLibrary/Rocks/Granite/GraniteStone_02.et" {
+     SCR_IndestructibleEnvironmentalEntity : "{FE383DD7E1E92563}PrefabLibrary/Rocks/Granite/GraniteStone_02.et" {
       coords -199.16 0.384 24.474
       angleY 235.411
       scale 0.981
@@ -6807,8 +6807,8 @@ $grp PolylineShapeEntity {
   LineColor 0 0 0 0
   {
    PrefabGeneratorEntity : "{D22346876A0446AC}PrefabLibrary/Generators/Bushlines/PG_Bushline_Corylus_Small.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     {
      $grp Tree : "{5D51E831072581F3}PrefabLibrary/Vegetation/Trees/t_carpinus_betulus_0s.et" {
       {
@@ -7073,8 +7073,8 @@ $grp PolylineShapeEntity {
   LineColor 0 0 0 0
   {
    PrefabGeneratorEntity : "{D22346876A0446AC}PrefabLibrary/Generators/Bushlines/PG_Bushline_Corylus_Small.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     {
      $grp Tree : "{5D51E831072581F3}PrefabLibrary/Vegetation/Trees/t_carpinus_betulus_0s.et" {
       {
@@ -7491,8 +7491,8 @@ $grp PolylineShapeEntity {
   LineColor 0 1 0 0
   {
    ForestGeneratorEntity : "{FC78A728C1FFD92A}PrefabLibrary/Generators/Forests/FG_Forest_HornBeam3.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     {
      $grp Tree : "{0A56ED2CC73ABB23}PrefabLibrary/Vegetation/Bushes/b_sambucus_nigra_2.et" {
       {
@@ -7526,7 +7526,7 @@ $grp PolylineShapeEntity {
        scale 1.125
       }
      }
-     $grp Tree : "{168F4536FBB8FC36}Prefabs/Vegetation/Tree/t_carpinus_betulus_0s.et" {
+     $grp Tree : "{168F4536FBB8FC36}Prefabs/Vegetation/Tree/t_carpinus_betulus/t_carpinus_betulus_0s.et" {
       {
        coords -17.337 1.052 -65.084
        angleX -0.985
@@ -8543,8 +8543,8 @@ $grp PolylineShapeEntity {
   LineColor 0 0 0 0
   {
    PrefabGeneratorEntity : "{13ECD442B9CC9BCD}PrefabLibrary/Generators/Bushlines/PG_Bushline_Corylus_01.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     m_fPerlinThreshold -2.3
     {
      Tree : "{0A56ED2CC73ABB23}PrefabLibrary/Vegetation/Bushes/b_sambucus_nigra_2.et" {
@@ -8684,8 +8684,8 @@ $grp PolylineShapeEntity {
   LineColor 0 0 0 0
   {
    PrefabGeneratorEntity : "{425962A5FD454B89}PrefabLibrary/Generators/Bushlines/PG_Bushline_Betula_01.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     {
      Tree : "{531BB93086610CA1}PrefabLibrary/Vegetation/Trees/t_betula_pendula_0.et" {
       coords 2.156 0.151 -8.296
@@ -8779,8 +8779,8 @@ $grp PolylineShapeEntity {
   LineColor 0 0 0 0
   {
    PrefabGeneratorEntity : "{EA23B4C7CB74E107}PrefabLibrary/Generators/Bushlines/PG_Bushline_Sorbus_01.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     {
      Tree : "{3475D26BFBAD50D5}PrefabLibrary/Vegetation/Trees/t_sorbus_aucuparia_1w.et" {
       coords -0.476 -0.006 1.362
@@ -8924,10 +8924,10 @@ $grp PolylineShapeEntity {
   LineColor 0 1 0 0
   {
    ForestGeneratorEntity : "{FC78A728C1FFD92A}PrefabLibrary/Generators/Forests/FG_Forest_HornBeam3.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     {
-     Tree : "{168F4536FBB8FC36}Prefabs/Vegetation/Tree/t_carpinus_betulus_0s.et" {
+     Tree : "{168F4536FBB8FC36}Prefabs/Vegetation/Tree/t_carpinus_betulus/t_carpinus_betulus_0s.et" {
       coords -15.23 0.209 -34.707
       angleX 0.281
       angleZ -1.19
@@ -9459,8 +9459,8 @@ $grp PolylineShapeEntity {
   LineColor 0 0 0 0
   {
    PrefabGeneratorEntity : "{13ECD442B9CC9BCD}PrefabLibrary/Generators/Bushlines/PG_Bushline_Corylus_01.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     {
      $grp Tree : "{0A56ED2CC73ABB23}PrefabLibrary/Vegetation/Bushes/b_sambucus_nigra_2.et" {
       {
@@ -9917,8 +9917,8 @@ $grp PolylineShapeEntity {
   LineColor 0 1 0 0
   {
    ForestGeneratorEntity : "{FB7D5E7D0C8BDE90}PrefabLibrary/Generators/Forests/FG_Forest_Hornbeam.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     {
      $grp Tree : "{0A56ED2CC73ABB23}PrefabLibrary/Vegetation/Bushes/b_sambucus_nigra_2.et" {
       {
@@ -9982,7 +9982,7 @@ $grp PolylineShapeEntity {
        scale 0.925
       }
      }
-     $grp Tree : "{168F4536FBB8FC36}Prefabs/Vegetation/Tree/t_carpinus_betulus_0s.et" {
+     $grp Tree : "{168F4536FBB8FC36}Prefabs/Vegetation/Tree/t_carpinus_betulus/t_carpinus_betulus_0s.et" {
       {
        coords -13.682 -0.009 -36.411
        angleX -0.564
@@ -13336,8 +13336,8 @@ $grp PolylineShapeEntity {
   LineColor 0 1 0 0
   {
    ForestGeneratorEntity : "{FB7D5E7D0C8BDE90}PrefabLibrary/Generators/Forests/FG_Forest_Hornbeam.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     {
      $grp Tree : "{0A56ED2CC73ABB23}PrefabLibrary/Vegetation/Bushes/b_sambucus_nigra_2.et" {
       {
@@ -13401,7 +13401,7 @@ $grp PolylineShapeEntity {
        scale 0.878
       }
      }
-     $grp Tree : "{168F4536FBB8FC36}Prefabs/Vegetation/Tree/t_carpinus_betulus_0s.et" {
+     $grp Tree : "{168F4536FBB8FC36}Prefabs/Vegetation/Tree/t_carpinus_betulus/t_carpinus_betulus_0s.et" {
       {
        coords -10.829 -1.617 75.85
        angleX 0.481
@@ -13951,7 +13951,7 @@ $grp PolylineShapeEntity {
        scale 0.878
       }
      }
-     $grp GenericEntity : "{59D79F785D414D67}PrefabLibrary/Rocks/Granite/Granite_Stone_01/Granite_ForestStone_01.et" {
+     $grp SCR_IndestructibleEnvironmentalEntity : "{59D79F785D414D67}PrefabLibrary/Rocks/Granite/Granite_Stone_01/Granite_ForestStone_01.et" {
       {
        coords -38.216 -1.573 45.924
        angleX 3.606
@@ -16319,7 +16319,7 @@ $grp PolylineShapeEntity {
        scale 1.104
       }
      }
-     $grp GenericEntity : "{D01FE761ED605522}PrefabLibrary/Rocks/Granite/Granite_Stone_03/Granite_ForestStone_03.et" {
+     $grp SCR_IndestructibleEnvironmentalEntity : "{D01FE761ED605522}PrefabLibrary/Rocks/Granite/Granite_Stone_03/Granite_ForestStone_03.et" {
       {
        coords 44.573 0.25 28.721
        angleX 2.701
@@ -16566,8 +16566,8 @@ $grp PolylineShapeEntity {
   LineColor 0 0 0 0
   {
    PrefabGeneratorEntity : "{13ECD442B9CC9BCD}PrefabLibrary/Generators/Bushlines/PG_Bushline_Corylus_01.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     {
      Tree : "{5D51E831072581F3}PrefabLibrary/Vegetation/Trees/t_carpinus_betulus_0s.et" {
       coords -0.106 -0.054 1.193
@@ -16659,8 +16659,8 @@ $grp PolylineShapeEntity {
   LineColor 0 0 0 0
   {
    PrefabGeneratorEntity : "{13ECD442B9CC9BCD}PrefabLibrary/Generators/Bushlines/PG_Bushline_Corylus_01.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     {
      $grp Tree : "{5D51E831072581F3}PrefabLibrary/Vegetation/Trees/t_carpinus_betulus_0s.et" {
       {
@@ -16783,10 +16783,10 @@ $grp PolylineShapeEntity {
   LineColor 0 0 0 0
   {
    ForestGeneratorEntity : "{07CBFED2E7F69FBB}PrefabLibrary/Generators/Brushlands/FG_Brushland_Sorbus_Sparse.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     {
-     $grp GenericEntity : "{1BA4712EED0CB208}PrefabLibrary/Rocks/Granite/GraniteStone_03.et" {
+     $grp SCR_IndestructibleEnvironmentalEntity : "{1BA4712EED0CB208}PrefabLibrary/Rocks/Granite/GraniteStone_03.et" {
       {
        coords 51.854 -0.936 31.511
        angleY 29.126
@@ -16927,7 +16927,7 @@ $grp PolylineShapeEntity {
       angleZ -0.022
       scale 0.818
      }
-     $grp GenericEntity : "{926C09375D2DAA4D}PrefabLibrary/Rocks/Granite/GraniteStone_01.et" {
+     $grp SCR_IndestructibleEnvironmentalEntity : "{926C09375D2DAA4D}PrefabLibrary/Rocks/Granite/GraniteStone_01.et" {
       {
        coords 47.083 -0.878 31.923
        angleY 103.176
@@ -17033,10 +17033,10 @@ $grp PolylineShapeEntity {
   LineColor 0 0 0 0
   {
    ForestGeneratorEntity : "{07CBFED2E7F69FBB}PrefabLibrary/Generators/Brushlands/FG_Brushland_Sorbus_Sparse.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     {
-     $grp GenericEntity : "{1BA4712EED0CB208}PrefabLibrary/Rocks/Granite/GraniteStone_03.et" {
+     $grp SCR_IndestructibleEnvironmentalEntity : "{1BA4712EED0CB208}PrefabLibrary/Rocks/Granite/GraniteStone_03.et" {
       {
        coords 32.02 0 -19.518
        angleY 117.931
@@ -17928,7 +17928,7 @@ $grp PolylineShapeEntity {
        scale 1.118
       }
      }
-     $grp GenericEntity : "{926C09375D2DAA4D}PrefabLibrary/Rocks/Granite/GraniteStone_01.et" {
+     $grp SCR_IndestructibleEnvironmentalEntity : "{926C09375D2DAA4D}PrefabLibrary/Rocks/Granite/GraniteStone_01.et" {
       {
        coords 29.878 0 -19.541
        angleY 280.116
@@ -18276,10 +18276,10 @@ $grp PolylineShapeEntity {
   LineColor 0 0 0 0
   {
    ForestGeneratorEntity : "{7976DBD2DD1FDF52}PrefabLibrary/Generators/Brushlands/FG_Brushland_Sparse.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     {
-     $grp GenericEntity : "{1BA4712EED0CB208}PrefabLibrary/Rocks/Granite/GraniteStone_03.et" {
+     $grp SCR_IndestructibleEnvironmentalEntity : "{1BA4712EED0CB208}PrefabLibrary/Rocks/Granite/GraniteStone_03.et" {
       {
        coords -47.511 0.001 75.313
        angleY 171.809
@@ -19054,7 +19054,7 @@ $grp PolylineShapeEntity {
        scale 1.266
       }
      }
-     $grp GenericEntity : "{926C09375D2DAA4D}PrefabLibrary/Rocks/Granite/GraniteStone_01.et" {
+     $grp SCR_IndestructibleEnvironmentalEntity : "{926C09375D2DAA4D}PrefabLibrary/Rocks/Granite/GraniteStone_01.et" {
       {
        coords -48.535 0.001 74.378
        angleY 101.473
@@ -19578,10 +19578,10 @@ $grp PolylineShapeEntity {
   LineColor 0 0 0 0
   {
    ForestGeneratorEntity : "{409C0D82C840053D}PrefabLibrary/Generators/Brushlands/FG_Brushland_Dense.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     {
-     $grp GenericEntity : "{1BA4712EED0CB208}PrefabLibrary/Rocks/Granite/GraniteStone_03.et" {
+     $grp SCR_IndestructibleEnvironmentalEntity : "{1BA4712EED0CB208}PrefabLibrary/Rocks/Granite/GraniteStone_03.et" {
       {
        coords -160.838 13.325 7.719
        angleY 77.357
@@ -20978,7 +20978,7 @@ $grp PolylineShapeEntity {
        scale 0.977
       }
      }
-     $grp GenericEntity : "{926C09375D2DAA4D}PrefabLibrary/Rocks/Granite/GraniteStone_01.et" {
+     $grp SCR_IndestructibleEnvironmentalEntity : "{926C09375D2DAA4D}PrefabLibrary/Rocks/Granite/GraniteStone_01.et" {
       {
        coords -135.371 19.618 144.074
        angleY 274.963
@@ -22532,8 +22532,8 @@ $grp PolylineShapeEntity {
   LineColor 0 1 0 0
   {
    ForestGeneratorEntity : "{6A0F21AEE8535157}PrefabLibrary/Generators/Forests/FG_Forest_Spruce2.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     {
      Tree : "{053196EF2505964A}PrefabLibrary/Vegetation/Trees/t_picea_abies_0.et" {
       coords 1.284 0.008 -0.469
@@ -22894,8 +22894,8 @@ $grp PolylineShapeEntity {
   LineColor 0 0 0 0
   {
    PrefabGeneratorEntity : "{D22346876A0446AC}PrefabLibrary/Generators/Bushlines/PG_Bushline_Corylus_Small.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     {
      $grp Tree : "{5D51E831072581F3}PrefabLibrary/Vegetation/Trees/t_carpinus_betulus_0s.et" {
       {
@@ -23024,8 +23024,8 @@ $grp PolylineShapeEntity {
   LineColor 0 0 0 0
   {
    PrefabGeneratorEntity : "{C4FECA6CC44F5E08}PrefabLibrary/Generators/Bushlines/PG_Treeline_Birch_01.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     {
      $grp Tree : "{425761285F36BF16}PrefabLibrary/Vegetation/Trees/t_betula_pendula_1s.et" {
       {
@@ -23110,7 +23110,7 @@ $grp PolylineShapeEntity {
        scale 0.997
       }
      }
-     $grp GenericEntity : "{FE383DD7E1E92563}PrefabLibrary/Rocks/Granite/GraniteStone_02.et" {
+     $grp SCR_IndestructibleEnvironmentalEntity : "{FE383DD7E1E92563}PrefabLibrary/Rocks/Granite/GraniteStone_02.et" {
       {
        coords 0.155 0.099 2.521
        angleX 61.23
@@ -23228,8 +23228,8 @@ $grp PolylineShapeEntity {
   LineColor 0 1 0 0
   {
    ForestGeneratorEntity : "{FC78A728C1FFD92A}PrefabLibrary/Generators/Forests/FG_Forest_HornBeam3.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     {
      $grp Tree : "{0A56ED2CC73ABB23}PrefabLibrary/Vegetation/Bushes/b_sambucus_nigra_2.et" {
       {
@@ -23263,7 +23263,7 @@ $grp PolylineShapeEntity {
        scale 0.917
       }
      }
-     $grp Tree : "{168F4536FBB8FC36}Prefabs/Vegetation/Tree/t_carpinus_betulus_0s.et" {
+     $grp Tree : "{168F4536FBB8FC36}Prefabs/Vegetation/Tree/t_carpinus_betulus/t_carpinus_betulus_0s.et" {
       {
        coords -1.621 0.166 -2.561
        angleX -0.776
@@ -24154,8 +24154,8 @@ $grp PolylineShapeEntity {
   LineColor 0 1 0 0
   {
    ForestGeneratorEntity : "{FC78A728C1FFD92A}PrefabLibrary/Generators/Forests/FG_Forest_HornBeam3.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     {
      Tree : "{0A56ED2CC73ABB23}PrefabLibrary/Vegetation/Bushes/b_sambucus_nigra_2.et" {
       coords 2.884 0 1.197
@@ -24298,8 +24298,8 @@ $grp PolylineShapeEntity {
   LineColor 0 0 0 0
   {
    PrefabGeneratorEntity : "{EA23B4C7CB74E107}PrefabLibrary/Generators/Bushlines/PG_Bushline_Sorbus_01.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     {
      Tree : "{4F87818365E5D8D9}PrefabLibrary/Vegetation/Trees/t_sorbus_aucuparia_2f.et" {
       coords -0.702 -0.011 0.188
@@ -24523,8 +24523,8 @@ $grp PolylineShapeEntity {
   LineColor 0 1 0 0
   {
    ForestGeneratorEntity : "{FC78A728C1FFD92A}PrefabLibrary/Generators/Forests/FG_Forest_HornBeam3.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     {
      $grp Tree : "{00C9C289A467E096}PrefabLibrary/Vegetation/Trees/t_carpinus_betulus_2f.et" {
       {
@@ -24635,7 +24635,7 @@ $grp PolylineShapeEntity {
        scale 0.97
       }
      }
-     $grp Tree : "{168F4536FBB8FC36}Prefabs/Vegetation/Tree/t_carpinus_betulus_0s.et" {
+     $grp Tree : "{168F4536FBB8FC36}Prefabs/Vegetation/Tree/t_carpinus_betulus/t_carpinus_betulus_0s.et" {
       {
        coords 3.817 2.766 24.21
        angleX -0.228
@@ -28748,10 +28748,10 @@ $grp PolylineShapeEntity {
   LineColor 0 1 0 0
   {
    ForestGeneratorEntity : "{FC78A728C1FFD92A}PrefabLibrary/Generators/Forests/FG_Forest_HornBeam3.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     {
-     $grp Tree : "{168F4536FBB8FC36}Prefabs/Vegetation/Tree/t_carpinus_betulus_0s.et" {
+     $grp Tree : "{168F4536FBB8FC36}Prefabs/Vegetation/Tree/t_carpinus_betulus/t_carpinus_betulus_0s.et" {
       {
        coords 10.791 0.052 14.079
        angleX 0.449
@@ -29106,10 +29106,10 @@ $grp PolylineShapeEntity {
   LineColor 0 1 0 0
   {
    ForestGeneratorEntity : "{FC78A728C1FFD92A}PrefabLibrary/Generators/Forests/FG_Forest_HornBeam3.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     {
-     $grp Tree : "{168F4536FBB8FC36}Prefabs/Vegetation/Tree/t_carpinus_betulus_0s.et" {
+     $grp Tree : "{168F4536FBB8FC36}Prefabs/Vegetation/Tree/t_carpinus_betulus/t_carpinus_betulus_0s.et" {
       {
        coords 14.871 0.07 -0.526
        angleX 1.131
@@ -29475,8 +29475,8 @@ $grp PolylineShapeEntity {
   LineColor 0 1 0 0
   {
    ForestGeneratorEntity : "{FC78A728C1FFD92A}PrefabLibrary/Generators/Forests/FG_Forest_HornBeam3.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     {
      $grp Tree : "{0A56ED2CC73ABB23}PrefabLibrary/Vegetation/Bushes/b_sambucus_nigra_2.et" {
       {
@@ -29495,7 +29495,7 @@ $grp PolylineShapeEntity {
        scale 1.061
       }
      }
-     $grp Tree : "{168F4536FBB8FC36}Prefabs/Vegetation/Tree/t_carpinus_betulus_0s.et" {
+     $grp Tree : "{168F4536FBB8FC36}Prefabs/Vegetation/Tree/t_carpinus_betulus/t_carpinus_betulus_0s.et" {
       {
        coords -0.653 0.485 -18.548
        angleX -0.039
@@ -29953,8 +29953,8 @@ $grp PolylineShapeEntity {
   LineColor 0 1 0 0
   {
    ForestGeneratorEntity : "{FC78A728C1FFD92A}PrefabLibrary/Generators/Forests/FG_Forest_HornBeam3.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     {
      Tree : "{00C9C289A467E096}PrefabLibrary/Vegetation/Trees/t_carpinus_betulus_2f.et" {
       coords 17.633 -1.111 18.519
@@ -29985,7 +29985,7 @@ $grp PolylineShapeEntity {
        scale 1.084
       }
      }
-     $grp Tree : "{168F4536FBB8FC36}Prefabs/Vegetation/Tree/t_carpinus_betulus_0s.et" {
+     $grp Tree : "{168F4536FBB8FC36}Prefabs/Vegetation/Tree/t_carpinus_betulus/t_carpinus_betulus_0s.et" {
       {
        coords 3.534 -1.605 27.055
        angleX 0.507
@@ -30599,10 +30599,10 @@ $grp PolylineShapeEntity {
   LineColor 0 1 0 0
   {
    ForestGeneratorEntity : "{FC78A728C1FFD92A}PrefabLibrary/Generators/Forests/FG_Forest_HornBeam3.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     {
-     $grp Tree : "{168F4536FBB8FC36}Prefabs/Vegetation/Tree/t_carpinus_betulus_0s.et" {
+     $grp Tree : "{168F4536FBB8FC36}Prefabs/Vegetation/Tree/t_carpinus_betulus/t_carpinus_betulus_0s.et" {
       {
        coords 12.391 -0.159 33.781
        angleX 0.162
@@ -30932,8 +30932,8 @@ $grp PolylineShapeEntity {
   LineColor 0 0 0 0
   {
    PrefabGeneratorEntity : "{D22346876A0446AC}PrefabLibrary/Generators/Bushlines/PG_Bushline_Corylus_Small.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     {
      $grp Tree : "{5D51E831072581F3}PrefabLibrary/Vegetation/Trees/t_carpinus_betulus_0s.et" {
       {
@@ -31198,8 +31198,8 @@ $grp PolylineShapeEntity {
   LineColor 0 1 0 0
   {
    ForestGeneratorEntity : "{FC78A728C1FFD92A}PrefabLibrary/Generators/Forests/FG_Forest_HornBeam3.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     {
      Tree : "{425761285F36BF16}PrefabLibrary/Vegetation/Trees/t_betula_pendula_1s.et" {
       coords -15.543 -0.104 1.346
@@ -31598,10 +31598,10 @@ $grp PolylineShapeEntity {
   LineColor 0 1 0 0
   {
    ForestGeneratorEntity : "{FC78A728C1FFD92A}PrefabLibrary/Generators/Forests/FG_Forest_HornBeam3.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     {
-     $grp Tree : "{168F4536FBB8FC36}Prefabs/Vegetation/Tree/t_carpinus_betulus_0s.et" {
+     $grp Tree : "{168F4536FBB8FC36}Prefabs/Vegetation/Tree/t_carpinus_betulus/t_carpinus_betulus_0s.et" {
       {
        coords 26.282 0.85 -22.12
        angleX -1.468
@@ -32326,10 +32326,10 @@ $grp PolylineShapeEntity {
   LineColor 0 0 0 0
   {
    ForestGeneratorEntity : "{7976DBD2DD1FDF52}PrefabLibrary/Generators/Brushlands/FG_Brushland_Sparse.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     {
-     $grp GenericEntity : "{1BA4712EED0CB208}PrefabLibrary/Rocks/Granite/GraniteStone_03.et" {
+     $grp SCR_IndestructibleEnvironmentalEntity : "{1BA4712EED0CB208}PrefabLibrary/Rocks/Granite/GraniteStone_03.et" {
       {
        coords 2.281 0.026 -5.327
        angleY 294.805
@@ -32756,7 +32756,7 @@ $grp PolylineShapeEntity {
        scale 1.148
       }
      }
-     $grp GenericEntity : "{926C09375D2DAA4D}PrefabLibrary/Rocks/Granite/GraniteStone_01.et" {
+     $grp SCR_IndestructibleEnvironmentalEntity : "{926C09375D2DAA4D}PrefabLibrary/Rocks/Granite/GraniteStone_01.et" {
       {
        coords 4.53 0.031 -5.637
        angleY 295.179
@@ -33052,8 +33052,8 @@ $grp PolylineShapeEntity {
   LineColor 0 0 0 0
   {
    PrefabGeneratorEntity : "{D22346876A0446AC}PrefabLibrary/Generators/Bushlines/PG_Bushline_Corylus_Small.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     {
      Tree : "{6602D9CC7BFE340D}PrefabLibrary/Vegetation/Bushes/b_sambucus_nigra_1.et" {
       coords 4.398 -0.105 -6.767
@@ -33183,10 +33183,10 @@ $grp PolylineShapeEntity {
   LineColor 0 0 0 0
   {
    ForestGeneratorEntity : "{07CBFED2E7F69FBB}PrefabLibrary/Generators/Brushlands/FG_Brushland_Sorbus_Sparse.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     {
-     $grp GenericEntity : "{1BA4712EED0CB208}PrefabLibrary/Rocks/Granite/GraniteStone_03.et" {
+     $grp SCR_IndestructibleEnvironmentalEntity : "{1BA4712EED0CB208}PrefabLibrary/Rocks/Granite/GraniteStone_03.et" {
       {
        coords -4.066 -0.052 3.697
        angleY 45.067
@@ -33504,7 +33504,7 @@ $grp PolylineShapeEntity {
        scale 0.875
       }
      }
-     $grp GenericEntity : "{926C09375D2DAA4D}PrefabLibrary/Rocks/Granite/GraniteStone_01.et" {
+     $grp SCR_IndestructibleEnvironmentalEntity : "{926C09375D2DAA4D}PrefabLibrary/Rocks/Granite/GraniteStone_01.et" {
       {
        coords -32.791 0.314 11.351
        angleY 90.915
@@ -33623,8 +33623,8 @@ $grp PolylineShapeEntity {
   LineColor 0 0 0 0
   {
    PrefabGeneratorEntity : "{13ECD442B9CC9BCD}PrefabLibrary/Generators/Bushlines/PG_Bushline_Corylus_01.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     m_fPerlinThreshold -3.8
     {
      $grp Tree : "{0A56ED2CC73ABB23}PrefabLibrary/Vegetation/Bushes/b_sambucus_nigra_2.et" {
@@ -34010,8 +34010,8 @@ $grp PolylineShapeEntity {
   LineColor 0 0 0 0
   {
    PrefabGeneratorEntity : "{13ECD442B9CC9BCD}PrefabLibrary/Generators/Bushlines/PG_Bushline_Corylus_01.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     {
      $grp Tree : "{0A56ED2CC73ABB23}PrefabLibrary/Vegetation/Bushes/b_sambucus_nigra_2.et" {
       {
@@ -34119,8 +34119,8 @@ $grp PolylineShapeEntity {
   LineColor 0 0 0 0
   {
    PrefabGeneratorEntity : "{EA23B4C7CB74E107}PrefabLibrary/Generators/Bushlines/PG_Bushline_Sorbus_01.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     m_fPerlinThreshold -8.3
     {
      Tree : "{425761285F36BF16}PrefabLibrary/Vegetation/Trees/t_betula_pendula_1s.et" {
@@ -34260,8 +34260,8 @@ $grp PolylineShapeEntity {
   LineColor 0 0 0 0
   {
    PrefabGeneratorEntity : "{D22346876A0446AC}PrefabLibrary/Generators/Bushlines/PG_Bushline_Corylus_Small.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     {
      Tree : "{5D51E831072581F3}PrefabLibrary/Vegetation/Trees/t_carpinus_betulus_0s.et" {
       coords -2.613 -0.184 11.569
@@ -34348,8 +34348,8 @@ $grp PolylineShapeEntity {
   LineColor 0 0 0 0
   {
    PrefabGeneratorEntity : "{EA23B4C7CB74E107}PrefabLibrary/Generators/Bushlines/PG_Bushline_Sorbus_01.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     m_fPerlinThreshold -7.4
     {
      $grp Tree : "{3475D26BFBAD50D5}PrefabLibrary/Vegetation/Trees/t_sorbus_aucuparia_1w.et" {
@@ -34436,8 +34436,8 @@ $grp PolylineShapeEntity {
   LineColor 0 0 0 0
   {
    PrefabGeneratorEntity : "{EA23B4C7CB74E107}PrefabLibrary/Generators/Bushlines/PG_Bushline_Sorbus_01.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     {
      Tree : "{425761285F36BF16}PrefabLibrary/Vegetation/Trees/t_betula_pendula_1s.et" {
       coords -6.859 0.031 -8.463
@@ -34519,8 +34519,8 @@ $grp PolylineShapeEntity {
   LineColor 0 0 0 0
   {
    PrefabGeneratorEntity : "{EA23B4C7CB74E107}PrefabLibrary/Generators/Bushlines/PG_Bushline_Sorbus_01.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     {
      $grp Tree : "{A35E15EBC6033C07}PrefabLibrary/Vegetation/Bushes/b_corylus_avellana_1.et" {
       {
@@ -34601,8 +34601,8 @@ $grp PolylineShapeEntity {
   LineColor 0 0 0 0
   {
    PrefabGeneratorEntity : "{13ECD442B9CC9BCD}PrefabLibrary/Generators/Bushlines/PG_Bushline_Corylus_01.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     m_fPerlinThreshold -2.8
     {
      $grp Tree : "{0A56ED2CC73ABB23}PrefabLibrary/Vegetation/Bushes/b_sambucus_nigra_2.et" {
@@ -34845,10 +34845,10 @@ $grp PolylineShapeEntity {
   LineColor 0 0 0 0
   {
    ForestGeneratorEntity : "{409C0D82C840053D}PrefabLibrary/Generators/Brushlands/FG_Brushland_Dense.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     {
-     $grp GenericEntity : "{1BA4712EED0CB208}PrefabLibrary/Rocks/Granite/GraniteStone_03.et" {
+     $grp SCR_IndestructibleEnvironmentalEntity : "{1BA4712EED0CB208}PrefabLibrary/Rocks/Granite/GraniteStone_03.et" {
       {
        coords 28.399 0.305 5.611
        angleY 136.729
@@ -35376,7 +35376,7 @@ $grp PolylineShapeEntity {
        scale 1.323
       }
      }
-     $grp GenericEntity : "{926C09375D2DAA4D}PrefabLibrary/Rocks/Granite/GraniteStone_01.et" {
+     $grp SCR_IndestructibleEnvironmentalEntity : "{926C09375D2DAA4D}PrefabLibrary/Rocks/Granite/GraniteStone_01.et" {
       {
        coords 24.621 0.297 2.295
        angleY 284.005
@@ -35715,8 +35715,8 @@ $grp PolylineShapeEntity {
   LineColor 0 0 0 0
   {
    PrefabGeneratorEntity : "{C4FECA6CC44F5E08}PrefabLibrary/Generators/Bushlines/PG_Treeline_Birch_01.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     {
      $grp Tree : "{425761285F36BF16}PrefabLibrary/Vegetation/Trees/t_betula_pendula_1s.et" {
       {
@@ -35734,7 +35734,7 @@ $grp PolylineShapeEntity {
        scale 1.084
       }
      }
-     $grp GenericEntity : "{926C09375D2DAA4D}PrefabLibrary/Rocks/Granite/GraniteStone_01.et" {
+     $grp SCR_IndestructibleEnvironmentalEntity : "{926C09375D2DAA4D}PrefabLibrary/Rocks/Granite/GraniteStone_01.et" {
       {
        coords -0.404 -0.079 -11.357
        angleX -26.149
@@ -35884,7 +35884,7 @@ $grp PolylineShapeEntity {
        scale 0.806
       }
      }
-     $grp GenericEntity : "{FE383DD7E1E92563}PrefabLibrary/Rocks/Granite/GraniteStone_02.et" {
+     $grp SCR_IndestructibleEnvironmentalEntity : "{FE383DD7E1E92563}PrefabLibrary/Rocks/Granite/GraniteStone_02.et" {
       {
        coords -2.17 0 0.53
        angleX -51.455
@@ -35941,8 +35941,8 @@ $grp PolylineShapeEntity {
   LineColor 0 0 0 0
   {
    PrefabGeneratorEntity : "{D22346876A0446AC}PrefabLibrary/Generators/Bushlines/PG_Bushline_Corylus_Small.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     m_fPerlinThreshold 0
     m_fPerlinOffset 47.1
     {
@@ -36200,8 +36200,8 @@ $grp PolylineShapeEntity {
   LineColor 0 0 0 0
   {
    PrefabGeneratorEntity : "{D22346876A0446AC}PrefabLibrary/Generators/Bushlines/PG_Bushline_Corylus_Small.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     {
      Tree : "{5D51E831072581F3}PrefabLibrary/Vegetation/Trees/t_carpinus_betulus_0s.et" {
       coords -0.298 0 -3.386
@@ -36336,15 +36336,15 @@ $grp PolylineShapeEntity {
   LineColor 0 1 0 0
   {
    ForestGeneratorEntity : "{19E4EBD1CD1A4E41}PrefabLibrary/Generators/Forests/FG_Forest_Hornbeam2.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     {
      Tree : "{0A56ED2CC73ABB23}PrefabLibrary/Vegetation/Bushes/b_sambucus_nigra_2.et" {
       coords -0.037 0.186 8.15
       angleY 248.31
       scale 0.991
      }
-     $grp Tree : "{168F4536FBB8FC36}Prefabs/Vegetation/Tree/t_carpinus_betulus_0s.et" {
+     $grp Tree : "{168F4536FBB8FC36}Prefabs/Vegetation/Tree/t_carpinus_betulus/t_carpinus_betulus_0s.et" {
       {
        coords -4.232 0.081 6.722
        angleX 0.855
@@ -36567,8 +36567,8 @@ $grp PolylineShapeEntity {
   LineColor 0 0 0 0
   {
    PrefabGeneratorEntity : "{EA23B4C7CB74E107}PrefabLibrary/Generators/Bushlines/PG_Bushline_Sorbus_01.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     m_fPerlinThreshold -3
     {
      Tree : "{425761285F36BF16}PrefabLibrary/Vegetation/Trees/t_betula_pendula_1s.et" {
@@ -36683,8 +36683,8 @@ $grp PolylineShapeEntity {
   LineColor 0 0 0 0
   {
    PrefabGeneratorEntity : "{D22346876A0446AC}PrefabLibrary/Generators/Bushlines/PG_Bushline_Corylus_Small.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     {
      Tree : "{5D51E831072581F3}PrefabLibrary/Vegetation/Trees/t_carpinus_betulus_0s.et" {
       coords 3.363 0.214 -0.028
@@ -36828,8 +36828,8 @@ $grp PolylineShapeEntity {
   LineColor 0 0 0 0
   {
    PrefabGeneratorEntity : "{EA23B4C7CB74E107}PrefabLibrary/Generators/Bushlines/PG_Bushline_Sorbus_01.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     {
      Tree : "{3475D26BFBAD50D5}PrefabLibrary/Vegetation/Trees/t_sorbus_aucuparia_1w.et" {
       coords -16.058 -0.816 11.504
@@ -36918,8 +36918,8 @@ $grp PolylineShapeEntity {
   LineColor 0 0 0 0
   {
    PrefabGeneratorEntity : "{D22346876A0446AC}PrefabLibrary/Generators/Bushlines/PG_Bushline_Corylus_Small.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     {
      $grp Tree : "{5D51E831072581F3}PrefabLibrary/Vegetation/Trees/t_carpinus_betulus_0s.et" {
       {
@@ -37146,8 +37146,8 @@ $grp PolylineShapeEntity {
   LineColor 0 0 0 0
   {
    ForestGeneratorEntity : "{3D07E37E995558F1}PrefabLibrary/Generators/Brushlands/FG_Brushland_Phragmites.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     {
      $grp Tree : "{077C695F02F4312C}PrefabLibrary/Vegetation/Bushes/b_phragmites_australis_1.et" {
       {
@@ -37620,7 +37620,7 @@ $grp PolylineShapeEntity {
        scale 0.503
       }
      }
-     $grp GenericEntity : "{1BA4712EED0CB208}PrefabLibrary/Rocks/Granite/GraniteStone_03.et" {
+     $grp SCR_IndestructibleEnvironmentalEntity : "{1BA4712EED0CB208}PrefabLibrary/Rocks/Granite/GraniteStone_03.et" {
       {
        coords -19.193 0.227 -15.461
        angleY 249.529
@@ -38381,7 +38381,7 @@ $grp PolylineShapeEntity {
       angleZ 0.068
       scale 0.793
      }
-     $grp GenericEntity : "{926C09375D2DAA4D}PrefabLibrary/Rocks/Granite/GraniteStone_01.et" {
+     $grp SCR_IndestructibleEnvironmentalEntity : "{926C09375D2DAA4D}PrefabLibrary/Rocks/Granite/GraniteStone_01.et" {
       {
        coords -20.482 0.227 -18.896
        angleY 205.231
@@ -38495,8 +38495,8 @@ $grp PolylineShapeEntity {
   LineColor 0 0 0 0
   {
    ForestGeneratorEntity : "{3D07E37E995558F1}PrefabLibrary/Generators/Brushlands/FG_Brushland_Phragmites.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     {
      $grp Tree : "{077C695F02F4312C}PrefabLibrary/Vegetation/Bushes/b_phragmites_australis_1.et" {
       {
@@ -38631,7 +38631,7 @@ $grp PolylineShapeEntity {
        scale 0.504
       }
      }
-     $grp GenericEntity : "{1BA4712EED0CB208}PrefabLibrary/Rocks/Granite/GraniteStone_03.et" {
+     $grp SCR_IndestructibleEnvironmentalEntity : "{1BA4712EED0CB208}PrefabLibrary/Rocks/Granite/GraniteStone_03.et" {
       {
        coords -0.708 0.128 23.381
        angleY 269.437
@@ -39231,7 +39231,7 @@ $grp PolylineShapeEntity {
        scale 0.771
       }
      }
-     $grp GenericEntity : "{926C09375D2DAA4D}PrefabLibrary/Rocks/Granite/GraniteStone_01.et" {
+     $grp SCR_IndestructibleEnvironmentalEntity : "{926C09375D2DAA4D}PrefabLibrary/Rocks/Granite/GraniteStone_01.et" {
       {
        coords -1.862 0.063 20.161
        angleY 111.559
@@ -39405,8 +39405,8 @@ $grp PolylineShapeEntity {
   LineColor 0 0 0 0
   {
    ForestGeneratorEntity : "{3D07E37E995558F1}PrefabLibrary/Generators/Brushlands/FG_Brushland_Phragmites.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     {
      $grp Tree : "{077C695F02F4312C}PrefabLibrary/Vegetation/Bushes/b_phragmites_australis_1.et" {
       {
@@ -39744,8 +39744,8 @@ $grp PolylineShapeEntity {
   LineColor 0 0 0 0
   {
    ForestGeneratorEntity : "{3D07E37E995558F1}PrefabLibrary/Generators/Brushlands/FG_Brushland_Phragmites.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     {
      $grp Tree : "{077C695F02F4312C}PrefabLibrary/Vegetation/Bushes/b_phragmites_australis_1.et" {
       {
@@ -39889,8 +39889,8 @@ $grp PolylineShapeEntity {
   LineColor 0 0 0 0
   {
    WallGeneratorEntity : "{BE0F4C5476112BC7}PrefabLibrary/Generators/Walls/Wooden/WG_WoodenFence_01.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     {
      SCR_DestructibleEntity : "{12377CDE9AA9E376}PrefabLibrary/Walls/Wooden/WoodenFence_01_4m.et" {
       coords -35.441 -1.689 6.101
@@ -39935,8 +39935,8 @@ $grp PolylineShapeEntity {
     }
    }
    PrefabGeneratorEntity : "{EA23B4C7CB74E107}PrefabLibrary/Generators/Bushlines/PG_Bushline_Sorbus_01.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     m_fOffsetRight -1
     m_fPerlinThreshold -5.7
     {
@@ -40149,8 +40149,8 @@ $grp PolylineShapeEntity {
   LineColor 0 1 0 0
   {
    ForestGeneratorEntity : "{FC78A728C1FFD92A}PrefabLibrary/Generators/Forests/FG_Forest_HornBeam3.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     {
      $grp Tree : "{00C9C289A467E096}PrefabLibrary/Vegetation/Trees/t_carpinus_betulus_2f.et" {
       {
@@ -40185,7 +40185,7 @@ $grp PolylineShapeEntity {
        scale 0.84
       }
      }
-     $grp Tree : "{168F4536FBB8FC36}Prefabs/Vegetation/Tree/t_carpinus_betulus_0s.et" {
+     $grp Tree : "{168F4536FBB8FC36}Prefabs/Vegetation/Tree/t_carpinus_betulus/t_carpinus_betulus_0s.et" {
       {
        coords -6.741 -0.3 13.054
        angleX 0.932
@@ -40595,10 +40595,10 @@ $grp PolylineShapeEntity {
   LineColor 0 0 0 0
   {
    ForestGeneratorEntity : "{7976DBD2DD1FDF52}PrefabLibrary/Generators/Brushlands/FG_Brushland_Sparse.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     {
-     $grp GenericEntity : "{1BA4712EED0CB208}PrefabLibrary/Rocks/Granite/GraniteStone_03.et" {
+     $grp SCR_IndestructibleEnvironmentalEntity : "{1BA4712EED0CB208}PrefabLibrary/Rocks/Granite/GraniteStone_03.et" {
       {
        coords -8.022 -0.435 1.135
        angleY 67.667
@@ -40971,7 +40971,7 @@ $grp PolylineShapeEntity {
        scale 1.192
       }
      }
-     $grp GenericEntity : "{926C09375D2DAA4D}PrefabLibrary/Rocks/Granite/GraniteStone_01.et" {
+     $grp SCR_IndestructibleEnvironmentalEntity : "{926C09375D2DAA4D}PrefabLibrary/Rocks/Granite/GraniteStone_01.et" {
       {
        coords -7.963 -0.494 -0.425
        angleY 204.121
@@ -41239,8 +41239,8 @@ $grp PolylineShapeEntity {
   LineColor 0 0 0 0
   {
    PrefabGeneratorEntity : "{13ECD442B9CC9BCD}PrefabLibrary/Generators/Bushlines/PG_Bushline_Corylus_01.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     m_fPerlinThreshold -2.6
     {
      $grp Tree : "{0A56ED2CC73ABB23}PrefabLibrary/Vegetation/Bushes/b_sambucus_nigra_2.et" {
@@ -41430,8 +41430,8 @@ $grp PolylineShapeEntity {
   LineColor 0 0 0 0
   {
    PrefabGeneratorEntity : "{D22346876A0446AC}PrefabLibrary/Generators/Bushlines/PG_Bushline_Corylus_Small.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     {
      Tree : "{5D51E831072581F3}PrefabLibrary/Vegetation/Trees/t_carpinus_betulus_0s.et" {
       coords -2.28 -0.1 -4.689
@@ -41557,15 +41557,15 @@ $grp PolylineShapeEntity {
   LineColor 0 1 0 0
   {
    ForestGeneratorEntity : "{FC78A728C1FFD92A}PrefabLibrary/Generators/Forests/FG_Forest_HornBeam3.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     {
      Tree : "{0A56ED2CC73ABB23}PrefabLibrary/Vegetation/Bushes/b_sambucus_nigra_2.et" {
       coords -14.466 -0.547 1.375
       angleY 282.983
       scale 0.995
      }
-     Tree : "{168F4536FBB8FC36}Prefabs/Vegetation/Tree/t_carpinus_betulus_0s.et" {
+     Tree : "{168F4536FBB8FC36}Prefabs/Vegetation/Tree/t_carpinus_betulus/t_carpinus_betulus_0s.et" {
       coords -17.033 -0.564 5.062
       angleX -0.526
       angleZ 0.741
@@ -41781,8 +41781,8 @@ $grp PolylineShapeEntity {
   LineColor 0 0 0 0
   {
    PrefabGeneratorEntity : "{D22346876A0446AC}PrefabLibrary/Generators/Bushlines/PG_Bushline_Corylus_Small.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     {
      $grp Tree : "{5D51E831072581F3}PrefabLibrary/Vegetation/Trees/t_carpinus_betulus_0s.et" {
       {
@@ -41873,8 +41873,8 @@ $grp PolylineShapeEntity {
   LineColor 0 0 0 0
   {
    PrefabGeneratorEntity : "{D22346876A0446AC}PrefabLibrary/Generators/Bushlines/PG_Bushline_Corylus_Small.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     {
      $grp Tree : "{6602D9CC7BFE340D}PrefabLibrary/Vegetation/Bushes/b_sambucus_nigra_1.et" {
       {
@@ -41955,8 +41955,8 @@ $grp PolylineShapeEntity {
   LineColor 0 0 0 0
   {
    PrefabGeneratorEntity : "{D22346876A0446AC}PrefabLibrary/Generators/Bushlines/PG_Bushline_Corylus_Small.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     {
      Tree : "{5D51E831072581F3}PrefabLibrary/Vegetation/Trees/t_carpinus_betulus_0s.et" {
       coords 2.355 0.129 4.25
@@ -42017,8 +42017,8 @@ $grp PolylineShapeEntity {
   LineColor 0 0 0 0
   {
    PrefabGeneratorEntity : "{13ECD442B9CC9BCD}PrefabLibrary/Generators/Bushlines/PG_Bushline_Corylus_01.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     m_fPerlinThreshold -1.8
     {
      $grp Tree : "{0A56ED2CC73ABB23}PrefabLibrary/Vegetation/Bushes/b_sambucus_nigra_2.et" {
@@ -42204,10 +42204,10 @@ $grp PolylineShapeEntity {
   LineColor 0 0 0 0
   {
    ForestGeneratorEntity : "{07CBFED2E7F69FBB}PrefabLibrary/Generators/Brushlands/FG_Brushland_Sorbus_Sparse.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     {
-     $grp GenericEntity : "{1BA4712EED0CB208}PrefabLibrary/Rocks/Granite/GraniteStone_03.et" {
+     $grp SCR_IndestructibleEnvironmentalEntity : "{1BA4712EED0CB208}PrefabLibrary/Rocks/Granite/GraniteStone_03.et" {
       {
        coords -26.876 -0.634 -6.165
        angleY 77.258
@@ -42337,7 +42337,7 @@ $grp PolylineShapeEntity {
        scale 1.008
       }
      }
-     $grp GenericEntity : "{926C09375D2DAA4D}PrefabLibrary/Rocks/Granite/GraniteStone_01.et" {
+     $grp SCR_IndestructibleEnvironmentalEntity : "{926C09375D2DAA4D}PrefabLibrary/Rocks/Granite/GraniteStone_01.et" {
       {
        coords -27.026 -0.661 -8.915
        angleY 40.431
@@ -42485,10 +42485,10 @@ $grp PolylineShapeEntity {
   LineColor 0 1 0 0
   {
    ForestGeneratorEntity : "{19E4EBD1CD1A4E41}PrefabLibrary/Generators/Forests/FG_Forest_Hornbeam2.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     {
-     $grp Tree : "{168F4536FBB8FC36}Prefabs/Vegetation/Tree/t_carpinus_betulus_0s.et" {
+     $grp Tree : "{168F4536FBB8FC36}Prefabs/Vegetation/Tree/t_carpinus_betulus/t_carpinus_betulus_0s.et" {
       {
        coords -8.642 -0.592 6.802
        angleX 0.48
@@ -42791,15 +42791,15 @@ $grp PolylineShapeEntity {
   LineColor 0 1 0 0
   {
    ForestGeneratorEntity : "{FC78A728C1FFD92A}PrefabLibrary/Generators/Forests/FG_Forest_HornBeam3.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     {
      Tree : "{0A56ED2CC73ABB23}PrefabLibrary/Vegetation/Bushes/b_sambucus_nigra_2.et" {
       coords 3.638 0.295 2.276
       angleY 58.141
       scale 0.995
      }
-     $grp Tree : "{168F4536FBB8FC36}Prefabs/Vegetation/Tree/t_carpinus_betulus_0s.et" {
+     $grp Tree : "{168F4536FBB8FC36}Prefabs/Vegetation/Tree/t_carpinus_betulus/t_carpinus_betulus_0s.et" {
       {
        coords 4.354 0.362 0.875
        angleX 1.484
@@ -43143,8 +43143,8 @@ $grp PolylineShapeEntity {
   LineColor 0 0 0 0
   {
    WallGeneratorEntity : "{77CB628F24AC8D09}PrefabLibrary/Generators/Walls/Wooden/WG_WoodenRural_01.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     {
      SCR_DestructibleEntity : "{49E343AF3FEC45F6}PrefabLibrary/Walls/Wooden/WoodenRural_01_Dam.et" {
       coords -4.494 -0.068 -11.226
@@ -43193,8 +43193,8 @@ $grp PolylineShapeEntity {
     }
    }
    PrefabGeneratorEntity : "{D22346876A0446AC}PrefabLibrary/Generators/Bushlines/PG_Bushline_Corylus_Small.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     m_fPerlinThreshold -1.7
     {
      $grp Tree : "{5D51E831072581F3}PrefabLibrary/Vegetation/Trees/t_carpinus_betulus_0s.et" {
@@ -43540,8 +43540,8 @@ $grp PolylineShapeEntity {
   LineColor 0 0 0 0
   {
    PrefabGeneratorEntity : "{EA23B4C7CB74E107}PrefabLibrary/Generators/Bushlines/PG_Bushline_Sorbus_01.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     {
      $grp Tree : "{4F87818365E5D8D9}PrefabLibrary/Vegetation/Trees/t_sorbus_aucuparia_2f.et" {
       {
@@ -43680,10 +43680,10 @@ $grp PolylineShapeEntity {
   LineColor 0 0 0 0
   {
    ForestGeneratorEntity : "{7976DBD2DD1FDF52}PrefabLibrary/Generators/Brushlands/FG_Brushland_Sparse.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     {
-     $grp GenericEntity : "{1BA4712EED0CB208}PrefabLibrary/Rocks/Granite/GraniteStone_03.et" {
+     $grp SCR_IndestructibleEnvironmentalEntity : "{1BA4712EED0CB208}PrefabLibrary/Rocks/Granite/GraniteStone_03.et" {
       {
        coords 30.48 1.698 -7.774
        angleY 301.957
@@ -44389,7 +44389,7 @@ $grp PolylineShapeEntity {
        scale 1.102
       }
      }
-     $grp GenericEntity : "{926C09375D2DAA4D}PrefabLibrary/Rocks/Granite/GraniteStone_01.et" {
+     $grp SCR_IndestructibleEnvironmentalEntity : "{926C09375D2DAA4D}PrefabLibrary/Rocks/Granite/GraniteStone_01.et" {
       {
        coords 66.236 2.921 18.692
        angleY 8.701
@@ -44682,10 +44682,10 @@ $grp PolylineShapeEntity {
   LineColor 0 1 0 0
   {
    ForestGeneratorEntity : "{FC78A728C1FFD92A}PrefabLibrary/Generators/Forests/FG_Forest_HornBeam3.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     {
-     $grp Tree : "{168F4536FBB8FC36}Prefabs/Vegetation/Tree/t_carpinus_betulus_0s.et" {
+     $grp Tree : "{168F4536FBB8FC36}Prefabs/Vegetation/Tree/t_carpinus_betulus/t_carpinus_betulus_0s.et" {
       {
        coords 11.666 0.411 6.234
        angleX 0.321
@@ -44922,10 +44922,10 @@ $grp PolylineShapeEntity {
   LineColor 0 0 0 0
   {
    ForestGeneratorEntity : "{409C0D82C840053D}PrefabLibrary/Generators/Brushlands/FG_Brushland_Dense.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     {
-     $grp GenericEntity : "{1BA4712EED0CB208}PrefabLibrary/Rocks/Granite/GraniteStone_03.et" {
+     $grp SCR_IndestructibleEnvironmentalEntity : "{1BA4712EED0CB208}PrefabLibrary/Rocks/Granite/GraniteStone_03.et" {
       {
        coords 47.89 -0.342 -7.681
        angleY 146.156
@@ -45375,7 +45375,7 @@ $grp PolylineShapeEntity {
        scale 0.985
       }
      }
-     $grp GenericEntity : "{926C09375D2DAA4D}PrefabLibrary/Rocks/Granite/GraniteStone_01.et" {
+     $grp SCR_IndestructibleEnvironmentalEntity : "{926C09375D2DAA4D}PrefabLibrary/Rocks/Granite/GraniteStone_01.et" {
       {
        coords 45.917 -0.367 -8.708
        angleY 238.4
@@ -45723,8 +45723,8 @@ $grp PolylineShapeEntity {
   LineColor 0 0 0 0
   {
    PrefabGeneratorEntity : "{425962A5FD454B89}PrefabLibrary/Generators/Bushlines/PG_Bushline_Betula_01.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     m_fPerlinThreshold -7.4
     {
      $grp Tree : "{531BB93086610CA1}PrefabLibrary/Vegetation/Trees/t_betula_pendula_0.et" {
@@ -45934,8 +45934,8 @@ $grp PolylineShapeEntity {
     }
    }
    WallGeneratorEntity : "{E81FCD5FE7572FF6}PrefabLibrary/Generators/Walls/Wooden/WG_WoodenFenceOld_01.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     {
      SCR_DestructibleEntity : "{3D24CF45345054DD}Prefabs/Structures/Walls/Wooden/WoodenFenceOld_01/WoodenFenceOld_01_start.et" {
       coords 0 0 0
@@ -46138,15 +46138,15 @@ $grp PolylineShapeEntity {
   LineColor 0 1 0 0
   {
    ForestGeneratorEntity : "{FC78A728C1FFD92A}PrefabLibrary/Generators/Forests/FG_Forest_HornBeam3.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     {
      Tree : "{0A56ED2CC73ABB23}PrefabLibrary/Vegetation/Bushes/b_sambucus_nigra_2.et" {
       coords 1.36 -0.875 -38.775
       angleY 148.364
       scale 1.037
      }
-     $grp Tree : "{168F4536FBB8FC36}Prefabs/Vegetation/Tree/t_carpinus_betulus_0s.et" {
+     $grp Tree : "{168F4536FBB8FC36}Prefabs/Vegetation/Tree/t_carpinus_betulus/t_carpinus_betulus_0s.et" {
       {
        coords -0.148 0.012 -1.411
        angleX -0.178
@@ -47033,8 +47033,8 @@ $grp PolylineShapeEntity {
   LineColor 0 1 0 0
   {
    ForestGeneratorEntity : "{262382109CAD2485}PrefabLibrary/Generators/Forests/FG_Forest_Pine3.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     {
      $grp Tree : "{0572596E23DDDC10}PrefabLibrary/Vegetation/Trees/t_pinus_sylvestris_2f.et" {
       {
@@ -47752,8 +47752,8 @@ $grp PolylineShapeEntity {
   LineColor 0 1 0 0
   {
    ForestGeneratorEntity : "{6A0F21AEE8535157}PrefabLibrary/Generators/Forests/FG_Forest_Spruce2.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     {
      $grp Tree : "{053196EF2505964A}PrefabLibrary/Vegetation/Trees/t_picea_abies_0.et" {
       {
@@ -47950,7 +47950,7 @@ $grp PolylineShapeEntity {
        scale 0.886
       }
      }
-     GenericEntity : "{3583AB98E185C249}PrefabLibrary/Rocks/Granite/Granite_Stone_02/Granite_ForestStone_02.et" {
+     SCR_IndestructibleEnvironmentalEntity : "{3583AB98E185C249}PrefabLibrary/Rocks/Granite/Granite_Stone_02/Granite_ForestStone_02.et" {
       coords 47.134 1.17 2.355
       angleX 2.979
       angleY 73.83
@@ -48084,7 +48084,7 @@ $grp PolylineShapeEntity {
        scale 1.17
       }
      }
-     $grp GenericEntity : "{59D79F785D414D67}PrefabLibrary/Rocks/Granite/Granite_Stone_01/Granite_ForestStone_01.et" {
+     $grp SCR_IndestructibleEnvironmentalEntity : "{59D79F785D414D67}PrefabLibrary/Rocks/Granite/Granite_Stone_01/Granite_ForestStone_01.et" {
       {
        coords 43.969 1.172 6.836
        angleX 5.817
@@ -48563,7 +48563,7 @@ $grp PolylineShapeEntity {
        scale 0.863
       }
      }
-     GenericEntity : "{D01FE761ED605522}PrefabLibrary/Rocks/Granite/Granite_Stone_03/Granite_ForestStone_03.et" {
+     SCR_IndestructibleEnvironmentalEntity : "{D01FE761ED605522}PrefabLibrary/Rocks/Granite/Granite_Stone_03/Granite_ForestStone_03.et" {
       coords 40.368 0.467 20.976
       angleX 2.537
       angleY 291.202
@@ -48752,7 +48752,7 @@ $grp PolylineShapeEntity {
       angleY 228.742
       scale 1.011
      }
-     GenericEntity : "{F168A8DEE854592D}PrefabLibrary/Rocks/Granite/Granite_BeachCluster_02/Granite_ForestCluster_02.et" {
+     SCR_IndestructibleEnvironmentalEntity : "{F168A8DEE854592D}PrefabLibrary/Rocks/Granite/Granite_BeachCluster_02/Granite_ForestCluster_02.et" {
       coords 10.923 0.264 16.57
       angleZ -0.895
       scale 0.802
@@ -48861,8 +48861,8 @@ $grp PolylineShapeEntity {
   LineColor 0 1 0 0
   {
    ForestGeneratorEntity : "{FC78A728C1FFD92A}PrefabLibrary/Generators/Forests/FG_Forest_HornBeam3.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     {
      Tree : "{0A56ED2CC73ABB23}PrefabLibrary/Vegetation/Bushes/b_sambucus_nigra_2.et" {
       coords -15.917 -0.193 -8.025
@@ -49174,10 +49174,10 @@ $grp PolylineShapeEntity {
   LineColor 0 0 0 0
   {
    ForestGeneratorEntity : "{409C0D82C840053D}PrefabLibrary/Generators/Brushlands/FG_Brushland_Dense.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     {
-     $grp GenericEntity : "{1BA4712EED0CB208}PrefabLibrary/Rocks/Granite/GraniteStone_03.et" {
+     $grp SCR_IndestructibleEnvironmentalEntity : "{1BA4712EED0CB208}PrefabLibrary/Rocks/Granite/GraniteStone_03.et" {
       {
        coords -36.176 -1.344 13.424
        angleY 126.929
@@ -49922,7 +49922,7 @@ $grp PolylineShapeEntity {
        scale 1.197
       }
      }
-     $grp GenericEntity : "{926C09375D2DAA4D}PrefabLibrary/Rocks/Granite/GraniteStone_01.et" {
+     $grp SCR_IndestructibleEnvironmentalEntity : "{926C09375D2DAA4D}PrefabLibrary/Rocks/Granite/GraniteStone_01.et" {
       {
        coords -32.986 -1.214 10.903
        angleY 108.801
@@ -50374,8 +50374,8 @@ $grp PolylineShapeEntity {
   LineColor 0 0 0 0
   {
    ForestGeneratorEntity : "{3D07E37E995558F1}PrefabLibrary/Generators/Brushlands/FG_Brushland_Phragmites.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     {
      $grp Tree : "{077C695F02F4312C}PrefabLibrary/Vegetation/Bushes/b_phragmites_australis_1.et" {
       {
@@ -50656,7 +50656,7 @@ $grp PolylineShapeEntity {
        scale 0.69
       }
      }
-     $grp GenericEntity : "{1BA4712EED0CB208}PrefabLibrary/Rocks/Granite/GraniteStone_03.et" {
+     $grp SCR_IndestructibleEnvironmentalEntity : "{1BA4712EED0CB208}PrefabLibrary/Rocks/Granite/GraniteStone_03.et" {
       {
        coords 1.209 -0.102 33.208
        angleY 183.521
@@ -51283,7 +51283,7 @@ $grp PolylineShapeEntity {
        scale 0.876
       }
      }
-     GenericEntity : "{926C09375D2DAA4D}PrefabLibrary/Rocks/Granite/GraniteStone_01.et" {
+     SCR_IndestructibleEnvironmentalEntity : "{926C09375D2DAA4D}PrefabLibrary/Rocks/Granite/GraniteStone_01.et" {
       coords 2.385 -0.028 31.146
       angleY 34.399
       scale 0.799
@@ -51466,8 +51466,8 @@ $grp PolylineShapeEntity {
   LineColor 0 1 0 0
   {
    ForestGeneratorEntity : "{262382109CAD2485}PrefabLibrary/Generators/Forests/FG_Forest_Pine3.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     {
      Tree : "{0572596E23DDDC10}PrefabLibrary/Vegetation/Trees/t_pinus_sylvestris_2f.et" {
       coords 17.066 0.526 3.22
@@ -51616,8 +51616,8 @@ $grp PolylineShapeEntity {
   LineColor 0 1 0 0
   {
    ForestGeneratorEntity : "{19E4EBD1CD1A4E41}PrefabLibrary/Generators/Forests/FG_Forest_Hornbeam2.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     {
      $grp Tree : "{0A56ED2CC73ABB23}PrefabLibrary/Vegetation/Bushes/b_sambucus_nigra_2.et" {
       {
@@ -51631,7 +51631,7 @@ $grp PolylineShapeEntity {
        scale 0.878
       }
      }
-     $grp Tree : "{168F4536FBB8FC36}Prefabs/Vegetation/Tree/t_carpinus_betulus_0s.et" {
+     $grp Tree : "{168F4536FBB8FC36}Prefabs/Vegetation/Tree/t_carpinus_betulus/t_carpinus_betulus_0s.et" {
       {
        coords -17.022 0.073 8.636
        angleX -0.803
@@ -51977,7 +51977,7 @@ $grp PolylineShapeEntity {
        scale 1.144
       }
       {
-       coords -27.734 -0.232 22.205
+       coords -25.864 -0.232 21.132
        angleY 200.463
        scale 0.898
       }
@@ -52195,8 +52195,8 @@ $grp PolylineShapeEntity {
   LineColor 0 0 0 0
   {
    PrefabGeneratorEntity : "{13ECD442B9CC9BCD}PrefabLibrary/Generators/Bushlines/PG_Bushline_Corylus_01.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     m_fPerlinThreshold -11.1
     {
      $grp Tree : "{0A56ED2CC73ABB23}PrefabLibrary/Vegetation/Bushes/b_sambucus_nigra_2.et" {
@@ -52384,8 +52384,8 @@ $grp PolylineShapeEntity {
     }
    }
    WallGeneratorEntity : "{4B79744D3A369B0D}PrefabLibrary/Generators/Walls/Stone/WG_StoneWall_01.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     {
      $grp SCR_DestructibleEntity : "{20304FC74D23C37F}Prefabs/Structures/Walls/Stone/StoneWall_01/StoneWall_01_4m_A.et" {
       {
@@ -52492,8 +52492,8 @@ $grp PolylineShapeEntity {
   LineColor 0 1 0 0
   {
    ForestGeneratorEntity : "{6A0F21AEE8535157}PrefabLibrary/Generators/Forests/FG_Forest_Spruce2.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     {
      $grp Tree : "{053196EF2505964A}PrefabLibrary/Vegetation/Trees/t_picea_abies_0.et" {
       {
@@ -52714,7 +52714,7 @@ $grp PolylineShapeEntity {
       angleY 148.726
       scale 1.176
      }
-     GenericEntity : "{D01FE761ED605522}PrefabLibrary/Rocks/Granite/Granite_Stone_03/Granite_ForestStone_03.et" {
+     SCR_IndestructibleEnvironmentalEntity : "{D01FE761ED605522}PrefabLibrary/Rocks/Granite/Granite_Stone_03/Granite_ForestStone_03.et" {
       coords 23.588 -0.357 17.773
       angleX 5.185
       angleY 278.018
@@ -52778,7 +52778,7 @@ $grp PolylineShapeEntity {
        scale 1.123
       }
      }
-     GenericEntity : "{F168A8DEE854592D}PrefabLibrary/Rocks/Granite/Granite_BeachCluster_02/Granite_ForestCluster_02.et" {
+     SCR_IndestructibleEnvironmentalEntity : "{F168A8DEE854592D}PrefabLibrary/Rocks/Granite/Granite_BeachCluster_02/Granite_ForestCluster_02.et" {
       coords 27.313 -0.626 22.001
       angleX -2.678
       angleY -0.126
@@ -52882,10 +52882,10 @@ $grp PolylineShapeEntity {
   LineColor 0 0 0 0
   {
    ForestGeneratorEntity : "{7976DBD2DD1FDF52}PrefabLibrary/Generators/Brushlands/FG_Brushland_Sparse.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     {
-     $grp GenericEntity : "{1BA4712EED0CB208}PrefabLibrary/Rocks/Granite/GraniteStone_03.et" {
+     $grp SCR_IndestructibleEnvironmentalEntity : "{1BA4712EED0CB208}PrefabLibrary/Rocks/Granite/GraniteStone_03.et" {
       {
        coords -50.122 -0.054 63.14
        angleY 217.47
@@ -53237,7 +53237,7 @@ $grp PolylineShapeEntity {
       angleZ -0.782
       scale 1.167
      }
-     $grp GenericEntity : "{926C09375D2DAA4D}PrefabLibrary/Rocks/Granite/GraniteStone_01.et" {
+     $grp SCR_IndestructibleEnvironmentalEntity : "{926C09375D2DAA4D}PrefabLibrary/Rocks/Granite/GraniteStone_01.et" {
       {
        coords -48.898 0.032 60.85
        angleY 222.502
@@ -53551,15 +53551,15 @@ $grp PolylineShapeEntity {
   LineColor 0 1 0 0
   {
    ForestGeneratorEntity : "{FC78A728C1FFD92A}PrefabLibrary/Generators/Forests/FG_Forest_HornBeam3.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     {
      Tree : "{0A56ED2CC73ABB23}PrefabLibrary/Vegetation/Bushes/b_sambucus_nigra_2.et" {
       coords -56.379 -0.268 -4.753
       angleY 225.677
       scale 0.84
      }
-     $grp Tree : "{168F4536FBB8FC36}Prefabs/Vegetation/Tree/t_carpinus_betulus_0s.et" {
+     $grp Tree : "{168F4536FBB8FC36}Prefabs/Vegetation/Tree/t_carpinus_betulus/t_carpinus_betulus_0s.et" {
       {
        coords -5.223 0.107 -7.559
        angleX -1.397
@@ -54124,8 +54124,8 @@ $grp PolylineShapeEntity {
   LineColor 0 1 0 0
   {
    ForestGeneratorEntity : "{FC78A728C1FFD92A}PrefabLibrary/Generators/Forests/FG_Forest_HornBeam3.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     {
      $grp Tree : "{0A56ED2CC73ABB23}PrefabLibrary/Vegetation/Bushes/b_sambucus_nigra_2.et" {
       {
@@ -54144,7 +54144,7 @@ $grp PolylineShapeEntity {
        scale 1.084
       }
      }
-     $grp Tree : "{168F4536FBB8FC36}Prefabs/Vegetation/Tree/t_carpinus_betulus_0s.et" {
+     $grp Tree : "{168F4536FBB8FC36}Prefabs/Vegetation/Tree/t_carpinus_betulus/t_carpinus_betulus_0s.et" {
       {
        coords 5.43 -0.768 33.1
        angleX 0.022
@@ -54657,10 +54657,10 @@ $grp PolylineShapeEntity {
   LineColor 0 1 0 0
   {
    ForestGeneratorEntity : "{FC78A728C1FFD92A}PrefabLibrary/Generators/Forests/FG_Forest_HornBeam3.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     {
-     $grp Tree : "{168F4536FBB8FC36}Prefabs/Vegetation/Tree/t_carpinus_betulus_0s.et" {
+     $grp Tree : "{168F4536FBB8FC36}Prefabs/Vegetation/Tree/t_carpinus_betulus/t_carpinus_betulus_0s.et" {
       {
        coords 22.145 -0.255 -6.243
        angleX -0.391
@@ -55239,8 +55239,8 @@ $grp PolylineShapeEntity {
   LineColor 0 1 0 0
   {
    ForestGeneratorEntity : "{FC78A728C1FFD92A}PrefabLibrary/Generators/Forests/FG_Forest_HornBeam3.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     {
      $grp Tree : "{0A56ED2CC73ABB23}PrefabLibrary/Vegetation/Bushes/b_sambucus_nigra_2.et" {
       {
@@ -55294,7 +55294,7 @@ $grp PolylineShapeEntity {
        scale 0.954
       }
      }
-     $grp Tree : "{168F4536FBB8FC36}Prefabs/Vegetation/Tree/t_carpinus_betulus_0s.et" {
+     $grp Tree : "{168F4536FBB8FC36}Prefabs/Vegetation/Tree/t_carpinus_betulus/t_carpinus_betulus_0s.et" {
       {
        coords 48.991 0.553 -49.952
        angleX 0.02
@@ -56798,8 +56798,8 @@ $grp PolylineShapeEntity {
   LineColor 0 0 0 0
   {
    PrefabGeneratorEntity : "{425962A5FD454B89}PrefabLibrary/Generators/Bushlines/PG_Bushline_Betula_01.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     {
      $grp Tree : "{531BB93086610CA1}PrefabLibrary/Vegetation/Trees/t_betula_pendula_0.et" {
       {
@@ -56964,8 +56964,8 @@ $grp PolylineShapeEntity {
   LineColor 0 0 0 0
   {
    PrefabGeneratorEntity : "{425962A5FD454B89}PrefabLibrary/Generators/Bushlines/PG_Bushline_Betula_01.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     {
      $grp Tree : "{CF0A210B7AC7B329}PrefabLibrary/Vegetation/Bushes/b_corylus_avellana_2.et" {
       {
@@ -57033,8 +57033,8 @@ $grp PolylineShapeEntity {
   LineColor 0 0 0 0
   {
    PrefabGeneratorEntity : "{13ECD442B9CC9BCD}PrefabLibrary/Generators/Bushlines/PG_Bushline_Corylus_01.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     {
      Tree : "{0A56ED2CC73ABB23}PrefabLibrary/Vegetation/Bushes/b_sambucus_nigra_2.et" {
       coords -0.402 0.122 -7.996
@@ -57154,8 +57154,8 @@ $grp PolylineShapeEntity {
   LineColor 0 0 0 0
   {
    ForestGeneratorEntity : "{1D22FF068E5369BD}PrefabLibrary/Generators/Forests/FG_Forest_Birch.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     {
      $grp Tree : "{531BB93086610CA1}PrefabLibrary/Vegetation/Trees/t_betula_pendula_0.et" {
       {
@@ -57173,7 +57173,7 @@ $grp PolylineShapeEntity {
        scale 1.172
       }
      }
-     Tree : "{70692C116A6B4177}Prefabs/Vegetation/Tree/t_betula_pendula_1sw.et" {
+     Tree : "{70692C116A6B4177}Prefabs/Vegetation/Tree/t_betula_pendula/t_betula_pendula_1sw.et" {
       coords -2.667 -0.049 4.7
       scale 1.127
      }
@@ -57269,8 +57269,8 @@ $grp PolylineShapeEntity {
   LineColor 0 1 0 0
   {
    ForestGeneratorEntity : "{262382109CAD2485}PrefabLibrary/Generators/Forests/FG_Forest_Pine3.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     {
      $grp Tree : "{0572596E23DDDC10}PrefabLibrary/Vegetation/Trees/t_pinus_sylvestris_2f.et" {
       {
@@ -57301,7 +57301,7 @@ $grp PolylineShapeEntity {
        scale 0.651
       }
      }
-     $grp GenericEntity : "{1BA4712EED0CB208}PrefabLibrary/Rocks/Granite/GraniteStone_03.et" {
+     $grp SCR_IndestructibleEnvironmentalEntity : "{1BA4712EED0CB208}PrefabLibrary/Rocks/Granite/GraniteStone_03.et" {
       {
        coords 5.119 -2.237 25.71
        angleX 5.524
@@ -57410,7 +57410,7 @@ $grp PolylineShapeEntity {
       angleZ -0.899
       scale 0.859
      }
-     $grp GenericEntity : "{926C09375D2DAA4D}PrefabLibrary/Rocks/Granite/GraniteStone_01.et" {
+     $grp SCR_IndestructibleEnvironmentalEntity : "{926C09375D2DAA4D}PrefabLibrary/Rocks/Granite/GraniteStone_01.et" {
       {
        coords 1.727 -1.996 20.853
        angleX -3.309
@@ -57497,7 +57497,7 @@ $grp PolylineShapeEntity {
        scale 1.278
       }
      }
-     $grp Tree : "{B78F72C338993EA1}Prefabs/Vegetation/Tree/t_betula_pendula_1f.et" {
+     $grp Tree : "{B78F72C338993EA1}Prefabs/Vegetation/Tree/t_betula_pendula/t_betula_pendula_1f.et" {
       {
        coords 2.789 -2.233 25.307
        angleX 0.734
@@ -57667,8 +57667,8 @@ $grp PolylineShapeEntity {
   LineColor 0 1 0 0
   {
    ForestGeneratorEntity : "{19E4EBD1CD1A4E41}PrefabLibrary/Generators/Forests/FG_Forest_Hornbeam2.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     {
      $grp Tree : "{0A56ED2CC73ABB23}PrefabLibrary/Vegetation/Bushes/b_sambucus_nigra_2.et" {
       {
@@ -57692,7 +57692,7 @@ $grp PolylineShapeEntity {
        scale 1.124
       }
      }
-     $grp Tree : "{168F4536FBB8FC36}Prefabs/Vegetation/Tree/t_carpinus_betulus_0s.et" {
+     $grp Tree : "{168F4536FBB8FC36}Prefabs/Vegetation/Tree/t_carpinus_betulus/t_carpinus_betulus_0s.et" {
       {
        coords -31.81 0.337 -26.861
        angleX -0.656
@@ -58464,8 +58464,8 @@ $grp PolylineShapeEntity {
   LineColor 0 1 0 0
   {
    ForestGeneratorEntity : "{FC78A728C1FFD92A}PrefabLibrary/Generators/Forests/FG_Forest_HornBeam3.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     {
      $grp Tree : "{425761285F36BF16}PrefabLibrary/Vegetation/Trees/t_betula_pendula_1s.et" {
       {
@@ -58569,8 +58569,8 @@ $grp PolylineShapeEntity {
   LineColor 0 0 0 0
   {
    PrefabGeneratorEntity : "{D22346876A0446AC}PrefabLibrary/Generators/Bushlines/PG_Bushline_Corylus_Small.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     {
      $grp Tree : "{5D51E831072581F3}PrefabLibrary/Vegetation/Trees/t_carpinus_betulus_0s.et" {
       {
@@ -58683,23 +58683,23 @@ $grp PolylineShapeEntity {
   coords 6049.737 9.094 5243.867
   Points {
    ShapePoint "{64D91D103E7CEB56}" {
-    Position 5.42 -0 -2.15
+    Position 5.42 0 -2.15
    }
    ShapePoint "{64D91D103E7CDBDE}" {
-    Position -8.954 -0 -0.289
+    Position -8.954 0 -0.289
    }
    ShapePoint "{64D91D103D15CDDD}" {
-    Position -8.832 -0 7.105
+    Position -8.832 0 7.105
    }
   }
   LineColor 0 0 0 0
   {
    PrefabGeneratorEntity : "{425962A5FD454B89}PrefabLibrary/Generators/Bushlines/PG_Bushline_Betula_01.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     {
      Tree : "{531BB93086610CA1}PrefabLibrary/Vegetation/Trees/t_betula_pendula_0.et" {
-      coords -7.365 -0 4.792
+      coords -7.365 0 4.792
       angleX 2.069
       angleY -96.81
       angleZ -1.423
@@ -58707,14 +58707,14 @@ $grp PolylineShapeEntity {
      }
      $grp Tree : "{960EA50FD57CD7D5}PrefabLibrary/Vegetation/Trees/t_betula_pendula_1sw.et" {
       {
-       coords -2.776 -0 -0.038
+       coords -2.776 0 -0.038
        angleX 1.275
        angleY -113.374
        angleZ -0.292
        scale 1.25
       }
       {
-       coords -5.489 -0 0.815
+       coords -5.489 0 0.815
        angleX -0.674
        angleY -69.306
        angleZ 0.025
@@ -58722,7 +58722,7 @@ $grp PolylineShapeEntity {
       }
      }
      Tree : "{C8E68C4C6AF159DA}PrefabLibrary/Vegetation/Trees/t_betula_pendula_2sw.et" {
-      coords -8.586 -0 -1.3
+      coords -8.586 0 -1.3
       angleX 3.892
       angleY 90.517
       angleZ 3.663
@@ -58730,21 +58730,21 @@ $grp PolylineShapeEntity {
      }
      $grp Tree : "{CF0A210B7AC7B329}PrefabLibrary/Vegetation/Bushes/b_corylus_avellana_2.et" {
       {
-       coords 5.424 -0 -2.123
+       coords 5.424 0 -2.123
        angleX 0.212
        angleY -118.691
        angleZ -0.978
        scale 0.65
       }
       {
-       coords 2.666 -0 -1.62
+       coords 2.666 0 -1.62
        angleX 0.858
        angleY -155.617
        angleZ -0.554
        scale 0.84
       }
       {
-       coords -0.018 -0 -0.538
+       coords -0.018 0 -0.538
        angleX 0.028
        angleY 15.511
        angleZ 1.41
@@ -58752,14 +58752,14 @@ $grp PolylineShapeEntity {
      }
      $grp Tree : "{DA7492F3E6B63251}PrefabLibrary/Vegetation/Bushes/b_corylus_avellana_1l.et" {
       {
-       coords -6.976 -0 1.984
+       coords -6.976 0 1.984
        angleX -0.779
        angleY 25.01
        angleZ -0.958
        scale 1.15
       }
       {
-       coords -10.37 -0 7.641
+       coords -10.37 0 7.641
        angleX 0.276
        angleY -49.589
        angleZ -1.22
@@ -58786,8 +58786,8 @@ $grp PolylineShapeEntity {
   LineColor 0 0 0 0
   {
    PrefabGeneratorEntity : "{D22346876A0446AC}PrefabLibrary/Generators/Bushlines/PG_Bushline_Corylus_Small.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     {
      $grp Tree : "{79BC4FC331405E37}PrefabLibrary/Vegetation/Trees/t_carpinus_betulus_0.et" {
       {
@@ -58884,8 +58884,8 @@ $grp PolylineShapeEntity {
   LineColor 0 0 0 0
   {
    PrefabGeneratorEntity : "{D22346876A0446AC}PrefabLibrary/Generators/Bushlines/PG_Bushline_Corylus_Small.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     {
      $grp Tree : "{5D51E831072581F3}PrefabLibrary/Vegetation/Trees/t_carpinus_betulus_0s.et" {
       {
@@ -58999,8 +58999,8 @@ $grp PolylineShapeEntity {
   LineColor 0 0 0 0
   {
    PrefabGeneratorEntity : "{D22346876A0446AC}PrefabLibrary/Generators/Bushlines/PG_Bushline_Corylus_Small.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     {
      $grp Tree : "{5D51E831072581F3}PrefabLibrary/Vegetation/Trees/t_carpinus_betulus_0s.et" {
       {
@@ -59505,8 +59505,8 @@ $grp PolylineShapeEntity {
   LineColor 0 0 0 0
   {
    PrefabGeneratorEntity : "{13ECD442B9CC9BCD}PrefabLibrary/Generators/Bushlines/PG_Bushline_Corylus_01.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     {
      $grp Tree : "{0A56ED2CC73ABB23}PrefabLibrary/Vegetation/Bushes/b_sambucus_nigra_2.et" {
       {
@@ -59899,8 +59899,8 @@ $grp PolylineShapeEntity {
   LineColor 0 0 0 0
   {
    PrefabGeneratorEntity : "{D22346876A0446AC}PrefabLibrary/Generators/Bushlines/PG_Bushline_Corylus_Small.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     {
      $grp Tree : "{6602D9CC7BFE340D}PrefabLibrary/Vegetation/Bushes/b_sambucus_nigra_1.et" {
       {
@@ -59964,6 +59964,474 @@ $grp PolylineShapeEntity {
    }
   }
  }
+ {
+  coords 5874.962 5.6 5550.481
+  Points {
+   ShapePoint "{6506FEA8354E4291}" {
+    Position 0 0 0
+   }
+   ShapePoint "{6506FEA8354F8B03}" {
+    Position 83.265 -1.76 -27.353
+   }
+   ShapePoint "{6506FEA8344D227B}" {
+    Position 156.88 -1.694 -51.69
+   }
+   ShapePoint "{6506FEA834C541B0}" {
+    Position 223.837 -1.86 -77.177
+   }
+  }
+  LineColor 0 0 0 0
+  {
+   PrefabGeneratorEntity : "{D22346876A0446AC}PrefabLibrary/Generators/Bushlines/PG_Bushline_Corylus_Small.et" {
+    Flags 1048579
+    {
+     $grp Tree : "{5D51E831072581F3}PrefabLibrary/Vegetation/Trees/t_carpinus_betulus_0s.et" {
+      {
+       coords 1.526 -0.007 -0.479
+       angleX 358.468
+       angleY 108.185
+       angleZ 358.4
+       scale 0.893
+      }
+      {
+       coords 5.974 -0.061 -2.317
+       angleX 359.628
+       angleY 108.185
+       angleZ 0.603
+       scale 0.893
+      }
+      {
+       coords 77.805 -1.727 -24.559
+       angleX 2.205
+       angleY 108.185
+       angleZ 2.788
+       scale 0.893
+      }
+      {
+       coords 87.757 -1.788 -29.057
+       angleX 357.33
+       angleY 108.294
+       angleZ 1.206
+       scale 0.893
+      }
+      {
+       coords 89.095 -1.788 -30.107
+       angleX 358.994
+       angleY 108.294
+       angleZ 357.758
+       scale 0.893
+      }
+      {
+       coords 128.651 -1.663 -42.988
+       angleX 359.974
+       angleY 108.294
+       angleZ 358.669
+       scale 0.893
+      }
+      {
+       coords 133.101 -1.663 -44.82
+       angleX 1.121
+       angleY 108.294
+       angleZ 2.824
+       scale 0.893
+      }
+      {
+       coords 141.146 -1.663 -45.971
+       angleX 357.555
+       angleY 108.294
+       angleZ 357.485
+       scale 0.893
+      }
+     }
+     $grp Tree : "{6602D9CC7BFE340D}PrefabLibrary/Vegetation/Bushes/b_sambucus_nigra_1.et" {
+      {
+       coords 4.623 -0.02 -1.304
+       angleX 358.285
+       angleY 108.185
+       angleZ 0.835
+       scale 1.109
+      }
+      {
+       coords 9.276 -0.07 -2.516
+       angleX 358.773
+       angleY 108.185
+       angleZ 358.744
+       scale 1.109
+      }
+      {
+       coords 16.992 -0.233 -4.657
+       angleX 358.51
+       angleY 108.185
+       angleZ 1.827
+       scale 1.109
+      }
+      {
+       coords 23.073 -0.513 -6.648
+       angleX 0.995
+       angleY 108.185
+       angleZ 1.927
+       scale 1.109
+      }
+      {
+       coords 56.532 -1.641 -17.557
+       angleX 0.962
+       angleY 108.185
+       angleZ 1.755
+       scale 1.109
+      }
+      {
+       coords 57.495 -1.663 -19.752
+       angleX 358.292
+       angleY 108.185
+       angleZ 1.154
+       scale 1.109
+      }
+      {
+       coords 62.028 -1.694 -21.329
+       angleX 1.825
+       angleY 108.185
+       angleZ 0.285
+       scale 1.109
+      }
+      {
+       coords 79.018 -1.749 -25.992
+       angleX 358.099
+       angleY 108.185
+       angleZ 0.61
+       scale 1.109
+      }
+      {
+       coords 81.921 -1.757 -27.405
+       angleX 0.902
+       angleY 108.185
+       angleZ 1.831
+       scale 1.109
+      }
+      {
+       coords 92.667 -1.788 -29.496
+       angleX 1.35
+       angleY 108.294
+       angleZ 1.556
+       scale 1.109
+      }
+      {
+       coords 122.983 -1.674 -39.742
+       angleX 1.898
+       angleY 108.294
+       angleZ 359.482
+       scale 1.109
+      }
+      {
+       coords 126.123 -1.664 -40.441
+       angleX 1.509
+       angleY 108.294
+       angleZ 1.014
+       scale 1.109
+      }
+      {
+       coords 134.609 -1.663 -45.355
+       angleX 0.289
+       angleY 108.294
+       angleZ 358.018
+       scale 1.109
+      }
+      {
+       coords 139.711 -1.663 -45.213
+       angleX 358.046
+       angleY 108.294
+       angleZ 359.791
+       scale 1.109
+      }
+     }
+     $grp Tree : "{79BC4FC331405E37}PrefabLibrary/Vegetation/Trees/t_carpinus_betulus_0.et" {
+      {
+       coords 11.884 -0.156 -4.828
+       angleX 358.448
+       angleY 108.185
+       angleZ 2.703
+       scale 1.2
+      }
+      {
+       coords 18.072 -0.336 -6.495
+       angleX 358.196
+       angleY 108.185
+       angleZ 0.85
+       scale 1.2
+      }
+      {
+       coords 21.094 -0.465 -7.547
+       angleX 359.21
+       angleY 108.185
+       angleZ 2.359
+       scale 1.2
+      }
+      {
+       coords 63.582 -1.703 -21.726
+       angleX 0.344
+       angleY 108.185
+       angleZ 0.225
+       scale 1.2
+      }
+      {
+       coords 65.692 -1.725 -20.428
+       angleX 2.555
+       angleY 108.185
+       angleZ 358.184
+       scale 1.2
+      }
+      {
+       coords 71.202 -1.725 -24.158
+       angleX 2.492
+       angleY 108.185
+       angleZ 2.644
+       scale 1.2
+      }
+      {
+       coords 85.096 -1.763 -26.91
+       angleX 357.114
+       angleY 108.294
+       angleZ 359.351
+       scale 1.2
+      }
+      {
+       coords 119.698 -1.684 -39.484
+       angleX 0.639
+       angleY 108.294
+       angleZ 1.481
+       scale 1.2
+      }
+      {
+       coords 130.084 -1.663 -43.749
+       angleX 357.674
+       angleY 108.294
+       angleZ 358.288
+       scale 1.2
+      }
+     }
+     $grp Tree : "{839E9535771BA366}PrefabLibrary/Vegetation/Bushes/b_sambucus_nigra_0.et" {
+      {
+       coords 0.355 0.042 1.081
+       angleX 0.181
+       angleY 108.185
+       angleZ 1.669
+       scale 0.8
+      }
+      {
+       coords 3.052 -0.022 -0.96
+       angleX 1.956
+       angleY 108.185
+       angleZ 1.656
+       scale 0.8
+      }
+      {
+       coords 10.922 -0.074 -2.632
+       angleX 1.684
+       angleY 108.185
+       angleZ 358.439
+       scale 0.8
+      }
+      {
+       coords 19.756 -0.373 -6.492
+       angleX 358.67
+       angleY 108.185
+       angleZ 1.626
+       scale 0.8
+      }
+      {
+       coords 48.792 -1.487 -15.49
+       angleX 358.545
+       angleY 108.185
+       angleZ 0.43
+       scale 0.8
+      }
+      {
+       coords 50.018 -1.528 -16.884
+       angleX 0.16
+       angleY 108.185
+       angleZ 1.916
+       scale 0.8
+      }
+      {
+       coords 54.969 -1.61 -17.19
+       angleX 359.191
+       angleY 108.185
+       angleZ 358.943
+       scale 0.8
+      }
+      {
+       coords 60.729 -1.689 -20.16
+       angleX 1.515
+       angleY 108.185
+       angleZ 1.316
+       scale 0.8
+      }
+      {
+       coords 68.112 -1.725 -23.313
+       angleX 0.905
+       angleY 108.185
+       angleZ 359.649
+       scale 0.8
+      }
+      {
+       coords 72.904 -1.725 -24.102
+       angleX 358.502
+       angleY 108.185
+       angleZ 1.023
+       scale 0.8
+      }
+      {
+       coords 94.216 -1.788 -29.909
+       angleX 1.585
+       angleY 108.294
+       angleZ 1.237
+       scale 0.8
+      }
+      {
+       coords 121.551 -1.686 -38.978
+       angleX 1.174
+       angleY 108.294
+       angleZ 0.511
+       scale 0.8
+      }
+      {
+       coords 127.582 -1.663 -41.125
+       angleX 359.622
+       angleY 108.294
+       angleZ 1.57
+       scale 0.8
+      }
+      {
+       coords 131.887 -1.663 -43.395
+       angleX 358.103
+       angleY 108.294
+       angleZ 359.634
+       scale 0.8
+      }
+     }
+     $grp Tree : "{A35E15EBC6033C07}PrefabLibrary/Vegetation/Bushes/b_corylus_avellana_1.et" {
+      {
+       coords 13.782 -0.165 -4.178
+       angleX 358.997
+       angleY 108.185
+       angleZ 0.387
+       scale 1.2
+      }
+      {
+       coords 14.955 -0.232 -5.732
+       angleX 1.338
+       angleY 108.185
+       angleZ 359.998
+       scale 1.2
+      }
+      {
+       coords 74.541 -1.725 -24.246
+       angleX 359.832
+       angleY 108.185
+       angleZ 1.953
+       scale 1.2
+      }
+      {
+       coords 91.058 -1.788 -29.266
+       angleX 359.375
+       angleY 108.294
+       angleZ 359.162
+       scale 1.2
+      }
+      {
+       coords 124.479 -1.665 -40.316
+       angleX 358.768
+       angleY 108.294
+       angleZ 358.06
+       scale 1.2
+      }
+     }
+     $grp Tree : "{AD7EFA7B1214DD21}PrefabLibrary/Vegetation/Bushes/b_corylus_avellana_0l.et" {
+      {
+       coords 7.763 -0.046 -1.998
+       angleX 1.624
+       angleY 108.185
+       angleZ 1.126
+       scale 0.7
+      }
+      {
+       coords 51.667 -1.556 -16.991
+       angleX 358.573
+       angleY 108.185
+       angleZ 0.911
+       scale 0.7
+      }
+      {
+       coords 59.612 -1.662 -18.435
+       angleX 0.08
+       angleY 108.185
+       angleZ 358.124
+       scale 0.7
+      }
+      {
+       coords 66.573 -1.725 -22.871
+       angleX 358.195
+       angleY 108.185
+       angleZ 1.701
+       scale 0.7
+      }
+      {
+       coords 76.23 -1.725 -24.227
+       angleX 0.719
+       angleY 108.185
+       angleZ 0.794
+       scale 0.7
+      }
+      {
+       coords 83.383 -1.762 -28.081
+       angleX 0.409
+       angleY 108.185
+       angleZ 358.888
+       scale 0.7
+      }
+      {
+       coords 137.84 -1.663 -45.776
+       angleX 359.583
+       angleY 108.294
+       angleZ 1.974
+       scale 0.7
+      }
+     }
+     $grp Tree : "{B48B7DD4E1C5FE40}PrefabLibrary/Vegetation/Bushes/b_corylus_avellana_0.et" {
+      {
+       coords 52.979 -1.594 -18.122
+       angleX -1.15
+       angleY 108.185
+       scale 0.7
+      }
+      {
+       coords 70.2 -1.725 -22.082
+       angleX -1.15
+       angleY 108.185
+       scale 0.7
+      }
+      {
+       coords 80.394 -1.757 -26.931
+       angleX -1.15
+       angleY 108.185
+       scale 0.7
+      }
+      {
+       coords 86.06 -1.788 -29.093
+       angleX 0.049
+       angleY 108.294
+       scale 0.7
+      }
+      {
+       coords 136.708 -1.663 -44.101
+       angleX 0.049
+       angleY 108.294
+       scale 0.7
+      }
+     }
+    }
+   }
+  }
+ }
 }
 $grp SplineShapeEntity {
  {
@@ -59982,8 +60450,8 @@ $grp SplineShapeEntity {
   LineColor 0 0 0 0
   {
    PrefabGeneratorEntity : "{425962A5FD454B89}PrefabLibrary/Generators/Bushlines/PG_Bushline_Betula_01.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     {
      $grp Tree : "{C8E68C4C6AF159DA}PrefabLibrary/Vegetation/Trees/t_betula_pendula_2sw.et" {
       {
@@ -60061,8 +60529,8 @@ $grp SplineShapeEntity {
   LineColor 0 0 0 0
   {
    PrefabGeneratorEntity : "{13ECD442B9CC9BCD}PrefabLibrary/Generators/Bushlines/PG_Bushline_Corylus_01.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     m_fPerlinThreshold -26
     {
      $grp Tree : "{0A56ED2CC73ABB23}PrefabLibrary/Vegetation/Bushes/b_sambucus_nigra_2.et" {
@@ -60437,8 +60905,8 @@ $grp SplineShapeEntity {
   LineColor 0 0 0 0
   {
    PrefabGeneratorEntity : "{425962A5FD454B89}PrefabLibrary/Generators/Bushlines/PG_Bushline_Betula_01.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     {
      $grp Tree : "{531BB93086610CA1}PrefabLibrary/Vegetation/Trees/t_betula_pendula_0.et" {
       {
@@ -60646,8 +61114,8 @@ $grp SplineShapeEntity {
   LineColor 0 0 0 0
   {
    PrefabGeneratorEntity : "{4DDCB9D8621CEECD}PrefabLibrary/Generators/Bushlines/PG_Bushline_Phragmites_01.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     {
      $grp Tree : "{077C695F02F4312C}PrefabLibrary/Vegetation/Bushes/b_phragmites_australis_1.et" {
       {
@@ -60843,8 +61311,8 @@ $grp SplineShapeEntity {
   LineColor 0 0 0 0
   {
    PrefabGeneratorEntity : "{D22346876A0446AC}PrefabLibrary/Generators/Bushlines/PG_Bushline_Corylus_Small.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     {
      $grp Tree : "{79BC4FC331405E37}PrefabLibrary/Vegetation/Trees/t_carpinus_betulus_0.et" {
       {
@@ -60959,8 +61427,8 @@ $grp SplineShapeEntity {
   LineColor 0 0 0 0
   {
    PrefabGeneratorEntity : "{D22346876A0446AC}PrefabLibrary/Generators/Bushlines/PG_Bushline_Corylus_Small.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     {
      $grp Tree : "{5D51E831072581F3}PrefabLibrary/Vegetation/Trees/t_carpinus_betulus_0s.et" {
       {
@@ -61221,7 +61689,7 @@ GenericEntity : "{3719711212046F85}PrefabLibrary/Props/Agricultural/CultivatorWr
  angleY 0
  angleZ 0.895
 }
-GenericEntity : "{38CC50480D29CCFD}PrefabLibrary/Rocks/Granite/Granite_Boulder_01/Granite_Boulder_01.et" {
+SCR_IndestructibleEnvironmentalEntity : "{38CC50480D29CCFD}PrefabLibrary/Rocks/Granite/Granite_Boulder_01/Granite_Boulder_01.et" {
  coords 5372.907 0 5275.989
  angleX -154.489
  angleY 83.4
@@ -61301,7 +61769,7 @@ GenericEntity : "{53A0C67B9F92F426}PrefabLibrary/Props/Garbage/GarbageStack_01_L
  angleY -5.286
  angleZ 0.446
 }
-GenericEntity : "{549864A8B1ED43D3}PrefabLibrary/Rocks/Granite/Granite_Boulder_02/Granite_Boulder_02.et" {
+SCR_IndestructibleEnvironmentalEntity : "{549864A8B1ED43D3}PrefabLibrary/Rocks/Granite/Granite_Boulder_02/Granite_Boulder_02.et" {
  coords 5370.196 0 5286.788
  angleX 26.165
  angleY 241.036
@@ -61314,7 +61782,7 @@ GenericEntity : "{586EBE658DC1F07A}PrefabLibrary/Props/Civilian/Garden/LadderWoo
  angleY 171.053
  angleZ -0.086
 }
-GenericEntity : "{5A5597F454A54EFA}PrefabLibrary/Rocks/Granite/Granite_Cluster_01/Granite_Cluster_01.et" {
+SCR_IndestructibleEnvironmentalEntity : "{5A5597F454A54EFA}PrefabLibrary/Rocks/Granite/Granite_Cluster_01/Granite_Cluster_01.et" {
  coords 5887.949 0.104 6052.831
  angleX 0.525
  angleY -159.495
@@ -61759,7 +62227,7 @@ $grp Tree : "{9CC816FDA9E08938}PrefabLibrary/Vegetation/Bushes/b_salix_cinerea_1
   scale 0.966
  }
  {
-  coords 6068.034 -0 5057.196
+  coords 6068.034 0 5057.196
   angleY 130.379
   scale 0.779
  }
@@ -61848,7 +62316,7 @@ $grp Tree : "{B3453920EE605F13}PrefabLibrary/Vegetation/Trees/t_carpinus_betulus
  }
 }
 Tree : "{B48B7DD4E1C5FE40}PrefabLibrary/Vegetation/Bushes/b_corylus_avellana_0.et" {
- coords 6085.913 -0 5080.515
+ coords 6085.913 0 5080.515
  angleX -0.588
  angleY -1.771
  scale 0.702
@@ -61931,7 +62399,7 @@ $grp Tree : "{C8E68C4C6AF159DA}PrefabLibrary/Vegetation/Trees/t_betula_pendula_2
   scale 1.169
  }
  {
-  coords 6068.864 -0 5061.776
+  coords 6068.864 0 5061.776
   angleX -1.446
   angleY -141.039
   angleZ -9.078
@@ -62120,7 +62588,7 @@ $grp Tree : "{FA0813CCD98B815B}PrefabLibrary/Vegetation/Trees/t_malus_domestica_
   scale 1.183
  }
 }
-$grp GenericEntity : "{FC2FFB6EB18CBA53}PrefabLibrary/Rocks/Granite/Granite_Stone_01/Granite_BeachStone_01.et" {
+$grp SCR_IndestructibleEnvironmentalEntity : "{FC2FFB6EB18CBA53}PrefabLibrary/Rocks/Granite/Granite_Stone_01/Granite_BeachStone_01.et" {
  {
   coords 5253.052 0 4896.097
   angleX -0.515
