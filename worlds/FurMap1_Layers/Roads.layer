@@ -3915,22 +3915,12 @@ $grp SplineShapeEntity {
     Position -235.709 4.456 72.915
    }
    ShapePoint "{61BD0CE5975F9961}" {
-    Position -303.652 6.903 93.933
-   }
-   ShapePoint "{61BD0CE500A0CFEB}" {
-    Position -242.566 4.706 75.036
-   }
-   ShapePoint "{61BD0CE503761DB0}" {
-    Position -151.826 2.18 46.967
-   }
-   ShapePoint "{61BD0CE500A027B2}" {
-    Position -75.913 1.101 23.483
+    Position -303.652 6.713 93.933
    }
   }
   {
    RoadGeneratorEntity : "{02AF8C5A31EC3A53}PrefabLibrary/Generators/Roads/Asphalt/RG_Road_Asphalt_E_01.et" {
     coords 0 0 0
-    AdjustHeightMap 0
     {
      RoadEntity {
       ID "556C655491CDCD64"
@@ -3948,16 +3938,7 @@ $grp SplineShapeEntity {
         Position -235.709 4.456 72.915
        }
        ShapePoint "{61BD0CE500A0E15C}" {
-        Position -303.652 6.903 93.933
-       }
-       ShapePoint "{61BD0CE500A0E18D}" {
-        Position -242.566 4.706 75.037
-       }
-       ShapePoint "{61BD0CE500A0E1CC}" {
-        Position -151.826 2.18 46.966
-       }
-       ShapePoint "{61BD0CE500A0E004}" {
-        Position -75.913 1.101 23.483
+        Position -303.652 6.713 93.933
        }
       }
       IsClosedSpline 0
@@ -9072,8 +9053,8 @@ $grp SplineShapeEntity {
   LineColor 0 0 0 0
   {
    WallGeneratorEntity : "{F020C729AB582D8F}PrefabLibrary/Generators/Pavements/Asphalt/WG_Asphalt_Pavement_01_Wide.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     {
      $grp StaticModelEntity : "{C8987A7787B4C3F3}PrefabLibrary/Infrastructure/Pavements/Asphalt/AsphaltPavement_01_Wide_4m_A.et" {
       {
@@ -14157,7 +14138,7 @@ $grp SplineShapeEntity {
   coords 6097.708 8.787 5288.245
   Points {
    ShapePoint "{64D677957CF59FC1}" {
-    Position 0 -0 0
+    Position 0 0 0
    }
    ShapePoint "{64D677957CF5C78A}" {
     Position 24.923 0.036 -6.097
@@ -14207,7 +14188,7 @@ $grp SplineShapeEntity {
       ID "556C65569DF42CF7"
       SplinePoints {
        ShapePoint "{556C65561A62B78A}" {
-        Position 0 -0 0
+        Position 0 0 0
        }
        ShapePoint "{556C65561A62EBA9}" {
         Position 24.923 0.036 -6.097
