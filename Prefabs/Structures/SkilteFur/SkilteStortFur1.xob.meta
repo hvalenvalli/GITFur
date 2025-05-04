@@ -1,0 +1,49 @@
+MetaFileClass {
+ Name "{649A4E4B1E86A256}Prefabs/Structures/SkilteFur/SkilteStortFur1.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{6548A178698D17D2}" {
+     SourceMaterial "Material"
+     AssignedMaterial "{6A4F93E86290C7A6}Prefabs/Structures/SkilteFur/Data/Material.emat"
+    }
+   }
+   MeshParams {
+    MeshParam Skilt {
+    }
+   }
+   GeometryParams {
+    GeometryParam UBX_Component01 {
+     LayerPreset "PropFireView"
+     SurfaceProperties {
+      "{6A7CBD6BBCFC5148}Common/Materials/Game/Plastic/plastic_6mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{6548A178696E83F9}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{6548A178696E826A}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{6548A178696E8246}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{6548A178696E8221}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{6548A178696E8203}" : "{F62AA8E7B8EA9D26}configs/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{6548A178696E82E1}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}
