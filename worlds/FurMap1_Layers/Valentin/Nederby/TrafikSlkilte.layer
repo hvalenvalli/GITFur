@@ -624,6 +624,36 @@ $grp GenericEntity : "{03262D2D61225380}PrefabLibrary/Infrastructure/Lamps/LampS
   angleZ 0.193
  }
 }
+$grp GenericEntity : "{0F9E3E5E45506627}Prefabs/Structures/SkilteFur/SkiltStort2.et" {
+ {
+  components {
+   MeshObject "{6548A17843668C46}" {
+    Materials {
+     MaterialAssignClass "{654D252E14EBB2E6}" {
+      SourceMaterial "Material"
+      AssignedMaterial "{38C4D7816C1FF1BE}Skilte/PilevejviserSkilte/Vejpile Fur Autoservice - IMERYSMaterial.emat"
+     }
+    }
+   }
+  }
+  coords 4572.024 2.406 4068.856
+  angleY 124.949
+ }
+ {
+  components {
+   MeshObject "{6548A17843668C46}" {
+    Materials {
+     MaterialAssignClass "{654D252CC78761D0}" {
+      SourceMaterial "Material"
+      AssignedMaterial "{567C8C4CDF787CB7}Skilte/PilevejviserSkilte/Vejpile Aeldrecenter - VejkirkeMaterial.emat"
+     }
+    }
+   }
+  }
+  coords 4360.669 2.636 3603.616
+  angleY -6.892
+ }
+}
 GenericEntity : "{17268A1479D32278}PrefabLibrary/Infrastructure/Lamps/LampStreet_E_03_addon/LampStreet_E_03_addon.et" {
  coords 4559.592 6.273 4142.754
  angleY -87.311
@@ -963,6 +993,50 @@ $grp GenericEntity : "{9096F3C3D040A2F3}PrefabLibrary/Infrastructure/Lamps/LampS
   angleX -0.463
   angleY 98.803
   angleZ -0.418
+ }
+}
+GenericEntity : "{9EAE3B1F65CD6518}Prefabs/Structures/SkilteFur/SkiltStort4.et" {
+ components {
+  MeshObject "{6548A1601E7BADEC}" {
+   Materials {
+    MaterialAssignClass "{654D252FB6B43944}" {
+     SourceMaterial "Material"
+     AssignedMaterial "{7D6CF695055FEF1A}Skilte/PilevejviserSkilte/Vejpile Skamol - L.B. Truckservice - 2 Bette Jenses Hyw (K) - 3 Rodsten (K)Material.emat"
+    }
+   }
+  }
+ }
+ coords 4415.841 9.306 4163.377
+ angleY 101.675
+}
+$grp GenericEntity : "{C852AEC3B006252B}Prefabs/Structures/SkilteFur/SkiltStort3.et" {
+ {
+  components {
+   MeshObject "{6548A1787E80CA52}" {
+    Materials {
+     MaterialAssignClass "{654D252FFB29D258}" {
+      SourceMaterial "Material"
+      AssignedMaterial "{4880BFEAEFD87334}Skilte/PilevejviserSkilte/Vejpile Fur Museum(K) - Custom - JettestuenMaterial.emat"
+     }
+    }
+   }
+  }
+  coords 4569.39 2.678 4071.859
+  angleY 68.027
+ }
+ {
+  components {
+   MeshObject "{6548A1787E80CA52}" {
+    Materials {
+     MaterialAssignClass "{654D252FF1C69EA1}" {
+      SourceMaterial "Material"
+      AssignedMaterial "{D6C4DAEB4CDFAD05}Skilte/PilevejviserSkilte/Vejpile Skamol - L.B. Truckservice - Gaardbutik KlodeMaterials.emat"
+     }
+    }
+   }
+  }
+  coords 4570.258 2.655 4069.406
+  angleY 72.682
  }
 }
 $grp GenericEntity : "{E926CA518C814E34}PrefabLibrary/Infrastructure/Lamps/LampStreet_E_02_addon/LampStreet_E_02_addon.et" {

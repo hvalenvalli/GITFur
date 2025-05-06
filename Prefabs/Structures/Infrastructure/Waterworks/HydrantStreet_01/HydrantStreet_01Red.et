@@ -1,0 +1,13 @@
+SCR_DestructibleEntity : "{08FB064C1691FD06}Prefabs/Structures/Infrastructure/Waterworks/HydrantStreet_01/HydrantStreet_01_base.et" {
+ ID "5111E74D4E7A8DB6"
+ components {
+  SCR_DestructionMultiPhaseComponent "{58F896B4CD371A8B}" {
+   Enabled 0
+   m_eMaterialSoundType BREAK_WATERHYDRANT
+  }
+  RplComponent "{58FC7CAC2034C3E2}" {
+   Enabled 0
+  }
+ }
+ m_eMaterialSoundType BREAK_WATERHYDRANT
+}

@@ -4,6 +4,37 @@ GenericEntity : "{025B64D88EC05D15}PrefabLibrary/Infrastructure/Sings/SignDeadEn
  angleY 23.919
  angleZ -1.022
 }
+$grp GenericEntity : "{053B6E13F34095A0}Prefabs/Structures/SkilteFur/SkiltStort1.et" {
+ {
+  components {
+   MeshObject "{6548A178426C7A88}" {
+    Materials {
+     MaterialAssignClass "{654D252F6B9F3083}" {
+      SourceMaterial "Material"
+      AssignedMaterial "{88C35045C0DF18F7}Skilte/PilevejviserSkilte/Vejpile 2 FaerkerhedeMaterial.emat"
+     }
+    }
+   }
+  }
+  coords 5333.4 0.906 5019.641
+  angleX -1.331
+  angleY 109.276
+ }
+ {
+  components {
+   MeshObject "{6548A178426C7A88}" {
+    Materials {
+     MaterialAssignClass "{654D252F73B017D3}" {
+      SourceMaterial "Material"
+      AssignedMaterial "{16AF4BADC95D618D}Skilte/PilevejviserSkilte/Vejpile IMERYSMaterial.emat"
+     }
+    }
+   }
+  }
+  coords 5334.424 0.889 5022.167
+  angleY 109.276
+ }
+}
 $grp GenericEntity : "{236C89A0F7D4E909}PrefabLibrary/Infrastructure/Sings/SignBendDoubleRight.et" {
  {
   coords 5785.224 1.702 6190.782

@@ -5363,7 +5363,17 @@ $grp SplineShapeEntity {
  }
 }
 GenericEntity : "{0F9E3E5E45506627}Prefabs/Structures/SkilteFur/SkiltStort2.et" {
- coords 4257.745 1.911 2895.862
+ components {
+  MeshObject "{6548A17843668C46}" {
+   Materials {
+    MaterialAssignClass "{654D252E87681111}" {
+     SourceMaterial "Material"
+     AssignedMaterial "{D90ADC04B490D173}Skilte/PilevejviserSkilte/Vejpile 6 Fur bryghus - Reginas StaffeliMaterials.emat"
+    }
+   }
+  }
+ }
+ coords 4258.68 1.911 2896.094
  angleY -13.939
 }
 StaticModelEntity : "{1C2C424CBCF3A599}PrefabLibrary/Terrain/Erosion/ErodedEmbankment_01_dirt_turnin.et" {
@@ -5371,6 +5381,20 @@ StaticModelEntity : "{1C2C424CBCF3A599}PrefabLibrary/Terrain/Erosion/ErodedEmban
  angleX -4.848
  angleY -121.145
  angleZ -3.115
+}
+SCR_DestructibleEntity : "{2D4B21B9086F6AFB}Prefabs/Structures/Infrastructure/Waterworks/HydrantStreet_01/HydrantStreet_01.et" {
+ components {
+  MeshObject "{5111E74D5E891458}" {
+   Materials {
+    MaterialAssignClass "{654AF98EDE348BDC}" {
+     SourceMaterial "HydrantStreet_01"
+     AssignedMaterial "{A2FD823AB1F1FBD5}Assets/Structures/Infrastructure/Waterworks/HydrantStreet_01/Data/HydrantStreet_01_MFurRed.emat"
+    }
+   }
+  }
+ }
+ coords 4251.65 2.845 2893.675
+ angleY -30.057
 }
 $grp StaticModelEntity : "{9AF0242036F3D3D3}PrefabLibrary/Terrain/Erosion/ErodedEmbankment_01_dirt_straight.et" {
  {
@@ -5503,9 +5527,6 @@ $grp StaticModelEntity : "{9AF0242036F3D3D3}PrefabLibrary/Terrain/Erosion/Eroded
   angleZ 4.503
   scale 1.2
  }
-}
-GenericEntity : "{9EAE3B1F65CD6518}Prefabs/Structures/SkilteFur/SkiltStort4.et" {
- coords 4335.019 15.866 4812.293
 }
 $grp GenericEntity : "{D4A15855911425CB}PrefabLibrary/Props/Construction/ConcretePipe_01_Large.et" {
  {
