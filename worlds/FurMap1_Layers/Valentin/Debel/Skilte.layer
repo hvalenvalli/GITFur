@@ -1,3 +1,9 @@
+GenericEntity : "{03262D2D61225380}PrefabLibrary/Infrastructure/Lamps/LampStreet_E_02_single/LampStreet_E_02_single.et" {
+ coords 2681.168 0 4879.098
+ angleX -0.55
+ angleY -121.189
+ angleZ 0.831
+}
 $grp GenericEntity : "{053B6E13F34095A0}Prefabs/Structures/SkilteFur/SkiltStort1.et" {
  {
   components {
@@ -10,8 +16,8 @@ $grp GenericEntity : "{053B6E13F34095A0}Prefabs/Structures/SkilteFur/SkiltStort1
     }
    }
   }
-  coords 2758.641 14.726 4858.977
-  angleY 106.817
+  coords 2757.656 15.088 4859.101
+  angleY 114.067
   scale 1.19
  }
  {
@@ -28,5 +34,54 @@ $grp GenericEntity : "{053B6E13F34095A0}Prefabs/Structures/SkilteFur/SkiltStort1
   coords 3040.996 7.349 4687.724
   angleY -66.256
   scale 1.19
+ }
+ {
+  components {
+   MeshObject "{6548A178426C7A88}" {
+    Materials {
+     MaterialAssignClass "{65553E04300F0FA5}" {
+      SourceMaterial "Material"
+      AssignedMaterial "{888FE096210BD7E6}Skilte/PilevejviserSkilte/Vejpile 1 Pikhede Material.emat"
+     }
+    }
+   }
+  }
+  coords 3190.509 8.258 4646.145
+  angleY 102.091
+  scale 1.15
+ }
+}
+SCR_DestructibleEntity : "{0AC8188CBBBF9E72}Prefabs/Structures/Infrastructure/Waterworks/HydrantStreet_01/HydrantStreet_01Red.et" {
+ components {
+  MeshObject "{5111E74D5E891458}" {
+   Materials {
+    MaterialAssignClass "{65553E0166AEC027}" {
+     SourceMaterial "HydrantStreet_01"
+     AssignedMaterial "{A2FD823AB1F1FBD5}Assets/Structures/Infrastructure/Waterworks/HydrantStreet_01/Data/HydrantStreet_01_MFurRed.emat"
+    }
+   }
+  }
+ }
+ coords 2773.112 16 4877.998
+ angleY 93.099
+}
+$grp GenericEntity : "{43E505BF759653CA}PrefabLibrary/Infrastructure/Sings/SignGiveWay.et" {
+ {
+  coords 2758.446 16.031 4862.068
+  angleX 0.264
+  angleY 15.212
+  angleZ -1.636
+ }
+ {
+  coords 2682.704 17.456 4877.156
+  angleX -0.87
+  angleY 95.798
+  angleZ -0.591
+ }
+ {
+  coords 3179.497 9.236 4649.876
+  angleX -1.464
+  angleY 13.746
+  angleZ 1.43
  }
 }
