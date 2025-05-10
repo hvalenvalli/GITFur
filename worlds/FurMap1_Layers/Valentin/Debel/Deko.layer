@@ -29,6 +29,56 @@ $grp GenericEntity : "{5452BDA9DEFBA5E6}PrefabLibrary/Props/Garbage/TirePile_01_
   angleZ 18.836
  }
 }
+$grp GenericEntity : "{5B474F2A7072C4E4}PrefabLibrary/Structures/Airport/AirfieldMark_01.et" {
+ {
+  coords 2525.579 16.775 4987.989
+  angleX -0.823
+  angleY -66.777
+  angleZ -0.353
+ }
+ {
+  coords 2519.277 16.708 4990.693
+  angleX -0.823
+  angleY -66.777
+  angleZ -0.353
+ }
+ {
+  coords 2511.426 16.655 4994.062
+  angleX -0.823
+  angleY -66.777
+  angleZ -0.353
+ }
+ {
+  coords 2504.688 16.656 4996.953
+  angleX -0.823
+  angleY -66.777
+  angleZ -0.353
+ }
+ {
+  coords 2554.083 21.471 5166.122
+  angleX 1.27
+  angleY -77.185
+  angleZ -1.546
+ }
+ {
+  coords 2548.359 21.546 5167.336
+  angleX 1.27
+  angleY -77.185
+  angleZ -1.546
+ }
+ {
+  coords 2542.444 21.716 5168.135
+  angleX 1.27
+  angleY -77.185
+  angleZ -1.546
+ }
+ {
+  coords 2536.103 21.686 5169.323
+  angleX 1.27
+  angleY -77.185
+  angleZ -1.546
+ }
+}
 $grp GenericEntity : "{72DB1179C1201B64}PrefabLibrary/Props/Garbage/Cardboard_03.et" {
  {
   coords 2667.845 21.002 5016.116
@@ -165,14 +215,6 @@ $grp SCR_DestructibleBuildingEntity : "{768F3387F294F8CA}PrefabLibrary/Props/Agr
   }
  }
 }
-SCR_DestructibleBuildingEntity : "{777E7553D60DF9A1}PrefabLibrary/Structures/Agriculture/SilageStorage_E_01_silage.et" {
- coords 2597.487 -0.112 5141.034
- angleY -79.831
-}
-SCR_DestructibleBuildingEntity : "{777E7553D60DF9A2}PrefabLibrary/Structures/Agriculture/SilageStorage_E_01.et" {
- coords 2595.432 -0.011 5126.719
- angleY -79.214
-}
 $grp StaticModelEntity : "{782060F7B5338D93}PrefabLibrary/Props/Agricultural/HaystackDryer_01_folded.et" {
  {
   coords 3133.814 9.818 4799.495
@@ -188,10 +230,6 @@ $grp StaticModelEntity : "{782060F7B5338D93}PrefabLibrary/Props/Agricultural/Hay
   angleZ 0.258
   scale 1.02
  }
-}
-SCR_DestructibleBuildingEntity : "{972D4847ED6244AC}PrefabLibrary/Structures/Agriculture/Hayloft_E_01/Hayloft_E_01_metal.et" {
- coords 2563.905 0.915 5142.226
- angleY -80.62
 }
 GenericEntity : "{9C47AA9369ACB1C6}PrefabLibrary/Props/Military/Tire_BTR70.et" {
  coords 2666.053 21.045 5015.963
@@ -222,7 +260,7 @@ GenericEntity : "{B93C7A4A43696971}PrefabLibrary/Props/Garbage/PostersGround_01_
  angleZ 56.06
 }
 StaticModelEntity : "{CD09BF68FFF3D3CE}PrefabLibrary/Props/Agricultural/HaystackDryer_01.et" {
- coords 3125.113 -0 4765.459
+ coords 3125.113 0 4765.459
  angleX -1.465
  angleY -163.621
  angleZ -1.363

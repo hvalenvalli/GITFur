@@ -330,6 +330,37 @@ $grp SplineShapeEntity {
    }
   }
  }
+ {
+  coords 2542.333 20.668 5115.353
+  Points {
+   ShapePoint "{6554C85FE3D59040}" {
+    Position 2.622 0.88 48.673
+   }
+   ShapePoint "{6554C85FE3D5D5C4}" {
+    Position -26.305 -3.98 -120.952
+   }
+  }
+  {
+   RoadGeneratorEntity : "{A45618A34EFDCC4B}PrefabLibrary/Generators/Decals/Runway/RG_Runway_Line80_01.et" {
+    coords 0 0 0
+    {
+     RoadEntity {
+      ID "56A8C9F9AF69987F"
+      SplinePoints {
+       ShapePoint "{56A8C9FA35C571F9}" {
+        Position 2.622 0.88 48.673
+       }
+       ShapePoint "{56A8C9FA35C57048}" {
+        Position -26.305 -3.98 -120.952
+       }
+      }
+      IsClosedSpline 0
+      Width 0.9
+     }
+    }
+   }
+  }
+ }
 }
 GenericEntity : "{3A86948A2B20C881}PrefabLibrary/Props/Agricultural/HayPile_01.et" {
  coords 3380.849 12.189 5157.328
