@@ -35,8 +35,8 @@ $grp PolylineShapeEntity {
   LineColor 0 0 0 0
   {
    WallGeneratorEntity : "{4CA251EBE9778336}PrefabLibrary/Generators/Walls/Concrete/WG_ConcreteWall_01.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     {
      SCR_DestructibleEntity : "{2BA5C7F599779832}PrefabLibrary/Walls/Concrete/ConcreteWall_01_6m_D_A.et" {
       coords -14.898 -0.077 -1.21
@@ -104,7 +104,7 @@ SplineShapeEntity {
   }
  }
 }
-$grp GenericEntity : "{038175C0596A575F}PrefabLibrary/Props/Construction/GravelPile_01_large.et" {
+$grp StaticModelEntity : "{038175C0596A575F}PrefabLibrary/Props/Construction/GravelPile_01_large.et" {
  {
   coords 6602.636 2.906 6723.209
   angleY 156.285
@@ -159,6 +159,18 @@ $grp GenericEntity : "{038175C0596A575F}PrefabLibrary/Props/Construction/GravelP
   coords 6583.266 3.258 6722.905
   angleY -177.787
   scale 0.481
+ }
+}
+$grp GenericEntity : "{06A812B2DD8F37F0}PrefabLibrary/Props/Infrastructure/SnowBreaker_E_01_Stack.et" {
+ {
+  coords 6014.195 3.178 6601.539
+  angleX -2.684
+ }
+ {
+  coords 6015.519 3.153 6599.564
+  angleX -2.717
+  angleY 2.312
+  angleZ 0.786
  }
 }
 $grp GenericEntity : "{080E381B512E1B01}Prefabs/Props/Crates/CrateWooden_02/CrateWooden_02_1x15x3.et" {
@@ -1136,6 +1148,12 @@ SCR_DestructibleBuildingEntity : "{40CB72D2B509489C}PrefabLibrary/Structures/Ind
  coords 6304.077 0.155 6696.998
  angleY 90.682
 }
+GenericEntity : "{42A2D1BD123CB71A}PrefabLibrary/Props/Garbage/GarbageStack_01_Short.et" {
+ coords 6007.542 3.35 6597.787
+ angleX -1.537
+ angleY -30.839
+ angleZ 0.917
+}
 SCR_DestructibleBuildingEntity : "{4DA887CD0BBD0A28}PrefabLibrary/Structures/Industrial/ShedMetal_02_short.et" {
  coords 6319.231 0.216 6774.084
  angleY 89.334
@@ -1298,6 +1316,12 @@ $grp SCR_DestructibleEntity : "{5326C298427D91A3}PrefabLibrary/Walls/Metal/TinWa
   placement none
  }
 }
+GenericEntity : "{53A0C67B9F92F426}PrefabLibrary/Props/Garbage/GarbageStack_01_Long.et" {
+ coords 6025.061 3.668 6589.75
+ angleX -1.706
+ angleY -50.538
+ angleZ 2.072
+}
 SCR_DestructibleBuildingEntity : "{53ED57F93F1DCE1F}PrefabLibrary/Structures/Industrial/Warehouse_01.et" {
  coords 6305.353 -0.183 6727.744
  angleY -88.075
@@ -1313,7 +1337,11 @@ $grp StaticModelEntity : "{56CF791F12BB17B0}Prefabs/Structures/Infrastructure/Pi
   scale 5.44
  }
 }
-$grp GenericEntity : "{5B65BDE2BBC3F2F8}PrefabLibrary/Props/Construction/GravelPile_01_medium.et" {
+GenericEntity : "{5736665D0AD812F4}PrefabLibrary/Props/Infrastructure/SnowBreaker_E_01_Stack_D.et" {
+ coords 6011.498 3.309 6598.114
+ angleX -1.79
+}
+$grp StaticModelEntity : "{5B65BDE2BBC3F2F8}PrefabLibrary/Props/Construction/GravelPile_01_medium.et" {
  {
   coords 6606.616 3.469 6715.938
   angleX 0.544
@@ -1370,6 +1398,22 @@ $grp StaticModelEntity : "{5E7DCD0C74688ADE}PrefabLibrary/Terrain/Erosion/Eroded
 StaticModelEntity : "{61EBFF9FAC0429DE}PrefabLibrary/Infrastructure/Towers/TransmissionTower_01.et" {
  coords 6336.983 4.686 6825.978
 }
+$grp GenericEntity : "{6ACA4323E285EDBC}PrefabLibrary/Props/Forest/WoodPile_02_scattered.et" {
+ {
+  coords 5990.16 3.969 6579.412
+  angleX -4.095
+  angleY 21.513
+  angleZ -0.69
+  scale 1.037
+ }
+ {
+  coords 6022.287 3.83 6585.033
+  angleX 1.197
+  angleY -164.159
+  angleZ 1.654
+  scale 1.037
+ }
+}
 $grp GenericEntity : "{6C57BFFFA642C60C}Prefabs/Compositions/Misc/SubCompositions/CrateStacked_04.et" {
  {
   coords 6403.211 4.875 6836.901
@@ -1383,6 +1427,20 @@ $grp GenericEntity : "{6C57BFFFA642C60C}Prefabs/Compositions/Misc/SubComposition
 GenericEntity : "{792A2C359A0728C8}Prefabs/Compositions/Misc/SubCompositions/CrateWooden_Stacked_01.et" {
  coords 6405.211 4.875 6846.854
  angleY 87.481
+}
+$grp GenericEntity : "{795FA7C8067E60E0}PrefabLibrary/Props/Forest/WoodPile_01_B.et" {
+ {
+  coords 5987.814 3.896 6584.352
+  angleX -0.221
+  angleY 134.598
+  angleZ -1.115
+ }
+ {
+  coords 6011.281 3.708 6578.525
+  angleX -0.935
+  angleY -51.048
+  angleZ -5.404
+ }
 }
 $grp SCR_DestructibleBuildingEntity : "{7D5B4278FA09B0DE}PrefabLibrary/Structures/Industrial/FuelTank_01/FuelTank_01_rust.et" {
  {
@@ -1701,6 +1759,20 @@ $grp SCR_DestructibleBuildingEntity : "{9C2DEB01D3F52BD6}PrefabLibrary/Structure
   angleY -0.539
  }
 }
+$grp GenericEntity : "{A9B2231FF6B31E8D}PrefabLibrary/Props/Forest/WoodPile_01_End_B.et" {
+ {
+  coords 5986.073 3.927 6582.658
+  angleX -0.16
+  angleY 135.804
+  angleZ -2.013
+ }
+ {
+  coords 6012.831 3.878 6580.353
+  angleX -0.783
+  angleY -49.849
+  angleZ -1.005
+ }
+}
 SCR_DestructibleBuildingEntity : "{AFB66B5D636927AD}PrefabLibrary/Structures/Industrial/Workshop_02.et" {
  coords 6355.235 0.378 6826.913
  angleY -88.264
@@ -1742,6 +1814,12 @@ $grp StaticModelEntity : "{AFC5471AE0EB8294}PrefabLibrary/Terrain/Erosion/Eroded
   coords 6463.334 3.632 6726.894
   angleY -156.202
  }
+}
+GenericEntity : "{B292AEB29FA68532}PrefabLibrary/Props/Construction/MetalContainer_01.et" {
+ coords 5995.621 3.866 6584.579
+ angleX -0.332
+ angleY 68.234
+ angleZ -0.831
 }
 $grp GenericEntity : "{B4FFD63EDFCBD850}Prefabs/Compositions/Misc/SubCompositions/CrateStacked_02.et" {
  {
@@ -2057,6 +2135,20 @@ $grp SCR_DestructibleEntity : "{B750739447281376}PrefabLibrary/Walls/Concrete/Co
   scale 0.458
  }
 }
+$grp GenericEntity : "{C5E617FF4A7791A3}PrefabLibrary/Props/Forest/WoodPile_01_End_A.et" {
+ {
+  coords 5989.042 3.847 6585.905
+  angleX 1.076
+  angleY -44.582
+  angleZ 3.803
+ }
+ {
+  coords 6010.212 3.791 6576.87
+  angleX 1.725
+  angleY 129.833
+  angleZ 8.103
+ }
+}
 StaticModelEntity : "{C9ADC723088689F3}PrefabLibrary/Structures/Industrial/LightTower_01.et" {
  coords 6353.466 16.617 6786.97
 }
@@ -2124,6 +2216,10 @@ $grp GenericEntity : "{CF482D1FBE0E8B14}PrefabLibrary/Props/Construction/SandPil
   angleZ -0.251
   scale 1.859
  }
+}
+GenericEntity : "{D2274CAE9B71368C}PrefabLibrary/Props/Industrial/CargoContainer_01_20ft/CargoContainer_01_20ft_grey.et" {
+ coords 6029.016 3.281 6598.293
+ angleY -72.738
 }
 SCR_DestructibleBuildingEntity : "{D5ABBAFBDAF43275}PrefabLibrary/Structures/Industrial/SmokestackBrick_E_01.et" {
  coords 6292.21 -7.837 6761.042
@@ -2256,4 +2352,10 @@ $grp SCR_DestructibleBuildingEntity : "{E4D8A7786D161CB5}PrefabLibrary/Structure
   coords 6362.314 -0.108 6836.675
   angleY -45.471
  }
+}
+GenericEntity : "{FE9023F4FBB40195}PrefabLibrary/Props/Garbage/MetalContainer_01/MetalContainer_01_green.et" {
+ coords 6016.329 3.865 6584.439
+ angleX -2.462
+ angleY -23.448
+ angleZ 1.068
 }
