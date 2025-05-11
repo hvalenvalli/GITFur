@@ -1,20 +1,249 @@
-GenericEntity S_Fur_Kirke {
- components {
-  MapDescriptorComponent "{65553E0AF5600C04}" {
-   DisplayName "S_Fur_Kirke"
-   MainType "Name Settlement"
-  }
-  SCR_EditableCommentComponent "{65553E0AEE1193A8}" {
-   m_EntityType COMMENT
-   m_UIInfo SCR_EditableCommentUIInfo "{65553E0A922E821E}" {
-    Name "S_Fur_Kirke"
-    Icon "{D03F58B327C582D0}UI/Textures/Editor/EditableEntities/Locations/EditableEntity_Location_Base.edds"
+$grp GenericEntity {
+ S_Fur_Kirke {
+  components {
+   MapDescriptorComponent "{65553E0AF5600C04}" {
+    DisplayName "Fur Kirke"
+    MainType Church
    }
-   m_bAutoRegister ALWAYS
-   m_bStatic 1
-   m_Flags 6200
+   SCR_EditableCommentComponent "{65553E0AEE1193A8}" {
+    m_EntityType COMMENT
+    m_UIInfo SCR_EditableCommentUIInfo "{65553E0A922E821E}" {
+     Name "Fur Kirke"
+     Icon "{D03F58B327C582D0}UI/Textures/Editor/EditableEntities/Locations/EditableEntity_Location_Base.edds"
+    }
+    m_bAutoRegister ALWAYS
+    m_bStatic 1
+    m_Flags 6200
+   }
   }
+  Flags 1027
+  coords 4349.407 9.149 3777.344
  }
- Flags 1027
- coords 4349.407 9.149 3777.344
+ S_Nederby {
+  components {
+   MapDescriptorComponent "{65553E0AF5600C04}" {
+    DisplayName "Nederby"
+    MainType "Name City"
+   }
+   SCR_EditableCommentComponent "{65553E0AEE1193A8}" {
+    m_EntityType COMMENT
+    m_UIInfo SCR_EditableCommentUIInfo "{65553E0A922E821E}" {
+     Name "Nederby"
+     Icon "{D03F58B327C582D0}UI/Textures/Editor/EditableEntities/Locations/EditableEntity_Location_Base.edds"
+    }
+    m_bAutoRegister ALWAYS
+    m_bStatic 1
+    m_Flags 6200
+   }
+  }
+  Flags 1027
+  coords 4522.485 7.18 4149.18
+ }
+ S_Stenore {
+  components {
+   MapDescriptorComponent "{65553E0AF5600C04}" {
+    DisplayName "Stenore"
+    MainType "Name City"
+   }
+   SCR_EditableCommentComponent "{65553E0AEE1193A8}" {
+    m_EntityType COMMENT
+    m_UIInfo SCR_EditableCommentUIInfo "{65553E0A922E821E}" {
+     Name "Stenore"
+     Icon "{D03F58B327C582D0}UI/Textures/Editor/EditableEntities/Locations/EditableEntity_Location_Base.edds"
+    }
+    m_bAutoRegister ALWAYS
+    m_bStatic 1
+    m_Flags 6200
+   }
+  }
+  Flags 1027
+  coords 4175.165 3.772 2870.621
+ }
+ S_Debel {
+  components {
+   MapDescriptorComponent "{65553E0AF5600C04}" {
+    DisplayName "Debel"
+    MainType "Name City"
+   }
+   SCR_EditableCommentComponent "{65553E0AEE1193A8}" {
+    m_EntityType COMMENT
+    m_UIInfo SCR_EditableCommentUIInfo "{65553E0A922E821E}" {
+     Name "Debel"
+     Icon "{D03F58B327C582D0}UI/Textures/Editor/EditableEntities/Locations/EditableEntity_Location_Base.edds"
+    }
+    m_bAutoRegister ALWAYS
+    m_bStatic 1
+    m_Flags 6200
+   }
+  }
+  Flags 1027
+  coords 2726.591 17.373 4925.242
+ }
+ S_Madsbad {
+  components {
+   MapDescriptorComponent "{65553E0AF5600C04}" {
+    DisplayName "Madsbad"
+    MainType "Name City"
+   }
+   SCR_EditableCommentComponent "{65553E0AEE1193A8}" {
+    m_EntityType COMMENT
+    m_UIInfo SCR_EditableCommentUIInfo "{65553E0A922E821E}" {
+     Name "Madsbad"
+     Icon "{D03F58B327C582D0}UI/Textures/Editor/EditableEntities/Locations/EditableEntity_Location_Base.edds"
+    }
+    m_bAutoRegister ALWAYS
+    m_bStatic 1
+    m_Flags 6200
+   }
+  }
+  Flags 1027
+  coords 3867.608 12.515 4288.206
+ }
+ S_Skamol {
+  components {
+   MapDescriptorComponent "{65553E0AF5600C04}" {
+    DisplayName "Skamol"
+    MapItemDescriptor 1
+    MainType "Name City"
+   }
+   SCR_EditableCommentComponent "{65553E0AEE1193A8}" {
+    m_EntityType COMMENT
+    m_UIInfo SCR_EditableCommentUIInfo "{65553E0A922E821E}" {
+     Name "Skamol"
+     Description "Factory"
+     Icon "{D03F58B327C582D0}UI/Textures/Editor/EditableEntities/Locations/EditableEntity_Location_Base.edds"
+    }
+    m_bAutoRegister ALWAYS
+    m_bStatic 1
+    m_Flags 6200
+   }
+  }
+  Flags 1027
+  coords 3776.673 21.469 5583.235
+ }
+ V_Bettejenses {
+  components {
+   MapDescriptorComponent "{65553E0AF5600C04}" {
+    DisplayName "Bette Jenses Hyw"
+    MainType Viewpoint
+   }
+   SCR_EditableCommentComponent "{65553E0AEE1193A8}" {
+    m_EntityType COMMENT
+    m_UIInfo SCR_EditableCommentUIInfo "{65553E0A922E821E}" {
+     Name "Bette Jenses Hyw"
+     Icon "{D03F58B327C582D0}UI/Textures/Editor/EditableEntities/Locations/EditableEntity_Location_Base.edds"
+    }
+    m_bAutoRegister ALWAYS
+    m_bStatic 1
+    m_Flags 6200
+   }
+  }
+  Flags 1027
+  coords 3409.369 73.919 6018.538
+ }
+ S_Imerys {
+  components {
+   MapDescriptorComponent "{65553E0AF5600C04}" {
+    DisplayName "Imerys"
+    MapItemDescriptor 1
+    MainType "Name City"
+   }
+   SCR_EditableCommentComponent "{65553E0AEE1193A8}" {
+    m_EntityType COMMENT
+    m_UIInfo SCR_EditableCommentUIInfo "{65553E0A922E821E}" {
+     Name "Imerys"
+     Description "Factory"
+     Icon "{D03F58B327C582D0}UI/Textures/Editor/EditableEntities/Locations/EditableEntity_Location_Base.edds"
+    }
+    m_bAutoRegister ALWAYS
+    m_bStatic 1
+    m_Flags 6200
+   }
+  }
+  Flags 1027
+  coords 6315.85 4.238 6808.767
+ }
+ S_FurBrewery {
+  components {
+   MapDescriptorComponent "{65553E0AF5600C04}" {
+    DisplayName "Fur Brewery"
+    MapItemDescriptor 1
+    MainType "Name City"
+   }
+   SCR_EditableCommentComponent "{65553E0AEE1193A8}" {
+    m_EntityType COMMENT
+    m_UIInfo SCR_EditableCommentUIInfo "{65553E0A922E821E}" {
+     Name "Fur Brewery"
+     Description "Beer Brewery"
+     Icon "{D03F58B327C582D0}UI/Textures/Editor/EditableEntities/Locations/EditableEntity_Location_Base.edds"
+    }
+    m_bAutoRegister ALWAYS
+    m_bStatic 1
+    m_Flags 6200
+   }
+  }
+  Flags 1027
+  coords 824.804 4 5858.683
+ }
+ S_FurCamping {
+  components {
+   MapDescriptorComponent "{65553E0AF5600C04}" {
+    DisplayName "Fur Camping"
+    MapItemDescriptor 1
+    MainType "Name City"
+   }
+   SCR_EditableCommentComponent "{65553E0AEE1193A8}" {
+    m_EntityType COMMENT
+    m_UIInfo SCR_EditableCommentUIInfo "{65553E0A922E821E}" {
+     Name "Fur Camping"
+     Icon "{D03F58B327C582D0}UI/Textures/Editor/EditableEntities/Locations/EditableEntity_Location_Base.edds"
+    }
+    m_bAutoRegister ALWAYS
+    m_bStatic 1
+    m_Flags 6200
+   }
+  }
+  Flags 1027
+  coords 1620.73 21.271 6096.29
+ }
+ S_Hvirp {
+  components {
+   MapDescriptorComponent "{65553E0AF5600C04}" {
+    DisplayName "Hvirp"
+    MainType "Name City"
+   }
+   SCR_EditableCommentComponent "{65553E0AEE1193A8}" {
+    m_EntityType COMMENT
+    m_UIInfo SCR_EditableCommentUIInfo "{65553E0A922E821E}" {
+     Name "Hvirp"
+     Icon "{D03F58B327C582D0}UI/Textures/Editor/EditableEntities/Locations/EditableEntity_Location_Base.edds"
+    }
+    m_bAutoRegister ALWAYS
+    m_bStatic 1
+    m_Flags 6200
+   }
+  }
+  Flags 1027
+  coords 4928.929 1.132 4628.787
+ }
+ S_Engelst {
+  components {
+   MapDescriptorComponent "{65553E0AF5600C04}" {
+    DisplayName "Engelst"
+    MainType "Name City"
+   }
+   SCR_EditableCommentComponent "{65553E0AEE1193A8}" {
+    m_EntityType COMMENT
+    m_UIInfo SCR_EditableCommentUIInfo "{65553E0A922E821E}" {
+     Name "Engelst"
+     Icon "{D03F58B327C582D0}UI/Textures/Editor/EditableEntities/Locations/EditableEntity_Location_Base.edds"
+    }
+    m_bAutoRegister ALWAYS
+    m_bStatic 1
+    m_Flags 6200
+   }
+  }
+  Flags 1027
+  coords 6574.34 5.599 5071.674
+ }
 }
