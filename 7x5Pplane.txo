@@ -1,0 +1,41 @@
+$object "" {
+ #version 1.0
+ #tag MergeMeshes "1"
+ #tag Coords "XZY"
+ #tag Scale "1.000000"
+ $materials {
+  $material "Material" {
+   #UVset 0
+  }
+ }
+ $lod 0 {
+  #lodFactor 0.5
+  $mesh "Plane" {
+   #texCoords 1
+   $faces {
+     0 4 0 1 2 3
+   }
+   $faceVerts {
+     2 0 0
+     3 0 1
+     1 0 2
+     0 0 3
+   }
+   $verts {
+     0 0.5 -0.7 0
+     0 -0.5 -0.7 0
+     -0 0.5 0.7 0
+     -0 -0.5 0.7 0
+   }
+   $texCoords {
+     1 0.00631
+     1 1.0055
+     0 1.0055
+     0 0.00631
+   }
+   $normals {
+     1 0 0
+   }
+  }
+ }
+}

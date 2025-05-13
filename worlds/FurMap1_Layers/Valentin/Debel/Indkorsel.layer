@@ -444,6 +444,56 @@ $grp SplineShapeEntity {
    }
   }
  }
+ {
+  coords 3028.52 8.75 4675.343
+  Points {
+   ShapePoint "{655B3B9F4B1A976F}" {
+    Position 0 0 0
+   }
+   ShapePoint "{655B3B9F4B1AC83A}" {
+    Position -7.479 -0.047 -0.273
+   }
+   ShapePoint "{655B3B9F4A1D8E42}" {
+    Position -19.278 0.149 0.763
+   }
+   ShapePoint "{655B3B9F4AD6440E}" {
+    Position -23.335 0.219 4.535
+   }
+   ShapePoint "{655B3B9F4A8B9029}" {
+    Position -22.625 0.283 14.51
+   }
+  }
+  {
+   RoadGeneratorEntity : "{41CEDBF0493A26A5}PrefabLibrary/Generators/Roads/Dirt/RG_Road_Dirt_02.et" {
+    coords 0 0 0
+    AdjustHeightMap 0
+    {
+     RoadEntity {
+      ID "556C65569DF42CF7"
+      SplinePoints {
+       ShapePoint "{556C65561A62B78A}" {
+        Position 0 0 0
+       }
+       ShapePoint "{556C65561A62EBA9}" {
+        Position -7.479 -0.047 -0.273
+       }
+       ShapePoint "{655B3B9F4D103BCF}" {
+        Position -19.278 0.149 0.763
+       }
+       ShapePoint "{655B3B9F4D103A67}" {
+        Position -23.335 0.219 4.535
+       }
+       ShapePoint "{655B3B9F4D103AA4}" {
+        Position -22.625 0.283 14.51
+       }
+      }
+      IsClosedSpline 0
+      Width 4.5
+     }
+    }
+   }
+  }
+ }
 }
 GenericEntity : "{3A86948A2B20C881}PrefabLibrary/Props/Agricultural/HayPile_01.et" {
  coords 3380.849 12.189 5157.328
