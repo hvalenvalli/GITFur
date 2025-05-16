@@ -1,3 +1,27 @@
+GenericEntity Postkasse {
+ coords 2920.233 11.314 4776.979
+ angleY 116
+ {
+  $grp GenericEntity {
+   {
+    components {
+     MeshObject "{6560B36292A0B5C2}" {
+      Object "{D20C4FC16103E713}Assets/Structures/Walls/Wooden/Dst/WoodenFence_01/WoodenFence_01_4m_00_dst.xob"
+     }
+    }
+    coords 0.072 0.127 -0.005
+   }
+   {
+    components {
+     MeshObject "{6560B3626C6165B8}" {
+      Object "{55D83CF1D05C678D}Assets/Props/Services/Post/PostOfficeBox/PostOfficeBox_01_old.xob"
+     }
+    }
+    coords 0.121 -0.077 -0.03
+   }
+  }
+ }
+}
 SCR_DestructibleEntity : "{01AEA03A8964A38D}PrefabLibrary/Props/Civilian/Garden/FlowerpotFlowers_01_begonia/FlowerpotFlowers_01_begonia_red.et" {
  coords 3012.775 8.894 4701.743
  angleY 55.461
@@ -28,12 +52,64 @@ $grp GenericEntity : "{0B141EBFAA428804}PrefabLibrary/Props/Garbage/TrashBin_02/
   coords 3009.775 8.941 4703.598
   angleY 140.976
  }
+ {
+  coords 3026.896 8.576 4679.311
+  angleY 150.034
+ }
+ {
+  coords 3035.657 9.072 4728.863
+  angleY 141.742
+ }
+ {
+  coords 2801.875 14.682 4845.747
+  angleY 140.976
+ }
+ {
+  coords 2897.525 12.125 4790.175
+  angleY 135.976
+ }
+ {
+  coords 2880.053 12.069 4801.213
+  angleY -53.024
+ }
+ {
+  coords 2931.261 11.29 4789.629
+  angleY -62.024
+ }
+ {
+  coords 2881.818 12.103 4800.703
+  angleY 140.976
+ }
+}
+GenericEntity : "{16E63075F932AC76}PrefabLibrary/Props/Garbage/GarbageContainter_01.et" {
+ coords 2880.579 12.11 4802.388
+ angleX 0.895
+ angleY -65
+ angleZ -0.895
+}
+GenericEntity : "{44AF0871DDDD5119}PrefabLibrary/Props/Civilian/BarrelMetal_01/BarrelMetal_01.et" {
+ coords 3039.183 9.329 4735.522
+ angleX 0.362
+ angleY -78.329
+ angleZ -1.753
 }
 SCR_DestructibleEntity : "{4A30B3AB1BF62C51}PrefabLibrary/Props/Decoration/FlowerpotFlowers_01_tagetes/FlowerpotFlowers_01_tagetes_yellow.et" {
  coords 3013.017 8.89 4701.424
  angleX -1.043
  angleY -74.485
  angleZ 0.874
+}
+GenericEntity : "{5913C01ECD3AA02A}PrefabLibrary/Props/Civilian/StepladderWooden_01_Open.et" {
+ coords 3037.225 8.703 4721.1
+ angleX 1.593
+ angleY 10.696
+ angleZ 1.211
+}
+GenericEntity : "{64879DACD4FF924B}PrefabLibrary/Props/Civilian/BarrelMetal_01/BarrelMetal_01_blue.et" {
+ coords 3038.251 9.289 4734.238
+ angleX 1.503
+ angleY 32.907
+ angleZ 0.972
 }
 $grp GenericEntity : "{6E1D4B04802CB5E5}PrefabLibrary/Props/Garbage/TrashBin_02/TrashBin_02.et" {
  {
@@ -78,14 +154,70 @@ $grp GenericEntity : "{6E1D4B04802CB5E5}PrefabLibrary/Props/Garbage/TrashBin_02/
   angleY 126.83
   angleZ 0.044
  }
+ {
+  coords 3025.755 8.592 4678.756
+  angleX 0.894
+  angleY 135.888
+  angleZ 0.044
+ }
+ {
+  coords 3035.181 9.044 4728.277
+  angleX 0.894
+  angleY 127.596
+  angleZ 0.044
+ }
+ {
+  coords 2801.407 14.675 4845.154
+  angleX 0.894
+  angleY 126.83
+  angleZ 0.044
+ }
+ {
+  coords 2897.11 12.125 4789.544
+  angleX 0.894
+  angleY 121.83
+  angleZ 0.044
+ }
+ {
+  coords 2880.088 12.076 4800.457
+  angleX 0.894
+  angleY -98.17
+  angleZ 0.044
+ }
+ {
+  coords 2931.46 11.281 4790.356
+  angleX 0.894
+  angleY -76.17
+  angleZ 0.044
+ }
+ {
+  coords 2881.522 12.095 4799.995
+  angleX 0.894
+  angleY 126.83
+  angleZ 0.044
+ }
 }
 SCR_DestructibleEntity : "{82811097384BF4D3}PrefabLibrary/Props/Decoration/FlowerpotFlowers_01_begonia/FlowerpotFlowers_01_begonia_white.et" {
  coords 3013.408 9.381 4701.46
  angleY -74.96
+}
+GenericEntity : "{95EDE12D3AB91805}PrefabLibrary/Props/Civilian/Cart_01.et" {
+ coords 3037.017 9.163 4731.215
+ angleX 44.289
+ angleY 31.987
+ angleZ 1.291
+}
+GenericEntity : "{AEDCB4708FE94641}PrefabLibrary/Props/Industrial/VehicleGarbage_01_pile_medium.et" {
+ coords 2881.611 12.125 4804.112
+ angleY 29.52
 }
 GenericEntity : "{DB28F5B556BB4B02}PrefabLibrary/Props/Civilian/Garden/BenchWooden_02_Worn.et" {
  coords 3014.46 8.839 4701.061
  angleX 0.656
  angleY -153.854
  angleZ -0.847
+}
+GenericEntity : "{EC68FF55C0C1459B}PrefabLibrary/Pynt/Postkasse.et" {
+ coords 2892.139 12.094 4791.877
+ angleY -138
 }

@@ -54,10 +54,10 @@ PolylineShapeEntity {
  LineColor 0 0 0 0
  {
   ForestGeneratorEntity : "{8B9B38AEAB0B09AA}PrefabLibrary/Generators/Brushlands/FG_Brushland_Sorbus_Dense.et" {
-   coords 0 0 0
    Flags 1048579
+   coords 0 0 0
    {
-    $grp GenericEntity : "{1BA4712EED0CB208}PrefabLibrary/Rocks/Granite/GraniteStone_03.et" {
+    $grp SCR_IndestructibleEnvironmentalEntity : "{1BA4712EED0CB208}PrefabLibrary/Rocks/Granite/GraniteStone_03.et" {
      {
       coords -10.82 0.105 -19.198
       angleY 183.73
@@ -1359,7 +1359,7 @@ PolylineShapeEntity {
       scale 0.837
      }
     }
-    $grp GenericEntity : "{926C09375D2DAA4D}PrefabLibrary/Rocks/Granite/GraniteStone_01.et" {
+    $grp SCR_IndestructibleEnvironmentalEntity : "{926C09375D2DAA4D}PrefabLibrary/Rocks/Granite/GraniteStone_01.et" {
      {
       coords -11.168 0.156 -17.547
       angleY 55.944
@@ -1498,7 +1498,7 @@ GenericEntity : "{0069250C5CBB7F7B}PrefabLibrary/Props/Civilian/SackTruck_01.et"
  coords 4355.868 13.885 5042.476
  angleY 179.967
 }
-$grp GenericEntity : "{038175C0596A575F}PrefabLibrary/Props/Construction/GravelPile_01_large.et" {
+$grp StaticModelEntity : "{038175C0596A575F}PrefabLibrary/Props/Construction/GravelPile_01_large.et" {
  {
   coords 4358.405 13.911 5048.371
   angleX 1.445
@@ -1621,7 +1621,7 @@ $grp DecalEntity : "{22F9041142B00E5A}PrefabLibrary/Decals/Stains/Decal_OilStain
   scale 9.9
  }
 }
-$grp GenericEntity : "{2744DB5B79E2F462}PrefabLibrary/Rocks/Granite/GraniteCliff_03/GraniteCliff_03.et" {
+$grp SCR_IndestructibleEnvironmentalEntity : "{2744DB5B79E2F462}PrefabLibrary/Rocks/Granite/GraniteCliff_03/GraniteCliff_03.et" {
  {
   coords 4850.293 -0.855 5505.933
   angleX 85.238
@@ -1943,7 +1943,7 @@ GenericEntity : "{5913C01ECD3AA02A}PrefabLibrary/Props/Civilian/StepladderWooden
  coords 4849.113 5.005 5683.694
  angleX -0.895
 }
-$grp GenericEntity : "{5B65BDE2BBC3F2F8}PrefabLibrary/Props/Construction/GravelPile_01_medium.et" {
+$grp StaticModelEntity : "{5B65BDE2BBC3F2F8}PrefabLibrary/Props/Construction/GravelPile_01_medium.et" {
  {
   coords 4279.432 14.737 4708.802
   angleX -1.152
@@ -2313,7 +2313,7 @@ StaticModelEntity : "{CAFFE870131947D6}PrefabLibrary/Walls/Brick/BrickGate_01.et
  coords 4480.778 0.001 5619.54
  angleY -73.212
 }
-GenericEntity : "{CBFCF66CA5280B0E}PrefabLibrary/Infrastructure/Naval/BreakwaterStone_01_stack_slope.et" {
+SCR_IndestructibleEnvironmentalEntity : "{CBFCF66CA5280B0E}PrefabLibrary/Infrastructure/Naval/BreakwaterStone_01_stack_slope.et" {
  coords 4421.476 -0.128 5620.136
  scale 0.85
 }
@@ -2589,6 +2589,10 @@ $grp SCR_DestructibleBuildingEntity : "{F640FDB4D1AAF0BD}PrefabLibrary/Props/Civ
  {
   coords 4375.791 0 4773.396
   angleY -176.018
+ }
+ {
+  coords 4313.621 16.343 4852.775
+  angleY 150.69
  }
 }
 $grp GenericEntity : "{F7C5E866921AF328}PrefabLibrary/Props/Construction/ConcretePipe_01_Long_Pile.et" {

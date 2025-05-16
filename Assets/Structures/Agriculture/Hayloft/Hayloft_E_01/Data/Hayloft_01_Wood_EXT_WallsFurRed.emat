@@ -1,0 +1,61 @@
+MatPBRMulti {
+ DiffuseIBL 0.552 0.307 0.281 1
+ Diffuse 1 0.647 0.546 1
+ DisableInteriorProbes 1
+ GlobalMCRMap "{D2F9DA581E295B76}Assets/Structures/Agriculture/Hayloft/Hayloft_E_01/Data/Hayloft_Wood_Exterior_MCR.edds"
+ UVSrcGlobalMaps "UV set 2"
+ MaskMap "{5D15E54F000F888E}Assets/Structures/Agriculture/Hayloft/Hayloft_E_01/Data/Hayloft_Wood_Exterior_GLOBAL_MASK.edds"
+ MaskRedScale 0
+ MaskGreenScale 0
+ MaskBlueScale 0
+ VFXMap "{6638EEF3E9C4285A}Assets/Structures/Agriculture/Hayloft/Hayloft_E_01/Data/Hayloft_Wood_Exterior_VFX.edds"
+ NormalPower 0.1
+ GlobalNMOMap "{D8B9D99D3553C03B}Assets/_SharedData/Concrete/ST_Concrete_01_NMO.edds"
+ GlobalNMOUVTransform MatUVTransform "{52D28A999AE3275A}" {
+  TilingU 0.5
+  TilingV 0.5
+ }
+ MudOpacity 0.89
+ MudColor 0.791 0.898 0.785 1
+ MudDetNormal 0.583
+ MudBCRMap "{EF0F038286F1C5A2}Assets/_SharedData/Moss/ST_Moss_Green_01_BCR.edds"
+ MudNMOMap "{D7D7B8105F86973C}Assets/_SharedData/Moss/ST_Moss_Green_01_NMO.edds"
+ MudMaskMap "{B88800D2CC8DCF27}Assets/_SharedData/Moss/ST_Moss_Green_01_Mask.edds"
+ DirtOpacity 0.075
+ DirtLayerSharpness 7.8
+ DirtColor 0.141 0.121 0.087 1
+ DirtRoughness 0.5
+ DirtMaskMap "{A3B4218CCE57A275}Assets/_SharedData/DetailMask/ST_Paint_peeling_03_Mask1.edds"
+ Enabled_4 1
+ Color_4 0.624 0.589 0.505 1
+ BCR_4 "{D4D5106E34010D1A}Assets/_SharedData/Plaster/ST_Plaster_Bare_04_BCR.edds"
+ NMO_4 "{EC0DABFCED765F84}Assets/_SharedData/Plaster/ST_Plaster_Bare_04_NMO.edds"
+ MaskSharpness_4 5
+ Mask_4 "{0B6572B61227A4F5}Assets/_SharedData/DetailMask/ST_Concrete_02_Mask1.edds"
+ DetNormal_4 0.2
+ Roughness_4 2
+ Metalness_4 0
+ Enabled_3 1
+ Color_3 0.694 0.68 0.628 1
+ BCR_3 "{6BE53556B0CB5ED9}Assets/_SharedData/Plaster/ST_Plaster_Bare_02_BCR.edds"
+ NMO_3 "{6DEDE9B7814F5B0A}Assets/_SharedData/Plaster/ST_Plaster_Bare_02_NMO.edds"
+ MaskSharpness_3 7
+ Mask_3 "{37524A19D6A23FC6}Assets/_SharedData/DetailMask/ST_Paint_peeling_02_Mask1.edds"
+ DetNormal_3 0.4
+ Roughness_3 2
+ Metalness_3 0
+ Enabled_2 1
+ Color_2 0.651 0.614 0.542 1
+ BCR_2 "{95E5751345993295}Assets/_SharedData/Plaster/ST_Plaster_Bare_01_BCR.edds"
+ NMO_2 "{0353BAA5380E9B7B}Assets/_SharedData/Plaster/ST_Plaster_Brizolit_01_NMO.edds"
+ MaskSharpness_2 7
+ MaskOffset_2 0.254
+ Mask_2 "{A3B4218CCE57A275}Assets/_SharedData/DetailMask/ST_Paint_peeling_03_Mask1.edds"
+ DetNormal_2 0.25
+ Roughness_2 2
+ AO_2 1.5
+ Color_1 0.791 0.791 0.791 1
+ BCR_1 "{7F64F91EB998BF3B}Assets/_SharedData/Brick/ST_Bricks_03_BCR.edds"
+ NMO_1 "{47BC428C60EFEDA5}Assets/_SharedData/Brick/ST_Bricks_03_NMO.edds"
+ Roughness_1 2
+}

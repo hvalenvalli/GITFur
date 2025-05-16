@@ -494,6 +494,192 @@ $grp SplineShapeEntity {
    }
   }
  }
+ {
+  coords 2972.338 10.046 4735.291
+  Points {
+   ShapePoint "{6560B34B51046737}" {
+    Position 0 0 0
+   }
+   ShapePoint "{6560B34B5105A079}" {
+    Position -3.13 -0.115 -5.973
+   }
+   ShapePoint "{6560B34B50368959}" {
+    Position -5.558 0.011 -16.193
+   }
+   ShapePoint "{6560B34B50BCC15E}" {
+    Position -1.875 -0.154 -24.839
+   }
+   ShapePoint "{6560B34B576FDCB1}" {
+    Position -0.923 -0.184 -31.99
+   }
+   ShapePoint "{6560B34B57B6BE82}" {
+    Position 11.231 -0.533 -44.571
+   }
+   ShapePoint "{6560B34B56D2FD43}" {
+    Position 32.984 -1.067 -57.659
+   }
+  }
+  {
+   RoadGeneratorEntity : "{41CEDBF0493A26A5}PrefabLibrary/Generators/Roads/Dirt/RG_Road_Dirt_02.et" {
+    coords 0 0 0
+    {
+     RoadEntity {
+      ID "556C65569DF42CF7"
+      SplinePoints {
+       ShapePoint "{556C65561A62B78A}" {
+        Position 0 0 0
+       }
+       ShapePoint "{556C65561A62EBA9}" {
+        Position -3.13 -0.115 -5.973
+       }
+       ShapePoint "{6560B34B5C040F33}" {
+        Position -5.558 0.011 -16.193
+       }
+       ShapePoint "{6560B34B5C040F54}" {
+        Position -1.875 -0.154 -24.839
+       }
+       ShapePoint "{6560B34B5C040F89}" {
+        Position -0.923 -0.184 -31.99
+       }
+       ShapePoint "{6560B34B5C040FC5}" {
+        Position 11.231 -0.533 -44.571
+       }
+       ShapePoint "{6560B34B5C040E00}" {
+        Position 32.984 -1.067 -57.659
+       }
+      }
+      IsClosedSpline 0
+      Width 4.5
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 2916.604 11.635 4767.242
+  Points {
+   ShapePoint "{6560B34596138D21}" {
+    Position 0 0 0
+   }
+   ShapePoint "{6560B3459613C61D}" {
+    Position -3.125 0.066 -4.874
+   }
+   ShapePoint "{6560B345953EB941}" {
+    Position -9.339 0.143 -7.715
+   }
+   ShapePoint "{6560B345959E6A58}" {
+    Position -16.697 0.204 -9.521
+   }
+   ShapePoint "{6560B345947EF904}" {
+    Position -22.93 0.121 -14.834
+   }
+  }
+  {
+   RoadGeneratorEntity : "{41CEDBF0493A26A5}PrefabLibrary/Generators/Roads/Dirt/RG_Road_Dirt_02.et" {
+    coords 0 0 0
+    AdjustHeightMap 0
+    {
+     RoadEntity {
+      ID "556C65569DF42CF7"
+      SplinePoints {
+       ShapePoint "{556C65561A62B78A}" {
+        Position 0 0 0
+       }
+       ShapePoint "{556C65561A62EBA9}" {
+        Position -3.125 0.066 -4.874
+       }
+       ShapePoint "{6560B3457568533B}" {
+        Position -9.339 0.143 -7.715
+       }
+       ShapePoint "{6560B3457568535D}" {
+        Position -16.697 0.204 -9.521
+       }
+       ShapePoint "{6560B34575685393}" {
+        Position -22.93 0.121 -14.834
+       }
+      }
+      IsClosedSpline 0
+      Width 4.5
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 2921.918 11.566 4774.125
+  Points {
+   ShapePoint "{6560B373FB0745FB}" {
+    Position 0 0 0
+   }
+   ShapePoint "{6560B373FB18B108}" {
+    Position 7.584 -0.26 17.294
+   }
+  }
+  {
+   RoadGeneratorEntity : "{41CEDBF0493A26A5}PrefabLibrary/Generators/Roads/Dirt/RG_Road_Dirt_02.et" {
+    coords 0 0 0
+    {
+     RoadEntity {
+      ID "556C65569DF42CF7"
+      SplinePoints {
+       ShapePoint "{556C65561A62B78A}" {
+        Position 0 0 0
+       }
+       ShapePoint "{556C65561A62EBA9}" {
+        Position 7.584 -0.26 17.294
+       }
+      }
+      IsClosedSpline 0
+      Width 4.5
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 2858.678 11.917 4809.173
+  Points {
+   ShapePoint "{6560B37708E60761}" {
+    Position 0 0 0
+   }
+   ShapePoint "{6560B37708E672E9}" {
+    Position 8.275 0.102 -2.382
+   }
+   ShapePoint "{6560B3770EF27521}" {
+    Position 17.133 0.236 -5.634
+   }
+  }
+  {
+   RoadGeneratorEntity : "{41CEDBF0493A26A5}PrefabLibrary/Generators/Roads/Dirt/RG_Road_Dirt_02.et" {
+    coords 0 0 0
+    AdjustHeightMap 0
+    {
+     RoadEntity {
+      ID "556C65569DF42CF7"
+      SplinePoints {
+       ShapePoint "{556C65561A62B78A}" {
+        Position 0 0 0
+       }
+       ShapePoint "{556C65561A62EBA9}" {
+        Position 8.275 0.102 -2.382
+       }
+       ShapePoint "{6560B377124D1614}" {
+        Position 17.133 0.236 -5.634
+       }
+      }
+      IsClosedSpline 0
+      Width 4.5
+     }
+    }
+   }
+  }
+ }
+}
+GenericEntity : "{03262D2D61225380}PrefabLibrary/Infrastructure/Lamps/LampStreet_E_02_single/LampStreet_E_02_single.et" {
+ coords 2863.336 -0.011 4809.824
+ angleX -0.142
+ angleY -155.213
+ angleZ 0.986
 }
 GenericEntity : "{3A86948A2B20C881}PrefabLibrary/Props/Agricultural/HayPile_01.et" {
  coords 3380.849 12.189 5157.328

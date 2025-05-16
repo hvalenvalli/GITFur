@@ -1,3 +1,17 @@
+SCR_DestructibleEntity {
+ components {
+  MeshObject "{5111E74D5E891458}" {
+   Materials {
+    MaterialAssignClass "{65553E0166AEC027}" {
+     SourceMaterial "HydrantStreet_01"
+     AssignedMaterial "{A2FD823AB1F1FBD5}Assets/Structures/Infrastructure/Waterworks/HydrantStreet_01/Data/HydrantStreet_01_MFurRed.emat"
+    }
+   }
+  }
+ }
+ coords 2773.112 16 4877.998
+ angleY 93.099
+}
 GenericEntity : "{03262D2D61225380}PrefabLibrary/Infrastructure/Lamps/LampStreet_E_02_single/LampStreet_E_02_single.et" {
  coords 2681.168 0 4879.098
  angleX -0.55
@@ -31,7 +45,7 @@ $grp GenericEntity : "{053B6E13F34095A0}Prefabs/Structures/SkilteFur/SkiltStort1
     }
    }
   }
-  coords 3040.996 7.349 4687.724
+  coords 3042.708 7.349 4685.927
   angleY -66.256
   scale 1.19
  }
@@ -51,20 +65,6 @@ $grp GenericEntity : "{053B6E13F34095A0}Prefabs/Structures/SkilteFur/SkiltStort1
   scale 1.15
  }
 }
-SCR_DestructibleEntity : "{0AC8188CBBBF9E72}Prefabs/Structures/Infrastructure/Waterworks/HydrantStreet_01/HydrantStreet_01Red.et" {
- components {
-  MeshObject "{5111E74D5E891458}" {
-   Materials {
-    MaterialAssignClass "{65553E0166AEC027}" {
-     SourceMaterial "HydrantStreet_01"
-     AssignedMaterial "{A2FD823AB1F1FBD5}Assets/Structures/Infrastructure/Waterworks/HydrantStreet_01/Data/HydrantStreet_01_MFurRed.emat"
-    }
-   }
-  }
- }
- coords 2773.112 16 4877.998
- angleY 93.099
-}
 $grp GenericEntity : "{43E505BF759653CA}PrefabLibrary/Infrastructure/Sings/SignGiveWay.et" {
  {
   coords 2758.446 16.031 4862.068
@@ -83,5 +83,11 @@ $grp GenericEntity : "{43E505BF759653CA}PrefabLibrary/Infrastructure/Sings/SignG
   angleX -1.464
   angleY 13.746
   angleZ 1.43
+ }
+ {
+  coords 3039.636 8.903 4681.825
+  angleX -1.074
+  angleY -166.497
+  angleZ 0.89
  }
 }
