@@ -120,6 +120,7 @@ $grp SplineShapeEntity {
       }
       IsClosedSpline 0
       Width 4.5
+      RandomSeed 16487
      }
     }
    }
@@ -169,6 +170,7 @@ $grp SplineShapeEntity {
       }
       IsClosedSpline 0
       Width 4.5
+      RandomSeed 28065
      }
     }
    }
@@ -248,6 +250,7 @@ $grp SplineShapeEntity {
       }
       IsClosedSpline 0
       Width 4.5
+      RandomSeed 30398
      }
     }
    }
@@ -269,7 +272,10 @@ $grp SplineShapeEntity {
     Position -13.743 0.57 -60.269
    }
    ShapePoint "{62208E6277F34F06}" {
-    Position -20.341 -0.13 -70.422
+    Position -19.167 0.031 -68.408
+   }
+   ShapePoint "{65636BB615DFBD86}" {
+    Position -28.27 -0.369 -66.349
    }
   }
   {
@@ -292,11 +298,15 @@ $grp SplineShapeEntity {
         Position -13.743 0.57 -60.269
        }
        ShapePoint "{62208E62748BD235}" {
-        Position -20.341 -0.13 -70.422
+        Position -19.167 0.031 -68.408
+       }
+       ShapePoint "{65636BB615DE7EEB}" {
+        Position -28.27 -0.369 -66.349
        }
       }
       IsClosedSpline 0
       Width 4.5
+      RandomSeed 15220
      }
     }
    }
@@ -365,6 +375,7 @@ $grp SplineShapeEntity {
       }
       IsClosedSpline 0
       Width 4.5
+      RandomSeed 5526
      }
     }
    }
@@ -408,6 +419,7 @@ $grp SplineShapeEntity {
       }
       IsClosedSpline 0
       Width 4.5
+      RandomSeed 12304
      }
     }
    }
@@ -489,6 +501,7 @@ $grp SplineShapeEntity {
       }
       IsClosedSpline 0
       Width 4.5
+      RandomSeed 22062
      }
     }
    }
@@ -550,6 +563,7 @@ $grp SplineShapeEntity {
       }
       IsClosedSpline 0
       Width 4.5
+      RandomSeed 19506
      }
     }
    }
@@ -600,6 +614,7 @@ $grp SplineShapeEntity {
       }
       IsClosedSpline 0
       Width 4.5
+      RandomSeed 32515
      }
     }
    }
@@ -631,6 +646,7 @@ $grp SplineShapeEntity {
       }
       IsClosedSpline 0
       Width 4.5
+      RandomSeed 3613
      }
     }
    }
@@ -665,6 +681,50 @@ $grp SplineShapeEntity {
        }
        ShapePoint "{6560B377124D1614}" {
         Position 17.133 0.236 -5.634
+       }
+      }
+      IsClosedSpline 0
+      Width 4.5
+      RandomSeed 16744
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 3210.018 13.567 4917.126
+  Points {
+   ShapePoint "{65636BB72056CF0C}" {
+    Position 0 0 0
+   }
+   ShapePoint "{65636BB720561763}" {
+    Position -24.688 -0.289 8.002
+   }
+   ShapePoint "{65636BB72687D6C5}" {
+    Position -43.856 1.069 13.609
+   }
+   ShapePoint "{65636BB72578FF15}" {
+    Position -65.499 2.978 19.338
+   }
+  }
+  {
+   RoadGeneratorEntity : "{41CEDBF0493A26A5}PrefabLibrary/Generators/Roads/Dirt/RG_Road_Dirt_02.et" {
+    coords 0 0 0
+    {
+     RoadEntity {
+      ID "556C65569DF42CF7"
+      SplinePoints {
+       ShapePoint "{556C65561A62B78A}" {
+        Position 0 0 0
+       }
+       ShapePoint "{556C65561A62EBA9}" {
+        Position -24.688 -0.289 8.002
+       }
+       ShapePoint "{65636BB72DC46A99}" {
+        Position -43.856 1.069 13.609
+       }
+       ShapePoint "{65636BB72DC46929}" {
+        Position -65.499 2.978 19.338
        }
       }
       IsClosedSpline 0
@@ -721,6 +781,24 @@ GenericEntity : "{862AAEEA1AB10496}PrefabLibrary/Props/Construction/BrickPile_01
 SCR_DestructibleBuildingEntity : "{AFD0F05F3FD48D6C}PrefabLibrary/Structures/Houses/Cottage_E_01.et" {
  coords 3369.497 0 5430.002
  angleY -172.884
+}
+SCR_DestructibleBuildingEntity : "{BB32FDB0A276A95D}PrefabLibrary/Structures/Houses/House_Village_E_1I01.et" {
+ components {
+  MeshObject "{506EDA9D46FC6C06}" {
+   Materials {
+    MaterialAssignClass "{6560B35E870163ED}" {
+     SourceMaterial "House_E_1I01_exterior"
+     AssignedMaterial "{895A2140441F4BB7}Assets/Structures/Houses/Village/House_Village_E_1I01/Data/House_E_1I01_exteriorFurRed.emat"
+    }
+    MaterialAssignClass "{6560B35E870163DA}" {
+     SourceMaterial "House_Village_E1I01_MLOD"
+     AssignedMaterial "{539F821654797BDE}Assets/Structures/Houses/Village/House_Village_E_1I01/Data/House_Village_E1I01_MLODFurRed.emat"
+    }
+   }
+  }
+ }
+ coords 4243.825 0.852 2913.717
+ angleY -129.082
 }
 SCR_DestructibleBuildingEntity : "{CAF57CAE8680A78D}PrefabLibrary/Structures/Houses/House_Mountain_E_1I01.et" {
  coords 3350.415 1.577 5424.341

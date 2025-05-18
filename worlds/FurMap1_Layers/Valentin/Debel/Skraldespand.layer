@@ -80,12 +80,36 @@ $grp GenericEntity : "{0B141EBFAA428804}PrefabLibrary/Props/Garbage/TrashBin_02/
   coords 2881.818 12.103 4800.703
   angleY 140.976
  }
+ {
+  coords 3043.362 12.658 4934.364
+  angleX 0.029
+  angleY -70.348
+  angleZ -0.127
+ }
+ {
+  coords 2976.549 13.466 4980.952
+  angleX 0.119
+  angleY 30.874
+  angleZ 0.053
+ }
+}
+GenericEntity : "{0FB6C20679095D14}PrefabLibrary/Props/Garbage/Junk_01_single_bricks.et" {
+ coords 3064.903 12.081 4919.591
+ angleX -1.784
+ angleY 175.191
+ angleZ 0.15
 }
 GenericEntity : "{16E63075F932AC76}PrefabLibrary/Props/Garbage/GarbageContainter_01.et" {
  coords 2880.579 12.11 4802.388
  angleX 0.895
  angleY -65
  angleZ -0.895
+}
+GenericEntity : "{39CFEF5150FEA35A}PrefabLibrary/Props/Civilian/ChairOld_01.et" {
+ coords 3044.427 12.915 4934.656
+ angleX 0.471
+ angleY 113.164
+ angleZ -86.925
 }
 GenericEntity : "{44AF0871DDDD5119}PrefabLibrary/Props/Civilian/BarrelMetal_01/BarrelMetal_01.et" {
  coords 3039.183 9.329 4735.522
@@ -99,11 +123,23 @@ SCR_DestructibleEntity : "{4A30B3AB1BF62C51}PrefabLibrary/Props/Decoration/Flowe
  angleY -74.485
  angleZ 0.874
 }
+GenericEntity : "{53A0C67B9F92F426}PrefabLibrary/Props/Garbage/GarbageStack_01_Long.et" {
+ coords 3062.497 12.568 4935.19
+ angleX 1.521
+ angleY 31.816
+ angleZ 0.943
+}
 GenericEntity : "{5913C01ECD3AA02A}PrefabLibrary/Props/Civilian/StepladderWooden_01_Open.et" {
  coords 3037.225 8.703 4721.1
  angleX 1.593
  angleY 10.696
  angleZ 1.211
+}
+GenericEntity : "{622F9989DDC4865B}PrefabLibrary/Props/Civilian/Recreation/TableRecreation_01/TableRecreation_01.et" {
+ coords 3045.291 12.765 4936.106
+ angleX 0.041
+ angleY 26.286
+ angleZ -0.082
 }
 GenericEntity : "{64879DACD4FF924B}PrefabLibrary/Props/Civilian/BarrelMetal_01/BarrelMetal_01_blue.et" {
  coords 3038.251 9.289 4734.238
@@ -196,6 +232,24 @@ $grp GenericEntity : "{6E1D4B04802CB5E5}PrefabLibrary/Props/Garbage/TrashBin_02/
   angleY 126.83
   angleZ 0.044
  }
+ {
+  coords 3043.454 12.691 4935.113
+  angleX 0.891
+  angleY -84.496
+  angleZ -0.086
+ }
+ {
+  coords 2977.265 13.451 4980.717
+  angleX 1.022
+  angleY 16.729
+  angleZ 0.066
+ }
+ {
+  coords 2977.956 13.448 4980.365
+  angleX 0.418
+  angleY 78.927
+  angleZ 0.935
+ }
 }
 SCR_DestructibleEntity : "{82811097384BF4D3}PrefabLibrary/Props/Decoration/FlowerpotFlowers_01_begonia/FlowerpotFlowers_01_begonia_white.et" {
  coords 3013.408 9.381 4701.46
@@ -211,13 +265,69 @@ GenericEntity : "{AEDCB4708FE94641}PrefabLibrary/Props/Industrial/VehicleGarbage
  coords 2881.611 12.125 4804.112
  angleY 29.52
 }
+$grp GenericEntity : "{B50434DBAD3214D0}PrefabLibrary/Props/Commercial/BeerKegMetal_01_big.et" {
+ {
+  coords 3045.501 12.816 4937.065
+  angleX -1.545
+  angleY -84.891
+  angleZ -2.83
+ }
+ {
+  coords 3046.079 12.831 4936.975
+  angleX 3.576
+  angleY 25.567
+  angleZ -1.263
+ }
+}
+$grp GenericEntity : "{B80655BD24D2C162}PrefabLibrary/Props/Civilian/Recreation/ChairRecreation_01/ChairRecreation_01_white.et" {
+ {
+  coords 3044.334 12.683 4934.231
+  angleX 1.035
+  angleY 119.208
+  angleZ 3.648
+ }
+ {
+  coords 3044.425 13.691 4934.074
+  angleX 2.104
+  angleY -73.286
+  angleZ 175.806
+ }
+}
 GenericEntity : "{DB28F5B556BB4B02}PrefabLibrary/Props/Civilian/Garden/BenchWooden_02_Worn.et" {
  coords 3014.46 8.839 4701.061
  angleX 0.656
  angleY -153.854
  angleZ -0.847
 }
-GenericEntity : "{EC68FF55C0C1459B}PrefabLibrary/Pynt/Postkasse.et" {
- coords 2892.139 12.094 4791.877
- angleY -138
+GenericEntity : "{E681FC9543B34B51}PrefabLibrary/Props/Commercial/CardboardBoxStack_01.et" {
+ coords 3050.667 12.768 4935.138
+ angleX 2.743
+ angleY -57.465
+ angleZ 0.689
+}
+$grp GenericEntity : "{EC68FF55C0C1459B}PrefabLibrary/Pynt/Postkasse.et" {
+ {
+  coords 2892.139 12.094 4791.877
+  angleY -138
+ }
+ {
+  coords 3025.508 11.844 4911.952
+  angleY -87.952
+ }
+}
+$grp GenericEntity : "{FF89D8A1F22509D6}PrefabLibrary/Props/Garbage/Junk_01_single_carpet.et" {
+ {
+  coords 3047.235 14.24 4936.331
+  angleX 80.004
+  angleY 11.57
+  angleZ 73.761
+  scale 1.273
+ }
+ {
+  coords 3046.975 14.154 4936.596
+  angleX 72.952
+  angleY 36.797
+  angleZ 10.942
+  scale 1.273
+ }
 }

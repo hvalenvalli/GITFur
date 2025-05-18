@@ -262,7 +262,7 @@ $grp SplineShapeEntity {
   coords 3776.401 57.874 6138.303
   Points {
    ShapePoint "{64D367B8104A1D4F}" {
-    Position 0 -0 0
+    Position 0 0 0
    }
    ShapePoint "{64D367B8104A48EB}" {
     Position 9.771 -3.043 -56.47
@@ -276,7 +276,7 @@ $grp SplineShapeEntity {
       ID "532C82060C9FEDF5"
       SplinePoints {
        ShapePoint "{532C82062D45BC05}" {
-        Position 0 -0 0
+        Position 0 0 0
        }
        ShapePoint "{532C82062D45BB49}" {
         Position 9.771 -3.043 -56.47
@@ -451,7 +451,7 @@ Tree : "{6813E89F9EF2BDAC}PrefabLibrary/Vegetation/Bushes/b_rosa_canina_1s.et" {
  angleZ -1.803
  scale 0.783
 }
-GenericEntity : "{75E7837701ADA216}PrefabLibrary/Rocks/Granite/Granite_Stone_03/Granite_BeachStone_03.et" {
+SCR_IndestructibleEnvironmentalEntity : "{75E7837701ADA216}PrefabLibrary/Rocks/Granite/Granite_Stone_03/Granite_BeachStone_03.et" {
  coords 4198.969 -0.042 7147.267
  angleX -4.248
  angleY 15.216
@@ -640,6 +640,24 @@ SCR_DestructibleBuildingEntity : "{DFE759EE77F61ACD}PrefabLibrary/Structures/Agr
   }
  }
 }
+SCR_DestructibleBuildingEntity : "{E7143CC469A97E04}PrefabLibrary/Structures/Houses/House_Mountain_E_1I01_short.et" {
+ components {
+  MeshObject "{506EDA9D46FC6C06}" {
+   Materials {
+    MaterialAssignClass "{65636BB3E5B7598B}" {
+     SourceMaterial "HouseMountain_1I01_Ext"
+     AssignedMaterial "{EAB95859E3D4D7A2}Assets/Structures/Houses/Village/House_Mountain_E_1I01/Data/HouseMountain_1I01_Short_ExtFurGul.emat"
+    }
+    MaterialAssignClass "{65636BB3E5B759F4}" {
+     SourceMaterial "HouseMountain_1I01_Ext_MLOD"
+     AssignedMaterial "{2F368C7F4CD76021}Assets/Structures/Houses/Village/House_Mountain_E_1I01/Data/HouseMountain_1I01_Ext_MLODFurGul.emat"
+    }
+   }
+  }
+ }
+ coords 3059.264 0.163 4984.386
+ angleY -69.509
+}
 GenericEntity : "{E942023A40AF9CCA}PrefabLibrary/Props/Forest/WoodPile_02_end_B.et" {
  coords 3755.016 62.344 6231.267
  angleY 72.92
@@ -658,7 +676,7 @@ $grp GenericEntity : "{F6C557A22DE54D9A}PrefabLibrary/Props/Civilian/Garden/Hutc
   angleY -15.354
  }
 }
-$grp GenericEntity : "{FC2FFB6EB18CBA53}PrefabLibrary/Rocks/Granite/Granite_Stone_01/Granite_BeachStone_01.et" {
+$grp SCR_IndestructibleEnvironmentalEntity : "{FC2FFB6EB18CBA53}PrefabLibrary/Rocks/Granite/Granite_Stone_01/Granite_BeachStone_01.et" {
  {
   coords 4199.885 -0.001 7147.089
   angleX 5.467
