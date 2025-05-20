@@ -152,10 +152,6 @@ $grp SCR_DestructibleBuildingEntity : "{3B371BE806867EF2}PrefabLibrary/Structure
   angleY -4.993
  }
  {
-  coords 2874.888 0.605 5047.343
-  angleY -143.441
- }
- {
   coords 3105.293 0.18 5030.798
   angleY 11.202
  }
@@ -185,6 +181,11 @@ $grp SCR_DestructibleBuildingEntity : "{446671DE9607E741}PrefabLibrary/Structure
   coords 3051.124 0.765 4937.251
   angleY -58.861
  }
+ {
+  coords 2881.71 0.758 5041.788
+  angleY -51.682
+  scale 1.362
+ }
 }
 SCR_DestructibleBuildingEntity : "{50309EB34CA81D70}PrefabLibrary/Structures/Houses/House_Prefab_2I01/House_Prefab_2I01t.et" {
  coords 2818.187 1.164 4849.486
@@ -206,7 +207,7 @@ $grp SCR_DestructibleBuildingEntity : "{51BF59A7E99DC66E}PrefabLibrary/Structure
 }
 $grp SCR_DestructibleBuildingEntity : "{54E4045E67826963}PrefabLibrary/Structures/Houses/Shed_02_big_V2.et" {
  {
-  coords 3059.332 -0 4996.031
+  coords 3059.332 0 4996.031
   angleY 103.426
  }
  {
@@ -343,6 +344,10 @@ $grp SCR_DestructibleBuildingEntity : "{6A4927BB36DFC030}Prefabs/Structures/Hous
  {
   coords 2858.098 0.062 4824.16
   angleY -147.442
+ }
+ {
+  coords 2872.722 0 5048.275
+  angleY -141.504
  }
 }
 SCR_DestructibleBuildingEntity : "{777E1C3BF5898638}PrefabLibrary/Structures/Houses/House_Village_E_1I04sr/House_Village_E_1I04sr_red.et" {
@@ -525,13 +530,15 @@ $grp SCR_DestructibleBuildingEntity : "{A7259960AB98A3A0}PrefabLibrary/Structure
   angleY -150.856
  }
 }
-SCR_DestructibleBuildingEntity : "{AFB66B5D636927AD}PrefabLibrary/Structures/Industrial/Workshop_02.et" {
- coords 2887.638 0.204 5040.031
- angleY 34.63
-}
-SCR_DestructibleBuildingEntity : "{B27AF198E146D70D}Prefabs/Structures/Houses/Village/House_Village_E_1I01/House_Village_E_1I01_beige.et" {
- coords 3166.757 0 4664.543
- angleY 102.928
+$grp SCR_DestructibleBuildingEntity : "{B27AF198E146D70D}Prefabs/Structures/Houses/Village/House_Village_E_1I01/House_Village_E_1I01_beige.et" {
+ {
+  coords 3166.757 0 4664.543
+  angleY 102.928
+ }
+ {
+  coords 2871.612 0.002 5075.572
+  angleY -74.367
+ }
 }
 $grp SCR_DestructibleBuildingEntity : "{BB32FDB0A276A95D}PrefabLibrary/Structures/Houses/House_Village_E_1I01.et" {
  {
@@ -787,10 +794,6 @@ $grp SCR_DestructibleBuildingEntity : "{E6B9336AB9C9F543}PrefabLibrary/Structure
 $grp SCR_DestructibleBuildingEntity : "{E7143CC469A97E04}PrefabLibrary/Structures/Houses/House_Mountain_E_1I01_short.et" {
  {
   coords 3299.176 1.206 5526.938
- }
- {
-  coords 2876.275 1.075 5072.619
-  angleY 12.281
  }
  {
   components {
