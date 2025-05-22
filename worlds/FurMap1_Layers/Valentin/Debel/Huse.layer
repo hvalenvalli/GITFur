@@ -481,7 +481,7 @@ $grp SCR_DestructibleBuildingEntity : "{7F8DF0A1D211BDFC}PrefabLibrary/Structure
   angleY -165.528
  }
  {
-  coords 3190.301 -0 4934.564
+  coords 3190.301 0 4934.564
   angleY 15.354
  }
 }
@@ -715,6 +715,23 @@ $grp SCR_DestructibleBuildingEntity : "{BB32FDB0A276A95D}PrefabLibrary/Structure
   }
   coords 3189.396 0.061 4871.721
   angleY -168.911
+  {
+   GenericEntity {
+    ID "5AF2BE3A3DEA8CCB"
+    {
+     GenericEntity {
+      ID "5AF2BE3A0901B39A"
+      components {
+       RadioBroadcastSoundComponent "{54B2D26E5EF7AA23}" {
+        Filenames {
+         "{5FA6255A0B39F76B}Sounds/RadioBroadcast/RadioBroadcastFurJuice.acp"
+        }
+       }
+      }
+     }
+    }
+   }
+  }
  }
 }
 $grp SCR_DestructibleBuildingEntity : "{BC72C74ABB5732A8}PrefabLibrary/Structures/Agriculture/Barn_E_01/Barn_E_01_white.et" {
@@ -947,7 +964,7 @@ $grp SCR_DestructibleBuildingEntity : "{E7143CC469A97E04}PrefabLibrary/Structure
   angleY 27.961
  }
  {
-  coords 3134.917 -0 4931.345
+  coords 3134.917 0 4931.345
   angleY 107.175
  }
 }
