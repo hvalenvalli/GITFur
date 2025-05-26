@@ -1997,6 +1997,20 @@ $grp GenericEntity : "{16E63075F932AC76}PrefabLibrary/Props/Garbage/GarbageConta
   angleZ -1.184
  }
 }
+$grp GenericEntity : "{17268A1479D32278}PrefabLibrary/Infrastructure/Lamps/LampStreet_E_03_addon/LampStreet_E_03_addon.et" {
+ {
+  coords 3250.461 6.196 4958.911
+  scale 0.64
+ }
+ {
+  coords 3243.196 3.443 4959.858
+  scale 0.64
+ }
+ {
+  coords 3234.833 3.433 4960.949
+  scale 0.64
+ }
+}
 $grp GenericEntity : "{1B9FE4BAE1AC3C1D}PrefabLibrary/Props/Civilian/Bucket_0/Bucket_01.et" {
  {
   coords 3144.924 9.125 4673.569
@@ -2245,6 +2259,18 @@ $grp GenericEntity : "{3A86948A2B20C881}PrefabLibrary/Props/Agricultural/HayPile
   angleZ -2.683
   scale 1.82
  }
+ {
+  coords 3248.945 12.969 4976.769
+  angleY 0
+ }
+ {
+  coords 3251.013 12.969 4975.335
+  angleY -74.023
+ }
+ {
+  coords 3253.846 12.969 4975.79
+  angleY 42.546
+ }
 }
 $grp GenericEntity : "{3C3C1BE8A9C49CF9}PrefabLibrary/Props/Garbage/Junk_01_pile_medium.et" {
  {
@@ -2375,6 +2401,11 @@ $grp Tree : "{407A7B6D0444D05B}PrefabLibrary/Vegetation/Plants/b_urtica_dioica_0
   angleZ 3.924
   scale 1.22
  }
+}
+StaticModelEntity : "{41773F32A6C835C2}PrefabLibrary/Walls/Wooden/WoodenFence_03_Gate.et" {
+ coords 3225.694 -0.01 4940.94
+ angleY 8.701
+ scale 1.423
 }
 SCR_DestructibleEntity : "{419A31406081524B}PrefabLibrary/Props/Civilian/Sport/FootballNetFence_01_15m.et" {
  coords 3235.645 -0.179 4570.091
@@ -4213,6 +4244,11 @@ $grp SCR_DestructibleEntity : "{A2E2C428D5018DCA}PrefabLibrary/Props/Decoration/
   angleY 10.096
  }
 }
+StaticModelEntity : "{A36EC7068689426D}PrefabLibrary/Props/Agricultural/ManurePile_01.et" {
+ coords 3251.926 0 4980.104
+ angleY -107.768
+ scale 1.103
+}
 $grp Tree : "{A5265EF79AAF3EAD}PrefabLibrary/Vegetation/Vegetables/TomatoCrop_01.et" {
  {
   coords 3004.395 0.241 5039.872
@@ -4960,6 +4996,11 @@ $grp GenericEntity : "{CF482D1FBE0E8B14}PrefabLibrary/Props/Construction/SandPil
   angleZ 0.895
   scale 1.032
  }
+ {
+  coords 3245.958 12.969 4966.364
+  angleY 141.343
+  scale 1.05
+ }
 }
 $grp GenericEntity : "{D35F2E1ACDB77391}PrefabLibrary/Props/Construction/Wheelbarrow_01.et" {
  {
@@ -5437,6 +5478,12 @@ $grp GenericEntity : "{E90B0E28F74CCA3F}PrefabLibrary/Props/Garbage/Junk_01_pile
   angleY 102.564
   angleZ 1.17
  }
+ {
+  coords 3256.57 13.171 4981.03
+  angleX 0.823
+  angleY -85.548
+  angleZ 0.259
+ }
 }
 $grp GenericEntity : "{E942023A40AF9CCA}PrefabLibrary/Props/Forest/WoodPile_02_end_B.et" {
  {
@@ -5561,6 +5608,10 @@ $grp SCR_DestructibleBuildingEntity : "{F640FDB4D1AAF0BD}PrefabLibrary/Props/Civ
   coords 3205.168 13.313 4927.985
   angleY 110.269
  }
+}
+GenericEntity : "{F7C5E866921AF328}PrefabLibrary/Props/Construction/ConcretePipe_01_Long_Pile.et" {
+ coords 3248.059 12.969 4961.391
+ angleY 2.878
 }
 GenericEntity : "{F857D65788E3BA3A}PrefabLibrary/Props/Naval/BoatWreck_01.et" {
  coords 2936.708 16.895 5105.142

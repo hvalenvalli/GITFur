@@ -1219,6 +1219,93 @@ $grp SplineShapeEntity {
    }
   }
  }
+ {
+  coords 3272.691 12.776 5017.645
+  Points {
+   ShapePoint "{65749001082C23EE}" {
+    Position 0.483 0.006 2.789
+   }
+   ShapePoint "{6574900108185060}" {
+    Position -0.937 -0.088 -8.967
+   }
+   ShapePoint "{657490010E77AE58}" {
+    Position -2.422 0.172 -14.686
+   }
+  }
+  {
+   RoadGeneratorEntity : "{41CEDBF0493A26A5}PrefabLibrary/Generators/Roads/Dirt/RG_Road_Dirt_02.et" {
+    coords 0 0 0
+    AdjustHeightMap 0
+    {
+     RoadEntity {
+      ID "556C65569DF42CF7"
+      SplinePoints {
+       ShapePoint "{556C65561A62B78A}" {
+        Position 0.483 0.006 2.789
+       }
+       ShapePoint "{556C65561A62EBA9}" {
+        Position -0.937 -0.088 -8.967
+       }
+       ShapePoint "{6574900113EECF42}" {
+        Position -2.422 0.172 -14.686
+       }
+      }
+      IsClosedSpline 0
+      Width 4.5
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 3290.365 12.67 5019.004
+  Points {
+   ShapePoint "{657490011F9BC5D4}" {
+    Position 0 0 0
+   }
+   ShapePoint "{657490011F9B2DAF}" {
+    Position 1.473 -0.426 -4.908
+   }
+   ShapePoint "{657490011D566413}" {
+    Position -1.707 -0.283 -24.058
+   }
+   ShapePoint "{657490011D17537D}" {
+    Position -7.395 0.144 -27.277
+   }
+   ShapePoint "{657490011DD0C48D}" {
+    Position -12.402 0.382 -27.122
+   }
+  }
+  {
+   RoadGeneratorEntity : "{41CEDBF0493A26A5}PrefabLibrary/Generators/Roads/Dirt/RG_Road_Dirt_02.et" {
+    coords 0 0 0
+    {
+     RoadEntity {
+      ID "556C65569DF42CF7"
+      SplinePoints {
+       ShapePoint "{556C65561A62B78A}" {
+        Position 0 0 0
+       }
+       ShapePoint "{556C65561A62EBA9}" {
+        Position 1.473 -0.426 -4.908
+       }
+       ShapePoint "{657490011CE20D28}" {
+        Position -1.707 -0.283 -24.058
+       }
+       ShapePoint "{657490011CE20D56}" {
+        Position -7.395 0.144 -27.277
+       }
+       ShapePoint "{657490011CE20D92}" {
+        Position -12.402 0.382 -27.122
+       }
+      }
+      IsClosedSpline 0
+      Width 4.5
+     }
+    }
+   }
+  }
+ }
 }
 GenericEntity : "{03262D2D61225380}PrefabLibrary/Infrastructure/Lamps/LampStreet_E_02_single/LampStreet_E_02_single.et" {
  coords 2863.336 -0.011 4809.824
