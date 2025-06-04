@@ -1306,6 +1306,117 @@ $grp SplineShapeEntity {
    }
   }
  }
+ {
+  coords 2673.097 17.844 4927.973
+  Points {
+   ShapePoint "{65894488FED4658E}" {
+    Position -2.98 0.012 1.428
+   }
+   ShapePoint "{65894488FED5A385}" {
+    Position 17.356 -0.165 4.4
+   }
+  }
+  {
+   RoadGeneratorEntity : "{ABC15429070F8391}PrefabLibrary/Generators/Roads/Cobblestone/RG_Road_Cobblestone_01.et" {
+    coords 0 0 0
+    {
+     RoadEntity {
+      ID "56F07CB2CD0F496C"
+      SplinePoints {
+       ShapePoint "{56F07CB28583E030}" {
+        Position -2.98 0.012 1.428
+       }
+       ShapePoint "{56F07CB28583FED6}" {
+        Position 17.356 -0.165 4.4
+       }
+      }
+      IsClosedSpline 0
+      Width 8
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 2674.094 17.844 4920.485
+  Points {
+   ShapePoint "{65894488FED4658E}" {
+    Position -2.98 0.012 1.428
+   }
+   ShapePoint "{65894488FED5A385}" {
+    Position 17.356 -0.165 4.4
+   }
+  }
+  {
+   RoadGeneratorEntity : "{ABC15429070F8391}PrefabLibrary/Generators/Roads/Cobblestone/RG_Road_Cobblestone_01.et" {
+    coords 0 0 0
+    {
+     RoadEntity {
+      ID "56F07CB2CD0F496C"
+      SplinePoints {
+       ShapePoint "{56F07CB28583E030}" {
+        Position -2.98 0.012 1.428
+       }
+       ShapePoint "{56F07CB28583FED6}" {
+        Position 17.356 -0.165 4.4
+       }
+      }
+      IsClosedSpline 0
+      Width 8
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 2786.344 16.02 4959.251
+  Points {
+   ShapePoint "{6589448B9A0C1DD9}" {
+    Position 1.695 0.044 0.823
+   }
+   ShapePoint "{6589448B9A0C5D5A}" {
+    Position -43.552 2.525 11.494
+   }
+   ShapePoint "{6589448B79A0B3ED}" {
+    Position -52.277 2.947 17.666
+   }
+   ShapePoint "{6589448B7864B81A}" {
+    Position -51.251 3.346 29.045
+   }
+   ShapePoint "{6589448B78E6B758}" {
+    Position -41.767 3.315 31.633
+   }
+  }
+  {
+   RoadGeneratorEntity : "{41CEDBF0493A26A5}PrefabLibrary/Generators/Roads/Dirt/RG_Road_Dirt_02.et" {
+    coords 0 0 0
+    {
+     RoadEntity {
+      ID "556C65569DF42CF7"
+      SplinePoints {
+       ShapePoint "{556C65561A62B78A}" {
+        Position 1.695 0.044 0.823
+       }
+       ShapePoint "{556C65561A62EBA9}" {
+        Position -43.552 2.525 11.494
+       }
+       ShapePoint "{6589448B43B473C3}" {
+        Position -52.277 2.947 17.666
+       }
+       ShapePoint "{6589448B43B4726C}" {
+        Position -51.251 3.346 29.045
+       }
+       ShapePoint "{6589448B43B472A3}" {
+        Position -41.767 3.315 31.633
+       }
+      }
+      IsClosedSpline 0
+      Width 4.5
+     }
+    }
+   }
+  }
+ }
 }
 GenericEntity : "{03262D2D61225380}PrefabLibrary/Infrastructure/Lamps/LampStreet_E_02_single/LampStreet_E_02_single.et" {
  coords 2863.336 -0.011 4809.824
