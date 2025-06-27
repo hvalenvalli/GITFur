@@ -1983,6 +1983,13 @@ $grp SCR_DestructibleEntity : "{152E0513F396DAB9}PrefabLibrary/Props/Civilian/Ga
   angleY 321.371
  }
 }
+Tree : "{16D3707EA3F8DD41}PrefabLibrary/Vegetation/Trees/t_alnus_glutinosa_3s.et" {
+ coords 2564.802 0 5158.401
+ angleX -2.425
+ angleY 36.816
+ angleZ -2.646
+ scale 0.913
+}
 $grp GenericEntity : "{16E63075F932AC76}PrefabLibrary/Props/Garbage/GarbageContainter_01.et" {
  {
   coords 3059.518 8.75 4650.073
@@ -2048,6 +2055,13 @@ $grp GenericEntity : "{1B9FE4BAE1AC3C1D}PrefabLibrary/Props/Civilian/Bucket_0/Bu
   angleY 15.468
   angleZ -0.866
   scale 1.071
+ }
+ {
+  coords 2582.281 23.83 5254.416
+  angleX 1.131
+  angleY -29.007
+  angleZ -1.65
+  scale 1.054
  }
 }
 $grp SCR_IndestructibleEnvironmentalEntity : "{1BA4712EED0CB208}PrefabLibrary/Rocks/Granite/GraniteStone_03.et" {
@@ -2936,6 +2950,10 @@ $grp GenericEntity : "{4D797B18EB473B0B}PrefabLibrary/Props/Military/FlagPole_01
  {
   coords 3180.899 11.878 4846.177
  }
+ {
+  coords 2550.125 21.98 5174.895
+  scale 1.32
+ }
 }
 GenericEntity : "{52572E6F47A801C3}PrefabLibrary/Props/Military/Tire_UAZ469.et" {
  coords 3127.686 9.549 4664.219
@@ -3198,25 +3216,25 @@ $grp GenericEntity : "{5B474F2A7072C4E4}PrefabLibrary/Structures/Airport/Airfiel
   angleZ -0.195
  }
  {
-  coords 2554.083 21.471 5166.122
+  coords 2552.786 21.393 5163.345
   angleX 1.27
   angleY -77.185
   angleZ -1.546
  }
  {
-  coords 2548.359 21.547 5167.335
+  coords 2547.903 21.533 5164.677
   angleX 1.27
   angleY -77.185
   angleZ -1.546
  }
  {
-  coords 2542.444 21.621 5168.135
+  coords 2541.988 21.578 5165.476
   angleX 1.27
   angleY -77.185
   angleZ -1.546
  }
  {
-  coords 2536.103 21.686 5169.323
+  coords 2535.647 21.667 5166.665
   angleX 1.27
   angleY -77.185
   angleZ -1.546
@@ -3927,6 +3945,13 @@ $grp GenericEntity : "{77CBD05A5D68B333}PrefabLibrary/Props/Civilian/Bucket_0/Bu
   angleY 32.526
   angleZ 2.471
   scale 0.989
+ }
+ {
+  coords 2581.613 24.256 5253.299
+  angleX 0.579
+  angleY 112.738
+  angleZ 1.253
+  scale 1.062
  }
 }
 $grp StaticModelEntity : "{782060F7B5338D93}PrefabLibrary/Props/Agricultural/HaystackDryer_01_folded.et" {
@@ -4755,6 +4780,12 @@ $grp GenericEntity : "{A7C844EE85DBB3F5}PrefabLibrary/Props/Civilian/WateringCan
   angleY -159.639
   angleZ -0.199
  }
+ {
+  coords 2585.192 23.997 5258.894
+  angleX 0.604
+  angleY -70.298
+  angleZ -1.685
+ }
 }
 $grp GenericEntity : "{A9ABB5DF9160A75B}PrefabLibrary/Props/Industrial/VehicleGarbage_01_pile_small.et" {
  {
@@ -5399,7 +5430,7 @@ $grp StaticModelEntity : "{CD09BF68FFF3D3CE}PrefabLibrary/Props/Agricultural/Hay
   scale 0.865
  }
  {
-  coords 2606.766 -0 5011.742
+  coords 2606.766 0 5011.742
   angleX 0.644
   angleY -68.907
   angleZ -1.67
@@ -5413,7 +5444,7 @@ $grp StaticModelEntity : "{CD09BF68FFF3D3CE}PrefabLibrary/Props/Agricultural/Hay
   scale 0.896
  }
  {
-  coords 2608.194 -0 5022.321
+  coords 2608.194 0 5022.321
   angleX -1.539
   angleY -149.263
   angleZ -0.915
@@ -5776,6 +5807,41 @@ $grp SCR_DestructibleBuildingEntity : "{DFE759EE77F61ACD}PrefabLibrary/Structure
    }
   }
  }
+ {
+  coords 2586.044 -0.02 5261.905
+  angleY -134.195
+  {
+   $grp Tree : "{884DE6D0F08040E0}PrefabLibrary/Vegetation/Vegetables/PotatoCrop_01_Shortline.et" {
+    {
+     coords 1.022 0.216 0.749
+     angleY 88.943
+     scale 0.924
+    }
+    {
+     coords -1.11 0.198 0.568
+     angleY 88.943
+     scale 1.021
+    }
+   }
+   $grp Tree : "{A5265EF79AAF3EAD}PrefabLibrary/Vegetation/Vegetables/TomatoCrop_01.et" {
+    {
+     coords 0.975 0.223 -1.301
+     angleY -48.302
+     scale 1.093
+    }
+    {
+     coords 0.067 0.264 -1.264
+     angleY 21.001
+     scale 0.99
+    }
+    {
+     coords -1.037 0.225 -1.287
+     angleY 45.161
+     scale 1.125
+    }
+   }
+  }
+ }
 }
 $grp Tree : "{E0663C22A1F8DE30}PrefabLibrary/Vegetation/Bushes/b_juniperus_communis_2s.et" {
  {
@@ -6014,6 +6080,12 @@ $grp GenericEntity : "{E942023A40AF9CCA}PrefabLibrary/Props/Forest/WoodPile_02_e
   coords 3204.476 13.344 4933.874
   angleY 106.347
  }
+}
+StaticModelEntity : "{E97EC3EC76DD7310}PrefabLibrary/Props/Civilian/Well_02/Well_02_green.et" {
+ coords 2581.147 0.019 5253.303
+ angleX -0.233
+ angleY -52.192
+ angleZ -1.361
 }
 GenericEntity : "{E9FA4D7B531C7FF0}PrefabLibrary/Props/Agricultural/WaterTank_01/WaterTank_01.et" {
  coords 2722.233 20.644 5098.801
