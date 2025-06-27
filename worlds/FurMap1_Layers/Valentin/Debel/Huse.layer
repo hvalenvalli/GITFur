@@ -71,9 +71,15 @@ $grp SCR_DestructibleBuildingEntity : "{143F44A0916B2845}PrefabLibrary/Structure
   angleY -178.636
  }
 }
-SCR_DestructibleBuildingEntity : "{15D4F4467E3F79F1}PrefabLibrary/Structures/Houses/Shed_02_line.et" {
- coords 2720.809 0.11 4939.313
- angleY 162.23
+$grp SCR_DestructibleBuildingEntity : "{15D4F4467E3F79F1}PrefabLibrary/Structures/Houses/Shed_02_line.et" {
+ {
+  coords 2720.809 0.11 4939.313
+  angleY 162.23
+ }
+ {
+  coords 2631.55 0.03 4949.843
+  angleY 79.388
+ }
 }
 Tree : "{16D3707EA3F8DD41}PrefabLibrary/Vegetation/Trees/t_alnus_glutinosa_3s.et" {
  coords 2692.297 0 4900.316
@@ -116,6 +122,10 @@ $grp SCR_DestructibleBuildingEntity : "{2AEEE9C9512908FD}PrefabLibrary/Structure
  {
   coords 2742 0.023 4890.455
   angleY -77.368
+ }
+ {
+  coords 2650.183 -0.147 4946.721
+  angleY -12.775
  }
 }
 SCR_DestructibleBuildingEntity : "{3089817CF5E28BD5}PrefabLibrary/Structures/Agriculture/Silo_01.et" {
@@ -174,7 +184,7 @@ $grp SCR_DestructibleBuildingEntity : "{3B371BE806867EF2}PrefabLibrary/Structure
   angleY -138.044
  }
  {
-  coords 2639.762 0.012 4960.196
+  coords 2639.762 0.124 4960.196
   angleY -8.045
  }
 }
@@ -461,10 +471,6 @@ $grp SCR_DestructibleBuildingEntity : "{78E589607D4761E3}PrefabLibrary/Structure
  }
 }
 $grp SCR_DestructibleBuildingEntity : "{7BE9DE15EE9823C2}PrefabLibrary/Structures/Houses/House_Village_E_1I06.et" {
- {
-  coords 2623.641 0.68 5002.279
-  angleY -81.019
- }
  {
   coords 3259.496 1.013 5397.763
   angleY -8.345
@@ -856,6 +862,10 @@ GenericEntity : "{CF482D1FBE0E8B14}PrefabLibrary/Props/Construction/SandPile_01.
  angleZ -2.497
  scale 0.937
 }
+SCR_DestructibleBuildingEntity : "{CF7E43120709D9BE}Prefabs/Structures/Industrial/Houses/Workshop_02/Workshop_02_grey.et" {
+ coords 2621.649 0 4979.901
+ angleY 91.467
+}
 GenericEntity : "{D2274CAE9B71368C}PrefabLibrary/Props/Industrial/CargoContainer_01_20ft/CargoContainer_01_20ft_grey.et" {
  coords 2824.713 14.286 4862.288
  angleY -34.546
@@ -1074,6 +1084,10 @@ $grp SCR_DestructibleBuildingEntity : "{E7143CC469A97E04}PrefabLibrary/Structure
  {
   coords 2690.927 0.335 4923.729
   angleY -169.315
+ }
+ {
+  coords 2624.594 0.425 4995.408
+  angleY 99.896
  }
 }
 SCR_DestructibleBuildingEntity : "{E889E8CCCA21EC6C}PrefabLibrary/Structures/Commercial/PubVillage_E_2L01.et" {

@@ -10602,7 +10602,7 @@ $grp SplineShapeEntity {
   coords 3260.869 13.125 5003.406
   Points {
    ShapePoint "{658944820568137A}" {
-    Position 0 -0 0
+    Position 0 0 0
    }
    ShapePoint "{65894482056946F4}" {
     Position -24.022 -0.104 3.071
@@ -10678,7 +10678,7 @@ $grp SplineShapeEntity {
      }
      $grp SCR_DestructibleEntity : "{8F93F619F4375F9A}PrefabLibrary/Walls/Wooden/WoodenRural_01_8m.et" {
       {
-       coords 0 -0 0
+       coords 0 0 0
        angleY 187.759
       }
       {
@@ -10794,7 +10794,7 @@ $grp SplineShapeEntity {
   coords 2680.376 17.651 4882.146
   Points {
    ShapePoint "{65894488302AB4C3}" {
-    Position 0 -0 0
+    Position 0 0 0
    }
    ShapePoint "{65894488302AE098}" {
     Position 0.976 0.188 14.227
@@ -10820,7 +10820,7 @@ $grp SplineShapeEntity {
      }
      $grp SCR_DestructibleEntity : "{8F93F619F4375F9A}PrefabLibrary/Walls/Wooden/WoodenRural_01_8m.et" {
       {
-       coords 0 -0 0
+       coords 0 0 0
        angleY 275.314
       }
       {
@@ -12476,5 +12476,19 @@ $grp SCR_DestructibleEntity : "{B5C78B737E02272A}Prefabs/Structures/Walls/Brick/
  {
   coords 2830.296 0.736 4847.598
   angleY 94
+ }
+}
+$grp SCR_DestructibleEntity : "{F88F7DEA2D99332D}PrefabLibrary/Walls/Wooden/WoodenWall_01_4m.et" {
+ {
+  coords 2651.19 0.021 4953.495
+  angleY 85.191
+ }
+ {
+  coords 2649.59 -0.038 4957.085
+  angleY 65.858
+ }
+ {
+  coords 2649.355 0.018 4943.775
+  angleY 119.263
  }
 }
