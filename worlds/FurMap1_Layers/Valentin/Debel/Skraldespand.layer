@@ -176,6 +176,12 @@ $grp GenericEntity : "{16E63075F932AC76}PrefabLibrary/Props/Garbage/GarbageConta
   angleY -60.245
   angleZ -0.22
  }
+ {
+  coords 2547.356 22.926 5207.928
+  angleX 0.919
+  angleY 1.58
+  angleZ -0.87
+ }
 }
 GenericEntity : "{39CFEF5150FEA35A}PrefabLibrary/Props/Civilian/ChairOld_01.et" {
  coords 3044.427 12.915 4934.656
@@ -442,6 +448,36 @@ $grp GenericEntity : "{6E1D4B04802CB5E5}PrefabLibrary/Props/Garbage/TrashBin_02/
   angleY 59.905
   angleZ -0.605
  }
+ {
+  coords 2651.682 20.75 5073.666
+  angleX 0.8
+  angleY -136.076
+  angleZ 0.4
+ }
+ {
+  coords 2652.465 20.757 5073.153
+  angleX 0.683
+  angleY -122.525
+  angleZ 0.577
+ }
+ {
+  coords 2652.708 20.761 5072.175
+  angleX 0.304
+  angleY -92.546
+  angleZ 0.841
+ }
+ {
+  coords 2569.219 23.966 5259.434
+  angleX 0.094
+  angleY -78.698
+  angleZ 0.889
+ }
+ {
+  coords 2569.254 23.94 5258.289
+  angleX -0.118
+  angleY -65.15
+  angleZ 0.887
+ }
 }
 SCR_DestructibleEntity : "{82811097384BF4D3}PrefabLibrary/Props/Decoration/FlowerpotFlowers_01_begonia/FlowerpotFlowers_01_begonia_white.et" {
  coords 3013.408 9.381 4701.46
@@ -453,9 +489,15 @@ GenericEntity : "{95EDE12D3AB91805}PrefabLibrary/Props/Civilian/Cart_01.et" {
  angleY 31.987
  angleZ 1.291
 }
-GenericEntity : "{AEDCB4708FE94641}PrefabLibrary/Props/Industrial/VehicleGarbage_01_pile_medium.et" {
- coords 2881.611 12.125 4804.112
- angleY 29.52
+$grp GenericEntity : "{AEDCB4708FE94641}PrefabLibrary/Props/Industrial/VehicleGarbage_01_pile_medium.et" {
+ {
+  coords 2881.611 12.125 4804.112
+  angleY 29.52
+ }
+ {
+  coords 2545.524 22.906 5208.016
+  angleY 97.693
+ }
 }
 $grp GenericEntity : "{B50434DBAD3214D0}PrefabLibrary/Props/Commercial/BeerKegMetal_01_big.et" {
  {

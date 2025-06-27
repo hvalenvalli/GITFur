@@ -574,6 +574,10 @@ $grp SCR_DestructibleBuildingEntity : "{8732EEEE5AC2B938}PrefabLibrary/Structure
   coords 3195.15 -0.035 4854.391
   angleY -86.164
  }
+ {
+  coords 2665.449 0.012 5073.229
+  angleY -95.133
+ }
 }
 SCR_DestructibleBuildingEntity : "{8A54FD8F840E3BC4}PrefabLibrary/Structures/Houses/FarmHouse_E_1L01/FarmHouse_E_1L01_Green.et" {
  coords 3590.24 0.012 5028.852
@@ -879,9 +883,15 @@ GenericEntity : "{CF482D1FBE0E8B14}PrefabLibrary/Props/Construction/SandPile_01.
  angleZ -2.497
  scale 0.937
 }
-SCR_DestructibleBuildingEntity : "{CF7E43120709D9BE}Prefabs/Structures/Industrial/Houses/Workshop_02/Workshop_02_grey.et" {
- coords 2621.649 0 4979.901
- angleY 91.467
+$grp SCR_DestructibleBuildingEntity : "{CF7E43120709D9BE}Prefabs/Structures/Industrial/Houses/Workshop_02/Workshop_02_grey.et" {
+ {
+  coords 2621.649 0 4979.901
+  angleY 91.467
+ }
+ {
+  coords 2763.022 -0.05 5016.344
+  angleY -163.754
+ }
 }
 GenericEntity : "{D2274CAE9B71368C}PrefabLibrary/Props/Industrial/CargoContainer_01_20ft/CargoContainer_01_20ft_grey.et" {
  coords 2824.713 14.286 4862.288
@@ -1116,6 +1126,6 @@ SCR_DestructibleBuildingEntity : "{E889E8CCCA21EC6C}PrefabLibrary/Structures/Com
  angleY -166.53
 }
 SCR_DestructibleBuildingEntity : "{F973FD2C8F3C05DB}PrefabLibrary/Structures/Houses/House_Village_E_1I04sf/House_Village_E_1I04sf_green.et" {
- coords 2753.348 0 4987.585
+ coords 2753.348 0.225 4987.585
  angleY 13.644
 }
