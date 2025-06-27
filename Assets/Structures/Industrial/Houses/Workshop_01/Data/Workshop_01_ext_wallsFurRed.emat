@@ -1,0 +1,58 @@
+MatPBRMulti {
+ DiffuseIBL 0.88 0.505 0.398 1
+ DisableInteriorProbes 1
+ GlobalMCRMap "{C3F1AB00863F9599}Assets/Structures/Industrial/Houses/Workshop_01/Data/Workshop_01_EXT_GLOBAL_MCR.edds"
+ UVSrcGlobalMaps "UV set 2"
+ MaskMap "{67688C8AFBF2FA2A}Assets/Structures/Industrial/Houses/Workshop_01/Data/Workshop_01_EXT_GLOBAL_MASK.edds"
+ MaskRedScale 0
+ MaskGreenScale 0
+ MaskBlueScale 1
+ VFXMap "{77309FAB71D2E6B5}Assets/Structures/Industrial/Houses/Workshop_01/Data/Workshop_01_EXT_GLOBAL_VFX.edds"
+ NormalPower 0.08
+ GlobalNMOMap "{D8B9D99D3553C03B}Assets/_SharedData/Concrete/ST_Concrete_01_NMO.edds"
+ GlobalNMOUVTransform MatUVTransform "{51B456B6ABA03C0C}" {
+  TilingU 0.35
+  TilingV 0.4
+  OffsetV -0.458
+ }
+ DirtOpacity 0.566
+ DirtLayerSharpness 0.354
+ DirtColor 0.036 0.034 0.03 1
+ DirtRoughness 1
+ DirtMaskMap "{2563D86FF583B1EF}Assets/_SharedData/DetailMask/ST_Metal_Rust_01_Mask1.edds"
+ Color_4 0.397 0.337 0.254 1
+ BCR_4 "{D4D5106E34010D1A}Assets/_SharedData/Plaster/ST_Plaster_Bare_04_BCR.edds"
+ NMO_4 "{3A423F83EC60AF97}Assets/_SharedData/Concrete/ST_Concrete_Clean_01_NMO.edds"
+ MaskSharpness_4 3
+ Mask_4 "{A585D759C4C68372}Assets/_SharedData/DetailMask/ST_Rust_02_Mask1.edds"
+ UVTransform_4 MatUVTransform "{51B456A1E2DDC83E}" {
+  TilingU 0.8
+  TilingV 0.8
+  OffsetV 0.117
+ }
+ Roughness_4 2
+ Enabled_3 1
+ Color_3 0.342 0.291 0.219 1
+ BCR_3 "{D4D5106E34010D1A}Assets/_SharedData/Plaster/ST_Plaster_Bare_04_BCR.edds"
+ NMO_3 "{0353BAA5380E9B7B}Assets/_SharedData/Plaster/ST_Plaster_Brizolit_01_NMO.edds"
+ MaskSharpness_3 3
+ Mask_3 "{CBD042945A4747A5}Assets/_SharedData/DetailMask/ST_Concrete_03_Mask1.edds"
+ UVTransform_3 MatUVTransform "{518A6AA8EB57D0E0}" {
+ }
+ DetNormal_3 0.25
+ Enabled_2 1
+ Color_2 0.468 0.42 0.321 1
+ BCR_2 "{95E5751345993295}Assets/_SharedData/Plaster/ST_Plaster_Bare_01_BCR.edds"
+ NMO_2 "{0353BAA5380E9B7B}Assets/_SharedData/Plaster/ST_Plaster_Brizolit_01_NMO.edds"
+ MaskSharpness_2 3
+ Mask_2 "{AB46D26F5C81B5A4}Assets/_SharedData/DetailMask/ST_Noise_01_Mask1.edds"
+ DetNormal_2 0.2
+ Roughness_2 2
+ Color_1 0.552 0.552 0.552 1
+ BCR_1 "{7F64F91EB998BF3B}Assets/_SharedData/Brick/ST_Bricks_03_BCR.edds"
+ NMO_1 "{47BC428C60EFEDA5}Assets/_SharedData/Brick/ST_Bricks_03_NMO.edds"
+ UVTransform_1 MatUVTransform "{51B456A05A0DBBD3}" {
+ }
+ DetNormal_1 0.5
+ Roughness_1 3
+}

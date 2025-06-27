@@ -1,3 +1,50 @@
+$grp GenericEntity : "{053B6E13F34095A0}Prefabs/Structures/SkilteFur/SkiltStort1.et" {
+ {
+  components {
+   MeshObject "{6548A178426C7A88}" {
+    Materials {
+     MaterialAssignClass "{654D252C1CE4BA4C}" {
+      SourceMaterial "Material"
+      AssignedMaterial "{AAAA9F8AF0DDFD52}Skilte/PilevejviserSkilte/Vejpile Fur BryghusMaterial.emat"
+     }
+    }
+   }
+  }
+  coords 1912.976 19.805 5074.112
+  angleY 15.655
+  scale 1.523
+ }
+ {
+  components {
+   MeshObject "{6548A178426C7A88}" {
+    Materials {
+     MaterialAssignClass "{654D252DC1B76DBB}" {
+      SourceMaterial "Material"
+      AssignedMaterial "{AAAA9F8AF0DDFD52}Skilte/PilevejviserSkilte/Vejpile Fur BryghusMaterial.emat"
+     }
+    }
+   }
+  }
+  coords 2479.634 13.731 4671.649
+  angleY 10.589
+  scale 1.19
+ }
+}
+GenericEntity : "{0F9E3E5E45506627}Prefabs/Structures/SkilteFur/SkiltStort2.et" {
+ components {
+  MeshObject "{6548A17843668C46}" {
+   Materials {
+    MaterialAssignClass "{654D252D8FF9A7FE}" {
+     SourceMaterial "Material"
+     AssignedMaterial "{15689C774A15B1AE}Skilte/PilevejviserSkilte/Vejpile 3 Soendergaade - Fur BryghusMaterial.emat"
+    }
+   }
+  }
+ }
+ coords 2665.075 16.602 4874.612
+ angleY -77.248
+ scale 1.19
+}
 GenericEntity : "{393EA7D4604211A7}PrefabLibrary/Infrastructure/Sings/SignParking.et" {
  coords 2474.082 54.351 5864.45
  angleX 0.057

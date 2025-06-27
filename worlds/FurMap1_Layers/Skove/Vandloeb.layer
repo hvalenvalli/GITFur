@@ -195,8 +195,8 @@ $grp PolylineShapeEntity {
   LineColor 0 0 0 0
   {
    ForestGeneratorEntity : "{E8A63167E43D9C92}PrefabLibrary/Generators/Forests/FG_Forest_Clearing.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     {
      $grp Tree : "{425761285F36BF16}PrefabLibrary/Vegetation/Trees/t_betula_pendula_1s.et" {
       {
@@ -1087,8 +1087,8 @@ $grp PolylineShapeEntity {
   LineColor 0 1 0 0
   {
    ForestGeneratorEntity : "{FB7D5E7D0C8BDE90}PrefabLibrary/Generators/Forests/FG_Forest_Hornbeam.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     {
      $grp Tree : "{0A56ED2CC73ABB23}PrefabLibrary/Vegetation/Bushes/b_sambucus_nigra_2.et" {
       {
@@ -1112,7 +1112,7 @@ $grp PolylineShapeEntity {
        scale 1.122
       }
      }
-     $grp Tree : "{168F4536FBB8FC36}Prefabs/Vegetation/Tree/t_carpinus_betulus_0s.et" {
+     $grp Tree : "{168F4536FBB8FC36}Prefabs/Vegetation/Tree/t_carpinus_betulus/t_carpinus_betulus_0s.et" {
       {
        coords -1.766 0.125 2.724
        angleX -1.327
@@ -2549,8 +2549,8 @@ $grp SplineShapeEntity {
   LineColor 0 0 0 0
   {
    PrefabGeneratorEntity : "{4DDCB9D8621CEECD}PrefabLibrary/Generators/Bushlines/PG_Bushline_Phragmites_01.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     m_fDistance 6
     {
      $grp Tree : "{077C695F02F4312C}PrefabLibrary/Vegetation/Bushes/b_phragmites_australis_1.et" {
@@ -3890,8 +3890,8 @@ $grp SplineShapeEntity {
   LineColor 0 0 0 0
   {
    PrefabGeneratorEntity : "{4DDCB9D8621CEECD}PrefabLibrary/Generators/Bushlines/PG_Bushline_Phragmites_01.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     m_fDistance 6
     {
      $grp Tree : "{077C695F02F4312C}PrefabLibrary/Vegetation/Bushes/b_phragmites_australis_1.et" {
@@ -5195,5 +5195,352 @@ $grp SplineShapeEntity {
     coords 0 0 0
    }
   }
+ }
+ {
+  coords 4133.714 14.276 5437.987
+  Points {
+   ShapePoint "{652B609A912303D1}" {
+    Position 0 -0.907 0
+   }
+   ShapePoint "{652B609A91236812}" {
+    Position -257.779 3.408 74.795
+   }
+   ShapePoint "{652B609A97935766}" {
+    Position -305.64 4.553 88.775
+   }
+  }
+  {
+   RoadGeneratorEntity : "{2D9AEF10F5FEA98B}PrefabLibrary/Generators/Roads/Dirt/RG_Road_Dirt_01.et" {
+    coords 0 0 0
+    RoadWidth 1
+    RoadFalloffWidth 1
+    {
+     RoadEntity {
+      ID "523EAA80CAA6C6B5"
+      SplinePoints {
+       ShapePoint "{52346539D885C296}" {
+        Position 0 -0.907 0
+       }
+       ShapePoint "{52346539D885C1A2}" {
+        Position -257.779 3.408 74.795
+       }
+       ShapePoint "{652B609A78EF27A0}" {
+        Position -305.64 4.553 88.775
+       }
+      }
+      IsClosedSpline 0
+      Width 1
+     }
+    }
+   }
+   RiverEntity : "{DBFC6B2C12D5ED5A}PrefabLibrary/Generators/Water/River/R_RiverMedium_01.et" {
+    coords 0 0 0
+    SplineOffsetUp 0.3
+    GUID "652B609A9D26AC3D"
+   }
+  }
+ }
+ {
+  coords 3858.639 21.709 5617.842
+  Points {
+   ShapePoint "{652B609FD8C56297}" {
+    Position 0.305 -1.22 0.832
+   }
+   ShapePoint "{652B609FD8C54708}" {
+    Position -11.147 -1.333 -34.405
+    Data {
+     SplinePointData SplinePointData {
+      InTangent -1.29 -0.141 -9.141
+      OutTangent -1.29 -0.141 -9.141
+     }
+    }
+   }
+   ShapePoint "{652B609FDD313301}" {
+    Position -7.458 -1.929 -39.351
+    Data {
+     SplinePointData SplinePointData {
+      InTangent 7.379 -0.25 -0.438
+      OutTangent 7.379 -0.25 -0.438
+     }
+    }
+   }
+   ShapePoint "{652B609FDC79D6D8}" {
+    Position 78.914 -4.694 -66.887
+   }
+  }
+  {
+   RoadGeneratorEntity : "{2D9AEF10F5FEA98B}PrefabLibrary/Generators/Roads/Dirt/RG_Road_Dirt_01.et" {
+    coords 11.884 8.916 62.746
+    RoadWidth 1
+    RoadFalloffWidth 2
+    {
+     RoadEntity {
+      ID "523EAA80CAA6C6B5"
+      SplinePoints {
+       ShapePoint "{52346539D885C296}" {
+        Position -11.578 -10.136 -61.914
+       }
+       ShapePoint "{52346539D885C1A2}" {
+        Position -23.03 -10.249 -97.151
+        Data {
+         SplinePointData "{00000000D8F1BA4F}" {
+          InTangent -1.29 -0.141 -9.141
+          OutTangent -1.29 -0.141 -9.141
+         }
+        }
+       }
+       ShapePoint "{652B609A78EF27A0}" {
+        Position -19.342 -10.846 -102.097
+        Data {
+         SplinePointData "{00000000D8F1BA4F}" {
+          InTangent 7.379 -0.25 -0.438
+          OutTangent 7.379 -0.25 -0.438
+         }
+        }
+       }
+       ShapePoint "{652B609FBD3E2692}" {
+        Position 67.031 -13.61 -129.632
+       }
+      }
+      IsClosedSpline 0
+      Width 1
+     }
+    }
+   }
+   RiverEntity : "{DBFC6B2C12D5ED5A}PrefabLibrary/Generators/Water/River/R_RiverMedium_01.et" {
+    coords 0 0 0
+    SplineOffsetUp 0.8
+    ReverseFlow 1
+    GUID "652B609F9CF8FB1C"
+   }
+  }
+ }
+ {
+  coords 3948.353 17.915 5548.693
+  Points {
+   ShapePoint "{652B609F203DD92B}" {
+    Position 0 -0.59 0
+   }
+   ShapePoint "{652B609F203D0359}" {
+    Position 89.655 -2.381 -27.901
+   }
+   ShapePoint "{652B609F249B7C4E}" {
+    Position 186.612 -3.674 -57.122
+   }
+  }
+  {
+   RoadGeneratorEntity : "{2D9AEF10F5FEA98B}PrefabLibrary/Generators/Roads/Dirt/RG_Road_Dirt_01.et" {
+    coords -13.65 1.873 48.548
+    RoadClearance 2
+    RoadWidth 1
+    RoadFalloffWidth 1
+    {
+     RoadEntity {
+      ID "523EAA80CAA6C6B5"
+      SplinePoints {
+       ShapePoint "{52346539D885C296}" {
+        Position 13.65 -2.463 -48.548
+       }
+       ShapePoint "{52346539D885C1A2}" {
+        Position 103.305 -4.254 -76.45
+       }
+       ShapePoint "{652B609A78EF27A0}" {
+        Position 200.262 -5.547 -105.67
+       }
+      }
+      IsClosedSpline 0
+      Width 1
+     }
+    }
+   }
+   RiverEntity : "{DBFC6B2C12D5ED5A}PrefabLibrary/Generators/Water/River/R_RiverMedium_01.et" {
+    coords 0 0 0
+    SplineOffsetUp 0.3
+    ReverseFlow 1
+    GUID "652B609F2A2A666A"
+   }
+  }
+ }
+}
+GenericEntity : "{0F9E3E5E45506627}Prefabs/Structures/SkilteFur/SkiltStort2.et" {
+ components {
+  MeshObject "{6548A17843668C46}" {
+   Materials {
+    MaterialAssignClass "{654D252E87681111}" {
+     SourceMaterial "Material"
+     AssignedMaterial "{D90ADC04B490D173}Skilte/PilevejviserSkilte/Vejpile 6 Fur bryghus - Reginas StaffeliMaterials.emat"
+    }
+   }
+  }
+ }
+ coords 4258.68 1.503 2896.094
+ angleY -13.939
+ scale 1.19
+}
+StaticModelEntity : "{1C2C424CBCF3A599}PrefabLibrary/Terrain/Erosion/ErodedEmbankment_01_dirt_turnin.et" {
+ coords 3847.208 19.905 5581.484
+ angleX -4.848
+ angleY -121.145
+ angleZ -3.115
+}
+SCR_DestructibleEntity : "{2D4B21B9086F6AFB}Prefabs/Structures/Infrastructure/Waterworks/HydrantStreet_01/HydrantStreet_01.et" {
+ components {
+  MeshObject "{5111E74D5E891458}" {
+   Materials {
+    MaterialAssignClass "{654AF98EDE348BDC}" {
+     SourceMaterial "HydrantStreet_01"
+     AssignedMaterial "{A2FD823AB1F1FBD5}Assets/Structures/Infrastructure/Waterworks/HydrantStreet_01/Data/HydrantStreet_01_MFurRed.emat"
+    }
+   }
+  }
+ }
+ coords 4251.65 2.845 2893.675
+ angleY -30.057
+}
+$grp StaticModelEntity : "{9AF0242036F3D3D3}PrefabLibrary/Terrain/Erosion/ErodedEmbankment_01_dirt_straight.et" {
+ {
+  coords 3984.211 14.978 5537.289
+  angleX -13.773
+  angleY -164.43
+  angleZ 0.635
+  scale 1.66
+ }
+ {
+  coords 3995.882 14.84 5533.521
+  angleX -15.412
+  angleY -164.449
+  angleZ 0.64
+  scale 1.66
+ }
+ {
+  coords 4007.308 14.867 5530.778
+  angleX -15.412
+  angleY -164.449
+  angleZ 0.64
+  scale 1.66
+ }
+ {
+  coords 3998.042 14.611 5534.601
+  angleX -1.352
+  angleY 14.217
+  angleZ -1.038
+  scale 1.66
+ }
+ {
+  coords 4010.668 14.21 5530.976
+  angleX -1.252
+  angleY 19.427
+  angleZ -1.156
+  scale 1.66
+ }
+ {
+  coords 4022.447 13.773 5526.511
+  angleX -1.252
+  angleY 19.427
+  angleZ -1.156
+  scale 1.66
+ }
+ {
+  coords 4036.722 13.709 5522.43
+  angleX -1.361
+  angleY 13.714
+  angleZ -1.026
+  scale 1.66
+ }
+ {
+  coords 4049.648 13.768 5518.68
+  angleX -1.323
+  angleY 15.806
+  angleZ -1.075
+  scale 1.66
+ }
+ {
+  coords 4061.711 13.37 5515.883
+  angleX -1.323
+  angleY 15.806
+  angleZ -1.075
+  scale 1.66
+ }
+ {
+  coords 3848.098 20.367 5589.066
+  angleX -3.184
+  angleY -71.602
+ }
+ {
+  coords 3850.417 20.367 5596.818
+  angleX -3.176
+  angleY -71.602
+ }
+ {
+  coords 3853.302 20.367 5605.698
+  angleX -2.474
+  angleY -71.602
+ }
+ {
+  coords 3856.398 20.234 5614.89
+  angleX -6.914
+  angleY -71.602
+  scale 1.2
+ }
+ {
+  coords 3850.5 19.758 5588.115
+  angleX -5.117
+  angleY 109.88
+  angleZ 0.964
+  scale 1.2
+ }
+ {
+  coords 3853.843 20.054 5597.216
+  angleX -0.678
+  angleY 109.954
+  angleZ 0.961
+ }
+ {
+  coords 3856.969 20.208 5606.014
+  angleX -1.38
+  angleY 109.942
+  angleZ 0.961
+ }
+ {
+  coords 3859.499 20.336 5613.698
+  angleX -1.387
+  angleY 109.942
+  angleZ 0.961
+ }
+ {
+  coords 3934.68 16.38 5554.026
+  angleX -4.571
+  angleY 20.317
+  angleZ 4.667
+  scale 1.2
+ }
+ {
+  coords 3924.577 16.842 5557.081
+  angleX -4.133
+  angleY 15.153
+  angleZ 5.059
+  scale 1.2
+ }
+ {
+  coords 3914.572 17.318 5560.424
+  angleX -3.762
+  angleY 11.07
+  angleZ 4.503
+  scale 1.2
+ }
+}
+$grp GenericEntity : "{D4A15855911425CB}PrefabLibrary/Props/Construction/ConcretePipe_01_Large.et" {
+ {
+  coords 4135.891 10.816 5492.32
+  angleY 11.786
+  angleZ 4.044
+  scale 2.056
+ }
+ {
+  coords 3859.801 17.339 5620.219
+  angleX 3.956
+  angleY -66.267
+  angleZ 0.836
+  scale 2.467
  }
 }

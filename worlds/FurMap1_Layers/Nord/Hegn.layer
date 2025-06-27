@@ -6967,13 +6967,474 @@ $grp PolylineShapeEntity {
    }
   }
  }
+ {
+  coords 3791.289 61.438 6197.344
+  Points {
+   ShapePoint "{64D367B93CA0F15D}" {
+    Position 0 0 0
+   }
+   ShapePoint "{64D367B93CA72B06}" {
+    Position -10.437 0.405 -0.317
+   }
+  }
+  LineColor 0 0 0 0
+  {
+   WallGeneratorEntity : "{BE0F4C5476112BC7}PrefabLibrary/Generators/Walls/Wooden/WG_WoodenFence_01.et" {
+    coords 0 0 0
+    Flags 1048579
+    {
+     SCR_DestructibleEntity : "{62FAEE07088DB6C5}PrefabLibrary/Walls/Wooden/WoodenFence_01_2m.et" {
+      coords -7.933 0.308 -0.241
+      angleY -181.742
+     }
+     SCR_DestructibleEntity : "{8D66287EE8B4C914}PrefabLibrary/Walls/Wooden/WoodenFence_01_Pole.et" {
+      coords -9.828 0.382 -0.299
+      angleY -181.742
+     }
+     SCR_DestructibleEntity : "{F3AC596DBEE14810}PrefabLibrary/Walls/Wooden/WoodenFence_01_8m.et" {
+      coords 0 0 0
+      angleY -181.742
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 4594.375 61.717 6638.131
+  Points {
+   ShapePoint "{64D91D19606A0677}" {
+    Position 0 0 0
+   }
+   ShapePoint "{64D91D19606A7328}" {
+    Position 5.478 -0.371 -6.739
+   }
+   ShapePoint "{64D91D1966FFCC01}" {
+    Position 20.647 -1.172 -20.321
+   }
+   ShapePoint "{64D91D196563CC21}" {
+    Position 36.666 -1.375 -21.002
+   }
+   ShapePoint "{64D91D196440DF2A}" {
+    Position 76.488 -2.231 -20.874
+   }
+   ShapePoint "{64D91D1964C9A654}" {
+    Position 101.349 -2.713 -20.46
+   }
+   ShapePoint "{64D91D196B46312A}" {
+    Position 161.284 -4.38 -17.958
+   }
+   ShapePoint "{64D91D196BC2437A}" {
+    Position 196.942 -6.008 -16.69
+   }
+   ShapePoint "{64D91D196A5ED610}" {
+    Position 195.678 -5.815 14.91
+   }
+   ShapePoint "{64D91D196912A14D}" {
+    Position 196.028 -6.046 45.727
+   }
+   ShapePoint "{64D91D1969F75840}" {
+    Position 195.561 -6.77 65.724
+   }
+   ShapePoint "{64D91D196841C5BC}" {
+    Position 156.421 -6.282 61.013
+   }
+   ShapePoint "{64D91D196828825F}" {
+    Position 135.447 -4.185 37.015
+   }
+   ShapePoint "{64D91D196F0C5E48}" {
+    Position 94.212 -1.964 26.378
+   }
+   ShapePoint "{64D91D196FB08998}" {
+    Position 59.774 -0.904 16.223
+   }
+   ShapePoint "{64D91D196E2127FE}" {
+    Position 8.94 0.365 3.798
+   }
+   ShapePoint "{64D91D196EA2642F}" {
+    Position 0.184 0.012 0.028
+   }
+  }
+  LineColor 0 0 0 0
+  {
+   WallGeneratorEntity : "{99A65EB56A937C62}PrefabLibrary/Generators/Walls/Pole/WG_PoleFence_01.et" {
+    coords 0 0 0
+    Flags 1048579
+    {
+     SCR_DestructibleEntity : "{0568EFE48849C7A8}PrefabLibrary/Walls/Pole/PoleFence_01_3m_End.et" {
+      coords 4.883 0.156 1.926
+      angleY -201.994
+     }
+     $grp SCR_DestructibleEntity : "{312BE6887A00B8A9}PrefabLibrary/Walls/Pole/PoleFence_01_Pole.et" {
+      {
+       coords 124.356 -3.358 -19.485
+       angleY -2.368
+      }
+      {
+       coords 196.009 -6.029 43.45
+       angleY -91.152
+      }
+      {
+       coords 44.744 -0.538 12.632
+       angleY -193.861
+      }
+      {
+       coords 30.893 -0.189 9.215
+       angleY -193.861
+      }
+     }
+     $grp SCR_DestructibleEntity : "{369C528573EF9512}PrefabLibrary/Walls/Pole/PoleFence_01_6m_A.et" {
+      {
+       coords -0.052 0.004 0.064
+       angleY 50.896
+      }
+      {
+       coords 3.741 -0.254 -4.621
+       angleY 42.881
+      }
+      {
+       coords 25.143 -1.19 -19.684
+       angleY 6.528
+      }
+      {
+       coords 76.234 -2.225 -20.874
+       angleY -0.944
+      }
+      {
+       coords 100.28 -2.692 -20.48
+       angleY -2.368
+      }
+      {
+       coords 127.284 -3.439 -19.363
+       angleY -2.368
+      }
+      {
+       coords 133.31 -3.606 -19.114
+       angleY -2.368
+      }
+      {
+       coords 160.384 -4.354 -17.994
+       angleY -2.043
+      }
+      {
+       coords 196.206 -5.923 -4.779
+       angleY -91.537
+      }
+      {
+       coords 195.776 -5.865 19.32
+       angleY -89.453
+      }
+      {
+       coords 195.834 -5.906 25.352
+       angleY -89.453
+      }
+      {
+       coords 195.737 -6.479 56.985
+       angleY -91.152
+      }
+      {
+       coords 189.699 -6.622 62.782
+       angleY -183.042
+      }
+      {
+       coords 156.631 -6.289 61.084
+       angleY -228.648
+      }
+      {
+       coords 144.699 -5.104 47.526
+       angleY -228.648
+      }
+      {
+       coords 108.533 -2.754 30.445
+       angleY -195.854
+      }
+      {
+       coords 94.058 -1.953 26.335
+       angleY -196.434
+      }
+      {
+       coords 88.274 -1.776 24.629
+       angleY -196.434
+      }
+      {
+       coords 70.972 -1.247 19.526
+       angleY -196.434
+      }
+      {
+       coords 56.456 -0.833 15.522
+       angleY -193.861
+      }
+      {
+       coords 22.217 0.03 7.074
+       angleY -193.861
+      }
+      {
+       coords 16.361 0.177 5.629
+       angleY -193.861
+      }
+     }
+     $grp SCR_DestructibleEntity : "{5AC86665CF2B1A3C}PrefabLibrary/Walls/Pole/PoleFence_01_6m_B.et" {
+      {
+       coords 12.576 -0.734 -12.825
+       angleY 42.881
+      }
+      {
+       coords 40.15 -1.461 -20.742
+       angleY 0.208
+      }
+      {
+       coords 52.187 -1.716 -20.785
+       angleY 0.208
+      }
+      {
+       coords 64.224 -1.971 -20.829
+       angleY 0.208
+      }
+      {
+       coords 70.229 -2.098 -20.851
+       angleY 0.208
+      }
+      {
+       coords 82.265 -2.343 -20.775
+       angleY -0.944
+      }
+      {
+       coords 88.27 -2.459 -20.676
+       angleY -0.944
+      }
+      {
+       coords 94.275 -2.576 -20.577
+       angleY -0.944
+      }
+      {
+       coords 112.331 -3.025 -19.982
+       angleY -2.368
+      }
+      {
+       coords 145.361 -3.94 -18.616
+       angleY -2.368
+      }
+      {
+       coords 178.453 -5.171 -17.35
+       angleY -2.043
+      }
+      {
+       coords 184.45 -5.443 -17.136
+       angleY -2.043
+      }
+      {
+       coords 190.447 -5.714 -16.922
+       angleY -2.043
+      }
+      {
+       coords 196.528 -5.989 -16.788
+       angleY -91.537
+      }
+      {
+       coords 196.367 -5.956 -10.783
+       angleY -91.537
+      }
+      {
+       coords 195.883 -5.857 7.283
+       angleY -91.537
+      }
+      {
+       coords 195.697 -6.684 63.1
+       angleY -183.042
+      }
+      {
+       coords 183.675 -6.561 62.461
+       angleY -183.042
+      }
+      {
+       coords 171.653 -6.438 61.823
+       angleY -183.042
+      }
+      {
+       coords 165.655 -6.376 61.504
+       angleY -183.042
+      }
+      {
+       coords 140.721 -4.709 43.007
+       angleY -228.648
+      }
+      {
+       coords 136.786 -4.314 38.468
+       angleY -195.854
+      }
+      {
+       coords 82.49 -1.599 22.923
+       angleY -196.434
+      }
+      {
+       coords 76.731 -1.423 21.224
+       angleY -196.434
+      }
+      {
+       coords 28.047 -0.117 8.512
+       angleY -193.861
+      }
+      {
+       coords 10.502 0.329 4.195
+       angleY -201.994
+      }
+     }
+     $grp SCR_DestructibleEntity : "{66A81F198B1F2D11}PrefabLibrary/Walls/Pole/PoleFence_01_D.et" {
+      {
+       coords 195.95 -6.126 46.38
+       angleY -91.152
+      }
+      {
+       coords 195.843 -6.303 51.682
+       angleY -91.152
+      }
+      {
+       coords 131.016 -3.996 36.83
+       angleY -195.854
+      }
+      {
+       coords 36.043 -0.319 10.485
+       angleY -193.861
+      }
+     }
+     $grp SCR_DestructibleEntity : "{79BB355CA784598B}PrefabLibrary/Walls/Pole/PoleFence_01_6m.et" {
+      {
+       coords 8.158 -0.494 -8.723
+       angleY 42.881
+      }
+      {
+       coords 19.15 -1.094 -18.998
+       angleY 6.528
+      }
+      {
+       coords 34.118 -1.334 -20.72
+       angleY 0.208
+      }
+      {
+       coords 46.155 -1.588 -20.763
+       angleY 0.208
+      }
+      {
+       coords 58.192 -1.843 -20.807
+       angleY 0.208
+      }
+      {
+       coords 106.305 -2.859 -20.231
+       angleY -2.368
+      }
+      {
+       coords 118.33 -3.191 -19.734
+       angleY -2.368
+      }
+      {
+       coords 139.335 -3.773 -18.865
+       angleY -2.368
+      }
+      {
+       coords 151.36 -4.106 -18.368
+       angleY -2.368
+      }
+      {
+       coords 166.407 -4.627 -17.779
+       angleY -2.043
+      }
+      {
+       coords 172.43 -4.899 -17.564
+       angleY -2.043
+      }
+      {
+       coords 196.045 -5.89 1.252
+       angleY -91.537
+      }
+      {
+       coords 195.719 -5.823 13.287
+       angleY -89.453
+      }
+      {
+       coords 195.891 -5.948 31.385
+       angleY -89.453
+      }
+      {
+       coords 195.949 -5.989 37.417
+       angleY -89.453
+      }
+      {
+       coords 177.677 -6.499 62.143
+       angleY -183.042
+      }
+      {
+       coords 152.653 -5.894 56.564
+       angleY -228.648
+      }
+      {
+       coords 148.676 -5.499 52.045
+       angleY -228.648
+      }
+      {
+       coords 125.919 -3.714 35.382
+       angleY -195.854
+      }
+      {
+       coords 120.124 -3.394 33.736
+       angleY -195.854
+      }
+      {
+       coords 114.328 -3.074 32.091
+       angleY -195.854
+      }
+      {
+       coords 102.738 -2.434 28.799
+       angleY -195.854
+      }
+      {
+       coords 62.311 -0.981 16.967
+       angleY -193.861
+      }
+      {
+       coords 50.6 -0.686 14.077
+       angleY -193.861
+      }
+      {
+       coords 41.899 -0.466 11.93
+       angleY -193.861
+      }
+     }
+     $grp SCR_DestructibleEntity : "{90681E1C28473DA8}PrefabLibrary/Walls/Pole/PoleFence_01_3m.et" {
+      {
+       coords 16.974 -0.972 -16.909
+       angleY 42.881
+      }
+      {
+       coords 31.136 -1.286 -20.369
+       angleY 6.528
+      }
+      {
+       coords 157.386 -4.273 -18.119
+       angleY -2.368
+      }
+      {
+       coords 159.657 -6.315 61.185
+       angleY -183.042
+      }
+      {
+       coords 96.942 -2.114 27.153
+       angleY -195.854
+      }
+      {
+       coords 65.188 -1.07 17.82
+       angleY -196.434
+      }
+     }
+    }
+   }
+  }
+ }
 }
 $grp SplineShapeEntity {
  {
   coords 4152.153 22.632 5835.072
   Points {
    ShapePoint "{62BF073052AC8D96}" {
-    Position 0 -0 0
+    Position 0 0 0
    }
    ShapePoint "{62BF073052ACCFD8}" {
     Position -5.924 -1.629 -39.584
@@ -7046,763 +7507,613 @@ $grp SplineShapeEntity {
     Flags 1048579
     {
      SCR_DestructibleEntity : "{0568EFE48849C7A8}PrefabLibrary/Walls/Pole/PoleFence_01_3m_End.et" {
-      _layer 11
       coords 4.377 0.007 1.748
       angleY -182.728
      }
      $grp SCR_DestructibleEntity : "{312BE6887A00B8A9}PrefabLibrary/Walls/Pole/PoleFence_01_Pole.et" {
       {
-       _layer 11
        coords -2.557 -0.703 -17.085
        angleY -261.488
       }
       {
-       _layer 11
        coords -6.474 -1.65 -43.765
        angleY -262.219
       }
       {
-       _layer 11
        coords -37.356 -0.656 -86.414
        angleY -162.521
       }
       {
-       _layer 11
        coords -92.825 4.093 -24.339
        angleY -92.215
       }
       {
-       _layer 11
        coords -64.418 4.819 8.556
        angleY -11.289
       }
       {
-       _layer 11
        coords -46.366 4.155 23.618
        angleY -103.336
       }
       {
-       _layer 11
        coords -52.601 5.47 49.921
        angleY -103.336
       }
       {
-       _layer 11
        coords -61.43 7.331 87.168
        angleY -103.336
       }
       {
-       _layer 11
        coords -64.5 10.308 151.393
        angleY -20.884
       }
       {
-       _layer 11
        coords -50.512 10.284 156.73
        angleY -20.884
       }
       {
-       _layer 11
        coords 12.387 10.233 163.288
        angleY 21.354
       }
       {
-       _layer 11
        coords 60.314 0.205 29.183
        angleY -256.088
       }
       {
-       _layer 11
        coords 59.611 -0.001 26.344
        angleY -256.088
       }
       {
-       _layer 11
        coords 25.406 -0.583 2.75
        angleY -182.728
       }
      }
      $grp SCR_DestructibleEntity : "{369C528573EF9512}PrefabLibrary/Walls/Pole/PoleFence_01_6m_A.et" {
       {
-       _layer 11
        coords -0.88 -0.242 -5.88
        angleY -261.488
       }
       {
-       _layer 11
        coords -7.589 -1.776 -51.927
        angleY -262.219
       }
       {
-       _layer 11
        coords -10.798 -2.148 -75.809
        angleY -221.375
       }
       {
-       _layer 11
        coords -15.321 -1.896 -79.794
        angleY -221.375
       }
       {
-       _layer 11
        coords -56.679 0.438 -80.385
        angleY -122.874
       }
       {
-       _layer 11
        coords -69.349 1.755 -60.781
        angleY -122.874
       }
       {
-       _layer 11
        coords -92.593 3.548 -30.343
        angleY -92.215
       }
       {
-       _layer 11
        coords -92.938 4.358 -21.421
        angleY -92.215
       }
       {
-       _layer 11
        coords -93.17 4.903 -15.417
        angleY -92.215
       }
       {
-       _layer 11
        coords -93.634 5.993 -3.409
        angleY -92.215
       }
       {
-       _layer 11
        coords -55.641 4.304 10.308
        angleY -11.289
       }
       {
-       _layer 11
        coords -43.753 3.605 12.597
        angleY -103.336
       }
       {
-       _layer 11
        coords -48.431 4.591 32.331
        angleY -103.336
       }
       {
-       _layer 11
        coords -54.499 5.87 57.928
        angleY -103.336
       }
       {
-       _layer 11
        coords -62.106 7.473 90.017
        angleY -103.336
       }
       {
-       _layer 11
        coords -39.621 10.464 161.632
        angleY -27.611
       }
       {
-       _layer 11
        coords -34.277 10.657 164.426
        angleY -27.611
       }
       {
-       _layer 11
        coords -4.434 10.895 169.864
        angleY 21.354
       }
       {
-       _layer 11
        coords 1.181 10.674 167.669
        angleY 21.354
       }
       {
-       _layer 11
        coords 15.116 10.126 162.221
        angleY 21.354
       }
       {
-       _layer 11
        coords 22.289 9.988 153.852
        angleY -255.426
       }
       {
-       _layer 11
        coords 20.772 10.215 148.017
        angleY -255.426
       }
       {
-       _layer 11
        coords 5.618 9.617 97.038
        angleY 51.57
       }
       {
-       _layer 11
        coords 9.36 9.209 92.323
        angleY 51.57
       }
       {
-       _layer 11
        coords 13.101 8.8 87.608
        angleY 51.57
       }
       {
-       _layer 11
        coords 18.755 8.191 80.564
        angleY 89.515
       }
       {
-       _layer 11
        coords 18.805 7.586 74.562
        angleY 89.515
       }
       {
-       _layer 11
        coords 18.856 6.981 68.559
        angleY 89.515
       }
       {
-       _layer 11
        coords 24.19 4.56 49.679
        angleY 61.814
       }
       {
-       _layer 11
        coords 31.202 2.53 36.419
        angleY -36.265
       }
       {
-       _layer 11
        coords 50.052 2.636 50.248
        angleY -36.265
       }
       {
-       _layer 11
        coords 68.989 2.748 64.207
        angleY -256.088
       }
       {
-       _layer 11
        coords 67.542 2.324 58.365
        angleY -256.088
       }
       {
-       _layer 11
        coords 63.208 1.053 40.866
        angleY -256.088
       }
       {
-       _layer 11
        coords 61.761 0.629 35.024
        angleY -256.088
       }
       {
-       _layer 11
        coords 58.907 -0.207 23.505
        angleY -256.088
       }
       {
-       _layer 11
        coords 56.785 -0.846 14.729
        angleY -219.66
       }
      }
      $grp SCR_DestructibleEntity : "{5AC86665CF2B1A3C}PrefabLibrary/Walls/Pole/PoleFence_01_6m_B.et" {
       {
-       _layer 11
        coords -2.991 -0.822 -19.982
        angleY -261.488
       }
       {
-       _layer 11
        coords -4.771 -1.312 -31.879
        angleY -261.488
       }
       {
-       _layer 11
        coords -5.661 -1.558 -37.815
        angleY -262.219
       }
       {
-       _layer 11
        coords -9.222 -1.96 -63.881
        angleY -262.219
       }
       {
-       _layer 11
        coords -10.036 -2.052 -69.831
        angleY -262.219
       }
       {
-       _layer 11
        coords -19.844 -1.643 -83.778
        angleY -221.375
       }
       {
-       _layer 11
        coords -26.582 -1.267 -89.807
        angleY -162.521
       }
       {
-       _layer 11
        coords -45.203 -0.211 -83.943
        angleY -162.521
       }
       {
-       _layer 11
        coords -50.924 0.113 -82.142
        angleY -162.521
       }
       {
-       _layer 11
        coords -66.094 1.417 -65.818
        angleY -122.874
       }
       {
-       _layer 11
        coords -77.113 2.564 -48.749
        angleY -129.944
       }
       {
-       _layer 11
        coords -80.966 2.811 -44.148
        angleY -129.944
       }
       {
-       _layer 11
        coords -84.819 3.058 -39.546
        angleY -129.944
       }
       {
-       _layer 11
        coords -49.734 3.958 11.488
        angleY -11.289
       }
       {
-       _layer 11
        coords -55.889 6.163 63.791
        angleY -103.336
       }
       {
-       _layer 11
        coords -58.663 6.747 75.492
        angleY -103.336
       }
       {
-       _layer 11
        coords -60.047 7.039 81.33
        angleY -103.336
       }
       {
-       _layer 11
        coords -63.496 7.766 95.881
        angleY -103.336
       }
       {
-       _layer 11
        coords -64.88 8.058 101.719
        angleY -103.336
       }
       {
-       _layer 11
        coords -66.264 8.349 107.557
        angleY -103.336
       }
       {
-       _layer 11
        coords -68.87 8.899 118.551
        angleY -103.336
       }
       {
-       _layer 11
        coords -71.476 9.448 129.546
        angleY -103.336
       }
       {
-       _layer 11
        coords -72.86 9.74 135.384
        angleY -103.336
       }
       {
-       _layer 11
        coords -74.244 10.032 141.222
        angleY -103.336
       }
       {
-       _layer 11
        coords -75.725 10.327 147.111
        angleY -20.884
       }
       {
-       _layer 11
        coords -70.113 10.318 149.252
        angleY -20.884
       }
       {
-       _layer 11
        coords -61.761 10.303 152.439
        angleY -20.884
       }
       {
-       _layer 11
        coords -28.934 10.85 167.221
        angleY -27.611
       }
       {
-       _layer 11
        coords -23.614 11.042 170.004
        angleY -27.611
       }
       {
-       _layer 11
        coords -10.024 11.114 172.05
        angleY 21.354
       }
       {
-       _layer 11
        coords 6.797 10.453 165.474
        angleY 21.354
       }
       {
-       _layer 11
        coords 17.921 10.642 137.05
        angleY -255.426
       }
       {
-       _layer 11
        coords 16.41 10.867 131.241
        angleY -255.426
       }
       {
-       _layer 11
        coords 14.166 11.213 122.519
        angleY -239.567
       }
       {
-       _layer 11
        coords 18.894 6.078 59.56
        angleY 61.814
       }
       {
-       _layer 11
        coords 27.013 3.751 44.409
        angleY 61.814
       }
       {
-       _layer 11
        coords 40.931 2.585 43.556
        angleY -36.265
       }
       {
-       _layer 11
        coords 54.916 2.663 53.817
        angleY -36.265
       }
       {
-       _layer 11
        coords 64.648 1.476 46.682
        angleY -256.088
       }
       {
-       _layer 11
        coords 48.056 -1.003 7.492
        angleY -219.66
       }
       {
-       _layer 11
        coords 37.427 -0.92 3.323
        angleY -182.728
       }
       {
-       _layer 11
        coords 16.454 -0.332 2.324
        angleY -182.728
       }
      }
      $grp SCR_DestructibleEntity : "{66A81F198B1F2D11}PrefabLibrary/Walls/Pole/PoleFence_01_D.et" {
       {
-       _layer 11
        coords -1.772 -0.487 -11.841
        angleY -261.488
       }
       {
-       _layer 11
        coords -6.871 -1.694 -46.67
        angleY -262.219
       }
       {
-       _layer 11
        coords -32.303 -0.943 -88.006
        angleY -162.521
       }
       {
-       _layer 11
        coords -40.149 -0.498 -85.535
        angleY -162.521
       }
       {
-       _layer 11
        coords -63.218 1.118 -70.267
        angleY -122.874
       }
       {
-       _layer 11
        coords -72.618 2.095 -55.722
        angleY -122.874
       }
       {
-       _layer 11
        coords -45.143 3.898 18.46
        angleY -103.336
       }
       {
-       _layer 11
        coords -53.276 5.612 52.77
        angleY -103.336
       }
       {
-       _layer 11
        coords -67.647 8.641 113.394
        angleY -103.336
       }
       {
-       _layer 11
        coords -70.254 9.19 124.389
        angleY -103.336
       }
       {
-       _layer 11
        coords 23.623 9.789 158.984
        angleY -255.426
       }
       {
-       _layer 11
        coords 19.255 10.442 142.182
        angleY -255.426
       }
       {
-       _layer 11
        coords 21.706 5.272 54.313
        angleY 61.814
       }
       {
-       _layer 11
        coords 45.774 2.612 47.109
        angleY -36.265
       }
       {
-       _layer 11
        coords 59.76 2.69 57.37
        angleY -36.265
       }
       {
-       _layer 11
        coords 52.14 -0.93 10.879
        angleY -219.66
       }
      }
      $grp SCR_DestructibleEntity : "{79BB355CA784598B}PrefabLibrary/Walls/Pole/PoleFence_01_6m.et" {
       {
-       _layer 11
        coords 0.012 0.003 0.082
        angleY -261.488
       }
       {
-       _layer 11
        coords -3.879 -1.066 -25.918
        angleY -261.488
       }
       {
-       _layer 11
        coords -8.406 -1.868 -57.904
        angleY -262.219
       }
       {
-       _layer 11
        coords -59.948 0.778 -75.326
        angleY -122.874
       }
       {
-       _layer 11
        coords -88.672 3.304 -34.945
        angleY -129.944
       }
       {
-       _layer 11
        coords -93.402 5.448 -9.413
        angleY -92.215
       }
       {
-       _layer 11
        coords -93.951 6.55 2.661
        angleY -11.289
       }
       {
-       _layer 11
        coords -88.044 6.204 3.84
        angleY -11.289
       }
       {
-       _layer 11
        coords -82.138 5.857 5.019
        angleY -11.289
       }
       {
-       _layer 11
        coords -76.231 5.511 6.198
        angleY -11.289
       }
       {
-       _layer 11
        coords -70.325 5.165 7.377
        angleY -11.289
       }
       {
-       _layer 11
        coords -61.547 4.651 9.129
        angleY -11.289
       }
       {
-       _layer 11
        coords -47.041 4.298 26.467
        angleY -103.336
       }
       {
-       _layer 11
        coords -49.821 4.884 38.194
        angleY -103.336
       }
       {
-       _layer 11
        coords -51.211 5.177 44.057
        angleY -103.336
       }
       {
-       _layer 11
        coords -57.273 6.454 69.629
        angleY -103.336
       }
       {
-       _layer 11
        coords -56.149 10.293 154.58
        angleY -20.884
       }
       {
-       _layer 11
        coords -44.964 10.271 158.837
        angleY -27.611
       }
       {
-       _layer 11
        coords -15.639 11.335 174.245
        angleY 21.354
       }
       {
-       _layer 11
        coords 11.127 10.917 117.347
        angleY -239.567
       }
       {
-       _layer 11
        coords 8.075 10.62 112.151
        angleY -239.567
       }
       {
-       _layer 11
        coords 5.023 10.322 106.956
        angleY -239.567
       }
       {
-       _layer 11
        coords 1.877 10.026 101.754
        angleY 51.57
       }
       {
-       _layer 11
        coords 36.066 2.558 39.987
        angleY -36.265
       }
       {
-       _layer 11
        coords 64.038 2.714 60.508
        angleY -36.265
       }
       {
-       _layer 11
        coords 66.095 1.9 52.523
        angleY -256.088
       }
       {
-       _layer 11
        coords 43.451 -1.089 3.61
        angleY -182.728
       }
       {
-       _layer 11
        coords 31.43 -0.752 3.037
        angleY -182.728
       }
       {
-       _layer 11
        coords 22.478 -0.501 2.611
        angleY -182.728
       }
       {
-       _layer 11
        coords 10.457 -0.163 2.038
        angleY -182.728
       }
      }
      $grp SCR_DestructibleEntity : "{90681E1C28473DA8}PrefabLibrary/Walls/Pole/PoleFence_01_3m.et" {
       {
-       _layer 11
        coords -24.348 -1.392 -87.745
        angleY -221.375
       }
       {
-       _layer 11
        coords -75.494 2.394 -51.272
        angleY -122.874
       }
       {
-       _layer 11
        coords -47.773 10.279 157.776
        angleY -20.884
       }
       {
-       _layer 11
        coords -18.295 11.234 172.786
        angleY -27.611
       }
       {
-       _layer 11
        coords 20.731 9.905 160.026
        angleY 21.354
       }
       {
-       _layer 11
        coords 14.9 11.093 125.432
        angleY -255.426
       }
       {
-       _layer 11
        coords 16.842 8.392 82.893
        angleY 51.57
       }
       {
-       _layer 11
        coords 18.907 6.376 62.557
        angleY 89.515
       }
       {
-       _layer 11
        coords 29.825 2.945 39.163
        angleY 61.814
       }
       {
-       _layer 11
        coords 57.461 -0.631 17.663
        angleY -256.088
       }
@@ -7815,7 +8126,7 @@ $grp SplineShapeEntity {
   coords 3910.063 28.543 5796.283
   Points {
    ShapePoint "{62BF0729F5D999D1}" {
-    Position 0 -0 0
+    Position 0 0 0
    }
    ShapePoint "{62BF0729F5D9C3D1}" {
     Position -39.699 2.545 0.688
@@ -7872,7 +8183,7 @@ $grp SplineShapeEntity {
       }
      }
      SCR_DestructibleEntity : "{9A7FC9D9A8206B74}Prefabs/Structures/Walls/Stone/StoneWall_01/StoneWall_01_start.et" {
-      coords 0 -0 0
+      coords 0 0 0
       angleY -179.007
      }
     }

@@ -1,31 +1,235 @@
-PolylineShapeEntity {
- coords 5644.397 9.799 4912.817
- Points {
-  ShapePoint "{64AB73C73E576430}" {
-   Position -0.01 -1.989 -0.077
+$grp PolylineShapeEntity {
+ {
+  coords 5644.397 9.799 4912.817
+  Points {
+   ShapePoint "{64AB73C73E576430}" {
+    Position -0.01 -1.989 -0.077
+   }
+   ShapePoint "{64AB73C73E574A96}" {
+    Position -6.041 -1.768 -8.584
+   }
+   ShapePoint "{64AB73C73E96A54F}" {
+    Position -19.808 -1.839 -3.265
+   }
+   ShapePoint "{64AB73C73D5F0DEE}" {
+    Position -23.054 -1.743 16.919
+   }
+   ShapePoint "{64AB73C6CBED0BD5}" {
+    Position -14.407 -2.015 27.945
+   }
+   ShapePoint "{64AB73C73D33ADDE}" {
+    Position 2.145 -2.661 17.014
+   }
+   ShapePoint "{64AB73C73D94B37C}" {
+    Position -0.148 -1.974 -0.349
+   }
   }
-  ShapePoint "{64AB73C73E574A96}" {
-   Position -6.041 -1.768 -8.584
-  }
-  ShapePoint "{64AB73C73E96A54F}" {
-   Position -19.808 -1.839 -3.265
-  }
-  ShapePoint "{64AB73C73D5F0DEE}" {
-   Position -23.054 -1.743 16.919
-  }
-  ShapePoint "{64AB73C6CBED0BD5}" {
-   Position -14.407 -2.015 27.945
-  }
-  ShapePoint "{64AB73C73D33ADDE}" {
-   Position 2.145 -2.661 17.014
-  }
-  ShapePoint "{64AB73C73D94B37C}" {
-   Position -0.148 -1.974 -0.349
+  {
+   LakeGeneratorEntity : "{ED31344EDD22714D}PrefabLibrary/Generators/Water/Lake/LG_LakeDirty_01.et" {
+    coords 0 0 0
+   }
   }
  }
  {
-  LakeGeneratorEntity : "{ED31344EDD22714D}PrefabLibrary/Generators/Water/Lake/LG_LakeDirty_01.et" {
-   coords 0 0 0
+  coords 6070.429 2.938 5805.488
+  Points {
+   ShapePoint "{64D67796627F30E9}" {
+    Position 0 0 0
+   }
+   ShapePoint "{64D67796627F7CCA}" {
+    Position -16.976 0 -3.369
+   }
+   ShapePoint "{64D67796610BC8B4}" {
+    Position -38.124 -0.036 6.875
+   }
+   ShapePoint "{64D6779661879E03}" {
+    Position -23.121 -0.084 41.859
+   }
+   ShapePoint "{64D6779660681B1A}" {
+    Position -5.495 0 22.223
+   }
+   ShapePoint "{64D6779666AB8B0C}" {
+    Position -1.05 0 0.728
+   }
+  }
+  {
+   LakeGeneratorEntity : "{ED31344EDD22714D}PrefabLibrary/Generators/Water/Lake/LG_LakeDirty_01.et" {
+    coords 0 0 0
+   }
   }
  }
+ {
+  coords 6231.189 1.221 5598.973
+  Points {
+   ShapePoint "{64D87BFD1CA8FB80}" {
+    Position 0.129 0.006 0.281
+   }
+   ShapePoint "{64D87BFD1DF82CA4}" {
+    Position 16.68 -0.442 -17.303
+   }
+   ShapePoint "{64D87BFD1D6C9BFD}" {
+    Position 10.156 -0.518 -29.034
+   }
+   ShapePoint "{64D87BFD1EA6F535}" {
+    Position -8.253 -0.328 -31.173
+   }
+   ShapePoint "{64D87BFD1EE6FB1A}" {
+    Position -23.057 -0.438 -20.342
+   }
+   ShapePoint "{64D87BFD1F843705}" {
+    Position -14.919 -0.208 -2.141
+   }
+   ShapePoint "{64D87BFD1F84D393}" {
+    Position 0 0 0
+   }
+  }
+  {
+   LakeGeneratorEntity : "{FB8CA78AE56C4A0E}PrefabLibrary/Generators/Water/Lake/LG_Lake_01.et" {
+    coords 0 0 0
+   }
+  }
+ }
+}
+SplineShapeEntity {
+ coords 6307.532 1.424 5551.585
+ Points {
+  ShapePoint "{64D87BF81DE5C3C9}" {
+   Position -50.36 -1.234 14.343
+  }
+  ShapePoint "{64D87BF81DE537B1}" {
+   Position -26.091 -0.332 -18.896
+  }
+  ShapePoint "{64D87BFFE31B278E}" {
+   Position -33.001 -0.358 -62.979
+  }
+  ShapePoint "{64D87BFFE39C09FB}" {
+   Position -52.83 0.492 -100.463
+  }
+  ShapePoint "{64D87BFFE26B1C33}" {
+   Position -71.167 0.757 -115.197
+  }
+  ShapePoint "{64D87BFFE2E36F46}" {
+   Position -105.285 1.603 -110.199
+  }
+  ShapePoint "{64D87BFFE104077E}" {
+   Position -156.834 1.448 -101.759
+  }
+  ShapePoint "{64D87BFFE067C69F}" {
+   Position -177.715 1.823 -98.747
+  }
+ }
+ {
+  RoadGeneratorEntity : "{2D9AEF10F5FEA98B}PrefabLibrary/Generators/Roads/Dirt/RG_Road_Dirt_01.et" {
+   coords 0 0 0
+   RoadFalloffWidth 2.9
+   {
+    RoadEntity {
+     ID "523EAA80CAA6C6B5"
+     SplinePoints {
+      ShapePoint "{52346539D885C296}" {
+       Position -50.36 -1.234 14.343
+      }
+      ShapePoint "{52346539D885C1A2}" {
+       Position -26.091 -0.332 -18.896
+      }
+      ShapePoint "{64D87BFFC0F8A2F7}" {
+       Position -33.001 -0.358 -62.979
+      }
+      ShapePoint "{64D87BFFC0F8A123}" {
+       Position -52.83 0.492 -100.463
+      }
+      ShapePoint "{64D87BFFC0F8A15F}" {
+       Position -71.167 0.757 -115.197
+      }
+      ShapePoint "{64D87BFFC0F8A19C}" {
+       Position -105.285 1.603 -110.199
+      }
+      ShapePoint "{64D87BFFC0F8A1DB}" {
+       Position -156.834 1.448 -101.759
+      }
+      ShapePoint "{64D87BFFC0F8A012}" {
+       Position -177.715 1.823 -98.747
+      }
+     }
+     IsClosedSpline 0
+     Width 4
+    }
+   }
+  }
+  RiverEntity : "{DBFC6B2C12D5ED5A}PrefabLibrary/Generators/Water/River/R_RiverMedium_01.et" {
+   coords 0 0 0
+   Width 14
+   GUID "64D87BFFE8E8967F"
+  }
+ }
+}
+$grp StaticModelEntity : "{9AF0242036F3D3D3}PrefabLibrary/Terrain/Erosion/ErodedEmbankment_01_dirt_straight.et" {
+ {
+  coords 6279.485 0.366 5533.494
+  angleX -3.247
+  angleY -110.457
+  angleZ 1.045
+ }
+ {
+  coords 6281.826 0.318 5524.212
+  angleX 1.149
+  angleY -105.633
+  angleZ 1.327
+ }
+ {
+  coords 6270.148 0.435 5548.123
+  angleX -5.517
+  angleY -131.66
+  angleZ 2.175
+ }
+ {
+  coords 6281.509 0.413 5538.788
+  angleX 0.76
+  angleY 68.466
+  angleZ 0.832
+ }
+ {
+  coords 6284.789 0.738 5528.784
+  angleX 0.663
+  angleY 74.862
+  angleZ 0.912
+ }
+ {
+  coords 6286.386 0.608 5521.111
+  angleX 0.294
+  angleY 95.766
+  angleZ 1.088
+ }
+ {
+  coords 6285.029 0.456 5513.962
+  angleX 0.53
+  angleY 103.006
+  angleZ -1.841
+ }
+ {
+  coords 6243.448 -0.243 5576.376
+  angleX -4.576
+  angleY 109.09
+  angleZ -0.274
+  scale 1.346
+ }
+ {
+  coords 6236.824 -0.595 5571.216
+  angleX -6.494
+  angleY 164.404
+  angleZ -3.084
+  scale 1.346
+ }
+ {
+  coords 6241.99 -0.351 5582.553
+  angleX -8.582
+  angleY 62.024
+  angleZ 3.783
+  scale 1.346
+ }
+}
+GenericEntity : "{F4075426881F454D}PrefabLibrary/Props/Construction/ConcretePipe_01_Long.et" {
+ coords 6251.325 -2.276 5571.055
+ angleY 40.273
+ scale 5.62
 }

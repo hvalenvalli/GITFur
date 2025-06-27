@@ -1,0 +1,101 @@
+SCR_DestructibleEntity {
+ components {
+  MeshObject "{5111E74D5E891458}" {
+   Materials {
+    MaterialAssignClass "{65553E0166AEC027}" {
+     SourceMaterial "HydrantStreet_01"
+     AssignedMaterial "{A2FD823AB1F1FBD5}Assets/Structures/Infrastructure/Waterworks/HydrantStreet_01/Data/HydrantStreet_01_MFurRed.emat"
+    }
+   }
+  }
+ }
+ coords 2773.112 16 4877.998
+ angleY 93.099
+}
+$grp GenericEntity : "{053B6E13F34095A0}Prefabs/Structures/SkilteFur/SkiltStort1.et" {
+ {
+  components {
+   MeshObject "{6548A178426C7A88}" {
+    Materials {
+     MaterialAssignClass "{654D252D2B895163}" {
+      SourceMaterial "Material"
+      AssignedMaterial "{20AB909597D0566B}Skilte/PilevejviserSkilte/Vejpile Bette Jenses Hyw (K)Material.emat"
+     }
+    }
+   }
+  }
+  coords 2757.656 15.088 4859.101
+  angleY 114.067
+  scale 1.19
+ }
+ {
+  components {
+   MeshObject "{6548A178426C7A88}" {
+    Materials {
+     MaterialAssignClass "{654D252D3CF8CA3F}" {
+      SourceMaterial "Material"
+      AssignedMaterial "{85EE3419B51F4D2F}Skilte/PilevejviserSkilte/Vejpile 2 StisagerMaterial.emat"
+     }
+    }
+   }
+  }
+  coords 3042.708 7.349 4685.927
+  angleY -66.256
+  scale 1.19
+ }
+ {
+  components {
+   MeshObject "{6548A178426C7A88}" {
+    Materials {
+     MaterialAssignClass "{65553E04300F0FA5}" {
+      SourceMaterial "Material"
+      AssignedMaterial "{888FE096210BD7E6}Skilte/PilevejviserSkilte/Vejpile 1 Pikhede Material.emat"
+     }
+    }
+   }
+  }
+  coords 3190.509 8.258 4646.145
+  angleY 102.091
+  scale 1.15
+ }
+}
+$grp GenericEntity : "{393EA7D4604211A7}PrefabLibrary/Infrastructure/Sings/SignParking.et" {
+ {
+  coords 2920.045 14 5008.158
+  angleX 1.266
+  angleY 124.002
+  angleZ 0.285
+ }
+ {
+  coords 2940.548 13.436 4993.942
+  angleX -0.752
+  angleY -58.701
+  angleZ -0.658
+ }
+}
+$grp GenericEntity : "{43E505BF759653CA}PrefabLibrary/Infrastructure/Sings/SignGiveWay.et" {
+ {
+  coords 2758.446 16.031 4862.068
+  angleX 0.264
+  angleY 15.212
+  angleZ -1.636
+ }
+ {
+  coords 2682.704 17.456 4877.156
+  angleX -0.87
+  angleY 95.798
+  angleZ -0.591
+ }
+ {
+  coords 3179.497 9.236 4649.876
+  angleX -1.464
+  angleY 13.746
+  angleZ 1.43
+ }
+ {
+  coords 3039.636 8.903 4681.825
+  angleX -1.074
+  angleY -166.497
+  angleZ 0.89
+ }
+}
