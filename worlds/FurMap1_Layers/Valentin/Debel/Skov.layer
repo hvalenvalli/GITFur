@@ -110831,7 +110831,7 @@ $grp SplineShapeEntity {
      }
      $grp Tree : "{839E9535771BA366}PrefabLibrary/Vegetation/Bushes/b_sambucus_nigra_0.et" {
       {
-       coords 0 -0 0
+       coords 0 0 0
        angleX 358.049
        angleY 164.72
        angleZ 0.181
@@ -111022,6 +111022,20 @@ $grp Tree : "{00C9C289A467E096}PrefabLibrary/Vegetation/Trees/t_carpinus_betulus
   angleY 31.026
   angleZ 0.112
   scale 0.956
+ }
+ {
+  coords 2602.672 0 5223.647
+  angleX 4.363
+  angleY 29.972
+  angleZ 1.755
+  scale 0.932
+ }
+ {
+  coords 2588.955 0 5222.188
+  angleX -1.5
+  angleY 43.167
+  angleZ -3.574
+  scale 0.818
  }
 }
 $grp Tree : "{0A56ED2CC73ABB23}PrefabLibrary/Vegetation/Bushes/b_sambucus_nigra_2.et" {
@@ -111308,6 +111322,13 @@ $grp Tree : "{407A7B6D0444D05B}PrefabLibrary/Vegetation/Plants/b_urtica_dioica_0
 GenericEntity : "{410E177F07C6CA4D}PrefabLibrary/Props/Civilian/CarpetFrame_01/CarpetFrame_01_red.et" {
  coords 3177.208 8.95 4622.693
  angleY -170.488
+}
+Tree : "{425761285F36BF16}PrefabLibrary/Vegetation/Trees/t_betula_pendula_1s.et" {
+ coords 2586.205 0 5067.983
+ angleX -2.524
+ angleY 273.919
+ angleZ 0.607
+ scale 1.18
 }
 GenericEntity : "{42A2D1BD123CB71A}PrefabLibrary/Props/Garbage/GarbageStack_01_Short.et" {
  coords 3110.528 8.822 4691.931
@@ -112631,6 +112652,13 @@ Tree : "{932E56F57F6F0C9A}PrefabLibrary/Vegetation/Bushes/b_salix_cinerea_1w.et"
  angleZ 2.919
  scale 1.103
 }
+Tree : "{960EA50FD57CD7D5}PrefabLibrary/Vegetation/Trees/t_betula_pendula_1sw.et" {
+ coords 2584.068 0 5068.794
+ angleX 0.068
+ angleY 336.587
+ angleZ -0.662
+ scale 0.993
+}
 $grp Tree : "{99D77B10B980D106}PrefabLibrary/Vegetation/Trees/t_carpinus_betulus_1f.et" {
  {
   coords 3789.987 0 5377.856
@@ -112652,6 +112680,13 @@ $grp Tree : "{99D77B10B980D106}PrefabLibrary/Vegetation/Trees/t_carpinus_betulus
   angleY 287.103
   angleZ -1.758
   scale 1.161
+ }
+ {
+  coords 2584.743 -0 5221.116
+  angleX 2.996
+  angleY 107.01
+  angleZ 0.052
+  scale 0.896
  }
 }
 $grp StaticModelEntity : "{9AF0242036F3D3D3}PrefabLibrary/Terrain/Erosion/ErodedEmbankment_01_dirt_straight.et" {
@@ -112925,7 +112960,7 @@ $grp Tree : "{AC43B039B67361F6}PrefabLibrary/Vegetation/Trees/t_betula_pendula_3
   scale 1.175
  }
  {
-  coords 2642.223 -0 4993.729
+  coords 2642.223 0 4993.729
   angleX -3.523
   angleY 105.813
   angleZ 2.697
@@ -113115,6 +113150,20 @@ $grp Tree : "{B3453920EE605F13}PrefabLibrary/Vegetation/Trees/t_carpinus_betulus
   angleY 271.843
   angleZ 1.629
   scale 0.961
+ }
+ {
+  coords 2608.687 -0 5224.874
+  angleX 1.172
+  angleY 250.397
+  angleZ -2.489
+  scale 0.823
+ }
+ {
+  coords 2595.379 0 5222.897
+  angleX -2.684
+  angleY 176.94
+  angleZ 2.027
+  scale 0.887
  }
 }
 $grp Tree : "{B48B7DD4E1C5FE40}PrefabLibrary/Vegetation/Bushes/b_corylus_avellana_0.et" {
@@ -113536,6 +113585,13 @@ $grp Tree : "{DB49D8B142D18E86}PrefabLibrary/Vegetation/Trees/t_betula_pendula_2
   angleZ -0.907
   scale 1.106
  }
+ {
+  coords 2581.679 0 5070.112
+  angleX 2.617
+  angleY 124.017
+  angleZ 2.263
+  scale 0.996
+ }
 }
 SCR_DestructibleEntity : "{DE011ABA0277333B}PrefabLibrary/Props/Decoration/FlowerpotFlowers_01_tagetes/FlowerpotFlowers_01_tagetes_orange.et" {
  coords 2915.86 12.093 4790.386
@@ -113797,6 +113853,16 @@ $grp SCR_IndestructibleEnvironmentalEntity : "{E3972F6F29774671}PrefabLibrary/Ro
   coords 3272.808 34.12 5509.013
   angleX -6.125
   scale 1.051
+ }
+}
+$grp GenericEntity : "{E90B0E28F74CCA3F}PrefabLibrary/Props/Garbage/Junk_01_pile_long.et" {
+ {
+  coords 2572.672 20.812 5075.895
+  angleY 113.627
+ }
+ {
+  coords 2571.06 20.781 5081.602
+  angleY -108.092
  }
 }
 GenericEntity : "{F47C56E3678C7D87}PrefabLibrary/Props/Industrial/VehicleGarbage_01_pile_large.et" {
