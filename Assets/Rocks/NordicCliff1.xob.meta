@@ -3,7 +3,7 @@ MetaFileClass {
  Configurations {
   FBXResourceClass PC {
    MaterialAssigns {
-    MaterialAssignClass "{65B716E746D34EE1}" {
+    MaterialAssignClass "{65B8B88F9E12B683}" {
      SourceMaterial "NordicCliff1"
      AssignedMaterial "{CA3EA164C9563DCA}Assets/Rocks/Data/NordicCliff1.emat"
     }
@@ -12,27 +12,37 @@ MetaFileClass {
     MeshParam NordicCliff1 {
     }
    }
-   Common TXOCommonClass "{65B716E74649CE4F}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   GeometryParams {
+    GeometryParam UTM_NordicCliff1 {
+     LayerPreset "Terrain"
+     SurfaceProperties {
+      "{D745FD8FC67DB26A}Common/Materials/Game/stone.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{65B8B88F9E5BC4FA}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
    }
   }
   FBXResourceClass XBOX_ONE : PC {
-   Common TXOCommonClass "{65B716E74649CD6C}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   Common TXOCommonClass "{65B8B88F9E5BC35F}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
    }
   }
   FBXResourceClass XBOX_SERIES : PC {
-   Common TXOCommonClass "{65B716E74649CD92}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   Common TXOCommonClass "{65B8B88F9E5BC3A6}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
    }
   }
   FBXResourceClass PS4 : PC {
-   Common TXOCommonClass "{65B716E74649CDDA}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   Common TXOCommonClass "{65B8B88F9E5BC3FF}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
    }
   }
   FBXResourceClass PS5 : PC {
-   Common TXOCommonClass "{65B716E74649CCB5}" : "{F62AA8E7B8EA9D26}configs/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   Common TXOCommonClass "{65B8B88F9E5BC3D3}" : "{F62AA8E7B8EA9D26}configs/ResourceTypes/PS5/MeshObjectCommon.conf" {
    }
   }
   FBXResourceClass HEADLESS : PC {
-   Common TXOCommonClass "{65B716E74649CC86}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   Common TXOCommonClass "{65B8B88F9E5BC22D}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
    }
   }
  }
