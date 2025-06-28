@@ -95,6 +95,30 @@ $grp GenericEntity {
    }
   }
  }
+ Postkasse {
+  coords 2920.233 11.314 4776.979
+  angleY 116
+  {
+   $grp GenericEntity {
+    {
+     components {
+      MeshObject "{6560B36292A0B5C2}" {
+       Object "{D20C4FC16103E713}Assets/Structures/Walls/Wooden/Dst/WoodenFence_01/WoodenFence_01_4m_00_dst.xob"
+      }
+     }
+     coords 0.072 0.127 -0.005
+    }
+    {
+     components {
+      MeshObject "{6560B3626C6165B8}" {
+       Object "{55D83CF1D05C678D}Assets/Props/Services/Post/PostOfficeBox/PostOfficeBox_01_old.xob"
+      }
+     }
+     coords 0.121 -0.077 -0.03
+    }
+   }
+  }
+ }
 }
 $grp GenericEntity : "{EC68FF55C0C1459B}PrefabLibrary/Pynt/Postkasse.et" {
  {
@@ -171,5 +195,27 @@ $grp GenericEntity : "{EC68FF55C0C1459B}PrefabLibrary/Pynt/Postkasse.et" {
  {
   coords 2802.169 17.297 5017.421
   angleY 99.667
+ }
+ {
+  coords 2794.288 16.549 4993.114
+  angleY -161.013
+ }
+ {
+  coords 2759.331 17.66 4963.535
+  angleY 15.082
+ }
+ {
+  coords 2788.109 16.139 4963.081
+  angleY 120.01
+ }
+ {
+  coords 2774.243 16.384 4926.148
+  angleX -1.582
+  angleY 103.945
+  angleZ -0.393
+ }
+ {
+  coords 2809.279 17.562 5043.095
+  angleY 103.228
  }
 }
