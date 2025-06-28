@@ -1,10 +1,13 @@
-GenericEntity {
- ID "65B71C3166F32989"
+SCR_IndestructibleEnvironmentalEntity {
+ ID "65B8B884D03A9F2D"
  components {
-  MeshObject "{65B71C31FA553461}" {
+  MeshObject "{65B8B88BD26E15D4}" {
    Object "{4CF3E576D637A866}Assets/Rocks/NordicCliff3.xob"
   }
+  RigidBody "{65B8B88BDDA0797F}" {
+   ModelGeometry 1
+   Static 1
+  }
  }
- coords 2641.46 0 7005.073
- angleY 161.241
+ coords 4354 1.611 3024.085
 }
