@@ -946,6 +946,12 @@ $grp SplineShapeEntity {
    }
    ShapePoint "{62D516678A3E201D}" {
     Position 2.515 0.912 1.967
+    Data {
+     SplinePointData SplinePointData {
+      InTangent -0.766 0.068 27.463
+      OutTangent -0.766 0.068 27.463
+     }
+    }
    }
    ShapePoint "{62D51667A2F86BBA}" {
     Position -4.885 1.371 95.05
@@ -975,6 +981,12 @@ $grp SplineShapeEntity {
        }
        ShapePoint "{556C65561A62EBA9}" {
         Position 2.515 0.912 1.967
+        Data {
+         SplinePointData "{00000000D8F1BA4F}" {
+          InTangent -0.766 0.068 27.463
+          OutTangent -0.766 0.068 27.463
+         }
+        }
        }
        ShapePoint "{62D51667ADD300B1}" {
         Position -4.885 1.371 95.05
@@ -1257,11 +1269,11 @@ $grp SplineShapeEntity {
    ShapePoint "{62D516689E585F18}" {
     Position -9.833 0.905 -0.702
    }
-   ShapePoint "{62D516689F964878}" {
-    Position 23.617 0.755 0.416
-   }
    ShapePoint "{62D516689E581207}" {
     Position 5 0.12 0
+   }
+   ShapePoint "{65BCE806728C6504}" {
+    Position 28.875 0.92 0.555
    }
   }
   {
@@ -1275,10 +1287,10 @@ $grp SplineShapeEntity {
         Position -9.833 0.905 -0.702
        }
        ShapePoint "{52346539D885C1A2}" {
-        Position 23.617 0.755 0.416
-       }
-       ShapePoint "{62D5166898047D42}" {
         Position 5 0.12 0
+       }
+       ShapePoint "{65BCE806728C2064}" {
+        Position 28.875 0.92 0.555
        }
       }
       IsClosedSpline 0

@@ -1,33 +1,34 @@
-SCR_MapEntity MapEntity : "{731564B66F91B107}Prefabs/World/Game/MapEntity.et" {
- coords 3952.417 12.887 4774.698
- "Map Geometry Data" "{8AFA2C194DF52A0A}worlds/FurGM.topo"
- {
-  CommentEntity {
-   coords 0 1 0
-   m_Comment "MapEntity: "\
-   "Set up map textures"
-   m_Color 0 0 0
-   m_FaceCamera 1
-   m_TextBackground 1
-   m_BackgroundColor 1 0.6 0
-   m_BackgroundTransparency 0
-  }
- }
-}
-SCR_AIWorld SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
+SCR_AIWorld : "{95238302CC4BC486}Prefabs/AI/SCR_AIWorldFUR.et" {
  components {
   NavmeshWorldComponent "{5584F30E67F617AD}" {
    NavmeshSettings NavmeshWorld "{50FC63BEBE3973C5}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{65BCE80FDD19DA6C}" {
+     NavmeshFile "{971FCB369484123C}Navmeshosv/Fur_soliders.nmn"
+    }
+   }
+  }
+  NavmeshWorldComponent "{5584F30EEFEE1223}" {
+   NavmeshSettings ChimeraNavmeshWorld "{50FC63BEBE3973C5}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{60CA9BE5536BF701}" {
+     NavmeshFile "{DE4371DBF4F99A2B}Navmeshosv/Fur_BTRlike.nmn"
+    }
+   }
+  }
+  NavmeshWorldComponent "{5C8C9B750D124A63}" {
+   NavmeshSettings NavmeshWorld "{5C8C9B750B60C6E2}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{5C90BD0EC793647D}" {
+     NavmeshFile "{0637C14EED87413C}Navmeshosv/Fur_Low.nmn"
+    }
    }
   }
  }
- coords 3952.417 12.825 4773.698
- "Allowed Link Navmesh Types" {
-  "Soldiers"
- }
+ coords 2918.879 12.767 4967.076
 }
 PerceptionManager PerceptionManager : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
  coords 3952.417 12.749 4772.698
+}
+SCR_FactionManager FactionManager_Editor1 : "{4A188E44289B9A50}Prefabs/MP/Managers/Factions/FactionManager_Editor.et" {
+ coords 2948.538 27.654 5002.87
 }
 SCR_GameModeEditor GameMode_Editor_Full : "{DA3986AF1B5032B7}Prefabs/MP/Modes/Editor/GameMode_Editor_Full.et" {
  coords 3952.417 12.675 4771.698

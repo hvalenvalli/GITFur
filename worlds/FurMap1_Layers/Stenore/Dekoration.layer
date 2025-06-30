@@ -298,16 +298,6 @@ $grp GenericEntity {
    }
   }
  }
- {
-  components {
-   MeshObject "{646F7AC615A41A30}" {
-    Object "{5EE187B8ECF80A0A}Prefabs/Vehicle/FishingBoat.xob"
-   }
-  }
-  coords 4341.835 -2.926 2688.921
-  angleY 60.282
-  scale 1.69
- }
 }
 ParticleEffectEntity {
  coords 3866.464 3.342 2830.741
@@ -433,8 +423,8 @@ $grp PolylineShapeEntity {
   LineColor 0 0 0 0
   {
    PrefabGeneratorEntity : "{425962A5FD454B89}PrefabLibrary/Generators/Bushlines/PG_Bushline_Betula_01.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     {
      $grp Tree : "{531BB93086610CA1}PrefabLibrary/Vegetation/Trees/t_betula_pendula_0.et" {
       {
@@ -825,8 +815,8 @@ $grp PolylineShapeEntity {
     }
    }
    ForestGeneratorEntity : "{6AC11B7033FD1C11}PrefabLibrary/Generators/Brushlands/FG_Brushland_Picea_Sparse.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     {
      $grp Tree : "{053196EF2505964A}PrefabLibrary/Vegetation/Trees/t_picea_abies_0.et" {
       {
@@ -855,7 +845,7 @@ $grp PolylineShapeEntity {
        scale 0.83
       }
      }
-     $grp GenericEntity : "{1BA4712EED0CB208}PrefabLibrary/Rocks/Granite/GraniteStone_03.et" {
+     $grp SCR_IndestructibleEnvironmentalEntity : "{1BA4712EED0CB208}PrefabLibrary/Rocks/Granite/GraniteStone_03.et" {
       {
        coords 28.7 -0.749 -54.078
        angleY 150.693
@@ -934,7 +924,7 @@ $grp PolylineShapeEntity {
       angleZ -0.617
       scale 0.997
      }
-     $grp GenericEntity : "{926C09375D2DAA4D}PrefabLibrary/Rocks/Granite/GraniteStone_01.et" {
+     $grp SCR_IndestructibleEnvironmentalEntity : "{926C09375D2DAA4D}PrefabLibrary/Rocks/Granite/GraniteStone_01.et" {
       {
        coords 33.607 -0.803 -54.305
        angleY 128.258
@@ -1194,8 +1184,8 @@ $grp PolylineShapeEntity {
   LineColor 0 0 0 0
   {
    PrefabGeneratorEntity : "{EA23B4C7CB74E107}PrefabLibrary/Generators/Bushlines/PG_Bushline_Sorbus_01.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     {
      Tree : "{3475D26BFBAD50D5}PrefabLibrary/Vegetation/Trees/t_sorbus_aucuparia_1w.et" {
       coords -59.688 0.514 2.371
@@ -1465,8 +1455,8 @@ $grp PolylineShapeEntity {
   LineColor 0 0 0 0
   {
    WallGeneratorEntity : "{59203B19BC344845}PrefabLibrary/Generators/Pavements/Concrete/WG_ConcreteKerb_01.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     {
      $grp StaticModelEntity : "{84CB4C5EC2DAFE91}PrefabLibrary/Infrastructure/Roads/ConcreteKerb_01_2m_v2.et" {
       {
@@ -1528,8 +1518,8 @@ $grp SplineShapeEntity {
   LineColor 0 0 0 0
   {
    WallGeneratorEntity : "{272D40AD86F21423}PrefabLibrary/Generators/Walls/Stone/WG_StoneWall_02.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     {
      $grp SCR_DestructibleEntity : "{1BF9335AB2008B33}Prefabs/Structures/Walls/Stone/StoneWall_02/StoneWall_02_4m_v2.et" {
       {
@@ -1618,8 +1608,8 @@ $grp SplineShapeEntity {
   LineColor 0 0 0 0
   {
    WallGeneratorEntity : "{0AF31175B35CBAB5}PrefabLibrary/Generators/Walls/Wooden/WG_WoodenFence_04.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     {
      SCR_DestructibleEntity : "{1D26060DCD40C9F7}PrefabLibrary/Walls/Wooden/WoodenFence_04_2m.et" {
       coords -12.98 0.11 -2.221
@@ -1650,8 +1640,8 @@ $grp SplineShapeEntity {
   LineColor 0 0 0 0
   {
    WallGeneratorEntity : "{0AF31175B35CBAB5}PrefabLibrary/Generators/Walls/Wooden/WG_WoodenFence_04.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     {
      SCR_DestructibleEntity : "{1D26060DCD40C9F7}PrefabLibrary/Walls/Wooden/WoodenFence_04_2m.et" {
       coords -12.98 0.11 -2.221
@@ -1682,8 +1672,8 @@ $grp SplineShapeEntity {
   LineColor 0 0 0 0
   {
    WallGeneratorEntity : "{CB1198E29190354E}PrefabLibrary/Generators/Walls/Wooden/WG_WoodenWall_01.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     {
      $grp SCR_DestructibleEntity : "{1914585909D1984B}PrefabLibrary/Walls/Wooden/WoodenWall_01_8m.et" {
       {
@@ -1741,8 +1731,8 @@ $grp SplineShapeEntity {
   LineColor 0 0 0 0
   {
    WallGeneratorEntity : "{BE0F4C5476112BC7}PrefabLibrary/Generators/Walls/Wooden/WG_WoodenFence_01.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     {
      $grp SCR_DestructibleEntity : "{12377CDE9AA9E376}PrefabLibrary/Walls/Wooden/WoodenFence_01_4m.et" {
       {
@@ -1802,8 +1792,8 @@ $grp SplineShapeEntity {
   LineColor 0 0 0 0
   {
    WallGeneratorEntity : "{AF108FF4DEAF3FFF}PrefabLibrary/Generators/Walls/Brick/WG_BrickWall_01.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     {
      $grp SCR_DestructibleEntity : "{3F2E6FB8EDB0BF0F}PrefabLibrary/Walls/Brick/BrickWall_01_4m.et" {
       {
@@ -1866,8 +1856,8 @@ $grp SplineShapeEntity {
   LineColor 0 0 0 0
   {
    WallGeneratorEntity : "{AF108FF4DEAF3FFF}PrefabLibrary/Generators/Walls/Brick/WG_BrickWall_01.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     {
      SCR_DestructibleEntity : "{3F2E6FB8EDB0BF0F}PrefabLibrary/Walls/Brick/BrickWall_01_4m.et" {
       coords 3.824 0.025 0.46
@@ -1907,8 +1897,8 @@ $grp SplineShapeEntity {
   LineColor 0 0 0 0
   {
    WallGeneratorEntity : "{C344BB14626BB0D1}PrefabLibrary/Generators/Walls/Brick/WG_BrickWall_02.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     {
      $grp SCR_DestructibleEntity : "{358B3FF55BA04C88}PrefabLibrary/Walls/Brick/BrickWall_02_4m.et" {
       {
@@ -1980,8 +1970,8 @@ $grp SplineShapeEntity {
   LineColor 0 0 0 0
   {
    WallGeneratorEntity : "{59203B19BC344845}PrefabLibrary/Generators/Pavements/Concrete/WG_ConcreteKerb_01.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     {
      $grp StaticModelEntity : "{84CB4C5EC2DAFE91}PrefabLibrary/Infrastructure/Roads/ConcreteKerb_01_2m_v2.et" {
       {
@@ -2129,8 +2119,8 @@ $grp SplineShapeEntity {
   LineColor 0 0 0 0
   {
    WallGeneratorEntity : "{59203B19BC344845}PrefabLibrary/Generators/Pavements/Concrete/WG_ConcreteKerb_01.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     {
      $grp StaticModelEntity : "{84CB4C5EC2DAFE91}PrefabLibrary/Infrastructure/Roads/ConcreteKerb_01_2m_v2.et" {
       {
@@ -2593,7 +2583,7 @@ SCR_DestructibleEntity : "{01AEA03A8964A38D}PrefabLibrary/Props/Civilian/Garden/
  coords 3747.929 3.086 2712.122
  angleY 266.822
 }
-$grp GenericEntity : "{038175C0596A575F}PrefabLibrary/Props/Construction/GravelPile_01_large.et" {
+$grp StaticModelEntity : "{038175C0596A575F}PrefabLibrary/Props/Construction/GravelPile_01_large.et" {
  {
   coords 4155.648 2.938 3070.076
   angleY -169.201
@@ -3578,7 +3568,7 @@ GenericEntity : "{43E505BF759653CA}PrefabLibrary/Infrastructure/Sings/SignGiveWa
  angleY 80.657
  angleZ -0.941
 }
-GenericEntity : "{4574F4CAE9ACDA78}PrefabLibrary/Rocks/Granite/Granite_BeachCluster_02/Granite_BeachCluster_02_Color.et" {
+SCR_IndestructibleEnvironmentalEntity : "{4574F4CAE9ACDA78}PrefabLibrary/Rocks/Granite/Granite_BeachCluster_02/Granite_BeachCluster_02_Color.et" {
  coords 4148.323 0.021 2694.624
  angleX 7.124
  angleZ 0.891
@@ -3743,7 +3733,7 @@ $grp GenericEntity : "{4D797B18EB473B0B}PrefabLibrary/Props/Military/FlagPole_01
   angleY -140.122
  }
 }
-GenericEntity : "{4DD0E6B6AAA4AD73}PrefabLibrary/Rocks/Granite/Granite_Boulder_02/Granite_Boulder_02_Fucus.et" {
+SCR_IndestructibleEnvironmentalEntity : "{4DD0E6B6AAA4AD73}PrefabLibrary/Rocks/Granite/Granite_Boulder_02/Granite_Boulder_02_Fucus.et" {
  coords 4172.205 0.201 2936.704
  angleX -101.171
  angleY 39.047
@@ -3996,7 +3986,7 @@ $grp GenericEntity : "{5AAF1B896C0B3C59}PrefabsEditable/Auto/Props/Civilian/E_Be
   angleZ -0.626
  }
 }
-$grp GenericEntity : "{5B65BDE2BBC3F2F8}PrefabLibrary/Props/Construction/GravelPile_01_medium.et" {
+$grp StaticModelEntity : "{5B65BDE2BBC3F2F8}PrefabLibrary/Props/Construction/GravelPile_01_medium.et" {
  {
   coords 3931.552 4.375 2993.814
   angleY 70.789
@@ -5456,7 +5446,7 @@ $grp GenericEntity : "{8F74DFEE26724E9A}PrefabLibrary/Props/Civilian/Recreation/
   angleZ 1.783
  }
 }
-$grp GenericEntity : "{907BCF8E0D48357D}PrefabLibrary/Rocks/Granite/Granite_Stone_02/Granite_BeachStone_02.et" {
+$grp SCR_IndestructibleEnvironmentalEntity : "{907BCF8E0D48357D}PrefabLibrary/Rocks/Granite/Granite_Stone_02/Granite_BeachStone_02.et" {
  {
   coords 3737.569 0 2711.024
   angleX -3.932
@@ -5768,7 +5758,7 @@ $grp StaticModelEntity : "{A3952863D474AF32}PrefabLibrary/Infrastructure/Roads/C
   placement none
  }
 }
-$grp GenericEntity : "{A548CA62BFEB3D84}PrefabLibrary/Rocks/Granite/Granite_BeachCluster_02/Granite_BeachCluster_02_Fucus.et" {
+$grp SCR_IndestructibleEnvironmentalEntity : "{A548CA62BFEB3D84}PrefabLibrary/Rocks/Granite/Granite_BeachCluster_02/Granite_BeachCluster_02_Fucus.et" {
  {
   coords 4146.062 0.029 2687.862
   angleX -1.252
@@ -7008,7 +6998,7 @@ SCR_DestructibleBuildingEntity : "{E3584595FC988951}PrefabLibrary/Structures/Ind
  coords 4123.183 0.07 2880.024
  angleY 70.713
 }
-$grp GenericEntity : "{E5B8EB4709F7BFC3}PrefabLibrary/Rocks/Granite/Granite_BeachCluster_01/Granite_BeachCluster_01_Fucus.et" {
+$grp SCR_IndestructibleEnvironmentalEntity : "{E5B8EB4709F7BFC3}PrefabLibrary/Rocks/Granite/Granite_BeachCluster_01/Granite_BeachCluster_01_Fucus.et" {
  {
   coords 4182.446 0.006 2684.339
   angleX 3.328
@@ -7098,7 +7088,7 @@ GenericEntity : "{EFA4B1AF954CDB27}PrefabLibrary/Props/Civilian/WellPump_01/Well
  coords 4116.078 4.475 2894.511
  angleY 127.907
 }
-GenericEntity : "{F168A8DEE854592D}PrefabLibrary/Rocks/Granite/Granite_BeachCluster_02/Granite_ForestCluster_02.et" {
+SCR_IndestructibleEnvironmentalEntity : "{F168A8DEE854592D}PrefabLibrary/Rocks/Granite/Granite_BeachCluster_02/Granite_ForestCluster_02.et" {
  coords 4172.644 -0.046 2955.037
  angleX 2.393
  angleY -83.675

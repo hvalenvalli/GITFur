@@ -1,19 +1,10 @@
 GenericWorldPPEffect : "{3AFFB0B0EC055284}Prefabs/World/DefaultWorld/GenericWorldPP_Default.et" {
  coords 4462.54 6.313 3821.458
 }
-TimeAndWeatherManagerEntity : "{A3BAF78F6F03315B}Prefabs/World/Game/TimeAndWeatherManager.et" {
- coords 4453.016 6.187 3806.621
+GenericWorldFogEntity : "{78D9BBF0F423FEB4}Prefabs/World/DefaultWorld/FogHaze_Default.et" {
+ coords 1771.919 17.875 5109.402
+}
+TimeAndWeatherManagerEntity : "{CC74F9ADF5D5C523}Prefabs/World/Game/TimeAndWeatherManagerFur.et" {
+ coords 4452.885 6.188 3806.853
  WeatherStateMachine "{9E733806219B52F2}Terrains/Common/WeatherPresets/StateMachine/WeatherStatesFur.conf"
- "UTC TimeZone" 1
- "Initial Day Time" 12
- Year 1989
- Latitude 56.8
- Longitude 9
- "Enable DST" 0
- "Internal variant transition" 0
- "Internal subvariant 0" 0
- "Internal subvariant 1" 0
- "Initial Wetness" 0.1
- "Initial Water Accumulation Cracks" 0.203
- "Initial Water Accumulation Puddles" 0.209
 }
