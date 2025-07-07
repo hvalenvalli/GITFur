@@ -9349,6 +9349,11 @@ $grp GenericEntity : "{945834B322F0C535}PrefabLibrary/Props/Garbage/MetalContain
   angleY -6.453
  }
 }
+GenericEntity : "{9BEF8533BCBEBFC1}PrefabLibrary/Props/Military/S105_wreck.et" {
+ coords 2976.901 8.668 4369.898
+ angleX 0.895
+ angleZ 0.895
+}
 $grp GenericEntity : "{9EF10EC9FAEB1465}PrefabLibrary/Props/Agricultural/Beehive_01_small/Beehive_01_small_green.et" {
  {
   coords 2571.883 8.879 4149.297
@@ -10157,11 +10162,19 @@ $grp GenericEntity : "{D7787456BDF1D199}PrefabLibrary/Props/Agricultural/Scarecr
   angleY 52.133
  }
 }
-GenericEntity : "{D792884620B20EEF}PrefabLibrary/Props/Civilian/BarrelMetal_01/BarrelMetal_01_rust.et" {
- coords 3568.506 11.055 3747.53
- angleX 0.824
- angleY -22.954
- angleZ -0.349
+$grp GenericEntity : "{D792884620B20EEF}PrefabLibrary/Props/Civilian/BarrelMetal_01/BarrelMetal_01_rust.et" {
+ {
+  coords 3568.506 11.055 3747.53
+  angleX 0.824
+  angleY -22.954
+  angleZ -0.349
+ }
+ {
+  coords 2978.233 8.809 4371.779
+  angleX 0.059
+  angleY -3.779
+  angleZ 0.893
+ }
 }
 GameEntity : "{D9842C11742C00CF}Prefabs/Props/Civilian/Fireplace_01.et" {
  coords 3070.636 11.844 3646.89
@@ -10763,6 +10776,11 @@ $grp GenericEntity : "{F857D65788E3BA3A}PrefabLibrary/Props/Naval/BoatWreck_01.e
  {
   coords 3122.091 3.758 2649.462
   angleX -0.895
+ }
+ {
+  coords 2964.735 8.741 4374.765
+  angleX -0.893
+  angleZ -19.745
  }
 }
 $grp Tree : "{FA0813CCD98B815B}PrefabLibrary/Vegetation/Trees/t_malus_domestica_2s.et" {

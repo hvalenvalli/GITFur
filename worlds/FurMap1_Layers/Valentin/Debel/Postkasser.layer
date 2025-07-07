@@ -120,6 +120,60 @@ $grp GenericEntity {
   }
  }
 }
+$grp SCR_DestructibleEntity : "{01AEA03A8964A38D}PrefabLibrary/Props/Civilian/Garden/FlowerpotFlowers_01_begonia/FlowerpotFlowers_01_begonia_red.et" {
+ {
+  coords 2688.8 17.715 4929.179
+  angleY 25.302
+ }
+ {
+  coords 2688.675 17.907 4928.905
+  angleY 236.224
+ }
+}
+SCR_DestructibleEntity : "{152E0513F396DAB9}PrefabLibrary/Props/Civilian/Garden/FlowerpotFlowers_01_begonia/FlowerpotFlowers_01_begonia_white.et" {
+ coords 2688.128 17.594 4929.396
+ angleY 76.643
+}
+GenericEntity : "{2E89F89F600EA6C5}PrefabLibrary/Props/Garbage/GarbageStack_01_Medium.et" {
+ coords 2672.382 17.92 4938.699
+ angleX 2.635
+ angleY -100.93
+ angleZ -0.509
+}
+SCR_DestructibleEntity : "{4A30B3AB1BF62C51}PrefabLibrary/Props/Decoration/FlowerpotFlowers_01_tagetes/FlowerpotFlowers_01_tagetes_yellow.et" {
+ coords 2688.282 18.226 4935.071
+}
+SCR_DestructibleEntity : "{82811097384BF4D3}PrefabLibrary/Props/Decoration/FlowerpotFlowers_01_begonia/FlowerpotFlowers_01_begonia_white.et" {
+ coords 2688.313 17.594 4929.091
+}
+$grp SCR_DestructibleEntity : "{82B1323A72934C8F}PrefabLibrary/Props/Decoration/FlowerpotStreet_01_rect_short/FlowerpotStreet_01_rect_short_begonia_white.et" {
+ {
+  coords 2687.133 17.633 4919.496
+  angleX -0.884
+  angleY 8.978
+  angleZ -0.14
+ }
+ {
+  coords 2690.788 17.643 4918.83
+  angleX -0.884
+  angleY 8.978
+  angleZ -0.14
+ }
+}
+$grp SCR_DestructibleEntity : "{A2E2C428D5018DCA}PrefabLibrary/Props/Decoration/FlowerpotStreet_01_rect_short/FlowerpotStreet_01_rect_short_begonia_pink.et" {
+ {
+  coords 2688.967 17.64 4919.146
+  angleX 0.151
+  angleY 9.692
+  angleZ -0.882
+ }
+ {
+  coords 2692.52 17.696 4918.47
+  angleX 0.151
+  angleY 9.692
+  angleZ -0.882
+ }
+}
 $grp GenericEntity : "{EC68FF55C0C1459B}PrefabLibrary/Pynt/Postkasse.et" {
  {
   coords 3152.269 9.196 4657.461
@@ -218,4 +272,38 @@ $grp GenericEntity : "{EC68FF55C0C1459B}PrefabLibrary/Pynt/Postkasse.et" {
   coords 2809.279 17.562 5043.095
   angleY 103.228
  }
+ {
+  coords 2767.68 19.999 5103.326
+  angleX -2.116
+  {
+   GenericEntity {
+    ID "6560B362349B64BB"
+    coords 0.121 -0.077 -0.03
+    angleY 28.056
+   }
+  }
+ }
+ {
+  coords 2784.171 19.483 5093.396
+  angleY 22.58
+ }
+ {
+  coords 2767.54 20.05 5117.099
+  angleY -65.59
+ }
+ {
+  coords 2677.588 17.875 4911.111
+  angleY -103.654
+ }
+ {
+  coords 2667.757 18.335 4949.979
+  angleY -120.074
+ }
+}
+GenericEntity : "{F48B5D8AC0196C55}PrefabLibrary/Props/Garbage/Cardboard_Pile_01.et" {
+ coords 2671.145 18.058 4943.478
+ angleX -1.834
+ angleY -90.543
+ angleZ -4.446
+ scale 0.991
 }
