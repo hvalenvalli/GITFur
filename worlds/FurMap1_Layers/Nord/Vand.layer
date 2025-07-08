@@ -116,8 +116,8 @@ $grp PolylineShapeEntity {
   LineColor 0 0 0 0
   {
    ForestGeneratorEntity : "{3D07E37E995558F1}PrefabLibrary/Generators/Brushlands/FG_Brushland_Phragmites.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     {
      $grp Tree : "{077C695F02F4312C}PrefabLibrary/Vegetation/Bushes/b_phragmites_australis_1.et" {
       {
@@ -490,6 +490,37 @@ $grp PolylineShapeEntity {
    }
   }
  }
+ {
+  coords 5771.523 3.364 6544.989
+  Points {
+   ShapePoint "{65D08B6AA1522B7F}" {
+    Position -0.14 0.003 0.126
+   }
+   ShapePoint "{65D08B6AA2D428B2}" {
+    Position 13.766 -0.335 5.859
+   }
+   ShapePoint "{65D08B6AA24428F4}" {
+    Position 28.194 -0.515 -3.349
+   }
+   ShapePoint "{65D08B6AA394CC76}" {
+    Position 25.122 -0.452 -21.591
+   }
+   ShapePoint "{65D08B6AA32DFF33}" {
+    Position 8.952 -0.114 -27.573
+   }
+   ShapePoint "{65D08B6ADD99344D}" {
+    Position -3.925 0.225 -19.145
+   }
+   ShapePoint "{65D08B6ADD99D1EC}" {
+    Position 0 0 0
+   }
+  }
+  {
+   LakeGeneratorEntity : "{ED31344EDD22714D}PrefabLibrary/Generators/Water/Lake/LG_LakeDirty_01.et" {
+    coords 0 0 0
+   }
+  }
+ }
 }
 SplineShapeEntity {
  coords 4266.709 33.283 7137.482
@@ -534,8 +565,8 @@ SplineShapeEntity {
  LineColor 0 0 0 0
  {
   PrefabGeneratorEntity : "{4DDCB9D8621CEECD}PrefabLibrary/Generators/Bushlines/PG_Bushline_Phragmites_01.et" {
-   coords 0 0 0
    Flags 1048579
+   coords 0 0 0
    {
     $grp Tree : "{077C695F02F4312C}PrefabLibrary/Vegetation/Bushes/b_phragmites_australis_1.et" {
      {

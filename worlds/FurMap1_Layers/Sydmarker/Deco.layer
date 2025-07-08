@@ -7329,6 +7329,11 @@ $grp GenericEntity : "{468B5060A2C0779B}PrefabLibrary/Props/Construction/PlankPi
   angleY -80.62
  }
 }
+GenericEntity : "{47A8A9ED24870A05}Wind_Turbine/Prefabs/wt_blade.et" {
+ coords 3252.819 89.284 2828.689
+ angleY -81.457
+ angleZ -5.677
+}
 GenericEntity : "{485E8CB2DCC47659}PrefabLibrary/Props/Agricultural/MilkCan_01.et" {
  coords 2551.706 7.885 4150.238
  angleX 0.323
@@ -7525,6 +7530,11 @@ $grp GenericEntity : "{518CE3793C15C5F2}PrefabLibrary/Props/Agricultural/WaterTa
 GenericEntity : "{5216BDD8E91B9EF5}Prefabs/Props/Civilian/BasketWicker_01_wood.et" {
  coords 3070.99 11.844 3648.487
  angleY 0
+}
+GenericEntity : "{529F5E743488FA9E}Wind_Turbine/Prefabs/wt_rotor.et" {
+ coords 3252.778 89.276 2828.725
+ angleY -81.457
+ angleZ -5.677
 }
 $grp GenericEntity : "{52CE7C3A4CF10307}PrefabLibrary/Props/Civilian/Garden/LogChopping_01.et" {
  {
@@ -8008,6 +8018,25 @@ $grp SCR_DestructibleEntity : "{6A5C6D2127C08EFE}PrefabLibrary/Props/Decoration/
  }
  {
   coords 2754.707 12.818 3756.042
+ }
+}
+GenericEntity : "{6AC62B8083C70229}Wind_Turbine/Prefabs/wt_base_m_01.et" {
+ coords 3252.365 9.689 2825.832
+ {
+  GenericEntity {
+   ID "62A2D25263479CA1"
+   coords 0 79.692 0
+   angleY -81.457
+  }
+  GenericEntity {
+   ID "62989E963DE99F7C"
+   coords 0 -3.159 0
+   angleY -81.457
+  }
+  GenericEntity {
+   ID "62989E963DE99C9E"
+   coords 0 -3.58 0
+  }
  }
 }
 $grp GenericEntity : "{6ACA4323E285EDBC}PrefabLibrary/Props/Forest/WoodPile_02_scattered.et" {
