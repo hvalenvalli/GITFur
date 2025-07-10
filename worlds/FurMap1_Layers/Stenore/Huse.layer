@@ -837,10 +837,6 @@ $grp SCR_DestructibleBuildingEntity : "{204BB984E739FB7A}PrefabLibrary/Structure
   angleY -70.874
  }
 }
-GenericEntity : "{207442723F49FC41}Prefabs/Compositions/Misc/SubCompositions/Sandbag_MG_US_02_M60.et" {
- coords 4292.323 1.406 2817.614
- angleY 92.109
-}
 $grp StaticModelEntity : "{27863F82784DD872}PrefabLibrary/Walls/Brick/BrickWall_01_Gate.et" {
  {
   coords 4277.981 0.017 2905.708
@@ -1109,7 +1105,7 @@ SCR_DestructibleBuildingEntity : "{50309EB34CA81D70}PrefabLibrary/Structures/Hou
 }
 $grp SCR_DestructibleBuildingEntity : "{506702C2AE56D8B6}PrefabLibrary/Infrastructure/Naval/PierWooden_01_25m/PierWooden_01_25m.et" {
  {
-  coords 4402.499 0 2799.915
+  coords 4402.499 -0.559 2799.915
   angleY -93.817
  }
  {
@@ -1244,9 +1240,6 @@ $grp GenericEntity : "{6E1D4B04802CB5E5}PrefabLibrary/Props/Garbage/TrashBin_02/
   angleZ 0.223
  }
 }
-Vehicle UH1H1 : "{70BAEEFC2D3FEE64}Prefabs/Vehicles/Helicopters/UH1H/UH1H.et" {
- coords 4336.108 1.406 2787.958
-}
 $grp SCR_DestructibleBuildingEntity : "{720E5074722834BF}PrefabLibrary/Structures/Ruins/HouseRuin_01_WoodPile.et" {
  {
   coords 3603.714 0 3572.097
@@ -1302,35 +1295,6 @@ SCR_DestructibleBuildingEntity : "{777E1C3BF5898638}PrefabLibrary/Structures/Hou
  coords 4251.941 0.649 2872.439
  angleY -97.673
 }
-$grp GenericEntity : "{7A82FE978603F137}Prefabs/Weapons/Launchers/RPG7/Launcher_RPG7.et" {
- {
-  coords 4296.508 1.406 2818.342
- }
- {
-  coords 4297.378 1.406 2818.65
- }
- {
-  coords 4295.893 1.406 2818.506
- }
- {
-  coords 4296.466 1.406 2818.151
- }
- {
-  coords 4295.545 1.406 2817.544
- }
- {
-  coords 4296.059 1.406 2817.46
- }
- {
-  coords 4296.443 1.444 2817.818
- }
- {
-  coords 4296.418 1.499 2818.009
- }
- {
-  coords 4297.47 1.406 2817.936
- }
-}
 $grp SCR_DestructibleBuildingEntity : "{7BE9DE15EE9823C2}PrefabLibrary/Structures/Houses/House_Village_E_1I06.et" {
  {
   coords 4179.458 1.014 2800.718
@@ -1355,11 +1319,6 @@ Tree : "{7D5C8883A0DF9D96}PrefabLibrary/Vegetation/Trees/t_picea_abies_1f.et" {
 SCR_DestructibleBuildingEntity : "{7F8DF0A1D211BDFC}PrefabLibrary/Structures/Houses/House_Village_E_1L03t.et" {
  coords 2890.451 0.428 3723.863
  angleY -167.5
-}
-Vehicle S105_darkred1 : "{8000A0F649FB4B0D}Prefabs/Vehicles/Wheeled/S105/S105_darkred.et" {
- coords 3013.441 9.634 3311.807
- angleX -3.369
- angleY -15
 }
 $grp SCR_DestructibleBuildingEntity : "{810FC4D515FB00F2}PrefabLibrary/Structures/Houses/Shed_02_square.et" {
  {

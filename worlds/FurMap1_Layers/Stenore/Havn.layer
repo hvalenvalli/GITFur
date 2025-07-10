@@ -12,84 +12,120 @@ $grp GenericEntity : "{005C01F39F1A36A0}PrefabLibrary/Infrastructure/Lamps/LampS
 }
 $grp SCR_DestructibleBuildingEntity : "{0BDA77618F7586C5}PrefabLibrary/Infrastructure/Naval/PierConcrete_01_flat.et" {
  {
-  coords 4370.45 -1.211 2766.324
+  coords 4370.754 -1.228 2766.505
   angleY -127.5
  }
  {
-  coords 4409.758 -2.034 2751.063
+  coords 4410.062 -1.89 2751.244
   angleY 142.5
  }
  {
-  coords 4433.559 -2.18 2769.325
+  coords 4433.863 -2.18 2769.506
   angleY 142.5
  }
  {
-  coords 4401.825 -1.536 2744.975
+  coords 4402.129 -1.526 2745.156
   angleY 142.5
  }
  {
-  coords 4425.625 -2.105 2763.238
+  coords 4425.929 -2.115 2763.419
   angleY 142.5
  }
  {
-  coords 4441.492 -2.031 2775.413
+  coords 4441.796 -2.026 2775.594
   angleY 142.5
  }
  {
-  coords 4417.692 -1.777 2757.15
+  coords 4417.996 -1.794 2757.332
   angleY 142.5
  }
  {
-  coords 4465.291 -1.69 2793.676
+  coords 4465.595 -1.685 2793.858
   angleY 142.5
  }
  {
-  coords 4376.854 -3.94 2771.237
+  coords 4377.158 -3.94 2771.418
   angleY -127.5
  }
  {
-  coords 4382.958 -3.935 2763.3
+  coords 4383.262 -3.935 2763.481
   angleY -127.5
  }
  {
-  coords 4449.426 -1.876 2781.5
+  coords 4449.73 -1.871 2781.681
   angleY 142.5
  }
  {
-  coords 4376.556 -1.237 2758.386
+  coords 4376.86 -1.251 2758.568
   angleY -127.5
  }
  {
-  coords 4358.591 -3.846 2795.039
+  coords 4361.799 -3.846 2795.393
+  angleY -120.49
+ }
+ {
+  coords 4371.07 -3.931 2779.353
   angleY -127.5
  }
  {
-  coords 4370.766 -3.929 2779.171
+  coords 4395.415 -3.248 2747.565
   angleY -127.5
  }
  {
-  coords 4395.111 -3.002 2747.384
+  coords 4389.012 -1.581 2742.652
   angleY -127.5
  }
  {
-  coords 4388.708 -1.587 2742.471
+  coords 4382.907 -1.376 2750.59
   angleY -127.5
  }
  {
-  coords 4382.603 -1.379 2750.409
-  angleY -127.5
- }
- {
-  coords 4457.356 -1.814 2787.588
+  coords 4457.659 -1.809 2787.77
   angleY 142.5
  }
  {
-  coords 4389.006 -3.889 2755.322
+  coords 4389.31 -3.889 2755.503
   angleY -127.5
  }
  {
-  coords 4364.679 -3.89 2787.105
+  coords 4366.873 -3.89 2786.774
+  angleY -120.49
+ }
+ {
+  coords 4364.697 -1.788 2774.472
   angleY -127.5
+ }
+ {
+  coords 4359.95 -3.145 2782.709
+  angleY -120.49
+ }
+ {
+  coords 4354.875 -3.846 2791.327
+  angleY -120.49
+ }
+ {
+  coords 4353.074 -3.796 2778.578
+  angleY -120.49
+ }
+ {
+  coords 4347.999 -3.753 2787.195
+  angleY -120.49
+ }
+ {
+  coords 4346.233 -3.796 2774.554
+  angleY -120.49
+ }
+ {
+  coords 4341.158 -3.753 2783.173
+  angleY -120.49
+ }
+ {
+  coords 4339.332 -3.796 2770.519
+  angleY -120.49
+ }
+ {
+  coords 4334.261 -3.753 2779.137
+  angleY -120.49
  }
 }
 $grp GenericEntity : "{15CB11EFB66A02F6}PrefabLibrary/Props/Naval/LifeBuoy_01_set.et" {
@@ -137,6 +173,18 @@ $grp GenericEntity : "{15CB11EFB66A02F6}PrefabLibrary/Props/Naval/LifeBuoy_01_se
   coords 4202.928 0.514 2640.657
   angleY -120.062
  }
+ {
+  coords 4469.161 0.526 2802.006
+  angleY -39.54
+ }
+ {
+  coords 4450.541 0.526 2787.744
+  angleY -39.54
+ }
+ {
+  coords 4431.938 0.526 2773.428
+  angleY -39.04
+ }
 }
 GenericEntity : "{24B117CBDEBAF9FA}PrefabLibrary/Props/Naval/HarborWinch_01.et" {
  coords 4223.477 0.996 2624.691
@@ -161,7 +209,7 @@ SCR_DestructibleBuildingEntity : "{38E10020B67F0EAC}PrefabLibrary/Infrastructure
  coords 4308.531 -1.493 2789.983
  angleY -12.497
 }
-GenericEntity : "{4574F4CAE9ACDA78}PrefabLibrary/Rocks/Granite/Granite_BeachCluster_02/Granite_BeachCluster_02_Color.et" {
+SCR_IndestructibleEnvironmentalEntity : "{4574F4CAE9ACDA78}PrefabLibrary/Rocks/Granite/Granite_BeachCluster_02/Granite_BeachCluster_02_Color.et" {
  coords 4196.421 0.006 2702.371
  angleX 7.124
  angleZ 0.891
@@ -271,6 +319,18 @@ $grp SCR_DestructibleBuildingEntity : "{506702C2AE56D8B6}PrefabLibrary/Infrastru
   coords 4214.788 0 2619.516
   angleY -120.707
  }
+ {
+  coords 4461.475 -0.472 2796.668
+  angleY -127.639
+ }
+ {
+  coords 4442.854 -0.472 2782.406
+  angleY -127.639
+ }
+ {
+  coords 4424.207 -0.472 2768.157
+  angleY -127.139
+ }
 }
 $grp GenericEntity : "{630333773491A8F5}PrefabLibrary/Props/Naval/LifeBuoy_01.et" {
  {
@@ -316,7 +376,7 @@ SCR_DestructibleBuildingEntity : "{6A497F2704236607}PrefabLibrary/Props/Infrastr
 }
 $grp SCR_DestructibleBuildingEntity : "{789B763780E23203}PrefabLibrary/Infrastructure/Naval/PierConcrete_01_10m_end.et" {
  {
-  coords 4477.137 -1.509 2802.845
+  coords 4477.441 -1.504 2803.026
   angleY -37.5
  }
  {
@@ -324,7 +384,7 @@ $grp SCR_DestructibleBuildingEntity : "{789B763780E23203}PrefabLibrary/Infrastru
   angleY 60
  }
 }
-GenericEntity : "{A548CA62BFEB3D84}PrefabLibrary/Rocks/Granite/Granite_BeachCluster_02/Granite_BeachCluster_02_Fucus.et" {
+SCR_IndestructibleEnvironmentalEntity : "{A548CA62BFEB3D84}PrefabLibrary/Rocks/Granite/Granite_BeachCluster_02/Granite_BeachCluster_02_Fucus.et" {
  coords 4232.787 0.044 2684.341
  angleX -5.889
  angleY 116.389
@@ -384,10 +444,16 @@ $grp SCR_DestructibleEntity : "{C7BA8907568AA96F}PrefabLibrary/Props/Civilian/Be
   angleY 167.605
  }
 }
-SCR_DestructibleBuildingEntity : "{D604DFB891E8F6CB}PrefabLibrary/Infrastructure/Naval/Pier_Stairs01.et" {
- coords 4213.442 1.024 2723.36
- angleY -31.479
- scale 0.5
+$grp SCR_DestructibleBuildingEntity : "{D604DFB891E8F6CB}PrefabLibrary/Infrastructure/Naval/Pier_Stairs01.et" {
+ {
+  coords 4213.442 1.024 2723.36
+  angleY -31.479
+  scale 0.5
+ }
+ {
+  coords 4413.963 0.095 2759.613
+  angleY 55.653
+ }
 }
 $grp GenericEntity : "{DB6A6F1554219C14}PrefabLibrary/Infrastructure/Lamps/LampStreet_E_03_single/LampStreet_E_03_single.et" {
  {
