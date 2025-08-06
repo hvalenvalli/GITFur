@@ -17933,6 +17933,13 @@ $grp Tree : "{A35E15EBC6033C07}PrefabLibrary/Vegetation/Bushes/b_corylus_avellan
   angleZ 1.637
   scale 0.802
  }
+ {
+  coords 4772.245 -0 4586.166
+  angleX -0.192
+  angleY 129.368
+  angleZ 1.47
+  scale 0.71
+ }
 }
 $grp SCR_DestructibleEntity : "{ABD42182D8F3E85A}PrefabLibrary/Props/Decoration/FlowerpotStreet_01_rect_long/FlowerpotStreet_01_rect_long_begonia_pink.et" {
  {
@@ -17944,12 +17951,21 @@ $grp SCR_DestructibleEntity : "{ABD42182D8F3E85A}PrefabLibrary/Props/Decoration/
   angleY 30.621
  }
 }
-Tree : "{AD7EFA7B1214DD21}PrefabLibrary/Vegetation/Bushes/b_corylus_avellana_0l.et" {
- coords 4946.656 0 4799.529
- angleX 1.176
- angleY -66.881
- angleZ 0.693
- scale 0.587
+$grp Tree : "{AD7EFA7B1214DD21}PrefabLibrary/Vegetation/Bushes/b_corylus_avellana_0l.et" {
+ {
+  coords 4946.656 0 4799.529
+  angleX 1.176
+  angleY -66.881
+  angleZ 0.693
+  scale 0.587
+ }
+ {
+  coords 4774.622 0 4585.938
+  angleX -1.969
+  angleY 273.601
+  angleZ -1.74
+  scale 0.468
+ }
 }
 $grp SCR_DestructibleEntity : "{B1F3680F3BBB9DFE}PrefabLibrary/Props/Decoration/FlowerpotStreet_01_rect_long_Tagetes/FlowerpotStreet_01_rect_long_Tagetes_orange.et" {
  {
@@ -18048,6 +18064,11 @@ $grp Tree : "{B48B7DD4E1C5FE40}PrefabLibrary/Vegetation/Bushes/b_corylus_avellan
   coords 5033.286 0 4690.852
   angleY 204.242
   scale 0.424
+ }
+ {
+  coords 4776.675 -0 4585.767
+  angleY 26.774
+  scale 0.486
  }
 }
 $grp Tree : "{B6FEA2C769DA6395}PrefabLibrary/Vegetation/Trees/t_pinus_sylvestris_2s.et" {
@@ -18226,5 +18247,10 @@ $grp Tree : "{FA0813CCD98B815B}PrefabLibrary/Vegetation/Trees/t_malus_domestica_
   coords 5014.507 0 4692.076
   angleY 152.121
   scale 0.872
+ }
+ {
+  coords 4776.302 -0 4589.645
+  angleY 329.908
+  scale 0.94
  }
 }
