@@ -557,7 +557,7 @@ $grp SplineShapeEntity {
   coords 5998.912 8.012 4808.156
   Points {
    ShapePoint "{661800E433D19C4B}" {
-    Position 0 -0 0
+    Position 0 0 0
    }
    ShapePoint "{661800E433D1C670}" {
     Position -14.475 -0.006 -0.072
@@ -583,15 +583,15 @@ $grp SplineShapeEntity {
      }
      $grp SCR_DestructibleEntity : "{6B08AEEC99A1CFE8}Prefabs/Structures/Walls/Stone/StoneWall_02/StoneWall_02_4m_v1.et" {
       {
-       coords 0.035 -0 -0
+       coords 0.035 0 0
        angleY 180.028
       }
       {
-       coords -3.588 -0 0.002
+       coords -3.588 0 0.002
        angleY 179.937
       }
       {
-       coords -7.21 -0 -0.002
+       coords -7.21 0 -0.002
        angleY 179.754
       }
       {
@@ -614,6 +614,102 @@ $grp SplineShapeEntity {
      SCR_DestructibleEntity : "{AA29DDBF1CD8EE47}Prefabs/Structures/Walls/Stone/StoneWall_02/StoneWall_02_start.et" {
       coords -22.882 0.462 6.938
       angleY 276.231
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 6048.325 4.636 4758.935
+  Points {
+   ShapePoint "{6618BE37A0D98097}" {
+    Position 0 -0 0
+   }
+   ShapePoint "{6618BE37A0D9E3CE}" {
+    Position 4.883 0.212 -0.167
+    Data {
+     SplinePointData SplinePointData {
+      InTangent 0.002 0.384 1.877
+      OutTangent 0.002 0.384 1.877
+     }
+    }
+   }
+   ShapePoint "{6618BE37A7AC74D9}" {
+    Position 4.541 0.775 11.775
+    Data {
+     SplinePointData SplinePointData {
+      InTangent -1.029 0.047 0.39
+      OutTangent -1.029 0.047 0.39
+     }
+    }
+   }
+   ShapePoint "{6618BE37A69D7489}" {
+    Position -16.882 0.232 13.091
+    Data {
+     SplinePointData SplinePointData {
+      InTangent -0.775 -0.422 -0.435
+      OutTangent -0.775 -0.422 -0.435
+     }
+    }
+   }
+   ShapePoint "{6618BE37A48DE4C9}" {
+    Position -17.849 -0.347 6.58
+   }
+  }
+  LineColor 0 0 0 0
+  {
+   WallGeneratorEntity : "{37C7344DC6303382}PrefabLibrary/Generators/Walls/Wooden/WG_WoodenFence_03.et" {
+    Flags 1048579
+    {
+     SCR_DestructibleEntity : "{261B2C977CEB1CEA}PrefabLibrary/Walls/Wooden/WoodenFence_03_Pole.et" {
+      coords -17.75 -0.267 7.404
+      angleY 96.887
+     }
+     $grp SCR_DestructibleEntity : "{5EF68161E25B9320}PrefabLibrary/Walls/Wooden/WoodenFence_03_8m.et" {
+      {
+       coords 3.88 0.159 -0.46
+       angleY 276.789
+      }
+      {
+       coords 4.709 0.762 11.277
+       angleY 187.68
+      }
+     }
+     $grp SCR_DestructibleEntity : "{BF6DA4D2C6133846}PrefabLibrary/Walls/Wooden/WoodenFence_03_4m.et" {
+      {
+       coords -0.061 -0.003 0.006
+       angleY 5.87
+      }
+      {
+       coords 4.816 0.608 7.32
+       angleY 267.583
+      }
+      {
+       coords -3.056 0.599 12.329
+       angleY 183.69
+      }
+      {
+       coords -6.955 0.485 12.58
+       angleY 183.378
+      }
+      {
+       coords -10.857 0.367 12.811
+       angleY 183.158
+      }
+      {
+       coords -16.754 0.239 13.155
+       angleY 101.208
+      }
+     }
+     $grp SCR_DestructibleEntity : "{CFA0360B54376DF5}PrefabLibrary/Walls/Wooden/WoodenFence_03_2m.et" {
+      {
+       coords -14.758 0.285 13.028
+       angleY 181.945
+      }
+      {
+       coords -17.518 -0.118 9.323
+       angleY 96.887
+      }
      }
     }
    }
