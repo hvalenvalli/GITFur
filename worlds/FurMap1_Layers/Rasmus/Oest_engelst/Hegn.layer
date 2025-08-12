@@ -513,4 +513,110 @@ $grp SplineShapeEntity {
    }
   }
  }
+ {
+  coords 5980.275 9.405 4831.223
+  Points {
+   ShapePoint "{661800E421D54B84}" {
+    Position 0 0 0
+   }
+   ShapePoint "{661800E421D6AE04}" {
+    Position -3.333 -0.171 -2.222
+   }
+   ShapePoint "{661800E420858BA5}" {
+    Position -3.574 -0.713 -13.123
+   }
+  }
+  LineColor 0 0 0 0
+  {
+   WallGeneratorEntity : "{272D40AD86F21423}PrefabLibrary/Generators/Walls/Stone/WG_StoneWall_02.et" {
+    Flags 1048579
+    {
+     $grp SCR_DestructibleEntity : "{6B08AEEC99A1CFE8}Prefabs/Structures/Walls/Stone/StoneWall_02/StoneWall_02_4m_v1.et" {
+      {
+       coords 0.031 0.001 0.017
+       angleY 150.783
+      }
+      {
+       coords -3.641 -0.326 -5.526
+       angleY 90.362
+      }
+     }
+     SCR_DestructibleEntity : "{AA29DDBF1CD8EE47}Prefabs/Structures/Walls/Stone/StoneWall_02/StoneWall_02_start.et" {
+      coords -3.665 -0.529 -9.183
+      angleY 88.997
+     }
+     SCR_DestructibleEntity : "{FE657FA3BEE51C58}Prefabs/Structures/Walls/Stone/StoneWall_02/StoneWall_02_4m_v3.et" {
+      coords -3.157 -0.139 -1.733
+      angleY 97.214
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 5998.912 8.012 4808.156
+  Points {
+   ShapePoint "{661800E433D19C4B}" {
+    Position 0 -0 0
+   }
+   ShapePoint "{661800E433D1C670}" {
+    Position -14.475 -0.006 -0.072
+   }
+   ShapePoint "{661800E4310DC3C1}" {
+    Position -19.764 -0.075 -0.625
+   }
+   ShapePoint "{661800E431CA7E59}" {
+    Position -23.044 0.068 1.166
+   }
+   ShapePoint "{661800E4305FE926}" {
+    Position -22.742 0.535 8.016
+   }
+  }
+  LineColor 0 0 0 0
+  {
+   WallGeneratorEntity : "{272D40AD86F21423}PrefabLibrary/Generators/Walls/Stone/WG_StoneWall_02.et" {
+    Flags 1048579
+    {
+     SCR_DestructibleEntity : "{1BF9335AB2008B33}Prefabs/Structures/Walls/Stone/StoneWall_02/StoneWall_02_4m_v2.et" {
+      coords -21.681 -0.021 -0.245
+      angleY 247.118
+     }
+     $grp SCR_DestructibleEntity : "{6B08AEEC99A1CFE8}Prefabs/Structures/Walls/Stone/StoneWall_02/StoneWall_02_4m_v1.et" {
+      {
+       coords 0.035 -0 -0
+       angleY 180.028
+      }
+      {
+       coords -3.588 -0 0.002
+       angleY 179.937
+      }
+      {
+       coords -7.21 -0 -0.002
+       angleY 179.754
+      }
+      {
+       coords -10.833 -0.002 -0.017
+       angleY 179.124
+      }
+      {
+       coords -14.456 -0.005 -0.069
+       angleY 172.928
+      }
+      {
+       coords -18.051 -0.078 -0.522
+       angleY 184.858
+      }
+      {
+       coords -23.192 0.222 3.293
+       angleY 274.863
+      }
+     }
+     SCR_DestructibleEntity : "{AA29DDBF1CD8EE47}Prefabs/Structures/Walls/Stone/StoneWall_02/StoneWall_02_start.et" {
+      coords -22.882 0.462 6.938
+      angleY 276.231
+     }
+    }
+   }
+  }
+ }
 }
