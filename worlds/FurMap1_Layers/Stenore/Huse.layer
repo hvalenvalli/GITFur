@@ -1450,8 +1450,9 @@ $grp SCR_DestructibleEntity : "{8842EF33BFBD669E}PrefabLibrary/Walls/Wooden/Wood
  }
 }
 SCR_DestructibleBuildingEntity : "{8C72A5F00F23120F}PrefabLibrary/Props/Cultural/Fountain_01.et" {
- coords 4291.072 0.696 2806.05
- angleY -7.382
+ coords 4291.302 0.557 2804.674
+ angleY -10.659
+ scale 0.67
 }
 $grp SCR_DestructibleBuildingEntity : "{93147981639AC149}PrefabLibrary/Structures/Agriculture/Barn_E_03/Barn_E_03_closed.et" {
  {
@@ -1926,6 +1927,55 @@ $grp SCR_DestructibleBuildingEntity : "{E7143CC469A97E04}PrefabLibrary/Structure
 SCR_DestructibleBuildingEntity : "{E889E8CCCA21EC6C}PrefabLibrary/Structures/Commercial/PubVillage_E_2L01.et" {
  coords 4289.886 0.739 2855.525
  angleY 82.67
+ {
+  GenericEntity {
+   ID "567CDD45DCED7D42"
+   components {
+    MeshObject "{5111E74D5E891458}" {
+     Materials {
+      MaterialAssignClass "{661AC10E09F45897}" {
+       SourceMaterial "SignCommercial_02"
+       AssignedMaterial "{AED934B89EA62847}Assets/Structures/BuildingsParts/Signs/SignCommercial_02/Data/SignCommercial_02_Pub_V1_FaergeKro.emat"
+      }
+     }
+    }
+   }
+  }
+  GenericEntity {
+   ID "567CDD45DCED7D6F"
+   components {
+    MeshObject "{5111E74D5E891458}" {
+     Materials {
+      MaterialAssignClass "{661AC10E9DF2B128}" {
+       SourceMaterial "MLOD"
+       AssignedMaterial "{CCD98675AFCAC718}Assets/Structures/BuildingsParts/Signs/SignCommercial_02/Data/SignCommercial_02_Pub_V1_MLOD_Faergekro.emat"
+      }
+      MaterialAssignClass "{661AC10E9DF2B119}" {
+       SourceMaterial "SignCommercial_02"
+       AssignedMaterial "{AED934B89EA62847}Assets/Structures/BuildingsParts/Signs/SignCommercial_02/Data/SignCommercial_02_Pub_V1_FaergeKro.emat"
+      }
+     }
+    }
+   }
+  }
+  GenericEntity {
+   ID "567CDD45DCED7E83"
+   components {
+    MeshObject "{5111E74D5E891458}" {
+     Materials {
+      MaterialAssignClass "{661AC10E96807083}" {
+       SourceMaterial "MLOD"
+       AssignedMaterial "{CCD98675AFCAC718}Assets/Structures/BuildingsParts/Signs/SignCommercial_02/Data/SignCommercial_02_Pub_V1_MLOD_Faergekro.emat"
+      }
+      MaterialAssignClass "{661AC10E968070F3}" {
+       SourceMaterial "SignCommercial_02"
+       AssignedMaterial "{AED934B89EA62847}Assets/Structures/BuildingsParts/Signs/SignCommercial_02/Data/SignCommercial_02_Pub_V1_FaergeKro.emat"
+      }
+     }
+    }
+   }
+  }
+ }
 }
 SCR_DestructibleBuildingEntity : "{F83712D420A65B02}PrefabLibrary/Infrastructure/Naval/PierConcrete_01_20m_wall.et" {
  coords 4291.265 -5.044 2782.323

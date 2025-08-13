@@ -1224,7 +1224,7 @@ $grp SplineShapeEntity {
   }
  }
  Stenore_Faerge {
-  coords 4280.792 1.138 2815.83
+  coords 4280.792 1.138 2817.825
   Points {
    ShapePoint "{61A4C0C071DBD05A}" {
     Position 0 0 0
@@ -1233,13 +1233,14 @@ $grp SplineShapeEntity {
     Position 53.833 -0.324 0
    }
    ShapePoint "{61A4C0C0785B2E11}" {
-    Position 79.418 0.463 -22.957
+    Position 81.047 0.362 -25.038
    }
   }
   {
    RoadGeneratorEntity : "{5E336AEB0923963F}PrefabLibrary/Generators/Roads/Asphalt/RG_Road_Asphalt_E_01_DashedLine.et" {
     coords 0 0 0
     AdjustHeightMap 0
+    RoadWidth 8
     {
      RoadEntity {
       ID "556C6556FAB8EA7A"
@@ -1251,11 +1252,11 @@ $grp SplineShapeEntity {
         Position 53.833 -0.324 0
        }
        ShapePoint "{61A4C0C05480A726}" {
-        Position 79.418 0.463 -22.957
+        Position 81.047 0.362 -25.038
        }
       }
       IsClosedSpline 0
-      Width 12
+      Width 8
      }
     }
    }
