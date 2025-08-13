@@ -1963,6 +1963,43 @@ $grp SCR_DestructibleBuildingEntity : "{A6AEE9571CB62BEF}PrefabLibrary/Structure
   }
   coords 4259.002 0.203 2780.939
   angleY 151.147
+  {
+   GenericEntity {
+    ID "567CDD44D55C1048"
+    components {
+     MeshObject "{5111E74D5E891458}" {
+      Materials {
+       MaterialAssignClass "{661AD315D640062C}" {
+        SourceMaterial "Collor_Palette"
+        AssignedMaterial "{D8AFC80E455AF449}Assets/Structures/BuildingsParts/Signs/SignCommercial_01/Data/SignCommercial_01_GroceryStore_MLOD_Skuret.emat"
+       }
+       MaterialAssignClass "{5682DB26A6D1EF38}" {
+        SourceMaterial "SignCommercial_01"
+        AssignedMaterial "{56F33F89A8B2583F}Assets/Structures/BuildingsParts/Signs/SignCommercial_01/Data/SignCommercial_01_GroceryStore_Skuret.emat"
+       }
+      }
+     }
+    }
+   }
+   GenericEntity {
+    ID "567CDD44D55C107A"
+    components {
+     MeshObject "{5111E74D5E891458}" {
+      Materials {
+       MaterialAssignClass "{661AD315A6432EED}" {
+        SourceMaterial "Collor_Palette"
+        AssignedMaterial "{D8AFC80E455AF449}Assets/Structures/BuildingsParts/Signs/SignCommercial_01/Data/SignCommercial_01_GroceryStore_MLOD_Skuret.emat"
+       }
+       MaterialAssignClass "{5682DB26A6D1EF38}" {
+        SourceMaterial "SignCommercial_01"
+        AssignedMaterial "{56F33F89A8B2583F}Assets/Structures/BuildingsParts/Signs/SignCommercial_01/Data/SignCommercial_01_GroceryStore_Skuret.emat"
+       }
+      }
+     }
+    }
+    coords -4.958 3.281 3.693
+   }
+  }
  }
  {
   coords 4185.458 0.244 3070.376
@@ -2320,7 +2357,7 @@ $grp SCR_DestructibleBuildingEntity : "{DEF852CB2596122D}PrefabLibrary/Structure
   angleY -94.737
  }
  {
-  coords 4245.246 0.701 2776.055
+  coords 4244.958 0.701 2776.596
   angleY 61.975
  }
  {

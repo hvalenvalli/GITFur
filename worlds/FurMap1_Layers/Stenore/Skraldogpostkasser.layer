@@ -130,6 +130,14 @@ $grp GenericEntity : "{16E63075F932AC76}PrefabLibrary/Props/Garbage/GarbageConta
   angleY -107.704
   angleZ 1.433
  }
+ {
+  coords 4268.341 1.5 2788.864
+  angleY 62.445
+ }
+ {
+  coords 4267.48 1.5 2790.456
+  angleY 63.686
+ }
 }
 GenericEntity : "{1FB1C8E1BF7E77FA}PrefabLibrary/Props/Civilian/StepladderWooden_01.et" {
  coords 4236.222 3.023 2861.446
@@ -296,12 +304,18 @@ $grp GenericEntity : "{39CFEF5150FEA35A}PrefabLibrary/Props/Civilian/ChairOld_01
   angleZ 0.271
  }
 }
-GenericEntity : "{3C3C1BE8A9C49CF9}PrefabLibrary/Props/Garbage/Junk_01_pile_medium.et" {
- coords 4033.66 3.188 2805.987
- angleX -2.183
- angleY 35.602
- angleZ -1.562
- scale 0.68
+$grp GenericEntity : "{3C3C1BE8A9C49CF9}PrefabLibrary/Props/Garbage/Junk_01_pile_medium.et" {
+ {
+  coords 4033.66 3.188 2805.987
+  angleX -2.183
+  angleY 35.602
+  angleZ -1.562
+  scale 0.68
+ }
+ {
+  coords 4269.137 1.5 2794.68
+  angleY -144.815
+ }
 }
 $grp GenericEntity : "{3FD26066E47DD5AE}PrefabLibrary/Props/Commercial/CrateWooden_01_plain.et" {
  {
@@ -333,6 +347,10 @@ $grp GenericEntity : "{42A2D1BD123CB71A}PrefabLibrary/Props/Garbage/GarbageStack
   angleX -0.441
   angleY -13.816
   angleZ 1.952
+ }
+ {
+  coords 4265.199 1.5 2794.701
+  angleY 61.968
  }
 }
 GenericEntity : "{43890921C37778E9}PrefabLibrary/Props/Industrial/MarsBoxContainer_01.et" {
@@ -1603,11 +1621,17 @@ GenericEntity : "{F187E9965241DFCA}PrefabLibrary/Props/Industrial/MarsBox_01/Mar
  angleY 83.413
  angleZ 0.992
 }
-GenericEntity : "{F47C56E3678C7D87}PrefabLibrary/Props/Industrial/VehicleGarbage_01_pile_large.et" {
- coords 4240.176 2.903 2873.417
- angleX 5.278
- angleY -92.405
- angleZ -2
+$grp GenericEntity : "{F47C56E3678C7D87}PrefabLibrary/Props/Industrial/VehicleGarbage_01_pile_large.et" {
+ {
+  coords 4240.176 2.903 2873.417
+  angleX 5.278
+  angleY -92.405
+  angleZ -2
+ }
+ {
+  coords 4266.748 1.5 2792.195
+  angleY 148.926
+ }
 }
 $grp GenericEntity : "{F48B5D8AC0196C55}PrefabLibrary/Props/Garbage/Cardboard_Pile_01.et" {
  {
