@@ -15256,6 +15256,123 @@ $grp SplineShapeEntity {
    }
   }
  }
+ {
+  coords 4286.624 1.406 2822.514
+  Points {
+   ShapePoint "{661AD31A16617B94}" {
+    Position 0 0 0
+   }
+   ShapePoint "{661AD31A166286DF}" {
+    Position 9.383 0 1.132
+   }
+   ShapePoint "{661AD31A15C60E7E}" {
+    Position 20.572 0 1.719
+   }
+   ShapePoint "{661AD31A14761558}" {
+    Position 37.313 -0.001 1.343
+   }
+   ShapePoint "{661AD31A14871792}" {
+    Position 47.904 -0.013 -0.092
+   }
+   ShapePoint "{661AD31A1AAAF35E}" {
+    Position 56.723 -0.178 -3.602
+   }
+  }
+  LineColor 0 0 0 0
+  {
+   PrefabGeneratorEntity : "{8AC04301B8E8F072}PrefabLibrary/Generators/Roads/VergePosts/PG_StoneVergePost_01.et" {
+    Flags 1048579
+    {
+     SCR_DestructibleEntity : "{95A9022B3F3ADAD7}PrefabLibrary/Infrastructure/Roads/StoneVergePost_01_D_V1.et" {
+      coords 35.346 0.058 1.453
+      angleX 0.194
+      angleY 92.425
+      angleZ 358.448
+     }
+     $grp SCR_DestructibleEntity : "{D5E519FF4638AA27}PrefabLibrary/Infrastructure/Roads/StoneVergePost_01.et" {
+      {
+       coords 3.405 0.083 0.451
+       angleX 355.122
+       angleY 83.01
+       angleZ 0.453
+      }
+      {
+       coords 7.374 -0.053 0.946
+       angleX 358.93
+       angleY 83.01
+       angleZ 357.446
+      }
+      {
+       coords 11.354 0.082 1.287
+       angleX 355.54
+       angleY 85.329
+       angleZ 4.891
+      }
+      {
+       coords 15.355 0.042 1.557
+       angleX 357.167
+       angleY 87.303
+       angleZ 355.713
+      }
+      {
+       coords 19.349 0.02 1.701
+       angleX 359.185
+       angleY 89.191
+       angleZ 359.38
+      }
+      {
+       coords 23.345 0.056 1.721
+       angleX 3.158
+       angleY 90.021
+       angleZ 4.06
+      }
+      {
+       coords 27.345 -0.099 1.682
+       angleX 357.148
+       angleY 90.77
+       angleZ 356.934
+      }
+      {
+       coords 31.353 -0.176 1.597
+       angleX 356.134
+       angleY 91.587
+       angleZ 4.211
+      }
+      {
+       coords 39.335 0.019 1.192
+       angleX 4.208
+       angleY 94.316
+       angleZ 357.492
+      }
+      {
+       coords 43.314 -0.02 0.791
+       angleX 4.132
+       angleY 98.187
+       angleZ 3.345
+      }
+      {
+       coords 47.251 0.073 0.061
+       angleX 357.228
+       angleY 103.435
+       angleZ 356.276
+      }
+      {
+       coords 51.054 0.028 -1.148
+       angleX 359.497
+       angleY 111.429
+       angleZ 356.993
+      }
+      {
+       coords 54.744 0.06 -2.703
+       angleX 355.876
+       angleY 114.021
+       angleZ 356.675
+      }
+     }
+    }
+   }
+  }
+ }
 }
 GenericEntity : "{05A379C7AF6B9F0E}PrefabLibrary/Props/Construction/ConcretePipe_01_Short_Pile.et" {
  coords 3846.917 1.473 2799.507
@@ -15321,6 +15438,25 @@ GenericEntity : "{1736B81121CCABC2}PrefabLibrary/Props/Industrial/PalletJack_01.
  coords 3861.213 2.194 2868.171
  angleX 0.895
  angleZ -2.684
+}
+GenericEntity : "{234CF9A4AE06D5ED}Prefabs/Structures/BuildingParts/Signs/Commercial/SignCommercial_02_Pub_V1.et" {
+ components {
+  MeshObject "{5111E74D5E891458}" {
+   Materials {
+    MaterialAssignClass "{661AD319B420284C}" {
+     SourceMaterial "MLOD"
+     AssignedMaterial "{CCD98675AFCAC718}Assets/Structures/BuildingsParts/Signs/SignCommercial_02/Data/SignCommercial_02_Pub_V1_MLOD_Faergekro.emat"
+    }
+    MaterialAssignClass "{661AD319B42028BC}" {
+     SourceMaterial "SignCommercial_02"
+     AssignedMaterial "{AED934B89EA62847}Assets/Structures/BuildingsParts/Signs/SignCommercial_02/Data/SignCommercial_02_Pub_V1_FaergeKro.emat"
+    }
+   }
+  }
+ }
+ coords 4312.759 4.787 2836.603
+ angleY 173.38
+ scale 1.342
 }
 $grp StaticModelEntity : "{27863F82784DD872}PrefabLibrary/Walls/Brick/BrickWall_01_Gate.et" {
  {
