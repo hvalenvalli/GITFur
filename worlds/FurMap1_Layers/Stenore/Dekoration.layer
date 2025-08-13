@@ -5308,6 +5308,27 @@ Tree : "{7D5C8883A0DF9D96}PrefabLibrary/Vegetation/Trees/t_picea_abies_1f.et" {
  angleZ 0.673
  scale 0.758
 }
+GenericEntity : "{7D7C2DB551E9C36E}Prefabs/Structures/BuildingParts/Signs/Commercial/SignCommercial_01_Base.et" {
+ components {
+  MeshObject "{5111E74D5E891458}" {
+   Materials {
+    MaterialAssignClass "{6619439E5F8C3EA4}" {
+     SourceMaterial "Collor_Palette"
+     AssignedMaterial "{096BDB53C6C54627}Skilte/ButikSkilte/Textures/Logo_Brugsen.emat"
+    }
+    MaterialAssignClass "{6619439E5F8C3E91}" {
+     SourceMaterial "SignCommercial_01"
+     AssignedMaterial "{F69DDAEBE9013CA9}Assets/Structures/BuildingsParts/Signs/SignCommercial_01/Data/SignCommercial_01_GroceryStore_Dagli_Brugsen.emat"
+    }
+   }
+  }
+ }
+ coords 4262.223 3.337 3055.436
+ angleX -0.014
+ angleY -178.02
+ angleZ -0.025
+ scale 0.57
+}
 $grp SCR_DestructibleEntity : "{82811097384BF4D3}PrefabLibrary/Props/Decoration/FlowerpotFlowers_01_begonia/FlowerpotFlowers_01_begonia_white.et" {
  {
   coords 4287.457 2.741 2844.115
@@ -6319,7 +6340,7 @@ GenericEntity : "{BE4CEE20B58DE334}PrefabLibrary/Props/Civilian/BarrelMetal_01/B
 }
 GenericEntity : "{C4BF621822802BF5}PrefabLibrary/Props/Civilian/Recreation/AirMattress_01/AirMattress_01_OrangeBlue.et" {
  coords 4160.78 0 2690.293
- angleX 4.467
+ angleX 0.182
 }
 GenericEntity : "{C4CD41E8848EB42B}PrefabLibrary/Props/Civilian/BenchStreet_01/BenchStreet_01_yellow_red.et" {
  coords 4140.853 3.44 3003.473
@@ -6509,8 +6530,8 @@ $grp GenericEntity : "{D0DA6B65A983EA3A}PrefabLibrary/Props/Civilian/MessageBoar
   angleY -85.2
  }
  {
-  coords 4250.248 1.5 2767.099
-  angleY 148.393
+  coords 4250.934 1.5 2767.608
+  angleY -119.548
  }
 }
 $grp GenericEntity : "{D35F2E1ACDB77391}PrefabLibrary/Props/Construction/Wheelbarrow_01.et" {

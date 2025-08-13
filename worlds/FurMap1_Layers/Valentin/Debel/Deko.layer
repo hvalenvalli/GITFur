@@ -168,7 +168,7 @@ $grp GenericEntity {
     Materials {
      MaterialAssignClass "{655B3B9E119414D7}" {
       SourceMaterial "Material"
-      AssignedMaterial "{AFF523996B537058}Skilte/BuitkSkilte/Textures/FurAntikDebel5-7x5.emat"
+      AssignedMaterial "{AFF523996B537058}Skilte/ButikSkilte/Textures/FurAntikDebel5-7x5.emat"
      }
     }
    }
@@ -184,7 +184,7 @@ $grp GenericEntity {
     Materials {
      MaterialAssignClass "{655B3B9E119414D7}" {
       SourceMaterial "Material"
-      AssignedMaterial "{AFF523996B537058}Skilte/BuitkSkilte/Textures/FurAntikDebel5-7x5.emat"
+      AssignedMaterial "{AFF523996B537058}Skilte/ButikSkilte/Textures/FurAntikDebel5-7x5.emat"
      }
     }
    }
@@ -1509,6 +1509,36 @@ $grp GenericEntity {
      angleX 1.811
      angleY -38.301
      angleZ 0.85
+    }
+   }
+  }
+ }
+ hyggesaetferie6 {
+  coords 2752.447 20.912 5209.929
+  angleY 105.138
+  {
+   GenericEntity : "{7144121BFD25277F}PrefabLibrary/Props/Civilian/Recreation/TableRecreation_01/TableRecreation_01_redyellow.et" {
+    coords -0.087 0.003 0.004
+    angleY 12.222
+   }
+   SCR_DestructibleEntity : "{CF6F6708633E79DE}PrefabLibrary/Props/Civilian/Recreation/Sunshade_01.et" {
+    coords -0.108 0.111 0.021
+    angleX -0.305
+    angleY 99.484
+    angleZ 1.214
+   }
+   $grp GenericEntity : "{FECBC99BA2B2F3E7}PrefabLibrary/Props/Civilian/Recreation/DeckChair_01/DeckChair_01_ochre.et" {
+    {
+     coords -0.592 0.039 1.284
+     angleX -1.643
+     angleY 151.342
+     angleZ -1.141
+    }
+    {
+     coords -1.108 0.023 -0.798
+     angleX -0.909
+     angleY 53.559
+     angleZ 1.783
     }
    }
   }
@@ -3058,9 +3088,15 @@ $grp GenericEntity : "{1FB1C8E1BF7E77FA}PrefabLibrary/Props/Civilian/StepladderW
   angleY -89.458
   angleZ -0.081
  }
+ {
+  coords 2741.872 20.444 5203.79
+  angleX 8.578
+  angleY 75.975
+  angleZ 3.671
+ }
 }
 GenericEntity : "{218371AE0F7B0168}PrefabLibrary/Structures/Addons/Doorstep_01_Stairs.et" {
- coords 3007.762 9.475 4712.376
+ coords 3007.667 9.475 4712.211
  angleY 30
 }
 GenericEntity : "{2249E2108688E004}PrefabLibrary/Props/Decoration/FlowerpotPelargonia_01/FlowerpotPelargonia_01_pink_v2.et" {
@@ -3868,7 +3904,7 @@ $grp SCR_DestructibleEntity : "{467951CEFC8F345B}PrefabLibrary/Props/Civilian/Si
        Materials {
         MaterialAssignClass "{655B3B9322C8AEBC}" {
          SourceMaterial "Material"
-         AssignedMaterial "{DF96A773CCB8542B}Skilte/BuitkSkilte/Textures/FurAntikDebel5.emat"
+         AssignedMaterial "{DF96A773CCB8542B}Skilte/ButikSkilte/Textures/FurAntikDebel5.emat"
         }
        }
       }
@@ -3889,7 +3925,7 @@ $grp SCR_DestructibleEntity : "{467951CEFC8F345B}PrefabLibrary/Props/Civilian/Si
        Materials {
         MaterialAssignClass "{655B3B9322C8AEBC}" {
          SourceMaterial "Material"
-         AssignedMaterial "{DF96A773CCB8542B}Skilte/BuitkSkilte/Textures/FurAntikDebel5.emat"
+         AssignedMaterial "{DF96A773CCB8542B}Skilte/ButikSkilte/Textures/FurAntikDebel5.emat"
         }
        }
       }
@@ -7633,6 +7669,13 @@ $grp GenericEntity : "{CC5B202C60579C1F}PrefabLibrary/Props/Civilian/BasketWicke
   angleZ -0.088
   scale 1.097
  }
+ {
+  coords 2742.906 20.423 5203.095
+  angleX -2.935
+  angleY 121.792
+  angleZ 1.336
+  scale 1.037
+ }
 }
 $grp DecalEntity : "{CCE57C4C9C0E5009}Prefabs/Decals/Blood/BloodStain_Small_01.et" {
  {
@@ -8558,6 +8601,11 @@ $grp GenericEntity : "{E89604AED2607A36}PrefabLibrary/Props/Civilian/Garden/Lawn
  {
   coords 2609.43 24.516 5274.492
   angleX 1.79
+ }
+ {
+  coords 2757.857 20.762 5200.896
+  angleX 2.683
+  angleZ 1.789
  }
 }
 $grp GenericEntity : "{E90B0E28F74CCA3F}PrefabLibrary/Props/Garbage/Junk_01_pile_long.et" {

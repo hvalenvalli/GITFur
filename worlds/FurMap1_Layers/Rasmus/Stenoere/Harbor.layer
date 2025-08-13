@@ -1440,6 +1440,16 @@ SCR_DestructibleBuildingEntity : "{ABD6F938BFD04B3D}PrefabLibrary/Structures/Hou
  angleY 170.988
 }
 SCR_DestructibleBuildingEntity : "{AFB66B5D636927AD}PrefabLibrary/Structures/Industrial/Workshop_02.et" {
+ components {
+  MeshObject "{506EDA9D46FC6C06}" {
+   Materials {
+    MaterialAssignClass "{66197B65A5109514}" {
+     SourceMaterial "workshop_02_walls"
+     AssignedMaterial "{F317EAFE2174BCCC}Assets/Structures/Industrial/Houses/Workshop_02/Data/workshop_02_walls_Fur_Red.emat"
+    }
+   }
+  }
+ }
  coords 4226.847 0 2755.858
  angleY -122.555
 }
@@ -1605,6 +1615,20 @@ SCR_DestructibleEntity : "{DAB15C3D26A854FF}PrefabLibrary/Walls/Net/NetFence_04_
 }
 $grp SCR_DestructibleBuildingEntity : "{DC93D6FC12072495}PrefabLibrary/Structures/Agriculture/Barn_E_03/Barn_E_03_open.et" {
  {
+  components {
+   MeshObject "{506EDA9D46FC6C06}" {
+    Materials {
+     MaterialAssignClass "{66197B65774EBE72}" {
+      SourceMaterial "Barn_E_03_EXT"
+      AssignedMaterial "{0C8D23ECA86F98BB}Assets/Structures/Agriculture/Barn/Barn_E_03/Data/Barn_E_03_EXT_FurRed.emat"
+     }
+     MaterialAssignClass "{66197B65774EBE63}" {
+      SourceMaterial "Barn_E_03_INT_MLOD"
+      AssignedMaterial "{0C5F7A89E3D746FA}Assets/Structures/Agriculture/Barn/Barn_E_03/Data/Barn_E_03_EXT_MLOD_FurRed.emat"
+     }
+    }
+   }
+  }
   coords 4214.875 0.277 2752.583
   angleY 57.222
  }

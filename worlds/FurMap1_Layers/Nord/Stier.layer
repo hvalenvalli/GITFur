@@ -715,3 +715,41 @@ $grp StaticModelEntity : "{214AACC0EF381CE8}PrefabLibrary/Walls/Metal/MetalGate_
   scale 1.125
  }
 }
+GenericEntity : "{218371AE0F7B0168}PrefabLibrary/Structures/Addons/Doorstep_01_Stairs.et" {
+ coords 3138.126 1.907 7169.669
+ angleY -44.084
+ scale 1.436
+}
+SCR_DestructibleBuildingEntity : "{625C23A0F9BF5D2C}PrefabLibrary/Structures/Landmarks/Castle_01_OuterWall_Stairs.et" {
+ coords 3150.657 -5.914 7158.827
+ angleY -134.194
+}
+GenericEntity : "{A1C4F459299A733E}Prefabs/Structures/Civilian/BoardMap_01/BoardMap_01_Fur.et" {
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Materials {
+    MaterialAssignClass "{6619439553EBB2EF}" {
+     SourceMaterial "BoardMap_01_texture"
+     AssignedMaterial "{4E3060D9C3D00EF8}Skilte/Maps/Tourist_Map1_Fur.emat"
+    }
+   }
+  }
+ }
+ coords 2447.106 54.405 5864.102
+ angleY 90.888
+ {
+  GenericEntity {
+   ID "5E20C6B32D5DB6DB"
+   components {
+    MeshObject "{5E20C6B34DE99C54}" {
+     Materials {
+      MaterialAssignClass "{66197B6EE69BF466}" {
+       SourceMaterial "BoardMap_01_text"
+       AssignedMaterial "{ECFCE34CF093A9A6}Skilte/Maps/Tourist_Map_Fur_Text.emat"
+      }
+     }
+    }
+   }
+  }
+ }
+}

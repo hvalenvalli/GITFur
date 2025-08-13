@@ -1528,12 +1528,54 @@ $grp GenericEntity : "{A5D5928095C27E17}PrefabsEditable/Auto/Props/Garbage/Tires
 }
 $grp SCR_DestructibleBuildingEntity : "{A6AEE9571CB62BEF}PrefabLibrary/Structures/Commercial/ShopModern_E_01.et" {
  {
+  components {
+   MeshObject "{506EDA9D46FC6C06}" {
+    Materials {
+     MaterialAssignClass "{66197B66AEC688E4}" {
+      SourceMaterial "ShopModern_E_01_Walls"
+      AssignedMaterial "{B8419D408BF49E85}Assets/Structures/Commercial/Shop/ShopModern_E/Data/ShopModern_E_01_Walls_Fur_Red.emat"
+     }
+    }
+   }
+  }
   coords 4259.002 0.203 2780.939
   angleY 151.147
  }
  {
   coords 4185.458 0.244 3070.376
   angleY 178.687
+  {
+   GenericEntity {
+    ID "567CDD44D55C1048"
+    components {
+     MeshObject "{5111E74D5E891458}" {
+      Materials {
+       MaterialAssignClass "{5682DB26A6D1EF38}" {
+        SourceMaterial "SignCommercial_01"
+        AssignedMaterial "{F69DDAEBE9013CA9}Assets/Structures/BuildingsParts/Signs/SignCommercial_01/Data/SignCommercial_01_GroceryStore_Dagli_Brugsen.emat"
+       }
+      }
+     }
+    }
+   }
+   GenericEntity {
+    ID "567CDD44D55C107A"
+    components {
+     MeshObject "{5111E74D5E891458}" {
+      Materials {
+       MaterialAssignClass "{5682DB26A6D1EF38}" {
+        SourceMaterial "SignCommercial_01"
+        AssignedMaterial "{F69DDAEBE9013CA9}Assets/Structures/BuildingsParts/Signs/SignCommercial_01/Data/SignCommercial_01_GroceryStore_Dagli_Brugsen.emat"
+       }
+       MaterialAssignClass "{6619439F336C5B6F}" {
+        SourceMaterial "Collor_Palette"
+        AssignedMaterial "{096BDB53C6C54627}Skilte/ButikSkilte/Textures/Logo_Brugsen.emat"
+       }
+      }
+     }
+    }
+   }
+  }
  }
 }
 SCR_DestructibleBuildingEntity : "{A7259960AB98A3A0}PrefabLibrary/Structures/Houses/House_Village_E_1I05t.et" {
