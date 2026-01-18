@@ -11,7 +11,7 @@ $grp GenericEntity : "{A1C4F459299A733E}Prefabs/Structures/Civilian/BoardMap_01/
    }
   }
   coords 1692.991 2.155 6629.875
-  angleY 167.807
+  angles 0 167.807 0
   {
    GenericEntity {
     ID "5E20C6B32D5DB6DB"
@@ -40,7 +40,7 @@ $grp GenericEntity : "{A1C4F459299A733E}Prefabs/Structures/Civilian/BoardMap_01/
    }
   }
   coords 4139.299 36.683 7175.588
-  angleY 176.002
+  angles 0 176.002 0
   {
    GenericEntity {
     ID "5E20C6B32D5DB6DB"
@@ -69,7 +69,7 @@ $grp GenericEntity : "{A1C4F459299A733E}Prefabs/Structures/Civilian/BoardMap_01/
    }
   }
   coords 7185.345 1 7145.683
-  angleY -118.579
+  angles 0 -118.579 0
   {
    GenericEntity {
     ID "5E20C6B32D5DB6DB"
@@ -98,7 +98,7 @@ $grp GenericEntity : "{A1C4F459299A733E}Prefabs/Structures/Civilian/BoardMap_01/
    }
   }
   coords 1887.12 1.719 3736.014
-  angleY 63.225
+  angles 0 63.225 0
   {
    GenericEntity {
     ID "5E20C6B32D5DB6DB"
@@ -127,7 +127,7 @@ $grp GenericEntity : "{A1C4F459299A733E}Prefabs/Structures/Civilian/BoardMap_01/
    }
   }
   coords 3411.219 69.274 6043.367
-  angleY -14.042
+  angles 0 -14.042 0
   {
    GenericEntity {
     ID "5E20C6B32D5DB6DB"
@@ -156,7 +156,7 @@ $grp GenericEntity : "{A1C4F459299A733E}Prefabs/Structures/Civilian/BoardMap_01/
    }
   }
   coords 3785.153 12.971 3759.64
-  angleY -71.05
+  angles 0 -71.05 0
   {
    GenericEntity {
     ID "5E20C6B32D5DB6DB"
@@ -185,7 +185,7 @@ $grp GenericEntity : "{A1C4F459299A733E}Prefabs/Structures/Civilian/BoardMap_01/
    }
   }
   coords 3315.155 11.094 7151.956
-  angleY 178.789
+  angles 0 178.789 0
   {
    GenericEntity {
     ID "5E20C6B32D5DB6DB"
@@ -214,9 +214,7 @@ $grp GenericEntity : "{A1C4F459299A733E}Prefabs/Structures/Civilian/BoardMap_01/
    }
   }
   coords 3004.681 8.331 4713.635
-  angleX -0.352
-  angleY 28.892
-  angleZ 0.006
+  angles -0.352 28.892 0.006
   scale 1.41
   {
    GenericEntity {
@@ -234,8 +232,37 @@ $grp GenericEntity : "{A1C4F459299A733E}Prefabs/Structures/Civilian/BoardMap_01/
    }
   }
  }
+ {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{6619439553EBB2EF}" {
+      SourceMaterial "BoardMap_01_texture"
+      AssignedMaterial "{4E3060D9C3D00EF8}Skilte/Maps/Tourist_Map1_Fur.emat"
+     }
+    }
+   }
+  }
+  coords 2447.106 54.405 5864.102
+  angles 0 90.888 0
+  {
+   GenericEntity {
+    ID "5E20C6B32D5DB6DB"
+    components {
+     MeshObject "{5E20C6B34DE99C54}" {
+      Materials {
+       MaterialAssignClass "{66197B6EE69BF466}" {
+        SourceMaterial "BoardMap_01_text"
+        AssignedMaterial "{ECFCE34CF093A9A6}Skilte/Maps/Tourist_Map_Fur_Text.emat"
+       }
+      }
+     }
+    }
+   }
+  }
+ }
 }
-GenericEntity : "{A7BBEF1B337479E0}PrefabLibrary/Props/Civilian/MessageBoard_02.et" {
+GenericEntity : "{A7BBEF1B337479E0}PrefabLibrary/DefaultLibrary/Props/Civilian/MessageBoard_02.et" {
  coords 3408.602 69.28 6042.685
- angleY -14.224
+ angles 0 -14.224 0
 }
