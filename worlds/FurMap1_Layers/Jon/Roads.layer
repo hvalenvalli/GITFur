@@ -1,0 +1,85 @@
+SplineShapeEntity {
+ coords 3522.761 2.885 2532.641
+ Points {
+  ShapePoint "{68A743CFC2E11290}" {
+   Position 0 0 0
+  }
+  ShapePoint "{68A743CFC2E17C50}" {
+   Position 10.797 0.115 -7.981
+  }
+  ShapePoint "{68A743CFC5708D25}" {
+   Position 14.67 0.084 -21.708
+  }
+  ShapePoint "{68A743CFC593893C}" {
+   Position 21.731 0.021 -30.687
+   Data {
+    SplinePointData SplinePointData {
+     InTangent 5.237 -0.04 -4.258
+     OutTangent 5.237 -0.04 -4.258
+    }
+   }
+  }
+  ShapePoint "{68A743CFC479BDBE}" {
+   Position 36.712 -0.073 -38.183
+  }
+  ShapePoint "{68A743CFC4BF8233}" {
+   Position 54.348 -0.198 -44.021
+   Data {
+    SplinePointData SplinePointData {
+     InTangent 8.609 0.013 2.103
+     OutTangent 8.609 0.013 2.103
+    }
+   }
+  }
+  ShapePoint "{68A743CFCBDD70DC}" {
+   Position 71.489 -0.022 -32.938
+  }
+ }
+ {
+  RoadGeneratorEntity : "{41CEDBF0493A26A5}PrefabLibrary/DefaultLibrary/Generators/Roads/Dirt/RG_Road_Dirt_02.et" {
+   coords 0 0 0
+   {
+    RoadEntity {
+     ID "556C65569DF42CF7"
+     SplinePoints {
+      ShapePoint "{556C65561A62B78A}" {
+       Position 0 0 0
+      }
+      ShapePoint "{556C65561A62EBA9}" {
+       Position 10.797 0.115 -7.981
+      }
+      ShapePoint "{68A743CFA00B242B}" {
+       Position 14.67 0.084 -21.708
+      }
+      ShapePoint "{68A743CFA00B2459}" {
+       Position 21.731 0.021 -30.687
+       Data {
+        SplinePointData "{00000000D8F1BA4F}" {
+         InTangent 5.237 -0.04 -4.258
+         OutTangent 5.237 -0.04 -4.258
+        }
+       }
+      }
+      ShapePoint "{68A743CFA00B2499}" {
+       Position 36.712 -0.073 -38.183
+      }
+      ShapePoint "{68A743CFA00B24DF}" {
+       Position 54.348 -0.198 -44.021
+       Data {
+        SplinePointData "{00000000D8F1BA4F}" {
+         InTangent 8.609 0.013 2.103
+         OutTangent 8.609 0.013 2.103
+        }
+       }
+      }
+      ShapePoint "{68A743CFA00B2325}" {
+       Position 71.489 -0.022 -32.938
+      }
+     }
+     IsClosedSpline 0
+     Width 4.5
+    }
+   }
+  }
+ }
+}
