@@ -1,4 +1,4 @@
-$grp GenericEntity : "{053B6E13F34095A0}Prefabs/Structures/SkilteFur/SkiltStort1.et" {
+$grp GenericEntity : "{053B6E13F34095A0}Prefabs/Structures/Signs/SkilteFur/SkiltStort1.et" {
  {
   components {
    MeshObject "{6548A178426C7A88}" {
@@ -11,7 +11,7 @@ $grp GenericEntity : "{053B6E13F34095A0}Prefabs/Structures/SkilteFur/SkiltStort1
    }
   }
   coords 1912.976 19.805 5074.112
-  angleY 15.655
+  angles 0 15.655 0
   scale 1.523
  }
  {
@@ -26,11 +26,11 @@ $grp GenericEntity : "{053B6E13F34095A0}Prefabs/Structures/SkilteFur/SkiltStort1
    }
   }
   coords 2479.634 13.731 4671.649
-  angleY 10.589
+  angles 0 10.589 0
   scale 1.19
  }
 }
-GenericEntity : "{0F9E3E5E45506627}Prefabs/Structures/SkilteFur/SkiltStort2.et" {
+GenericEntity : "{0F9E3E5E45506627}Prefabs/Structures/Signs/SkilteFur/SkiltStort2.et" {
  components {
   MeshObject "{6548A17843668C46}" {
    Materials {
@@ -40,14 +40,26 @@ GenericEntity : "{0F9E3E5E45506627}Prefabs/Structures/SkilteFur/SkiltStort2.et" 
     }
    }
   }
+  SCR_DestructionMultiPhaseComponent "{68D0B62652552653}" {
+   Enabled 0
+   "Additional hit zones" {
+    HitZone UBX_Component01 {
+     ColliderNames {
+      ""
+     }
+    }
+    HitZone UBX_Component01 {
+     ColliderNames {
+     }
+    }
+   }
+  }
  }
  coords 2665.075 16.602 4874.612
- angleY -77.248
+ angles 0 -77.248 0
  scale 1.19
 }
-GenericEntity : "{393EA7D4604211A7}PrefabLibrary/Infrastructure/Sings/SignParking.et" {
+GenericEntity : "{393EA7D4604211A7}PrefabLibrary/DefaultLibrary/Infrastructure/Sings/SignParking.et" {
  coords 2474.082 54.351 5864.45
- angleX 0.057
- angleY 96.242
- angleZ 1.823
+ angles 0.057 96.242 1.823
 }

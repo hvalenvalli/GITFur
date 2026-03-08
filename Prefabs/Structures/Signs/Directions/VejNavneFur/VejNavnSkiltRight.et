@@ -1,0 +1,30 @@
+GenericEntity : "{7A2A6F3EC27BC5D1}Prefabs/Structures/Signs/Directions/VejNavneFur/VejNavnSkiltBoth.et" {
+ ID "50D67C36F4200F97"
+ coords 4241.226 2.838 2885.563
+ angles 0 -14.286 0
+ {
+  GenericEntity {
+   ID "68D0BD292B63E06F"
+   components {
+    MeshObject "{54969A6AAAADA251}" {
+     Object "{C9C0EBC326F54310}Assets/Props/VejNavneSkilte/VejNavneSkilte1Right.xob"
+    }
+   }
+   coords 0 -2.218 0
+   {
+    GenericEntity {
+     ID "68D158C2DED4A185"
+     components {
+      MeshObject "{68D158C321D6D3DD}" {
+       Object "{BD76DBFAF4BF0ACF}Assets/Props/VejNavneSkilte/DecalModels/AndersSorensensvej.xob"
+      }
+      Hierarchy "{68D158C2A26328A6}" {
+      }
+     }
+     coords 1.048 -0.006 -0.001
+     angles 0 0.086 0
+    }
+   }
+  }
+ }
+}

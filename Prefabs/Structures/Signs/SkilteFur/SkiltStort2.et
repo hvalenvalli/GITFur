@@ -1,0 +1,34 @@
+GenericEntity {
+ ID "6548A1783A5BB5A3"
+ components {
+  MeshObject "{6548A17843668C46}" {
+   Object "{FD84F7D2036193C6}Prefabs/Structures/Signs/SkilteFur/SkilteStortFur2.xob"
+   Materials {
+    MaterialAssignClass "{654D252E87681111}" {
+     SourceMaterial "Material"
+     AssignedMaterial "{D90ADC04B490D173}Skilte/PilevejviserSkilte/Vejpile 6 Fur bryghus - Reginas StaffeliMaterials.emat"
+    }
+   }
+  }
+  RigidBody "{6548A1785F65D060}" {
+   SimState Simulation
+   ResponseIndex "TinyDestructible"
+   ModelGeometry 1
+   Static 1
+  }
+  SCR_DestructionMultiPhaseComponent "{68D0B62652552653}" {
+   "Additional hit zones" {
+    HitZone UBX_Component01 {
+     "Explosive multiplier" 90
+    }
+   }
+   m_fBaseHealth 400
+   m_fForceToDamageScale 350
+   m_eMaterialSoundType BREAK_METAL_POLE
+  }
+  RplComponent "{68D0B62656E9F63C}" {
+  }
+ }
+ coords 4332.876 16.039 4801.249
+ scale 1.19
+}

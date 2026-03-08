@@ -10,9 +10,9 @@ SCR_DestructibleEntity {
   }
  }
  coords 2773.112 16 4877.998
- angleY 93.099
+ angles 0 93.099 0
 }
-$grp GenericEntity : "{053B6E13F34095A0}Prefabs/Structures/SkilteFur/SkiltStort1.et" {
+$grp GenericEntity : "{053B6E13F34095A0}Prefabs/Structures/Signs/SkilteFur/SkiltStort1.et" {
  {
   components {
    MeshObject "{6548A178426C7A88}" {
@@ -25,7 +25,7 @@ $grp GenericEntity : "{053B6E13F34095A0}Prefabs/Structures/SkilteFur/SkiltStort1
    }
   }
   coords 2757.656 15.088 4859.101
-  angleY 114.067
+  angles 0 114.067 0
   scale 1.19
  }
  {
@@ -40,7 +40,7 @@ $grp GenericEntity : "{053B6E13F34095A0}Prefabs/Structures/SkilteFur/SkiltStort1
    }
   }
   coords 3042.708 7.349 4685.927
-  angleY -66.256
+  angles 0 -66.256 0
   scale 1.19
  }
  {
@@ -54,48 +54,36 @@ $grp GenericEntity : "{053B6E13F34095A0}Prefabs/Structures/SkilteFur/SkiltStort1
     }
    }
   }
-  coords 3190.509 8.258 4646.145
-  angleY 102.091
+  coords 3189.943 8.258 4647.072
+  angles 0 102.091 0
   scale 1.15
  }
 }
-$grp GenericEntity : "{393EA7D4604211A7}PrefabLibrary/Infrastructure/Sings/SignParking.et" {
+$grp GenericEntity : "{393EA7D4604211A7}PrefabLibrary/DefaultLibrary/Infrastructure/Sings/SignParking.et" {
  {
   coords 2920.045 14 5008.158
-  angleX 1.266
-  angleY 124.002
-  angleZ 0.285
+  angles 1.266 124.002 0.285
  }
  {
   coords 2940.548 13.436 4993.942
-  angleX -0.752
-  angleY -58.701
-  angleZ -0.658
+  angles -0.752 -58.701 -0.658
  }
 }
-$grp GenericEntity : "{43E505BF759653CA}PrefabLibrary/Infrastructure/Sings/SignGiveWay.et" {
+$grp GenericEntity : "{43E505BF759653CA}PrefabLibrary/DefaultLibrary/Infrastructure/Sings/SignGiveWay.et" {
  {
   coords 2758.446 16.031 4862.068
-  angleX 0.264
-  angleY 15.212
-  angleZ -1.636
+  angles 0.264 15.212 -1.636
  }
  {
   coords 2682.704 17.456 4877.156
-  angleX -0.87
-  angleY 95.798
-  angleZ -0.591
+  angles -0.87 95.798 -0.591
  }
  {
   coords 3179.497 9.236 4649.876
-  angleX -1.464
-  angleY 13.746
-  angleZ 1.43
+  angles -1.464 13.746 1.43
  }
  {
   coords 3039.636 8.903 4681.825
-  angleX -1.074
-  angleY -166.497
-  angleZ 0.89
+  angles -1.074 -166.497 0.89
  }
 }

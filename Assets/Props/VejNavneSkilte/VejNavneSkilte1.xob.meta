@@ -3,13 +3,23 @@ MetaFileClass {
  Configurations {
   FBXResourceClass PC {
    MaterialAssigns {
-    MaterialAssignClass "{68D016DD170B9733}" {
+    MaterialAssignClass "{68D0C5131E6E0A84}" {
      SourceMaterial "VejNavnSkilt"
      AssignedMaterial "{66F55916B2141943}Assets/Props/VejNavneSkilte/Data/VejNavnSkilt.emat"
     }
    }
    MeshParams {
-    MeshParam Cylinder {
+    MeshParam Bothdir {
+    }
+   }
+   GeometryParams {
+    GeometryParam UBX_BothDir {
+     LayerPreset "PropFireView"
+     SurfaceProperties {
+      "{1950188BB10D20EA}Common/Materials/Game/Metal/metal_5mm.gamemat"
+     }
+     Mass 0
+     Margin 0
     }
    }
    Common TXOCommonClass "{68D016DD17022A7B}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {

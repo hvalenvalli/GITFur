@@ -8,20 +8,21 @@ $grp GenericEntity : "{025B64D88EC05D15}PrefabLibrary/DefaultLibrary/Infrastruct
   angles 1.572 25.103 1.001
  }
 }
-GenericEntity : "{0F9E3E5E45506627}Prefabs/Structures/SkilteFur/SkiltStort2.et" {
+GenericEntity : "{0F9E3E5E45506627}Prefabs/Structures/Signs/SkilteFur/SkiltStort2.et" {
  components {
-  MeshObject "{6548A17843668C46}" {
-   Materials {
-    MaterialAssignClass "{654D252E87681111}" {
-     SourceMaterial "Material"
-     AssignedMaterial "{D90ADC04B490D173}Skilte/PilevejviserSkilte/Vejpile 6 Fur bryghus - Reginas StaffeliMaterials.emat"
+  SCR_DestructionMultiPhaseComponent "{68D0B62652552653}" {
+   "Additional hit zones" {
+    HitZone UBX_Component01 {
+     HZDefault 1
     }
    }
+   m_bPassDamageToChildren 1
+   m_bDestroyParentWhenDestroyed 1
+   m_bDestroyChildrenWhenDestroyed 1
   }
  }
- coords 4258.68 1.503 2896.094
- angles 0 -13.939 0
- scale 1.19
+ coords 4258.472 1.503 2896.177
+ angles 0 -20.009 0
 }
 DecalEntity : "{22B0830DD0070203}PrefabLibrary/DefaultLibrary/Decals/Markings/Decal_CrossWalk_01.et" {
  coords 4262.894 0.212 3049.256
@@ -114,7 +115,7 @@ $grp GenericEntity : "{6BB29831A665858D}PrefabLibrary/DefaultLibrary/Infrastruct
  }
 }
 GenericEntity : "{AFB807B563FBF819}PrefabLibrary/DefaultLibrary/Infrastructure/Sings/Eden/Large/SignLarge_WaterTreatmentPlant.et" {
- coords 2898.094 0.318 2712.706
+ coords 2894.45 0.318 2704.941
 }
 $grp DecalEntity : "{D4F60BD4A5C9A287}PrefabLibrary/DefaultLibrary/Decals/Cracks/Decal_Asphalt_Cracks_03.et" {
  {

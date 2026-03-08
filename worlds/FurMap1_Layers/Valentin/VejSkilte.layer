@@ -22,73 +22,59 @@ SplineShapeEntity {
  }
  LineColor 0 0 0 0
  {
-  WallGeneratorEntity : "{309167DDBA2BD0D8}PrefabLibrary/Generators/Walls/CrashBarrier/WG_CrashBarrier_01A.et" {
+  WallGeneratorEntity : "{309167DDBA2BD0D8}PrefabLibrary/DefaultLibrary/Generators/Walls/CrashBarrier/WG_CrashBarrier_01A.et" {
+   Flags 0x100003 0
    coords 0 0 0
-   Flags 1048579
    {
-    SCR_DestructibleEntity : "{04A36304123DADEF}PrefabLibrary/Infrastructure/Roads/CrashBarrier_01_8m_V1.et" {
+    SCR_DestructibleEntity : "{04A36304123DADEF}PrefabLibrary/DefaultLibrary/Infrastructure/Roads/CrashBarrier_01_8m_V1.et" {
      coords 8.859 -0.791 -12.513
-     angleY -118.591
+     angles 0 -118.591 0
     }
-    SCR_DestructibleEntity : "{68F757E4AEF922C1}PrefabLibrary/Infrastructure/Roads/CrashBarrier_01_8m_V2.et" {
+    SCR_DestructibleEntity : "{68F757E4AEF922C1}PrefabLibrary/DefaultLibrary/Infrastructure/Roads/CrashBarrier_01_8m_V2.et" {
      coords 5.036 -0.399 -5.497
-     angleY -131.561
+     angles 0 -131.561 0
     }
-    SCR_DestructibleEntity : "{979B717B2D7DE4F3}PrefabLibrary/Infrastructure/Roads/CrashBarrier_01_Start.et" {
+    SCR_DestructibleEntity : "{979B717B2D7DE4F3}PrefabLibrary/DefaultLibrary/Infrastructure/Roads/CrashBarrier_01_Start.et" {
      coords 8.98 -0.805 -12.777
-     angleY -114.583
+     angles 0 -114.583 0
     }
-    SCR_DestructibleEntity : "{B62582848252DF2B}PrefabLibrary/Infrastructure/Roads/CrashBarrier_01_End.et" {
+    SCR_DestructibleEntity : "{B62582848252DF2B}PrefabLibrary/DefaultLibrary/Infrastructure/Roads/CrashBarrier_01_End.et" {
      coords -0.264 0.027 0.481
-     angleY -131.561
+     angles 0 -131.561 0
     }
    }
   }
  }
 }
-GenericEntity : "{393EA7D4604211A7}PrefabLibrary/Infrastructure/Sings/SignParking.et" {
+GenericEntity : "{393EA7D4604211A7}PrefabLibrary/DefaultLibrary/Infrastructure/Sings/SignParking.et" {
  coords 1715.284 15.419 6062.781
- angleX -1.612
- angleY 82.528
- angleZ -1.528
+ angles -1.612 82.528 -1.528
 }
-$grp GenericEntity : "{43E505BF759653CA}PrefabLibrary/Infrastructure/Sings/SignGiveWay.et" {
+$grp GenericEntity : "{43E505BF759653CA}PrefabLibrary/DefaultLibrary/Infrastructure/Sings/SignGiveWay.et" {
  {
-  coords 4616.926 4.874 4147.192
-  angleX 1.016
-  angleY -77.643
-  angleZ 1.652
+  coords 4616.707 4.893 4146.617
+  angles 1.016 -77.643 1.652
  }
  {
   coords 4297.548 8.235 3792.796
-  angleX 1.016
-  angleY -77.643
-  angleZ 1.652
+  angles 1.016 -77.643 1.652
  }
  {
   coords 4302.432 10.043 4191.668
-  angleX 2.251
-  angleY -45.434
-  angleZ 0.038
+  angles 2.251 -45.434 0.038
  }
 }
-$grp GenericEntity : "{A1995229BEEE7793}PrefabLibrary/Infrastructure/Sings/SignAnimals.et" {
+$grp GenericEntity : "{A1995229BEEE7793}PrefabLibrary/DefaultLibrary/Infrastructure/Sings/SignAnimals.et" {
  {
   coords 2511.942 30.537 6718.221
-  angleX 0.552
-  angleY -84.422
-  angleZ -1.477
+  angles 0.552 -84.422 -1.477
  }
  {
   coords 2785.044 28.281 6753.621
-  angleX 0.692
-  angleY 87.644
-  angleZ -0.936
+  angles 0.692 87.644 -0.936
  }
  {
   coords 2805.685 31.524 6540.716
-  angleX -1.31
-  angleY -178.276
-  angleZ 0.278
+  angles -1.31 -178.276 0.278
  }
 }

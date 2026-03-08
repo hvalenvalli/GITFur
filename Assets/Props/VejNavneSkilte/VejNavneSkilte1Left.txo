@@ -8,6 +8,21 @@ $object "" {
    #UVset 0
   }
  }
+ $colliders {
+  $box "UBX_Left" {
+   $frame {
+     1 0 0
+     0 0 -1
+     0 1 0
+     -0.4771188 2.5026855 -0.0001499
+    
+   }
+   #weight 0
+   #material "metal_5mm_1950188BB10D20EA"
+   #layers ""
+   #corner 0.5163 0.012 0.1219
+  }
+ }
  $lod 0 {
   #lodFactor 0.5
   $mesh "Left" {

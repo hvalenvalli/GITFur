@@ -12,6 +12,16 @@ MetaFileClass {
     MeshParam Left {
     }
    }
+   GeometryParams {
+    GeometryParam UBX_Left {
+     LayerPreset "BuildingFireView"
+     SurfaceProperties {
+      "{1950188BB10D20EA}Common/Materials/Game/Metal/metal_5mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
    Common TXOCommonClass "{68D016D577CA85C5}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
    }
   }
