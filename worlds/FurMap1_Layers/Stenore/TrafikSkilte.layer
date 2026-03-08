@@ -1,167 +1,152 @@
-$grp GenericEntity : "{025B64D88EC05D15}PrefabLibrary/Infrastructure/Sings/SignDeadEnd.et" {
+$grp GenericEntity : "{025B64D88EC05D15}PrefabLibrary/DefaultLibrary/Infrastructure/Sings/SignDeadEnd.et" {
  {
   coords 4231.873 2.936 2870.492
-  angleX -1.728
-  angleZ -0.065
+  angles -1.728 0 -0.065
  }
  {
   coords 2890.838 0.319 2712.305
-  angleX 1.572
-  angleY 25.103
-  angleZ 1.001
+  angles 1.572 25.103 1.001
  }
 }
-DecalEntity : "{22B0830DD0070203}PrefabLibrary/Decals/Markings/Decal_CrossWalk_01.et" {
+GenericEntity : "{0F9E3E5E45506627}Prefabs/Structures/SkilteFur/SkiltStort2.et" {
+ components {
+  MeshObject "{6548A17843668C46}" {
+   Materials {
+    MaterialAssignClass "{654D252E87681111}" {
+     SourceMaterial "Material"
+     AssignedMaterial "{D90ADC04B490D173}Skilte/PilevejviserSkilte/Vejpile 6 Fur bryghus - Reginas StaffeliMaterials.emat"
+    }
+   }
+  }
+ }
+ coords 4258.68 1.503 2896.094
+ angles 0 -13.939 0
+ scale 1.19
+}
+DecalEntity : "{22B0830DD0070203}PrefabLibrary/DefaultLibrary/Decals/Markings/Decal_CrossWalk_01.et" {
  coords 4262.894 0.212 3049.256
- angleX -90
- angleY 180
- angleZ 91.693
+ angles -90 180 91.693
  scale 5
 }
-GenericEntity : "{236C89A0F7D4E909}PrefabLibrary/Infrastructure/Sings/SignBendDoubleRight.et" {
+GenericEntity : "{236C89A0F7D4E909}PrefabLibrary/DefaultLibrary/Infrastructure/Sings/SignBendDoubleRight.et" {
  coords 3034.232 2.536 2672.258
- angleX -0.213
- angleY 117.111
- angleZ 0.276
+ angles -0.213 117.111 0.276
 }
-$grp DecalEntity : "{316A472DA92C35EC}PrefabLibrary/Decals/Cracks/Decal_Asphalt_Cracks_02.et" {
+$grp DecalEntity : "{316A472DA92C35EC}PrefabLibrary/DefaultLibrary/Decals/Cracks/Decal_Asphalt_Cracks_02.et" {
  {
   coords 4232.001 0 3050.178
-  angleX -90
+  angles -90 0 0
   scale 1.289
  }
  {
   coords 4279.98 0.187 2995.806
-  angleX -89.98
+  angles -89.98 0 0
   scale 1.734
  }
  {
   coords 4288.528 0 2988.495
-  angleX -89.98
-  angleY 180
+  angles -89.98 180 0
   scale 1.261
  }
 }
-$grp GenericEntity : "{393EA7D4604211A7}PrefabLibrary/Infrastructure/Sings/SignParking.et" {
+$grp GenericEntity : "{393EA7D4604211A7}PrefabLibrary/DefaultLibrary/Infrastructure/Sings/SignParking.et" {
  {
   coords 4186.581 1.692 2736.839
-  angleX 1.436
-  angleY 55.247
-  angleZ -1.193
+  angles 1.436 55.247 -1.193
  }
  {
   coords 4177.807 1.835 2748.931
-  angleX -0.071
-  angleY 59.521
-  angleZ -2.171
+  angles -0.071 59.521 -2.171
  }
  {
   coords 4149.916 3.44 2776.102
-  angleX 0.396
-  angleY -32.614
-  angleZ 0.109
+  angles 0.396 -32.614 0.109
  }
  {
   coords 4161.698 2.478 2758.624
-  angleX -0.464
-  angleY 33.612
-  angleZ -0.902
+  angles -0.464 33.612 -0.902
  }
  {
   coords 4290.414 1.333 2875.29
-  angleX -1.296
-  angleY -96.282
-  angleZ 1.105
+  angles -1.296 -96.282 1.105
  }
  {
   coords 4278.821 1.771 2863.585
-  angleX -0.314
-  angleY -6.787
-  angleZ 1.298
+  angles -0.314 -6.787 1.298
  }
  {
   coords 4304.083 1.31 2828.174
-  angleX -0.875
-  angleY -88.558
-  angleZ 1.276
+  angles -0.875 -88.558 1.276
  }
 }
-GenericEntity : "{518CE3793C15C5F2}PrefabLibrary/Props/Agricultural/WaterTank_01/WaterTank_01_v2.et" {
- coords 3066.133 3.064 2667.271
- angleX 1.063
- angleY -167.902
- angleZ -0.688
+GenericEntity : "{43E505BF759653CA}PrefabLibrary/DefaultLibrary/Infrastructure/Sings/SignGiveWay.et" {
+ coords 4254.892 2.704 2884.865
+ angles 1.699 -102.862 0.286
 }
-$grp DecalEntity : "{5D3E73CD15E8BAC2}PrefabLibrary/Decals/Cracks/Decal_Asphalt_Cracks_01.et" {
+GenericEntity : "{518CE3793C15C5F2}PrefabLibrary/DefaultLibrary/Props/Agricultural/WaterTank_01/WaterTank_01_v2.et" {
+ coords 3066.133 3.064 2667.271
+ angles 1.063 -167.902 -0.688
+}
+$grp DecalEntity : "{5D3E73CD15E8BAC2}PrefabLibrary/DefaultLibrary/Decals/Cracks/Decal_Asphalt_Cracks_01.et" {
  {
   coords 4289.943 0 2991.961
-  angleX -89.972
+  angles -89.972 0 0
   scale 2.141
  }
  {
   coords 4280.78 0 2984.253
-  angleX -90
-  angleY -180
-  angleZ 82.281
+  angles -90 -180 82.281
   scale 2.399
  }
 }
-SCR_DestructibleBuildingEntity : "{6A497F2704236607}PrefabLibrary/Props/Infrastructure/ElectricCabinet_01_double.et" {
+SCR_DestructibleBuildingEntity : "{6A497F2704236607}PrefabLibrary/DefaultLibrary/Props/Infrastructure/ElectricCabinet_01_double.et" {
  coords 4262.147 0.185 2975.748
- angleY 87.823
+ angles 0 87.823 0
 }
-$grp GenericEntity : "{6BB29831A665858D}PrefabLibrary/Infrastructure/Sings/SignBendLeft.et" {
+$grp GenericEntity : "{6BB29831A665858D}PrefabLibrary/DefaultLibrary/Infrastructure/Sings/SignBendLeft.et" {
  {
   coords 2890.55 0.388 2740.823
-  angleX 1.714
-  angleY 15.647
-  angleZ 0.691
+  angles 1.714 15.647 0.691
  }
  {
   coords 2926.138 2.218 2904.584
-  angleX -2.788
-  angleY -166.158
-  angleZ 3.109
+  angles -2.788 -166.158 3.109
  }
 }
-GenericEntity : "{AFB807B563FBF819}PrefabLibrary/Infrastructure/Sings/Eden/Large/SignLarge_WaterTreatmentPlant.et" {
+GenericEntity : "{AFB807B563FBF819}PrefabLibrary/DefaultLibrary/Infrastructure/Sings/Eden/Large/SignLarge_WaterTreatmentPlant.et" {
  coords 2898.094 0.318 2712.706
 }
-$grp DecalEntity : "{D4F60BD4A5C9A287}PrefabLibrary/Decals/Cracks/Decal_Asphalt_Cracks_03.et" {
+$grp DecalEntity : "{D4F60BD4A5C9A287}PrefabLibrary/DefaultLibrary/Decals/Cracks/Decal_Asphalt_Cracks_03.et" {
  {
   coords 4264.456 0 3050.162
-  angleX -90
+  angles -90 0 0
   scale 3.074
  }
  {
   coords 4241.947 0 3047.863
-  angleX -89.972
+  angles -89.972 0 0
   scale 3.102
  }
 }
-$grp DecalEntity : "{E9C22EECD0A52BB0}PrefabLibrary/Decals/Cracks/Decal_Asphalt_Cracks_04.et" {
+$grp DecalEntity : "{E9C22EECD0A52BB0}PrefabLibrary/DefaultLibrary/Decals/Cracks/Decal_Asphalt_Cracks_04.et" {
  {
   coords 4283.19 0.043 2991.153
-  angleX -90
+  angles -90 0 0
   scale 1.473
  }
  {
   coords 4288.218 0 2986.735
-  angleX -90
+  angles -90 0 0
   scale 1.443
  }
 }
-$grp GenericEntity : "{F6CB9F9497340046}PrefabLibrary/Infrastructure/Sings/SignBendRight.et" {
+$grp GenericEntity : "{F6CB9F9497340046}PrefabLibrary/DefaultLibrary/Infrastructure/Sings/SignBendRight.et" {
  {
   coords 2910.865 0.678 2720.745
-  angleX 0.347
-  angleY 130.117
-  angleZ 2.309
+  angles 0.347 130.117 2.309
  }
  {
   coords 2912.167 2.394 2920.944
-  angleX -0.429
-  angleY -51.921
-  angleZ -2.295
+  angles -0.429 -51.921 -2.295
  }
 }

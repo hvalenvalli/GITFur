@@ -1,0 +1,39 @@
+MetaFileClass {
+ Name "{4423A3478FC90397}Assets/Natur/Liguster1/Liguster1Mid2.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{68CF63B1EC841AF1}" {
+     SourceMaterial "Leaves"
+     AssignedMaterial "{0A5819B99F0CEAB4}Assets/Natur/Liguster1/Data/Leaves.emat"
+    }
+   }
+   MeshParams {
+    MeshParam Boxwood_9_2 {
+    }
+   }
+   Common TXOCommonClass "{68CF63B1EC917EE7}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{68CF63B1EC9178F8}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{68CF63B1EC917858}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{68CF63B1EC917B88}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{68CF63B1EC917BAB}" : "{F62AA8E7B8EA9D26}Configs/System/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{68CF63B1EC917BC8}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}
