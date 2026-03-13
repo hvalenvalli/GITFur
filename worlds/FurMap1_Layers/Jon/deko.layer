@@ -377,6 +377,23 @@ GenericEntity : "{18F813A340960F21}PrefabLibrary/CainLibrary/Props/Garbage/Concr
  coords 3538.725 2.674 2488.376
  angles -2.684 -179.865 -0.006
 }
+GenericEntity : "{190101E6E60E7C47}Prefabs/Props/Civilian/BeerBottle_01_empty_green.et" {
+ coords 3534.123 3.022 2464.351
+}
+$grp GenericEntity : "{22333AD422BC39DC}PrefabLibrary/DefaultLibrary/Props/Civilian/Recreation/ChairRecreation_01/ChairRecreation_01_red.et" {
+ {
+  coords 3532.938 2.304 2464.147
+  angles -39.527 94.2 -1.968
+ }
+ {
+  coords 3534.783 2.324 2464.058
+  angles -43.509 -80.514 0.282
+ }
+ {
+  coords 3534.26 2.114 2465.086
+  angles -2.439 -118.551 1.75
+ }
+}
 $grp GenericEntity : "{25CC369B35FA8616}PrefabLibrary/CainLibrary/Props/Garbage/ConcreteDebris_01_V3.et" {
  {
   coords 3525.216 2.941 2508.26
@@ -453,6 +470,11 @@ $grp GenericEntity : "{3D0F7DE509F848FF}PrefabLibrary/DefaultLibrary/Props/Infra
   coords 3592.794 2.969 2601.609
   angles 0 67.488 0
  }
+}
+StaticModelEntity : "{3F24921F05CF4883}Prefabs/Structures/Infrastructure/Pavements/TilePavement_01/TilePavement_01_Wide_90.et" {
+ coords 3533.971 0.058 2463.632
+ angles 0 -174.873 0
+ scale 1.36
 }
 $grp SCR_DestructibleEntity : "{412E6EB33B47EAF1}PrefabLibrary/DefaultLibrary/Props/Decoration/FlowerpotStreet_01_octa/FlowerpotStreet_01_octa_begonia_white.et" {
  {
@@ -567,6 +589,19 @@ Tree : "{4F87818365E5D8D9}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_sorbus
 GenericEntity : "{561862CA0934187B}PrefabLibrary/CainLibrary/Props/Garbage/MetalDebris_01_V6.et" {
  coords 3525.165 2.937 2503.793
  angles 0 -17.502 0
+}
+GenericEntity : "{5913C01ECD3AA02A}PrefabLibrary/DefaultLibrary/Props/Civilian/StepladderWooden_01_Open.et" {
+ coords 3514.464 2.014 2450.274
+ angles -2.498 -21.48 0.982
+}
+$grp GenericEntity : "{5AAF1B896C0B3C59}PrefabsEditable/Auto/Props/Civilian/E_BeerBottle_01_slava.et" {
+ {
+  coords 3533.52 3.022 2463.936
+  angles 0 91.23 0
+ }
+ {
+  coords 3534.183 3.022 2464.095
+ }
 }
 Tree : "{5D1A7A4A41161E8A}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_rubus_idaeus_0s.et" {
  coords 3560.158 0 2550.021
@@ -833,6 +868,22 @@ Tree : "{8520122192ED3D6C}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_prunus
  angles 2.903 283.862 0
  scale 0.816
 }
+$grp StaticModelEntity : "{85D2D402637D9C5D}Prefabs/Structures/Infrastructure/Pavements/TilePavement_01/TilePavement_01_Wide_4m_C.et" {
+ {
+  coords 3533.906 0.054 2463.651
+  angles 0 7.137 0
+  scale 1.321
+ }
+ {
+  coords 3539.108 0.05 2462.982
+  angles 0 7.137 0
+  scale 1.321
+ }
+}
+GenericEntity : "{86635B61A5FDB42E}PrefabLibrary/DefaultLibrary/Props/Civilian/Recreation/TableRecreation_01/TableRecreation_01_red.et" {
+ coords 3533.831 2.123 2464.106
+ angles 0 3.639 0
+}
 Tree : "{9253AEACBE775113}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_picea_abies_stump_03_forest.et" {
  coords 3496.736 0.006 2552.972
  angles -2.306 348.453 -0.715
@@ -956,6 +1007,13 @@ Tree : "{B2CF1BEA5DA54CAB}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_betula
 GenericEntity : "{B3286DBA01D17D24}PrefabLibrary/DefaultLibrary/Props/Commercial/BoxWooden_01.et" {
  coords 3536.125 3 2553.012
 }
+GenericEntity : "{B642F28D963BAAA1}PrefabLibrary/DefaultLibrary/Props/Civilian/Recreation/SunshadeClosed_01_standing/SunshadeClosed_01_standing_red.et" {
+ coords 3533.829 2.285 2464.103
+}
+GenericEntity : "{B80655BD24D2C162}PrefabLibrary/DefaultLibrary/Props/Civilian/Recreation/ChairRecreation_01/ChairRecreation_01_white.et" {
+ coords 3534.046 2.118 2463.027
+ angles 0 -43.448 0
+}
 $grp SCR_DestructibleEntity : "{B8AE0A0E4A79C2B2}Prefabs/Structures/Walls/Metal/TinWall_01_rusty/TinWall_01_6m_Pole_rusty.et" {
  {
   coords 3550.668 0.903 2526.896
@@ -1069,6 +1127,11 @@ SCR_DestructibleBuildingEntity : "{CBFC8C2E1EB3FBBC}PrefabLibrary/DefaultLibrary
   }
  }
 }
+GenericEntity : "{CC5B202C60579C1F}PrefabLibrary/DefaultLibrary/Props/Civilian/BasketWicker_01.et" {
+ coords 3513.615 2.037 2450.378
+ angles -2.684 0 0
+ scale 1.026
+}
 SCR_DestructibleBuildingEntity : "{CDEC6290D9424C36}PrefabLibrary/DefaultLibrary/Structures/Industrial/RampVehicle_01_metal.et" {
  coords 3609.184 0.007 2524.04
  angles 0 118.108 0
@@ -1091,6 +1154,11 @@ $grp Tree : "{D255E35F1D5D8DB4}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_a
   scale 1.12
  }
 }
+SCR_DestructibleEntity : "{D5E519FF4638AA27}PrefabLibrary/DefaultLibrary/Infrastructure/Roads/StoneVergePost_01.et" {
+ coords 3529.392 1.875 2465.238
+ angles 0.758 9.694 3.964
+ scale 1.15
+}
 $grp SCR_DestructibleBuildingEntity : "{DB114F623141F302}Prefabs/Structures/Walls/Stone/StoneRetainingWall_01/StoneRetainingWall_01_8m_V2.et" {
  {
   coords 3506.155 0.72 2454.717
@@ -1102,6 +1170,10 @@ $grp SCR_DestructibleBuildingEntity : "{DB114F623141F302}Prefabs/Structures/Wall
   angles 0 -82.893 0
   scale 0.5
  }
+}
+GenericEntity : "{DB28F5B556BB4B02}PrefabLibrary/DefaultLibrary/Props/Civilian/Garden/BenchWooden_02_Worn.et" {
+ coords 3540.26 2.116 2463.032
+ angles 0 -83.758 0
 }
 Tree : "{DB49D8B142D18E86}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_betula_pendula_2s.et" {
  coords 3584.207 -0.017 2588.177

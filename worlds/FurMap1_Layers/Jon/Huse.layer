@@ -3,7 +3,7 @@ SCR_DestructibleBuildingEntity : "{0E7899885A92BF4F}PrefabLibrary/DefaultLibrary
  angles 0 4.177 0
 }
 SCR_DestructibleBuildingEntity : "{13D9C4416ED532D2}PrefabLibrary/DefaultLibrary/Structures/Houses/House_Village_E_1L02t.et" {
- coords 3538.016 0.001 2455.647
+ coords 3538.016 0.33 2455.647
  angles 0 5.295 0
 }
 $grp SCR_DestructibleBuildingEntity : "{15D4F4467E3F79F1}PrefabLibrary/DefaultLibrary/Structures/Houses/Shed_02_line.et" {
@@ -110,10 +110,6 @@ $grp SCR_DestructibleBuildingEntity : "{8732EEEE5AC2B938}PrefabLibrary/DefaultLi
   angles 0 174.323 0
  }
 }
-SCR_DestructibleBuildingEntity : "{8A54FD8F840E3BC4}PrefabLibrary/DefaultLibrary/Structures/Houses/FarmHouse_E_1L01/FarmHouse_E_1L01_Green.et" {
- coords 3539.506 0.047 2429.575
- angles 0 7.307 0
-}
 $grp SCR_DestructibleBuildingEntity : "{9ACCDC76D1EBDA27}PrefabLibrary/DefaultLibrary/Structures/Houses/FarmHouse_E_1L01/FarmHouse_E_1L01_Wood.et" {
  {
   coords 3460.021 0.042 2397.283
@@ -177,10 +173,6 @@ SCR_DestructibleBuildingEntity : "{C4D461E315095F1F}PrefabLibrary/CainLibrary/St
  coords 3558.691 -0.28 2482.614
  angles 0 100.137 0
 }
-SCR_DestructibleBuildingEntity : "{CA2EAC61647D889E}PrefabLibrary/DefaultLibrary/Structures/Services/MountainHotel_01/MountainHotel_01.et" {
- coords 3553.329 0.769 2384.257
- angles 0 98.145 0
-}
 SCR_DestructibleBuildingEntity : "{D1C2FE6DD2C12309}PrefabLibrary/DefaultLibrary/Structures/Houses/House_Village_E_1L01.et" {
  coords 3500.381 -0.456 2534.9
  angles 0 -18.807 0
@@ -230,10 +222,6 @@ SCR_DestructibleBuildingEntity : "{DFE759EE77F61ACD}PrefabLibrary/DefaultLibrary
   }
  }
 }
-SCR_DestructibleBuildingEntity : "{E3584595FC988951}PrefabLibrary/DefaultLibrary/Structures/Industrial/Workshop_01_Garage.et" {
- coords 3525.273 0 2430.837
- angles 0 -85.047 0
-}
 $grp SCR_DestructibleBuildingEntity : "{E7143CC469A97E04}PrefabLibrary/DefaultLibrary/Structures/Houses/House_Mountain_E_1I01_short.et" {
  {
   coords 3477.219 -0.005 2530.493
@@ -243,6 +231,9 @@ $grp SCR_DestructibleBuildingEntity : "{E7143CC469A97E04}PrefabLibrary/DefaultLi
   coords 3612.326 0 2640.736
   angles 0 151.1 0
  }
+}
+GenericEntity : "{E89604AED2607A36}PrefabLibrary/DefaultLibrary/Props/Civilian/Garden/LawnMower_01.et" {
+ coords 3521.162 1.906 2459.732
 }
 SCR_DestructibleBuildingEntity : "{FD91510268A541A7}PrefabLibrary/DefaultLibrary/Structures/Houses/House_Wooden_E_1I01/House_Wooden_E_1I01_panels.et" {
  coords 3197.134 -0.906 2363.818

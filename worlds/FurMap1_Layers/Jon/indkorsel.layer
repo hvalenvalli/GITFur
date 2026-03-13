@@ -1,0 +1,187 @@
+$grp SplineShapeEntity {
+ {
+  coords 3514.653 2.204 2469.056
+  Points {
+   ShapePoint "{68DABD4AFE76C86B}" {
+    Position -0.798 -0.016 -2.949
+   }
+   ShapePoint "{68DABD4AFE76F8D9}" {
+    Position 0.022 -0.02 -1.305
+   }
+   ShapePoint "{68DABD4AC153A8C0}" {
+    Position 1.882 0.007 -0.648
+   }
+   ShapePoint "{68DABD4AC0714503}" {
+    Position 18.137 -0.204 -2.854
+   }
+  }
+  LineColor 0 0 0 0
+  {
+   WallGeneratorEntity : "{59203B19BC344845}PrefabLibrary/DefaultLibrary/Generators/Pavements/Concrete/WG_ConcreteKerb_01.et" {
+    Flags 0x100003 0
+    coords 0 0 0
+    m_iSeed 18045
+    {
+     $grp StaticModelEntity : "{84CB4C5EC2DAFE91}PrefabLibrary/DefaultLibrary/Infrastructure/Roads/ConcreteKerb_01_2m_v2.et" {
+      {
+       coords -0.798 -0.016 -2.949
+       angles 0 296.495 0
+      }
+      {
+       coords 0.103 -0.018 -1.141
+       angles 0 346.45 0
+      }
+      {
+       coords 2.067 0.012 -0.668
+       angles 0 6.491 0
+      }
+      {
+       coords 4.074 0.017 -0.896
+       angles 0 7.328 0
+      }
+      {
+       coords 6.078 -0.096 -1.154
+       angles 0 7.801 0
+      }
+      {
+       coords 8.08 -0.184 -1.428
+       angles 0 7.801 0
+      }
+      {
+       coords 10.081 -0.184 -1.702
+       angles 0 7.981 0
+      }
+      {
+       coords 12.082 -0.204 -1.983
+       angles 0 8.185 0
+      }
+      {
+       coords 14.081 -0.204 -2.27
+       angles 0 8.185 0
+      }
+      {
+       coords 16.081 -0.204 -2.558
+       angles 0 8.185 0
+      }
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 3515.314 2.25 2475.779
+  Points {
+   ShapePoint "{68DABD4ACDD05F0C}" {
+    Position 0 0 0
+   }
+   ShapePoint "{68DABD4ACDD0666C}" {
+    Position 1.457 0.036 -1.494
+    Data {
+     SplinePointData SplinePointData {
+      InTangent 2.344 -0.054 -0.421
+      OutTangent 2.344 -0.054 -0.421
+     }
+    }
+   }
+   ShapePoint "{68DABD4AD37D3B94}" {
+    Position 9.181 -0.219 -2.623
+    Data {
+     SplinePointData SplinePointData {
+      InTangent 0.265 -0.007 -0.125
+      OutTangent 0.265 -0.007 -0.125
+     }
+    }
+   }
+   ShapePoint "{68DABD4AD32B9F36}" {
+    Position 11.517 -0.232 -2.223
+   }
+   ShapePoint "{68DABD4AD2362700}" {
+    Position 12.685 -0.159 0.166
+   }
+   ShapePoint "{68DABD4AD2A31AAC}" {
+    Position 12.78 0.046 3.192
+   }
+   ShapePoint "{68DABD4AD13BA97B}" {
+    Position 15.614 0.097 4.32
+   }
+   ShapePoint "{68DABD4AD03FFA40}" {
+    Position 27.022 0.081 3.95
+   }
+  }
+  LineColor 0 0 0 0
+  {
+   WallGeneratorEntity : "{59203B19BC344845}PrefabLibrary/DefaultLibrary/Generators/Pavements/Concrete/WG_ConcreteKerb_01.et" {
+    Flags 0x100003 0
+    m_iSeed 19020
+    {
+     $grp StaticModelEntity : "{84CB4C5EC2DAFE91}PrefabLibrary/DefaultLibrary/Infrastructure/Roads/ConcreteKerb_01_2m_v2.et" {
+      {
+       coords 0 0 0
+       angles 0 46.844 0
+      }
+      {
+       coords 1.382 0.033 -1.474
+       angles 0 8.587 0
+      }
+      {
+       coords 3.379 0.083 -1.775
+       angles 0 8.316 0
+      }
+      {
+       coords 5.378 -0.011 -2.067
+       angles 0 8.316 0
+      }
+      {
+       coords 7.377 -0.157 -2.36
+       angles 0 7.86 0
+      }
+      {
+       coords 9.378 -0.219 -2.636
+       angles 0 350.863 0
+      }
+      {
+       coords 11.373 -0.229 -2.315
+       angles 0 302.689 0
+      }
+      {
+       coords 12.464 -0.195 -0.615
+       angles 0 275.811 0
+      }
+      {
+       coords 12.668 -0.065 1.395
+       angles 0 277.293 0
+      }
+      {
+       coords 12.925 0.055 3.399
+       angles 0 334.953 0
+      }
+      {
+       coords 14.755 0.095 4.254
+       angles 0 357.555 0
+      }
+      {
+       coords 16.773 0.097 4.34
+       angles 0 1.092 0
+      }
+      {
+       coords 18.793 0.096 4.302
+       angles 0 2 0
+      }
+      {
+       coords 20.812 0.094 4.231
+       angles 0 2.237 0
+      }
+      {
+       coords 22.831 0.091 4.152
+       angles 0 2.767 0
+      }
+      {
+       coords 24.849 0.086 4.055
+       angles 0 2.767 0
+      }
+     }
+    }
+   }
+  }
+ }
+}
