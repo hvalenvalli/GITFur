@@ -486,6 +486,32 @@ $grp Tree : "{425761285F36BF16}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_b
   scale 0.753
  }
 }
+$grp SCR_DestructibleEntity : "{42BA975ABE8D6175}Prefabs/Structures/Walls/Stone/StoneWall_03/StoneWall_03_8m_A.et" {
+ {
+  coords 3510.547 -1.177 2473.036
+  angles 0 98.075 0
+  scale 0.94
+  placement none
+ }
+ {
+  coords 3510.662 -1.177 2472.908
+  angles 0 -174.118 0
+  scale 0.94
+  placement none
+ }
+ {
+  coords 3503.303 -1.318 2473.639
+  angles 0 -174.118 0
+  scale 0.94
+  placement none
+ }
+ {
+  coords 3500.865 -0.57 2464.589
+  angles 0 7.947 0
+  scale 0.996
+  placement none
+ }
+}
 $grp GenericEntity : "{464D5DA8603E9021}PrefabLibrary/DefaultLibrary/Props/Construction/PlankPile_01_Large.et" {
  {
   coords 3569.641 2.773 2495.456
@@ -495,6 +521,9 @@ $grp GenericEntity : "{464D5DA8603E9021}PrefabLibrary/DefaultLibrary/Props/Const
   coords 3573.873 2.746 2493.767
   angles -0.298 109.441 0.844
  }
+}
+SCR_DestructibleEntity : "{471B89960F3D0702}Prefabs/Structures/Signs/Traffic/VergePost/StoneVergePost_01_D_V2.et" {
+ coords 3507.133 2.26 2455.562
 }
 $grp SCR_DestructibleEntity : "{49E9BF8BB1CE7AF4}PrefabLibrary/DefaultLibrary/Props/Infrastructure/FlowerpotStreet_01_octa_Tagetes.et" {
  {
@@ -521,6 +550,9 @@ SCR_DestructibleEntity : "{4A30B3AB1BF62C51}PrefabLibrary/DefaultLibrary/Props/D
 GenericEntity : "{4BE3BA6B053761C1}PrefabLibrary/DefaultLibrary/Props/Forest/WoodPile_02_A.et" {
  coords 3592.421 1.931 2555.525
  angles 0 0 0.895
+}
+GenericEntity : "{4D797B18EB473B0B}PrefabLibrary/DefaultLibrary/Props/Military/FlagPole_01_empty.et" {
+ coords 3502.482 2.389 2451.318
 }
 SCR_DestructibleBuildingEntity : "{4DA887CD0BBD0A28}PrefabLibrary/DefaultLibrary/Structures/Industrial/ShedMetal_02_short.et" {
  coords 3571.457 -0.035 2554.573
@@ -806,6 +838,24 @@ Tree : "{9253AEACBE775113}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_picea_
  angles -2.306 348.453 -0.715
  scale 0.761
 }
+$grp StaticModelEntity : "{9C7477A3F066F74F}Prefabs/Terrain/Erosion/ErodedEmbankment_01/ErodedEmbankment_01_forest_straight.et" {
+ {
+  coords 3502.507 0.938 2472.352
+  angles -3.901 7.948 -0.544
+ }
+ {
+  coords 3506.42 0.837 2471.882
+  angles -3.901 7.948 -0.544
+ }
+ {
+  coords 3495.904 0.938 2473.122
+  angles -7.04 7.99 -0.985
+ }
+ {
+  coords 3489.453 0.938 2473.838
+  angles -3.901 7.948 -0.544
+ }
+}
 Tree : "{9CC816FDA9E08938}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_salix_cinerea_1.et" {
  coords 3574.01 0.005 2584.065
  angles 0 271.063 0
@@ -952,6 +1002,48 @@ $grp SCR_DestructibleEntity : "{B8AE0A0E4A79C2B2}Prefabs/Structures/Walls/Metal/
   scale 1.659
  }
 }
+$grp SCR_DestructibleBuildingEntity : "{BFDAD14EBBE6D7FF}PrefabLibrary/DefaultLibrary/Walls/Concrete/ConcreteRetainingWall_01_8m.et" {
+ {
+  coords 3506.656 -1.174 2472.657
+  angles 0 6.028 0
+ }
+ {
+  coords 3498.74 -1.174 2473.529
+  angles 0 6.028 0
+ }
+ {
+  coords 3490.809 -1.194 2474.349
+  angles 0 6.028 0
+ }
+ {
+  coords 3507.616 -1.196 2485.323
+  angles 0 6.028 0
+ }
+ {
+  coords 3499.7 -1.196 2486.195
+  angles 0 6.028 0
+ }
+ {
+  coords 3495.518 -1.199 2477.372
+  angles 0 -84.341 0
+ }
+ {
+  coords 3496.164 -1.199 2483.82
+  angles 0 -84.341 0
+ }
+ {
+  coords 3504.833 -1.174 2458.943
+  angles 0 6.028 0
+ }
+ {
+  coords 3496.9 -1.174 2459.786
+  angles 0 6.028 0
+ }
+ {
+  coords 3494.423 -1.174 2460.032
+  angles 0 6.028 0
+ }
+}
 Tree : "{C44F51A81AC2B063}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_carpinus_betulus_3s.et" {
  coords 3641.995 0 2583.715
  angles -0.627 53.318 -1.438
@@ -997,6 +1089,18 @@ $grp Tree : "{D255E35F1D5D8DB4}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_a
   coords 3640.678 0 2586.879
   angles -1.339 24.544 -0.896
   scale 1.12
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{DB114F623141F302}Prefabs/Structures/Walls/Stone/StoneRetainingWall_01/StoneRetainingWall_01_8m_V2.et" {
+ {
+  coords 3506.155 0.72 2454.717
+  angles 0 -82.893 0
+  scale 0.5
+ }
+ {
+  coords 3505.644 0.72 2450.764
+  angles 0 -82.893 0
+  scale 0.5
  }
 }
 Tree : "{DB49D8B142D18E86}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_betula_pendula_2s.et" {

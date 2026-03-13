@@ -1,6 +1,6 @@
 $grp SplineShapeEntity {
  {
-  coords 3524.67 2.916 2526.663
+  coords 3524.67 2.697 2526.663
   Points {
    ShapePoint "{68A743CF3BBB9C24}" {
     Position -0.542 -0.008 -0.422
@@ -337,29 +337,41 @@ $grp SplineShapeEntity {
   }
  }
 }
+$grp Tree : "{1CE46A53F513E951}PrefabLibrary/DefaultLibrary/Vegetation/Plants/p_artemisia_vulgaris_0s.et" {
+ {
+  coords 3503.301 0 2450.545
+  angles 1.034 266.185 4.566
+  scale 0.998
+ }
+ {
+  coords 3501.953 -0 2450.407
+  angles 1.199 341.806 4.361
+  scale 0.897
+ }
+}
 $grp Tree : "{1F1980176A5052DC}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_rosa_canina_0s.et" {
  {
-  coords 3509.57 0 2495.44
+  coords 3509.57 -0 2495.44
   angles 0.705 -61.155 -0.72
   scale 0.955
  }
  {
-  coords 3511.846 0 2495.198
+  coords 3511.846 0.001 2495.198
   angles 0.647 3.955 1.173
   scale 1.047
  }
  {
-  coords 3511.677 0 2493.715
+  coords 3511.677 -0 2493.715
   angles 1.072 136.487 -1.549
   scale 1.03
  }
  {
-  coords 3511.125 -0.009 2496.514
+  coords 3511.125 0 2496.514
   angles 0.189 50.436 -1.095
   scale 0.938
  }
  {
-  coords 3511.951 0 2496.034
+  coords 3511.951 -0 2496.034
   angles 2.149 -122.679 -1.709
   scale 1.136
  }
@@ -369,20 +381,98 @@ Tree : "{3475D26BFBAD50D5}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_sorbus
  angles 2.799 69.579 2.661
  scale 0.91
 }
-Tree : "{6813E89F9EF2BDAC}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_rosa_canina_1s.et" {
- coords 3510.483 0.019 2495.619
- angles 1.943 153.033 -1.954
- scale 1.175
+Tree : "{3B137DBFF3AF57C6}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_juniperus_communis_0.et" {
+ coords 3505.248 0.298 2452.351
+ angles 0.622 -60.872 6.063
+ scale 1.06
+}
+$grp Tree : "{407A7B6D0444D05B}PrefabLibrary/DefaultLibrary/Vegetation/Plants/b_urtica_dioica_0s.et" {
+ {
+  coords 3506.437 -0 2451.713
+  angles 1.785 329.04 2.622
+  scale 1.213
+ }
+ {
+  coords 3506.438 -0.003 2452.561
+  angles 1.99 194.255 0.76
+  scale 0.882
+ }
+ {
+  coords 3504.082 -0 2449.946
+  angles 2.459 85.872 -2.759
+  scale 1.282
+ }
+ {
+  coords 3502.741 0 2450.677
+  angles 2.341 59.954 1.618
+  scale 0.991
+ }
+ {
+  coords 3504.813 0 2450.681
+  angles -0.206 40.629 -3.728
+  scale 1.041
+ }
+}
+$grp Tree : "{6813E89F9EF2BDAC}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_rosa_canina_1s.et" {
+ {
+  coords 3510.483 0 2495.619
+  angles 1.943 153.033 -1.954
+  scale 1.175
+ }
+ {
+  coords 3505.639 0.091 2456.159
+  angles 0.798 19.589 -0.789
+  scale 1.145
+ }
 }
 Tree : "{797885BBBC1FEFA0}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_juniperus_communis_1s.et" {
- coords 3510.781 0.112 2494.471
+ coords 3510.781 0 2494.471
  angles 3.004 -44.669 -0.598
  scale 1.062
 }
-Tree : "{A35E15EBC6033C07}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_corylus_avellana_1.et" {
- coords 3546.814 0 2518.021
- angles -0.53 305.264 -1.284
- scale 0.976
+$grp Tree : "{8520122192ED3D6C}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_prunus_domestica_2s.et" {
+ {
+  coords 3494.157 0 2451.086
+  angles 2.238 168.502 0
+  scale 0.853
+ }
+ {
+  coords 3495.483 0 2445.189
+  angles -0.089 213.284 0
+  scale 0.945
+ }
+}
+Tree : "{8BE77738D77B8ACE}PrefabLibrary/DefaultLibrary/Vegetation/Plants/p_carduus_acanthoides_0s.et" {
+ coords 3504.583 -0.028 2450.126
+ angles 0 175.918 0
+ scale 0.957
+}
+$grp Tree : "{A35E15EBC6033C07}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_corylus_avellana_1.et" {
+ {
+  coords 3546.814 0 2518.021
+  angles -0.53 -54.736 -1.284
+  scale 0.976
+ }
+ {
+  coords 3486.369 0 2454.352
+  angles -0.977 43.441 -0.097
+  scale 1.066
+ }
+ {
+  coords 3484.731 0 2455.782
+  angles 1.174 125.226 -0.197
+  scale 1.16
+ }
+ {
+  coords 3483.888 0 2453.133
+  angles 0.075 1.692 0.213
+  scale 0.782
+ }
+}
+Tree : "{AC43B039B67361F6}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_betula_pendula_3s.et" {
+ coords 3499.263 -0 2454.114
+ angles 1.965 285.247 -1.441
+ scale 0.756
 }
 $grp Tree : "{AD7EFA7B1214DD21}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_corylus_avellana_0l.et" {
  {
@@ -391,13 +481,13 @@ $grp Tree : "{AD7EFA7B1214DD21}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_
   scale 0.523
  }
  {
-  coords 3507.751 0.019 2493.31
+  coords 3507.751 0.001 2493.31
   angles -1.1 34.006 0.781
   scale 0.697
  }
 }
 Tree : "{B48B7DD4E1C5FE40}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_corylus_avellana_0.et" {
- coords 3501.902 0.001 2493.57
+ coords 3501.902 0 2493.57
  angles 0 6.658 0
  scale 0.63
 }
@@ -408,18 +498,18 @@ $grp Tree : "{CF0A210B7AC7B329}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_
   scale 0.533
  }
  {
-  coords 3497.427 0.02 2494.07
-  angles 1.452 301.221 1.269
+  coords 3497.427 0 2494.07
+  angles 1.452 -58.779 1.269
   scale 0.674
  }
  {
-  coords 3510.845 -0.025 2492.276
-  angles 1.111 201.265 0.171
+  coords 3510.845 0 2492.276
+  angles 1.111 -158.735 0.171
   scale 0.879
  }
 }
 Tree : "{DA7492F3E6B63251}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_corylus_avellana_1l.et" {
- coords 3499.948 -0.022 2494.008
+ coords 3499.948 0 2494.008
  angles 1.013 143.598 -1.745
  scale 0.773
 }
@@ -429,17 +519,49 @@ Tree : "{DB49D8B142D18E86}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_betula
  scale 0.67
 }
 Tree : "{DB7377DFA0576DF0}PrefabLibrary/CainLibrary/Vegetation/Trees/t_sorbus_aucuparia_2s.et" {
- coords 3509.016 0.034 2501.101
+ coords 3509.016 -0 2501.101
  angles -3.098 -129.141 1.155
  scale 1.368
 }
+$grp StaticModelEntity : "{DE03975F0803FCCB}PrefabLibrary/DefaultLibrary/Vegetation/Plants/c_vaccinium_myrtillus_01.et" {
+ {
+  coords 3506.207 0.605 2454.074
+  angles 0 111.284 0
+  scale 0.927
+ }
+ {
+  coords 3506.445 0.253 2454.141
+  angles -76.396 111.284 0
+  scale 0.927
+ }
+ {
+  coords 3501.147 0.653 2460.2
+  angles -79.151 36.761 -10.298
+  scale 1.651
+ }
+ {
+  coords 3500.996 1.19 2459.817
+  angles -21.805 27.416 -2.077
+  scale 1.651
+ }
+ {
+  coords 3501.163 0.871 2459.188
+  angles 0.879 26.614 -1.928
+  scale 1.436
+ }
+ {
+  coords 3502.199 0.629 2459.99
+  angles -79.151 36.761 -10.298
+  scale 1.651
+ }
+}
 Tree : "{E0663C22A1F8DE30}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_juniperus_communis_2s.et" {
- coords 3508.484 0.051 2492.285
+ coords 3508.484 -0 2492.285
  angles 3.556 90.695 2.383
  scale 0.951
 }
 Tree : "{FA0813CCD98B815B}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_malus_domestica_2s.et" {
  coords 3545.988 0 2516.66
- angles 0 257.604 0
+ angles 0 -102.396 0
  scale 0.863
 }

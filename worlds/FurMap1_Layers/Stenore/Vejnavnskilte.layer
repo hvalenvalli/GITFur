@@ -1,3 +1,25 @@
+$grp GenericEntity : "{025B64D88EC05D15}PrefabLibrary/DefaultLibrary/Infrastructure/Sings/SignDeadEnd.et" {
+ {
+  coords 3944.416 17.917 5557.361
+  angles 0.649 175.834 -1.322
+ }
+ {
+  coords 5585.904 10.502 7258.659
+  angles -1.73 3.068 0.508
+ }
+ {
+  coords 5591.251 10.486 7271.016
+  angles -1.606 -176.878 0.951
+ }
+ {
+  coords 5131.748 13.309 7270.824
+  angles -0.622 -50.384 1.692
+ }
+ {
+  coords 5079.436 14.299 7241.276
+  angles -1.202 67.654 -1.344
+ }
+}
 GenericEntity : "{053B6E13F34095A0}Prefabs/Structures/Signs/SkilteFur/SkiltStort1.et" {
  components {
   MeshObject "{6548A178426C7A88}" {
@@ -276,6 +298,32 @@ $grp GenericEntity : "{1F43E0CDE53CDA74}Prefabs/Structures/Signs/Directions/VejN
       components {
        MeshObject "{68D158C3BBB214C2}" {
         Object "{D1176752044EF4F7}Assets/Props/VejNavneSkilte/DecalModels/EngelstVej.xob"
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 2724.484 12.312 3763.086
+  {
+   GenericEntity {
+    ID "68D0BD292B63E06F"
+    {
+     GenericEntity {
+      ID "68D158C36062F02D"
+      components {
+       MeshObject "{68D158C3BBB214C2}" {
+        Object "{C2E18A4AD7F8EC3A}Assets/Props/VejNavneSkilte/DecalModels/Stisagervej.xob"
+       }
+      }
+     }
+     GenericEntity {
+      ID "68D158C363FE05EA"
+      components {
+       MeshObject "{68D158C3BBB214C2}" {
+        Object "{703C774D719B42FC}Assets/Props/VejNavneSkilte/DecalModels/Boagervej.xob"
        }
       }
      }
@@ -679,6 +727,44 @@ $grp GenericEntity : "{7BB455B93AD910D2}Prefabs/Structures/Signs/Directions/VejN
    }
   }
  }
+ {
+  coords 2623.878 9.858 3743.527
+  angles 0 -70.259 0
+  {
+   GenericEntity {
+    ID "68D0BD292B63E06F"
+    {
+     GenericEntity {
+      ID "68D158C295D17FF4"
+      components {
+       MeshObject "{68D158C2AC3EDA64}" {
+        Object "{703C774D719B42FC}Assets/Props/VejNavneSkilte/DecalModels/Boagervej.xob"
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 6257.924 2.209 4657.351
+  angles 0 48.302 0
+  {
+   GenericEntity {
+    ID "68D0BD292B63E06F"
+    {
+     GenericEntity {
+      ID "68D158C295D17FF4"
+      components {
+       MeshObject "{68D158C2AC3EDA64}" {
+        Object "{ED58A725B7E70F5D}Assets/Props/VejNavneSkilte/DecalModels/Fyrvaenget.xob"
+       }
+      }
+     }
+    }
+   }
+  }
+ }
 }
 GenericEntity : "{881011B255F2E819}Prefabs/Structures/Signs/Warnings/SignDeadEnd_01.et" {
  coords 3937.165 6.08 2782.575
@@ -687,10 +773,6 @@ GenericEntity : "{881011B255F2E819}Prefabs/Structures/Signs/Warnings/SignDeadEnd
 GenericEntity : "{8DD27AE84BD3C70B}Prefabs/Structures/Signs/Warnings/SignMaxSpeed30_01_pole.et" {
  coords 3425.549 2.595 2522.519
  angles 0 -15.188 0
-}
-Vehicle S105_base1 : "{DA79E34823120087}Prefabs/Vehicles/Wheeled/S105/S105_base.et" {
- coords 4260.604 2.561 2890.316
- angles 0 -109.994 0
 }
 GenericEntity : "{F6CB9F9497340046}PrefabLibrary/DefaultLibrary/Infrastructure/Sings/SignBendRight.et" {
  coords 1984.683 0.836 3634.984
@@ -1563,6 +1645,177 @@ $grp GenericEntity : "{FD1671BCF31C13A1}Prefabs/Structures/Signs/Directions/VejN
       components {
        MeshObject "{68D158C37CF0353B}" {
         Object "{2E4A67EC330487F0}Assets/Props/VejNavneSkilte/DecalModels/Gammelgardsvej.xob"
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 2730.575 12.313 3771.925
+  angles 0 104.506 0
+  {
+   GenericEntity {
+    ID "68D0BD292B63E06F"
+    {
+     GenericEntity {
+      ID "68D158C3510EAE96"
+      components {
+       MeshObject "{68D158C37CF0353B}" {
+        Object "{703C774D719B42FC}Assets/Props/VejNavneSkilte/DecalModels/Boagervej.xob"
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 2613.345 9.755 3743.613
+  angles 0 5.055 0
+  {
+   GenericEntity {
+    ID "68D0BD292B63E06F"
+    {
+     GenericEntity {
+      ID "68D158C3510EAE96"
+      components {
+       MeshObject "{68D158C37CF0353B}" {
+        Object "{7967667A59763EA8}Assets/Props/VejNavneSkilte/DecalModels/Vidkaervej.xob"
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 6293.535 3.764 4725.197
+  angles 0 163.245 0
+  {
+   GenericEntity {
+    ID "68D0BD292B63E06F"
+    {
+     GenericEntity {
+      ID "68D158C3510EAE96"
+      components {
+       MeshObject "{68D158C37CF0353B}" {
+        Object "{989D77D5EEAC7C50}Assets/Props/VejNavneSkilte/DecalModels/Sletten.xob"
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 5133.092 14.208 7270.732
+  angles 0 -147.576 0
+  {
+   GenericEntity {
+    ID "68D0BD292B63E06F"
+    {
+     GenericEntity {
+      ID "68D158C3510EAE96"
+      components {
+       MeshObject "{68D158C37CF0353B}" {
+        Object "{9175DBE4DB1B0FD2}Assets/Props/VejNavneSkilte/DecalModels/Bjerrgardvej.xob"
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 5131.455 10.716 7344.237
+  angles 0 -98.351 0
+  {
+   GenericEntity {
+    ID "68D0BD292B63E06F"
+    {
+     GenericEntity {
+      ID "68D158C3510EAE96"
+      components {
+       MeshObject "{68D158C37CF0353B}" {
+        Object "{8B1802498994E41D}Assets/Props/VejNavneSkilte/DecalModels/Gllundgardvej.xob"
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 5464.604 14.098 7279.405
+  angles 0 -88.604 0
+  {
+   GenericEntity {
+    ID "68D0BD292B63E06F"
+    {
+     GenericEntity {
+      ID "68D158C3510EAE96"
+      components {
+       MeshObject "{68D158C37CF0353B}" {
+        Object "{AA8A823277704333}Assets/Props/VejNavneSkilte/DecalModels/Skovtved.xob"
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 5586.269 10.288 7270.345
+  angles 0 107.48 0
+  {
+   GenericEntity {
+    ID "68D0BD292B63E06F"
+    {
+     GenericEntity {
+      ID "68D158C3510EAE96"
+      components {
+       MeshObject "{68D158C37CF0353B}" {
+        Object "{37CC0D9E0525E09F}Assets/Props/VejNavneSkilte/DecalModels/Ulstedhage.xob"
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 5585.09 10.678 7262.184
+  angles 0 -93.127 0
+  {
+   GenericEntity {
+    ID "68D0BD292B63E06F"
+    {
+     GenericEntity {
+      ID "68D158C3510EAE96"
+      components {
+       MeshObject "{68D158C37CF0353B}" {
+        Object "{A53F2452F825C4DB}Assets/Props/VejNavneSkilte/DecalModels/Ronsbjerg.xob"
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 5086.558 14.616 7242.685
+  angles 0 -86.415 0
+  {
+   GenericEntity {
+    ID "68D0BD292B63E06F"
+    {
+     GenericEntity {
+      ID "68D158C3510EAE96"
+      components {
+       MeshObject "{68D158C37CF0353B}" {
+        Object "{8C5608A8A8A7DB16}Assets/Props/VejNavneSkilte/DecalModels/Vandalvej.xob"
        }
       }
      }

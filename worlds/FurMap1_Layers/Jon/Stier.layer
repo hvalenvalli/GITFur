@@ -350,7 +350,7 @@ $grp SplineShapeEntity {
   coords 3441.157 0.823 2272.486
   Points {
    ShapePoint "{68CB76C45CA8DFBF}" {
-    Position 0 -0 0
+    Position 0 0 0
    }
    ShapePoint "{68CB76C45CA8001F}" {
     Position 1.249 -0.171 -20.596
@@ -370,7 +370,7 @@ $grp SplineShapeEntity {
       ID "526283EEB3C31502"
       SplinePoints {
        ShapePoint "{5256E6ED186CB7B5}" {
-        Position 0 -0 0
+        Position 0 0 0
        }
        ShapePoint "{5256E6ED186CB58D}" {
         Position 1.249 -0.171 -20.596
@@ -511,5 +511,89 @@ $grp SplineShapeEntity {
     }
    }
   }
+ }
+}
+$grp StaticModelEntity : "{0C1AAC1BD35C8418}Prefabs/Structures/Infrastructure/Pavements/TilePavement_01/TilePavement_01_Wide_4m_A.et" {
+ {
+  coords 3502.701 -0.127 2464.548
+  angles 0 -81.937 0
+  placement none
+ }
+ {
+  coords 3503.186 -0.096 2468.477
+  angles 0 -81.937 0
+  placement none
+ }
+}
+GenericEntity : "{0DED617E66EE8F55}Prefabs/Props/S2/S2_CannedFood/S2_CannedFood.et" {
+ coords 3503.67 1.483 2471.948
+}
+$grp GenericEntity : "{20759E1CA7F808BE}Prefabs/Props/Garbage/Military/Food/GarbageFoodMilitaryUS_01.et" {
+ {
+  coords 3503.739 1.474 2471.345
+  angles 0 76.883 0
+ }
+ {
+  coords 3504.745 1.477 2471.276
+ }
+}
+GenericEntity : "{314C4B0BE2ED92E2}PrefabLibrary/CainLibrary/Props/Civilian/Garden/SkewerGrill_01.et" {
+ coords 3503.692 1.482 2471.805
+ angles 0 -174.335 0
+}
+GenericEntity : "{5182D2E81189AC44}Prefabs/Props/Furniture/TableRecreation_01/TableRecreation_01.et" {
+ coords 3503.029 1.482 2469.127
+ angles 0 7.096 0
+}
+$grp GenericEntity : "{627F29E940C7A12A}Prefabs/Props/Civilian/CarrierFood_01/CarrierFood_01.et" {
+ {
+  coords 3504.443 1.483 2471.812
+ }
+ {
+  coords 3504.705 1.482 2471.951
+  angles 0 45.146 0
+ }
+}
+GenericEntity : "{8F5232CB15B1E859}PrefabLibrary/DefaultLibrary/Props/Decoration/FlowerpotPelargonia_01/FlowerpotPelargonia_01_white.et" {
+ coords 3501.352 1.483 2467.194
+ angles 0 95.237 0
+}
+GenericEntity : "{B3286DBA01D17D24}PrefabLibrary/DefaultLibrary/Props/Commercial/BoxWooden_01.et" {
+ coords 3505.299 1.493 2471.635
+ angles 0 97.597 0
+}
+$grp GenericEntity : "{B80655BD24D2C162}PrefabLibrary/DefaultLibrary/Props/Civilian/Recreation/ChairRecreation_01/ChairRecreation_01_white.et" {
+ {
+  coords 3502.567 1.483 2468.144
+  angles 0 73.744 0
+ }
+ {
+  coords 3502.559 1.483 2470.214
+  angles 0 113.902 0
+ }
+}
+GenericEntity : "{D4BF6C9537543197}PrefabLibrary/DefaultLibrary/Props/Civilian/Recreation/Ashtray_01/Ashtray_01_Full_green.et" {
+ coords 3503.186 2.382 2468.851
+ angles 0 -104.384 0
+}
+GenericEntity : "{D616AD4600D1311D}PrefabLibrary/DefaultLibrary/Props/Industrial/WoodenPalletBox_01_Wood.et" {
+ coords 3502.395 1.482 2471.718
+ angles 0 7.871 0
+ scale 0.83
+}
+SCR_DestructibleBuildingEntity : "{E3584595FC988951}PrefabLibrary/DefaultLibrary/Structures/Industrial/Workshop_01_Garage.et" {
+ coords 3501.713 -0.065 2447.18
+ angles 0 7.009 0
+}
+$grp StaticModelEntity : "{E884D6550AE62268}Prefabs/Structures/Infrastructure/Pavements/TilePavement_01/TilePavement_01_Narrow_4m_B.et" {
+ {
+  coords 3505.183 0.097 2465.317
+  angles 0.899 8.024 -6.351
+  placement none
+ }
+ {
+  coords 3501.375 -0.63 2465.865
+  angles 1.779 7.877 -12.648
+  placement none
  }
 }
