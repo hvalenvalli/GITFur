@@ -4068,6 +4068,48 @@ $grp SplineShapeEntity {
    }
   }
  }
+ {
+  coords 3500.699 1.719 2407.861
+  Points {
+   ShapePoint "{690D4565DBA7E7CD}" {
+    Position -1.695 0 -0.167
+   }
+   ShapePoint "{690D4565DBA7CC92}" {
+    Position -4.071 -0.312 -20.84
+   }
+  }
+  LineColor 0 0 0 0
+  {
+   WallGeneratorEntity : "{B03FF514A9EDD1D0}PrefabLibrary/DefaultLibrary/Generators/Walls/Net/WG_NetFence_02.et" {
+    Flags 0x100003 0
+    m_iSeed 1260
+    {
+     $grp SCR_DestructibleEntity : "{5AE594B3B9430C4A}Prefabs/Structures/Walls/Net/NetFence_02/NetFence_02_4m.et" {
+      {
+       coords -2.602 -0.062 -8.054
+       angles 0 96.555 0
+      }
+      {
+       coords -3.056 -0.076 -12.003
+       angles 0 96.555 0
+      }
+      {
+       coords -3.509 -0.099 -15.953
+       angles 0 96.555 0
+      }
+     }
+     SCR_DestructibleEntity : "{CBB323D90F2FF29F}Prefabs/Structures/Walls/Net/NetFence_02/NetFence_02_8m.et" {
+      coords -1.692 0.001 -0.135
+      angles 0 96.555 0
+     }
+     SCR_DestructibleEntity : "{EDBF917B5A553026}Prefabs/Structures/Walls/Net/NetFence_02/NetFence_02_Pole_B.et" {
+      coords -3.783 -0.275 -18.33
+      angles 0 96.555 0
+     }
+    }
+   }
+  }
+ }
 }
 SCR_DestructibleBuildingEntity : "{106216A0F7EB2E32}PrefabLibrary/DefaultLibrary/Infrastructure/Bridges/ConcreteBridge_01_Narrow.et" {
  coords 3641.044 3.463 2628.381
@@ -4085,6 +4127,33 @@ $grp GenericEntity : "{150B9328BABAEFCE}PrefabLibrary/DefaultLibrary/Props/Fores
   angles -2.58 30.36 2.634
   scale 1.1
  }
+}
+$grp SCR_DestructibleEntity : "{1914585909D1984B}PrefabLibrary/DefaultLibrary/Walls/Wooden/WoodenWall_01_8m.et" {
+ {
+  coords 3509.931 -0.711 2386.836
+  angles 0 -80.002 0
+  placement none
+ }
+ {
+  coords 3511.877 -0.711 2398.186
+  angles 0 -80.002 0
+  placement none
+ }
+ {
+  coords 3513.174 -0.711 2406.039
+  angles 0 6.838 0
+  placement none
+ }
+ {
+  coords 3521.122 -0.711 2405.076
+  angles 0 7.94 0
+  placement none
+ }
+}
+StaticModelEntity : "{29987BCA45BAD7A8}PrefabLibrary/DefaultLibrary/Walls/Brick/BrickWall_02_Gate.et" {
+ coords 3511.152 0 2394.384
+ angles 0 -79.245 0
+ scale 0.65
 }
 $grp GenericEntity : "{3FD26066E47DD5AE}PrefabLibrary/DefaultLibrary/Props/Commercial/CrateWooden_01_plain.et" {
  {
