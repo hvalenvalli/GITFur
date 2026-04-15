@@ -4170,6 +4170,89 @@ $grp SplineShapeEntity {
    }
   }
  }
+ {
+  coords 3572.715 1.946 2438.768
+  Points {
+   ShapePoint "{691EE0DADF1B2B35}" {
+    Position 0 0 0
+   }
+   ShapePoint "{691EE0DADF1B4B61}" {
+    Position -59.555 0.067 7.562
+   }
+  }
+  LineColor 0 0 0 0
+  {
+   WallGeneratorEntity : "{37C7344DC6303382}PrefabLibrary/DefaultLibrary/Generators/Walls/Wooden/WG_WoodenFence_03.et" {
+    Flags 0x100003 0
+    coords 0 0 0
+    m_iSeed 15322
+    {
+     SCR_DestructibleEntity : "{261B2C977CEB1CEA}PrefabLibrary/DefaultLibrary/Walls/Wooden/WoodenFence_03_Pole.et" {
+      coords -58.095 0.065 7.376
+      angles 0 187.236 0
+     }
+     SCR_DestructibleEntity : "{5EF68161E25B9320}PrefabLibrary/DefaultLibrary/Walls/Wooden/WoodenFence_03_8m.et" {
+      coords 0.061 -0 -0.008
+      angles 0 187.236 0
+     }
+     $grp SCR_DestructibleEntity : "{BF6DA4D2C6133846}PrefabLibrary/DefaultLibrary/Walls/Wooden/WoodenFence_03_4m.et" {
+      {
+       coords -7.713 0.116 0.979
+       angles 0 187.236 0
+      }
+      {
+       coords -11.589 0.116 1.472
+       angles 0 187.236 0
+      }
+      {
+       coords -15.466 0.103 1.964
+       angles 0 187.236 0
+      }
+      {
+       coords -19.343 0.066 2.456
+       angles 0 187.236 0
+      }
+      {
+       coords -23.22 0.027 2.948
+       angles 0 187.236 0
+      }
+      {
+       coords -27.096 0.019 3.44
+       angles 0 187.236 0
+      }
+      {
+       coords -30.973 -0.009 3.933
+       angles 0 187.236 0
+      }
+      {
+       coords -34.849 -0.009 4.425
+       angles 0 187.236 0
+      }
+      {
+       coords -38.726 -0.009 4.917
+       angles 0 187.236 0
+      }
+      {
+       coords -42.603 -0.009 5.409
+       angles 0 187.236 0
+      }
+      {
+       coords -46.48 0.004 5.901
+       angles 0 187.236 0
+      }
+      {
+       coords -50.356 -0.009 6.394
+       angles 0 187.236 0
+      }
+      {
+       coords -54.233 -0.009 6.886
+       angles 0 187.236 0
+      }
+     }
+    }
+   }
+  }
+ }
 }
 SCR_DestructibleBuildingEntity : "{106216A0F7EB2E32}PrefabLibrary/DefaultLibrary/Infrastructure/Bridges/ConcreteBridge_01_Narrow.et" {
  coords 3641.044 3.463 2628.381
@@ -4263,7 +4346,7 @@ $grp SCR_DestructibleEntity : "{8D66287EE8B4C914}PrefabLibrary/DefaultLibrary/Wa
   coords 3492.97 0 2388.448
  }
  {
-  coords 3498.964 -0 2407.458
+  coords 3498.964 0 2407.458
  }
 }
 SCR_DestructibleEntity : "{AB0A277500689EA8}PrefabLibrary/DefaultLibrary/Walls/Wooden/WoodenFenceOld_01_pole.et" {
