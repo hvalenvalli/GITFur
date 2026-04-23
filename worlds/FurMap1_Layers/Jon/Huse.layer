@@ -46,6 +46,24 @@ $grp SCR_DestructibleBuildingEntity : "{3B877DB7AE5EA3BC}PrefabLibrary/DefaultLi
   coords 3474.921 -0.956 2390.385
   angles 0 -83.964 0
  }
+ {
+  components {
+   MeshObject "{506EDA9D46FC6C06}" {
+    Materials {
+     MaterialAssignClass "{660C04F0FFD5EC08}" {
+      SourceMaterial "House_Wooden_E_1I01_EXT"
+      AssignedMaterial "{E1ED2F50537D80F8}Assets/Structures/Houses/Wooden/House_Wooden_E_1I01/Data/House_Wooden_E_1I01_EXT_Sort_Fur.emat"
+     }
+     MaterialAssignClass "{660C04F0FFD5EC78}" {
+      SourceMaterial "House_Wooden_E_1I01_EXT_MLOD"
+      AssignedMaterial "{9251F36B12DF9A1F}Assets/Structures/Houses/Wooden/House_Wooden_E_1I01/Data/House_Wooden_E_1I01_EXT_MLOD_Sort_Fur.emat"
+     }
+    }
+   }
+  }
+  coords 3478.237 -0.82 2532.563
+  angles 0 7.5 0
+ }
 }
 SCR_DestructibleBuildingEntity : "{40CB72D2B509489C}PrefabLibrary/DefaultLibrary/Structures/Industrial/Workshop_01_Main.et" {
  coords 3589.31 -0.006 2650.051
@@ -266,15 +284,9 @@ SCR_DestructibleBuildingEntity : "{E3584595FC988951}PrefabLibrary/DefaultLibrary
  coords 3485.708 0.001 2438.044
  angles 0 3.323 0
 }
-$grp SCR_DestructibleBuildingEntity : "{E7143CC469A97E04}PrefabLibrary/DefaultLibrary/Structures/Houses/House_Mountain_E_1I01_short.et" {
- {
-  coords 3477.219 -0.005 2530.493
-  angles 0 -13.756 0
- }
- {
-  coords 3612.326 0 2640.736
-  angles 0 151.1 0
- }
+SCR_DestructibleBuildingEntity : "{E7143CC469A97E04}PrefabLibrary/DefaultLibrary/Structures/Houses/House_Mountain_E_1I01_short.et" {
+ coords 3612.326 0 2640.736
+ angles 0 151.1 0
 }
 GenericEntity : "{E89604AED2607A36}PrefabLibrary/DefaultLibrary/Props/Civilian/Garden/LawnMower_01.et" {
  coords 3521.162 1.906 2459.732
