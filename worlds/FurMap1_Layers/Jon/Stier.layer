@@ -741,6 +741,7 @@ $grp SplineShapeEntity {
   {
    RoadGeneratorEntity : "{47E7068FE332800D}PrefabLibrary/DefaultLibrary/Generators/Roads/Dirt/RG_TrailDirt_01.et" {
     coords 0 0 0
+    AdjustHeightMap 0
     {
      RoadEntity {
       ID "526283EEB3C31502"
@@ -824,7 +825,7 @@ $grp SplineShapeEntity {
   coords 3487.721 2.437 2383.049
   Points {
    ShapePoint "{6916E826A17F6F44}" {
-    Position 0 -0 0
+    Position 0 0 0
    }
    ShapePoint "{6916E826A17F4852}" {
     Position -4.176 0.431 -0.792
@@ -848,12 +849,13 @@ $grp SplineShapeEntity {
   {
    RoadGeneratorEntity : "{47E7068FE332800D}PrefabLibrary/DefaultLibrary/Generators/Roads/Dirt/RG_TrailDirt_01.et" {
     coords 0 0 0
+    AdjustHeightMap 0
     {
      RoadEntity {
       ID "526283EEB3C31502"
       SplinePoints {
        ShapePoint "{5256E6ED186CB7B5}" {
-        Position 0 -0 0
+        Position 0 0 0
        }
        ShapePoint "{5256E6ED186CB58D}" {
         Position -4.176 0.431 -0.792
